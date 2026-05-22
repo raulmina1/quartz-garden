@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "raulmina1.github.io/quartz-garden",
+    baseUrl: "raulmina1.github.io/ra-blog",
     ignorePatterns: ["private/**", "templates/**", ".obsidian/**"],
     defaultDateType: "modified",
     theme: {
