@@ -71,17 +71,22 @@ pre {
   font-size: 1.1em;
 }
 
-// RA Bird Logo — top of left sidebar, visible on all pages
-.left.sidebar::before {
-  content: "";
-  display: block;
-  width: 72px;
-  height: 72px;
-  background-image: url("/static/icon.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left center;
-  margin-bottom: 8px;
+// RA Logo — above "RA Blog" title in top-left sidebar
+.left.sidebar .page-title {
+  display: flex;
+  flex-direction: column;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url("/static/ra-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 6px;
+  }
 }
 
 // Table styling: match Obsidian's clean table look
