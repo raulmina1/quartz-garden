@@ -27,8 +27,9 @@ PageTitle.css = `
 }
 
 .ra-logo {
-  width: 140px;
-  height: 140px;
+  width: 140px !important;
+  height: 140px !important;
+  max-width: none !important;
   object-fit: contain;
   display: block;
 }
