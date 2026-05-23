@@ -71,6 +71,19 @@ pre {
   font-size: 1.1em;
 }
 
+// RA Bird Logo — top of left sidebar, visible on all pages
+.left.sidebar::before {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 72px;
+  background-image: url("/static/icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-bottom: 8px;
+}
+
 // Table styling: match Obsidian's clean table look
 table {
   border-collapse: collapse;
