@@ -1,3 +1,86 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ── AMOLED + Vanilla AMOLED Obsidian Match ──────────────────────────────────
+
+// Futura-like letter spacing and weight for headings
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+// Inline title styling (like Obsidian's inline title)
+.article-title {
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+// Sidebar: tighter, cleaner feel like Obsidian's file explorer
+.sidebar {
+  font-size: 0.88em;
+}
+
+// Explorer folder/file labels
+.folder-title, .file-title {
+  letter-spacing: 0.01em;
+}
+
+// Callouts: match Obsidian's style more closely
+.callout {
+  border-radius: 4px;
+  border-left-width: 3px;
+}
+
+// Links underline only on hover (like Obsidian)
+article a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+// Graph node colors inherit from theme accent
+:root[saved-theme="dark"] {
+  --graph-link-color: #a89400;
+  --graph-node-current: #c4ab00;
+}
+
+// Tags: pill style matching Obsidian tags
+.tags li > a {
+  border-radius: 12px;
+  font-size: 0.78em;
+  letter-spacing: 0.03em;
+  text-transform: lowercase;
+}
+
+// Code blocks: slightly tighter
+pre {
+  border-radius: 6px;
+}
+
+// Search bar: cleaner border
+.search-bar {
+  border-radius: 6px;
+}
+
+// Page title in sidebar: matches Obsidian vault name style
+#quartz-body .page-title {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-size: 1.1em;
+}
+
+// Table styling: match Obsidian's clean table look
+table {
+  border-collapse: collapse;
+
+  th {
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+
+  td, th {
+    padding: 6px 14px;
+  }
+}
