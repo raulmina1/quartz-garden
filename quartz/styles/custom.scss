@@ -2,13 +2,38 @@
 
 // ── AMOLED + Vanilla AMOLED Obsidian Match ──────────────────────────────────
 
-// Futura-like letter spacing and weight for headings
-h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 0.02em;
+// Minimum comfortable reading size — scales all rem units proportionally
+html {
+  font-size: 13px;
+}
+
+// Body text: Outfit Light (300) — MADE TOMMY thin feel at reading size
+body {
+  font-weight: 300;
+}
+
+// Heading weight hierarchy: Bold → SemiBold → Medium → Regular (thin at small sizes)
+h1 {
+  letter-spacing: 0.01em;
+  font-weight: 700;
+}
+
+h2 {
+  letter-spacing: 0.01em;
   font-weight: 600;
 }
 
-// Inline title styling (like Obsidian's inline title)
+h3 {
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+
+h4, h5, h6 {
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+// Inline title styling
 .article-title {
   letter-spacing: -0.01em;
   font-weight: 700;

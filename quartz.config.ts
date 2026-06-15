@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "RA Blog",
+    pageTitle: "",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -21,8 +21,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Jost",
-        body: "Jost",
+        header: { name: "Outfit", weights: [300, 400, 500, 600, 700] },
+        body: { name: "Outfit", weights: [300, 400, 600], includeItalic: true },
         code: "JetBrains Mono",
       },
       colors: {
