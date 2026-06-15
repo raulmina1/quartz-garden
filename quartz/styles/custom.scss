@@ -2,14 +2,14 @@
 
 // ── AMOLED + Vanilla AMOLED Obsidian Match ──────────────────────────────────
 
-// Minimum comfortable reading size — scales all rem units proportionally
+// Comfortable compact reading size — scales all rem units proportionally
 html {
-  font-size: 13px;
+  font-size: 14.5px;
 }
 
-// Body text: Outfit Light (300) — MADE TOMMY thin feel at reading size
+// Body text: Outfit Regular (400)
 body {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 // Heading weight hierarchy: Bold → SemiBold → Medium → Regular (thin at small sizes)

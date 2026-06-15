@@ -27,8 +27,8 @@ PageTitle.css = `
 }
 
 .ra-logo {
-  width: 140px !important;
-  height: 140px !important;
+  width: 70px !important;
+  height: 70px !important;
   max-width: none !important;
   object-fit: contain;
   display: block;
