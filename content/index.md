@@ -13,6 +13,7 @@ Welcome to the **RA Blog** — a digital garden published from my Obsidian vault
 | [[Einführung]] | Who is RA — about, topics and links. |
 | [[Mandamientos RA]] | The RA principles — ideas and reflection. |
 | [[Projekte & Leistungen]] | Current projects, services and what's coming next. |
+| [[Die Werkzeuge, die ich mir selbst gebaut habe]] | Kolumne — Persönliche Automatisierung: Agenten, kognitive Stille und was ich dabei gelernt habe. |
 | [[Prompt Shop]] | Curated prompts for engineering and AI tasks. |
 | [[AI prompt - revision of book activity]] | AI-assisted book activity review prompt. |
 
