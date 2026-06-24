@@ -16,6 +16,9 @@ related:
   - "[[Die Werkzeuge, die ich mir selbst gebaut habe]]"
 description: "Ich lerne Deutsch auf B1.1-Niveau und bereite mich auf den DTZ vor. Was der Kurs mir beibringt — und was ich außerhalb davon lernen muss."
 reading_time: "4 min"
+type: kolumne
+lang: de
+publish: true
 ---
 
 ###### Related: [[Einführung]] | [[Die Werkzeuge, die ich mir selbst gebaut habe]]

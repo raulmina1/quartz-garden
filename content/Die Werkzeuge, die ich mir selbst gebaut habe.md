@@ -12,6 +12,9 @@ related:
   - "[[Projekte & Leistungen]]"
   - "[[Einführung]]"
 date: 2026-06-15
+type: kolumne
+lang: de
+publish: true
 ---
 
 ###### Related: [[Projekte & Leistungen]] | [[Einführung]]
