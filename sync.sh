@@ -7,7 +7,7 @@ REPO_DIR="/c/Users/DELLPHOTO/OneDrive/Documents/GitHub/quartz-garden"
 REPO_CONTENT="${REPO_DIR}/content"
 
 echo "Syncing vault → content/..."
-cp "${VAULT_BLOG}"/*.md "${REPO_CONTENT}/"
+find "${VAULT_BLOG}" -name "*.md" -exec cp {} "${REPO_CONTENT}/" \;
 
 cd "${REPO_DIR}"
 git add content/
