@@ -12,6 +12,7 @@ tags:
 related:
   - "[[Mandamientos RA]]"
   - "[[Einführung]]"
+publish: true
 ---
 
 ###### Related: [[Mandamientos RA]] | [[Einführung]]
@@ -32,12 +33,12 @@ Every prompt runs on **Claude** (claude-sonnet-4-6 recommended). All have been u
 
 | Pack | Prompts included | Price |
 |------|-----------------|-------|
-| 🇩🇪 German Learning Pack | 9 prompts | €25 |
+| 🇩🇪 German Learning Pack | 8 prompts | €25 |
 | 💼 Job Hunting Germany Pack | 5 prompts | €20 |
 | 🗂️ Obsidian PKM Pack | 6 prompts | €15 |
 | ⚙️ Automation & Productivity Pack | 6 prompts | €15 |
 | 🧠 Personal Life & Reflection Pack | 5 prompts | €15 |
-| 📦 Complete Bundle — All 31 Prompts | 31 prompts | **€45** |
+| 📦 Complete Bundle — All 30 Prompts | 30 prompts | **€45** |
 
 To order: **raulmina13@gmail.com** — include which pack(s) you want. Payment via bank transfer (details at the bottom).
 
@@ -53,7 +54,6 @@ To order: **raulmina13@gmail.com** — include which pack(s) you want. Payment v
 | **Deutsche Wörte** | Creates a full vocabulary card for any German word: YAML frontmatter (Artikel, Plural, IPA, Hilfsverb, Partizip II), conjugation table for all 6 persons, 2–3 example sentences. One command → one complete card. |
 | **Deutsche Wortliste** | Scans any paragraph containing Obsidian wiki links to German words and automatically creates vocabulary cards for each word that doesn't already exist in your dictionary folder. |
 | **Book Activity to Markdown** | Photograph a page from your German textbook and get a clean, exam-ready Markdown note: fill-in-the-blank gaps rendered as ░░░░, callouts for example notes, tables where the source uses parallel structures. |
-| **Revision of Book Activity** | Acts as a B1 German teacher who corrects your completed exercises. Produces a correction table explaining why each answer is right or wrong — all in German. |
 | **Deutsch Unterricht** | Full assistant for German class notes (VHS / BSI format). Fills Konzepte, Phrasen, Words, and Side Information sections, creates individual vocabulary notes for every new word, and generates an Übungsprotokoll table and Lernzusammenfassung after each session. |
 | **A2.2 Zusammenfassung** | Reads all session notes from your A2.2 course and synthesizes them into one master reference note: grammar overview with tables, Lektion overview, vocabulary master table, phrases list, and exercise highlights. |
 | **DTZ B1 Anki Cards** | Generates Anki flashcards in Obsidian Flashcards plugin syntax for DTZ exam preparation. Covers vocabulary (bidirectional :::), grammar rules, Redemittel for Schreiben and Sprechen, and exam-strategy cards. Minimum 15 cards per topic, auto-deduplication. |
