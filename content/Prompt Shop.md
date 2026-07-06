@@ -12,10 +12,11 @@ tags:
 related:
   - "[[Mandamientos RA]]"
   - "[[Einführung]]"
+  - "[[AI Ecosystem]]"
 publish: true
 ---
 
-###### Related: [[Mandamientos RA]] | [[Einführung]]
+###### Related: [[Mandamientos RA]] | [[Einführung]] | [[AI Ecosystem]]
 
 ---
 
@@ -25,7 +26,7 @@ publish: true
 
 These are not generic templates. Each prompt is a production system: structured with **INTENT, CONTEXT, CONSTRAINTS, and EXPECTED OUTPUT**, designed to work the first time you run them inside Claude and stay useful as your vault grows.
 
-Every prompt runs on **Claude** (claude-sonnet-4-6 recommended). All have been used daily, refined over months, and wired into a real Obsidian vault for real work.
+Every prompt runs on **Claude** (claude-sonnet-4-6 recommended) or any LLM compatible with structured directives. All have been used daily, refined over months, and wired into a real Obsidian vault for real work.
 
 ---
 
@@ -33,31 +34,35 @@ Every prompt runs on **Claude** (claude-sonnet-4-6 recommended). All have been u
 
 | Pack | Prompts included | Price |
 |------|-----------------|-------|
-| 🇩🇪 German Learning Pack | 8 prompts | €25 |
+| 🇩🇪 German Learning Pack | 12 prompts | €30 |
 | 💼 Job Hunting Germany Pack | 5 prompts | €20 |
 | 🗂️ Obsidian PKM Pack | 6 prompts | €15 |
 | ⚙️ Automation & Productivity Pack | 6 prompts | €15 |
 | 🧠 Personal Life & Reflection Pack | 5 prompts | €15 |
-| 📦 Complete Bundle — All 30 Prompts | 30 prompts | **€45** |
+| 📦 Complete Bundle — All 34 Prompts | 34 prompts | **€55** |
 
 To order: **raulmina13@gmail.com** — include which pack(s) you want. Payment via bank transfer (details at the bottom).
 
 ---
 
-## 🇩🇪 German Learning Pack — €25
+## 🇩🇪 German Learning Pack — €30
 
-9 structured prompts for learners of German at A2–B1 level, built around Obsidian as a study system.
+12 structured prompts for learners of German at A2–B1 level, built around Obsidian as a study system.
 
 | Prompt | What it does |
 |--------|-------------|
 | **Deutsche Konzept** | Generates a complete grammar concept explanation in German, structured for A2–B1 level. Outputs directly into your Obsidian note with tables, callouts, and examples. |
 | **Deutsche Wörte** | Creates a full vocabulary card for any German word: YAML frontmatter (Artikel, Plural, IPA, Hilfsverb, Partizip II), conjugation table for all 6 persons, 2–3 example sentences. One command → one complete card. |
 | **Deutsche Wortliste** | Scans any paragraph containing Obsidian wiki links to German words and automatically creates vocabulary cards for each word that doesn't already exist in your dictionary folder. |
+| **Deutsche Übungen Foto** | Photograph any printed German grammar exercise. The prompt solves all blanks (fills conjugations, cases, forms), appends the completed exercise to your Obsidian note, and adds a collapsed grammar callout with a table explaining each answer. |
+| **Deutsche Übungen Text** | Solves any German exercise typed or pasted as text. Same logic as Foto — fills blanks, explains answers, appends to your note — but without needing an image. |
 | **Book Activity to Markdown** | Photograph a page from your German textbook and get a clean, exam-ready Markdown note: fill-in-the-blank gaps rendered as ░░░░, callouts for example notes, tables where the source uses parallel structures. |
 | **Deutsch Unterricht** | Full assistant for German class notes (VHS / BSI format). Fills Konzepte, Phrasen, Words, and Side Information sections, creates individual vocabulary notes for every new word, and generates an Übungsprotokoll table and Lernzusammenfassung after each session. |
 | **A2.2 Zusammenfassung** | Reads all session notes from your A2.2 course and synthesizes them into one master reference note: grammar overview with tables, Lektion overview, vocabulary master table, phrases list, and exercise highlights. |
 | **DTZ B1 Anki Cards** | Generates Anki flashcards in Obsidian Flashcards plugin syntax for DTZ exam preparation. Covers vocabulary (bidirectional :::), grammar rules, Redemittel for Schreiben and Sprechen, and exam-strategy cards. Minimum 15 cards per topic, auto-deduplication. |
-| **Deutsche Übungen Foto** | Photograph any printed German grammar exercise. The prompt solves all blanks (fills conjugations, cases, forms), appends the completed exercise to your Obsidian note, and adds a collapsed grammar callout with a table explaining each answer. |
+| **VHS Phrase Explainer** | Analyses German phrases from VHS class callouts — breaks down word-for-word translation, grammar (case, tense, separable prefixes), and offers simplified alternatives at A2 level. |
+| **VHS Class Anki Cards** | Generates Anki flashcards from any VHS class note: vocabulary, grammar rules, and useful phrases — all in Obsidian Flashcards syntax. Auto-deduplicates against existing cards. |
+| **Neue Sätze Übersetzer** | Reads your collected German sentences and creates wikilinked vocabulary notes, inline Spanish translations, and structured annotations — designed for incremental processing (only new sections each run). |
 
 ---
 
@@ -92,15 +97,15 @@ To order: **raulmina13@gmail.com** — include which pack(s) you want. Payment v
 
 ## ⚙️ Automation & Productivity Pack — €15
 
-6 prompts for automating your Claude Code workflow, building hooks, and running structured diagnostics.
+6 prompts for automating your workflow, building hooks, and running structured diagnostics.
 
 | Prompt | What it does |
 |--------|-------------|
-| **Schedule Task** | Template for creating fully autonomous scheduled tasks in Claude Code. Defines frequency, agent runner, input source, output destination, error handling, and idempotency rules — all pre-configured so the task runs without any user input. |
-| **Hook Creation** | Designs and generates Claude Code hooks (PreToolUse, PostToolUse, Notification, Stop) tailored to your workflow. Outputs the exact JSON snippet to add to your settings.json, scoped to project or user level. |
+| **Schedule Task** | Template for creating fully autonomous scheduled tasks. Defines frequency, agent runner, input source, output destination, error handling, and idempotency rules — all pre-configured so the task runs without any user input. |
+| **Hook Creation** | Designs and generates hooks (PreToolUse, PostToolUse, Notification, Stop) tailored to your workflow. Outputs the exact JSON snippet to add to your settings, scoped to project or user level. |
 | **Session Review** | Produces a three-part post-session analysis: (1) dense context compression of everything done, (2) prompting lessons with token-cost estimates, (3) concrete extension ideas labeled [QUICK WIN] or [PROJECT]. |
 | **Troubleshooting Plan** | Builds a step-by-step structured troubleshooting plan from a problem description. Phases: Observe → Isolate → Test → Fix → Verify. Every step includes: action, what to look for, and what to do if it fails. Saves plans to a searchable Obsidian database. |
-| **ActivityWatch** | Runs the ActivityWatch Python script, processes the PC usage data for a target date, and inserts a formatted PC Workflow block into the Obsidian daily note — including a collapsible callout for changed files and projects. |
+| **ActivityWatch** | Runs the ActivityWatch data processor, scans PC usage for a target date, and inserts a formatted PC Workflow block into your Obsidian daily note — including changed files and projects. |
 | **Webpage Obsidian Update** | Reads the actual state of a Quartz blog repo (config, content folder, git log) and updates all configuration notes in Obsidian to match exactly what exists — dashboard, settings, deploy info, publish workflow, and change log. |
 
 ---
