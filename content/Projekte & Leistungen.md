@@ -32,8 +32,13 @@ related:
 |---------|--------------|--------|
 | RA Blog | Digitaler Garten — publiziert aus dem YellowVault mit Quartz 4 | 🟢 aktiv |
 | Wörter-Scout | Automatischer Agent für deutsche Vokabelkarten — ~734 Karten generiert | 🟢 aktiv |
+| **Marthina (neue-saetze-scout)** | Agente para descomposición de frases alemanas con Lücken — análisis incremental de párrafos | ✅ neu |
+| **Tasks Auto-verschieben** | Migración automática de tareas pendientes entre daily notes | ✅ neu |
+| Agente Mera | KI-Entrepreneurship-Coach für Geschäftsideen — Bewertungs-Framework mit Scoring | 🔨 in Entwicklung |
 | RAG + Vector DB | KI-System über dem YellowVault (Chroma / Weaviate / Pinecone) | 🔨 in Entwicklung |
 | Prompt Shop | Kuratierte Prompt-Sammlung für Engineering-Aufgaben | 🟢 aktiv |
+| ActivityWatch Statistik | Dashboard für Zeitanalyse — Export, Metriken, Wochenberichte | 🔨 in Entwicklung |
+| Ordner-Chaos | Systematische Sortierung von Desktop, Downloads und Dokumenten | 🗂️ in Bearbeitung |
 
 ---
 
