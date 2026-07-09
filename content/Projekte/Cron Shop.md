@@ -43,11 +43,11 @@ flowchart LR
     D --> E[Logged to<br/>cron history]
     E --> A
     
-    style A fill:#4a6fa5,color:#fff
-    style B fill:#2d5a27,color:#fff
-    style C fill:#2d5a27,color:#fff
-    style D fill:#b8860b,color:#fff
-    style E fill:#4a6fa5,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style E fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 ---
@@ -92,19 +92,19 @@ flowchart TD
     K --> L[Generate master<br/>review note]
     L --> M[Note written to<br/>German folder]
     
-    style A fill:#4a6fa5,color:#fff
-    style B fill:#2d5a27,color:#fff
-    style C fill:#2d5a27,color:#fff
-    style D fill:#b8860b,color:#fff
-    style E fill:#4a6fa5,color:#fff
-    style F fill:#2d5a27,color:#fff
-    style G fill:#b8860b,color:#fff
-    style H fill:#2d5a27,color:#fff
-    style I fill:#555,color:#fff
-    style J fill:#4a6fa5,color:#fff
-    style K fill:#2d5a27,color:#fff
-    style L fill:#2d5a27,color:#fff
-    style M fill:#b8860b,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style E fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style F fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style G fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style H fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style I fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style J fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style K fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style L fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style M fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 ---
@@ -141,23 +141,23 @@ flowchart TD
     N -->|Fail| P[Report blocked<br/>note]
     O --> Q["npx quartz sync<br/>→ deploy"]
     
-    style A fill:#4a6fa5,color:#fff
-    style B fill:#2d5a27,color:#fff
-    style C fill:#2d5a27,color:#fff
-    style D fill:#2d5a27,color:#fff
-    style E fill:#b8860b,color:#fff
-    style F fill:#4a6fa5,color:#fff
-    style G fill:#2d5a27,color:#fff
-    style H fill:#b8860b,color:#fff
-    style I fill:#2d5a27,color:#fff
-    style J fill:#2d5a27,color:#fff
-    style K fill:#b8860b,color:#fff
-    style L fill:#4a6fa5,color:#fff
-    style M fill:#2d5a27,color:#fff
-    style N fill:#b8860b,color:#fff
-    style O fill:#2d5a27,color:#fff
-    style P fill:#8b0000,color:#fff
-    style Q fill:#2d5a27,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style E fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style F fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style G fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style H fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style I fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style J fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style K fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style L fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style M fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style N fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style O fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style P fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style Q fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 ---

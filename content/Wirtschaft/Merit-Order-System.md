@@ -47,13 +47,13 @@ flowchart LR
     E -->|No| G[High-cost generators<br/>natural gas]
     G --> H[Price set by<br/>gas: ~€150/MWh]
     
-    style A fill:#2d5a27,color:#fff
-    style B fill:#b8860b,color:#fff
-    style C fill:#2d5a27,color:#fff
-    style D fill:#b8860b,color:#fff
-    style F fill:#b8860b,color:#fff
-    style G fill:#8b0000,color:#fff
-    style H fill:#8b0000,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style F fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style G fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style H fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 1. **Generators with the lowest marginal costs** (e.g., renewables) are used first.

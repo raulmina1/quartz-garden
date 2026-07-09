@@ -42,13 +42,13 @@ flowchart LR
     D -->|Fail| F[Stop + report<br/>violation]
     E --> G[Optional:<br/>blog sync /<br/>Anki export]
     
-    style A fill:#4a6fa5,color:#fff
-    style B fill:#2d5a27,color:#fff
-    style C fill:#2d5a27,color:#fff
-    style D fill:#b8860b,color:#fff
-    style E fill:#2d5a27,color:#fff
-    style F fill:#8b0000,color:#fff
-    style G fill:#4a6fa5,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style E fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style F fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style G fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 ---
@@ -91,17 +91,17 @@ flowchart TD
     I[New German sentence<br/>added to note] --> J[Neue Sätze<br/>agent triggered]
     J --> K[Sentence annotated:<br/>wikilinks + translation]
     
-    style A fill:#4a6fa5,color:#fff
-    style B fill:#2d5a27,color:#fff
-    style C fill:#2d5a27,color:#fff
-    style D fill:#4a6fa5,color:#fff
-    style E fill:#4a6fa5,color:#fff
-    style F fill:#2d5a27,color:#fff
-    style G fill:#2d5a27,color:#fff
-    style H fill:#4a6fa5,color:#fff
-    style I fill:#4a6fa5,color:#fff
-    style J fill:#2d5a27,color:#fff
-    style K fill:#2d5a27,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style E fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style F fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style G fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style H fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style I fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style J fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style K fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 ---
@@ -130,16 +130,16 @@ flowchart TD
     H[New file in<br/>vault root] --> I[Content Router<br/>watcher detects]
     I --> J[File analyzed +<br/>moved to correct folder]
     
-    style A fill:#4a6fa5,color:#fff
-    style B fill:#2d5a27,color:#fff
-    style C fill:#b8860b,color:#fff
-    style D fill:#2d5a27,color:#fff
-    style E fill:#4a6fa5,color:#fff
-    style F fill:#2d5a27,color:#fff
-    style G fill:#2d5a27,color:#fff
-    style H fill:#4a6fa5,color:#fff
-    style I fill:#2d5a27,color:#fff
-    style J fill:#2d5a27,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style E fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style F fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style G fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style H fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style I fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style J fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 ---

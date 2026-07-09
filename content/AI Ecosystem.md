@@ -172,11 +172,11 @@ flowchart TD
     F --> G[Agent executes]
     G --> H[Output to vault]
 
-    style A fill:#b8860b,stroke:#f0c040,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
     style B fill:#1a1a1a,stroke:#f0c040,color:#fff
     style C fill:#1a1a1a,stroke:#f0c040,color:#fff
     style D fill:#1a1a1a,stroke:#f0c040,color:#fff
-    style E fill:#333,stroke:#444,color:#666
+    style E fill:#1a1a1a,stroke:#f0c040,color:#fff,stroke:#444,color:#666
     style F fill:#1a1a1a,stroke:#f0c040,color:#fff
     style G fill:#1a1a1a,stroke:#f0c040,color:#fff
     style H fill:#1a1a1a,stroke:#f0c040,color:#fff

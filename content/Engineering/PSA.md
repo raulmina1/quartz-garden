@@ -33,12 +33,12 @@ flowchart TD
     E --> F[Bed regenerated<br/>cycle repeats]
     F --> A
     
-    style A fill:#4a6fa5,color:#fff
-    style B fill:#2d5a27,color:#fff
-    style C fill:#2d5a27,color:#fff
-    style D fill:#b8860b,color:#fff
-    style E fill:#8b0000,color:#fff
-    style F fill:#2d5a27,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style E fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style F fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 ---
@@ -74,9 +74,9 @@ flowchart LR
     A2 -.->|Valve switch| C1
     B2 -.->|Valve switch| A1
     
-    style Bed_A fill:#2d5a27,color:#fff
-    style Bed_B fill:#b8860b,color:#fff
-    style Bed_C fill:#4a6fa5,color:#fff
+    style Bed_A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style Bed_B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style Bed_C fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 ---

@@ -35,13 +35,13 @@ flowchart TD
     
     E --> G[CO₂ utilization<br/>or storage]
     
-    style A fill:#4a6fa5,color:#fff
-    style B fill:#2d5a27,color:#fff
-    style C fill:#2d5a27,color:#fff
-    style D fill:#b8860b,color:#fff
-    style E fill:#8b0000,color:#fff
-    style F fill:#2d5a27,color:#fff
-    style G fill:#4a6fa5,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style E fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style F fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style G fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 ---
@@ -61,10 +61,10 @@ flowchart LR
     C --> D[4. Pressurization<br/>return to adsorption<br/>pressure]
     D --> A
     
-    style A fill:#2d5a27,color:#fff
-    style B fill:#b8860b,color:#fff
-    style C fill:#8b0000,color:#fff
-    style D fill:#2d5a27,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 | Step | Action | Pressure | Duration |

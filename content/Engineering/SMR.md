@@ -64,15 +64,15 @@ flowchart TD
     
     D --> I[Heat source<br/>burner fuel]
     
-    style A fill:#4a6fa5,color:#fff
-    style B fill:#b8860b,color:#fff
-    style C fill:#b8860b,color:#fff
-    style D fill:#8b0000,color:#fff
-    style E fill:#b8860b,color:#fff
-    style F fill:#b8860b,color:#fff
-    style G fill:#2d5a27,color:#fff
-    style H fill:#2d5a27,color:#fff
-    style I fill:#8b0000,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style E fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style F fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style G fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style H fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style I fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 ---
@@ -128,11 +128,11 @@ flowchart LR
     B --> D[Off-gas<br/>(CH₄, CO, CO₂)]
     D --> E[Burned as<br/>furnace fuel]
     
-    style A fill:#b8860b,color:#fff
-    style B fill:#2d5a27,color:#fff
-    style C fill:#2d5a27,color:#fff
-    style D fill:#8b0000,color:#fff
-    style E fill:#b8860b,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style E fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 ---

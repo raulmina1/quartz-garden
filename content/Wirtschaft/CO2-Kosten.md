@@ -35,14 +35,14 @@ flowchart TD
     F --> G
     G --> H[Consumer bills<br/>increase]
     
-    style A fill:#4a6fa5,color:#fff
-    style B fill:#b8860b,color:#fff
-    style C fill:#b8860b,color:#fff
-    style D fill:#b8860b,color:#fff
-    style E fill:#8b0000,color:#fff
-    style F fill:#8b0000,color:#fff
-    style G fill:#8b0000,color:#fff
-    style H fill:#8b0000,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style E fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style F fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style G fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style H fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 ---

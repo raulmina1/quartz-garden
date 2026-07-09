@@ -30,8 +30,8 @@ flowchart LR
     B --> C[Rest des Satzes]
     C --> D[⚡ VERB<br/>am Ende]
     
-    style A fill:#4a6fa5,color:#fff
-    style D fill:#8b0000,color:#fff
+    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
 ```
 
 **Struktur:** `[Konnektor] + [Subjekt] + [Rest des Satzes] + VERB`
