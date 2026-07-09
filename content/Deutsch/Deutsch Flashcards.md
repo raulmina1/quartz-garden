@@ -1,5 +1,5 @@
 ---
-title: "Deutsch Flashcards — Interaktives Lernspiel"
+title: "Deutsch Flashcards — Interaktive Lernspiele"
 date: 2026-07-09
 tags:
   - deutsch
@@ -7,8 +7,8 @@ tags:
   - vhs
   - spiel
   - lernen
-description: "Interaktives Memory-Spiel mit Vokabeln aus meinem VHS-Deutschkurs. Finde die Paare — deutsches Wort und englische Übersetzung."
-reading_time: "1 min"
+description: "Zwei interaktive Lernspiele mit Vokabeln und Grammatik aus meinem VHS-Deutschkurs. Matching Pairs zum Vokabeln-Paare-Finden und Flash Cards zum Selbsttesten von Grammatik und Phrasen."
+reading_time: "2 min"
 type: showcase
 lang: de
 publish: true
@@ -16,11 +16,13 @@ publish: true
 
 # 🃏 Deutsch Flashcards
 
-*Interaktives Memory-Spiel — Vokabeln aus meinem VHS-Kurs*
+*Zwei Spiele — Vokabeln und Grammatik aus meinem VHS-Kurs B1.1/B1.2*
 
 ---
 
-Wähle ein Deck, finde die passenden Paare aus deutschen Wörtern und ihren englischen Übersetzungen. Das Spiel speichert deinen Fortschritt lokal im Browser — kein Login, keine App.
+## 🃏 Matching Pairs — Vokabeln
+
+Finde die Paare: deutsches Wort ↔ englische Übersetzung. Trainiert Artikel, Plural und Kontext.
 
 > [!tip] So funktioniert's
 > 1. **Deck wählen** — jedes Deck entspricht einer Unterrichtseinheit
@@ -28,20 +30,46 @@ Wähle ein Deck, finde die passenden Paare aus deutschen Wörtern und ihren engl
 > 3. **Karten umdrehen** — klicke auf zwei Karten. Gleiches Paar? Sie bleiben offen. Unterschiedlich? Sie drehen sich zurück.
 > 4. **Alle Paare finden** — schaffe es in möglichst wenigen Zügen!
 
+<iframe src="/static/flashcards/matching-pairs.html"
+  style="width:100%;height:620px;border:1px solid #e0e0d8;border-radius:12px;background:#0d0d0d;">
+</iframe>
+
+---
+
+## 📇 Flash Cards — Grammatik & Phrasen
+
+Lies die Frage, überlege die Antwort, decke auf und bewerte dich selbst. Perfekt für Grammatik-Regeln, Verben mit Präpositionen, Eselsbrücken und Phrasen.
+
+> [!tip] So funktioniert's
+> 1. **Deck wählen** und auf **Start** klicken
+> 2. **Frage lesen** — überlege dir die Antwort
+> 3. **Karte antippen** — die Antwort erscheint
+> 4. **Selbst bewerten:** ✓ Gewusst oder ✗ Wiederholen
+> 5. Am Ende: alle ✗-Karten kommen in eine Wiederholungsrunde
+>
+> **Tastatur**: Leertaste = aufdecken · ← = wiederholen · → = gewusst
+
+<iframe src="/static/flashcards/flash-cards.html"
+  style="width:100%;height:680px;border:1px solid #e0e0d8;border-radius:12px;background:#0d0d0d;">
+</iframe>
+
 ---
 
 ## Technische Umsetzung
 
-Das Spiel wird als standalone HTML-Widget in Quartz eingebettet (`<iframe>`). Die Vokabeldaten werden automatisch aus meinen Anki-Notizen im YellowVault extrahiert:
+Die Spiele werden als standalone HTML-Widgets in Quartz eingebettet (`<iframe>`). Die Vokabeldaten werden automatisch aus meinen Anki-Notizen im YellowVault extrahiert:
 
 ```
-01_DATABASE/*.md  →  extract_flashcards.py  →  vhs-decks.json  →  matching-pairs.html
+01_DATABASE/*.md  →  extract_flashcards.py  →  vhs-decks.json  →  matching-pairs.html / flash-cards.html
 ```
 
 - **Extraction:** Python-Script parst `:::` (Vokabeln) und `::` (Grammatik) aus den Markdown-Notizen
-- **Game engine:** Vanilla JS + CSS 3D transforms — keine externen Abhängigkeiten
+- **Game engines:** Vanilla JS + CSS 3D transforms — keine externen Abhängigkeiten
 - **Speicherung:** `localStorage` für Session-Persistenz
 - **Deployment:** Automatisch via `quartz sync` → GitHub Actions → GitHub Pages
+
+> [!note] Über die Karten
+> Die Vokabeln und Grammatik-Karten stammen aus meinem Deutschkurs an der VHS (B1.1 und B1.2). Sie werden automatisch aus meinen Anki-Notizen extrahiert — jede Karte enthält den Artikel, die Pluralform und einen Beispielsatz im Originalkontext. Mehr dazu: [[Deutsch lernen als Ingenieur]].
 
 ## Verwandte Notizen
 
