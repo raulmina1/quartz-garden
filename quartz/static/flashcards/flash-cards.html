@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deutsch Flash Cards — VHS Lernkarten</title>
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --surface: #1a1a1a;
+    --surface-hover: #252525;
+    --border: #333;
+    --text: #e0e0d8;
+    --text-dim: #888;
+    --accent: #4a9eff;
+    --success: #2ecc71;
+    --success-bg: rgba(46,204,113,0.15);
+    --error: #e74c3c;
+    --error-bg: rgba(231,76,60,0.15);
+    --gold: #f0c040;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #fafaf5;
+      --surface: #fff;
+      --surface-hover: #f5f5f0;
+      --border: #e0e0d8;
+      --text: #2c2c2c;
+      --text-dim: #888;
+      --accent: #2563eb;
+      --success: #16a34a;
+      --success-bg: rgba(22,163,74,0.1);
+      --error: #dc2626;
+      --error-bg: rgba(220,38,38,0.1);
+    }
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .container { width: 100%; max-width: 700px; }
+
+  .header {
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+  .header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .header .subtitle {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+  }
+
+  .controls {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+
+  .controls select, .controls button {
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+  }
+  .controls select:hover, .controls button:hover {
+    background: var(--surface-hover);
+  }
+  .controls select {
+    flex: 1;
+    min-width: 180px;
+    max-width: 400px;
+  }
+  .controls button {
+    white-space: nowrap;
+    font-weight: 500;
+  }
+  .controls button.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .controls button.primary:hover { opacity: 0.9; }
+
+  /* Progress */
+  .progress-bar {
+    width: 100%;
+    height: 6px;
+    background: var(--border);
+    border-radius: 3px;
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+    transition: width 0.3s ease;
+  }
+
+  .status-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .status-row .stat {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .status-row .stat strong { color: var(--text); }
+
+  /* Flash Card */
+  .card-stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .flash-card {
+    width: 100%;
+    max-width: 600px;
+    min-height: 220px;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+
+  .flash-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 220px;
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+  }
+  .flash-card.flipped .flash-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flash-card-face {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    border: 2px solid var(--border);
+    padding: 1.5rem;
+    text-align: center;
+    min-height: 220px;
+  }
+
+  .flash-card-front {
+    background: var(--surface);
+    gap: 0.75rem;
+  }
+  .flash-card-front .section-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dim);
+    background: rgba(74,158,255,0.1);
+    padding: 0.2rem 0.7rem;
+    border-radius: 12px;
+    border: 1px solid rgba(74,158,255,0.2);
+  }
+  .flash-card-front .card-question {
+    font-size: 1.15rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--text);
+  }
+  .flash-card-front .tap-hint {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-top: 0.5rem;
+  }
+
+  .flash-card-back {
+    background: var(--surface);
+    transform: rotateY(180deg);
+    gap: 0.5rem;
+  }
+  .flash-card-back .answer-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--success);
+    background: var(--success-bg);
+    padding: 0.2rem 0.7rem;
+    border-radius: 12px;
+    border: 1px solid rgba(46,204,113,0.2);
+  }
+  .flash-card-back .card-answer {
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--text);
+  }
+
+  /* Action buttons after reveal */
+  .actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .actions button {
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: transform 0.1s, opacity 0.2s;
+  }
+  .actions button:active { transform: scale(0.96); }
+  .actions button:hover { opacity: 0.9; }
+
+  .btn-knew {
+    background: var(--success);
+    color: #fff;
+  }
+  .btn-again {
+    background: var(--error);
+    color: #fff;
+  }
+
+  /* Empty state */
+  .empty {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-dim);
+  }
+  .empty .icon { font-size: 3rem; margin-bottom: 0.5rem; }
+  .empty p { max-width: 400px; margin: 0 auto; }
+
+  /* Victory */
+  .victory {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .victory.show { display: flex; }
+  .victory-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    max-width: 420px;
+    width: 90%;
+  }
+  .victory-box h2 { font-size: 1.6rem; margin-bottom: 0.5rem; }
+  .victory-box .stats { color: var(--text-dim); margin: 1rem 0; line-height: 1.8; }
+  .victory-box button {
+    margin: 0.35rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .victory-box button.secondary {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+  }
+  .victory-box button:hover { opacity: 0.9; }
+
+  /* Review pile */
+  .review-badge {
+    font-size: 0.8rem;
+    background: var(--error-bg);
+    color: var(--error);
+    padding: 0.15rem 0.5rem;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+
+  @media (max-width: 600px) {
+    .flash-card { min-height: 180px; }
+    .flash-card-inner, .flash-card-face { min-height: 180px; }
+    .flash-card-face { padding: 1rem; }
+    .card-question { font-size: 1rem; }
+    .card-answer { font-size: 0.95rem; }
+    .header h1 { font-size: 1.2rem; }
+    .controls { flex-direction: column; }
+    .controls select { max-width: 100%; }
+    .actions button { padding: 0.5rem 1rem; font-size: 0.85rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>📇 Deutsch Flash Cards</h1>
+    <p class="subtitle">Frage lesen → Antwort überlegen → Karte umdrehen → Selbst bewerten</p>
+  </div>
+
+  <div class="controls" id="controls">
+    <select id="deck-selector">
+      <option value="">-- Deck wählen --</option>
+    </select>
+    <button id="btn-start" class="primary">▶ Start</button>
+  </div>
+
+  <div id="game-area" style="display:none">
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+    </div>
+    <div class="status-row">
+      <div class="stat">📇 <strong id="card-index">0</strong> / <span id="card-total">0</span></div>
+      <div class="stat">✅ <strong id="known-count">0</strong> gewusst</div>
+      <div class="stat" id="review-stat" style="display:none"><span class="review-badge">🔄 <strong id="review-count">0</strong></span></div>
+    </div>
+
+    <div class="card-stage">
+      <div class="flash-card" id="flash-card">
+        <div class="flash-card-inner">
+          <div class="flash-card-face flash-card-front">
+            <div class="section-label" id="section-label"></div>
+            <div class="card-question" id="card-question"></div>
+            <div class="tap-hint">👆 Tippen zum Aufdecken</div>
+          </div>
+          <div class="flash-card-face flash-card-back">
+            <div class="answer-label">Antwort</div>
+            <div class="card-answer" id="card-answer"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="actions" id="actions" style="display:none">
+        <button class="btn-again" id="btn-again">✗ Wiederholen</button>
+        <button class="btn-knew" id="btn-knew">✓ Gewusst</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="empty" id="empty">
+    <div class="icon">📇</div>
+    <p>Wähle ein Deck und klicke auf <strong>Start</strong>.<br>Jede Karte zeigt eine Frage — dreh sie um, um die Antwort zu sehen, und bewerte dich selbst.</p>
+  </div>
+</div>
+
+<div class="victory" id="victory">
+  <div class="victory-box">
+    <h2 id="victory-emoji">🎉</h2>
+    <div class="stats" id="victory-stats"></div>
+    <button onclick="restartGame()">Nochmal mit diesem Deck</button>
+    <button class="secondary" onclick="resetAll()">Anderes Deck wählen</button>
+  </div>
+</div>
+
+<script>
+// ── State ──────────────────────────────────────────────
+let allDecks = [];
+let currentDeck = null;
+let cards = [];           // All grammar cards for current deck (shuffled)
+let currentIdx = 0;
+let knownCards = [];      // Indices user marked as "gewusst"
+let reviewCards = [];     // Indices user marked as "wiederholen"
+let reviewRound = false;  // Whether we're in the review round
+let isFlipped = false;
+let gameActive = false;
+
+// ── Load data ──────────────────────────────────────────
+async function loadDecks() {
+  try {
+    const resp = await fetch('./vhs-decks.json');
+    const data = await resp.json();
+    allDecks = data.decks;
+    populateSelector();
+  } catch (e) {
+    document.getElementById('empty').innerHTML =
+      '<p style="color:#e74c3c">❌ Konnte Datendatei nicht laden.<br><small>vhs-decks.json nicht gefunden</small></p>';
+    console.error(e);
+  }
+}
+
+function populateSelector() {
+  const sel = document.getElementById('deck-selector');
+  sel.innerHTML = '<option value="">-- Deck wählen --</option>';
+  allDecks.forEach((deck, i) => {
+    if (!deck.grammar_cards || deck.grammar_cards.length === 0) return;
+    const opt = document.createElement('option');
+    opt.value = i;
+    opt.textContent = `${deck.title} (${deck.grammar_cards.length} Karten)`;
+    sel.appendChild(opt);
+  });
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// ── Game logic ─────────────────────────────────────────
+function startGame() {
+  const idx = parseInt(document.getElementById('deck-selector').value);
+  if (isNaN(idx) || !allDecks[idx]) return;
+
+  currentDeck = allDecks[idx];
+
+  // Filter: skip frontmatter-only cards (cards-deck)
+  cards = currentDeck.grammar_cards.filter(c =>
+    c.front && c.back && c.section && !c.front.startsWith('cards-deck')
+  );
+  if (cards.length === 0) {
+    document.getElementById('empty').innerHTML =
+      '<p style="color:#e74c3c">⚠️ Dieses Deck hat keine Lernkarten.<br><small>Nur Vokabel-Paare, keine Grammatik/Phrasen-Karten.</small></p>';
+    document.getElementById('empty').style.display = 'block';
+    return;
+  }
+
+  cards = shuffle(cards);
+  currentIdx = 0;
+  knownCards = [];
+  reviewCards = [];
+  reviewRound = false;
+  isFlipped = false;
+  gameActive = true;
+
+  document.getElementById('empty').style.display = 'none';
+  document.getElementById('game-area').style.display = 'block';
+  document.getElementById('victory').classList.remove('show');
+  document.getElementById('actions').style.display = 'none';
+
+  document.getElementById('card-total').textContent = cards.length;
+  updateProgress();
+  showCard();
+}
+
+function showCard() {
+  const card = cards[currentIdx];
+  const fc = document.getElementById('flash-card');
+  fc.classList.remove('flipped');
+  isFlipped = false;
+  document.getElementById('actions').style.display = 'none';
+
+  document.getElementById('section-label').textContent = card.section || 'Karte';
+  document.getElementById('card-question').textContent = card.front;
+  document.getElementById('card-answer').textContent = card.back;
+  document.getElementById('card-index').textContent = currentIdx + 1;
+
+  updateProgress();
+}
+
+function updateProgress() {
+  const total = cards.length;
+  const done = knownCards.length + reviewCards.length;
+  const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('known-count').textContent = knownCards.length;
+  document.getElementById('card-index').textContent = Math.min(currentIdx + 1, total);
+
+  const rs = document.getElementById('review-stat');
+  const rc = document.getElementById('review-count');
+  if (reviewCards.length > 0) {
+    rs.style.display = 'flex';
+    rc.textContent = reviewCards.length;
+  } else {
+    rs.style.display = 'none';
+  }
+}
+
+// ── Card interaction ───────────────────────────────────
+document.getElementById('flash-card').addEventListener('click', () => {
+  if (!gameActive || isFlipped) return;
+  const fc = document.getElementById('flash-card');
+  fc.classList.add('flipped');
+  isFlipped = true;
+  document.getElementById('actions').style.display = 'flex';
+});
+
+document.getElementById('btn-knew').addEventListener('click', () => {
+  if (!gameActive || !isFlipped) return;
+  knownCards.push(currentIdx);
+  advanceCard();
+});
+
+document.getElementById('btn-again').addEventListener('click', () => {
+  if (!gameActive || !isFlipped) return;
+  reviewCards.push(currentIdx);
+  advanceCard();
+});
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+  if (!gameActive) return;
+  if (e.key === ' ' || e.key === 'Enter') {
+    e.preventDefault();
+    if (!isFlipped) {
+      document.getElementById('flash-card').click();
+    }
+  } else if (e.key === 'ArrowLeft' && isFlipped) {
+    e.preventDefault();
+    document.getElementById('btn-again').click();
+  } else if (e.key === 'ArrowRight' && isFlipped) {
+    e.preventDefault();
+    document.getElementById('btn-knew').click();
+  }
+});
+
+function advanceCard() {
+  // Find next unjudged card
+  const judged = new Set([...knownCards, ...reviewCards]);
+  let nextIdx = (currentIdx + 1) % cards.length;
+
+  // If all cards judged, start review round or finish
+  if (judged.size >= cards.length) {
+    if (reviewCards.length > 0) {
+      // Start review round with only the "wiederholen" cards
+      startReviewRound();
+      return;
+    } else {
+      victory();
+      return;
+    }
+  }
+
+  // Find next unjudged
+  while (judged.has(nextIdx)) {
+    nextIdx = (nextIdx + 1) % cards.length;
+  }
+  currentIdx = nextIdx;
+  showCard();
+}
+
+function startReviewRound() {
+  reviewRound = true;
+  // Take the review cards and shuffle them
+  const reviewIndices = [...reviewCards];
+  cards = shuffle(reviewIndices.map(i => cards[i]));
+  currentIdx = 0;
+  knownCards = [];
+  reviewCards = [];
+  isFlipped = false;
+
+  document.getElementById('card-total').textContent = cards.length;
+  updateProgress();
+  showCard();
+}
+
+// ── Victory ────────────────────────────────────────────
+function victory() {
+  gameActive = false;
+  document.getElementById('game-area').style.display = 'none';
+
+  const total = knownCards.length + reviewCards.length;
+  const emoji = reviewCards.length === 0 ? '🏆' : '🎯';
+  document.getElementById('victory-emoji').textContent = emoji;
+
+  let msg = `<p>Alle <strong>${total}</strong> Karten durchgearbeitet!</p>`;
+  if (knownCards.length === total) {
+    msg += `<p>✅ <strong>${knownCards.length}</strong> gewusst — perfekt!</p>`;
+  } else {
+    msg += `<p>✅ <strong>${knownCards.length}</strong> gewusst<br>🔄 <strong>${reviewCards.length}</strong> wiederholt</p>`;
+  }
+  document.getElementById('victory-stats').innerHTML = msg;
+  document.getElementById('victory').classList.add('show');
+}
+
+function restartGame() {
+  // Reshuffle and restart with same deck
+  if (!currentDeck) return;
+  cards = shuffle(currentDeck.grammar_cards.filter(c =>
+    c.front && c.back && c.section && !c.front.startsWith('cards-deck')
+  ));
+  if (cards.length === 0) return;
+  currentIdx = 0;
+  knownCards = [];
+  reviewCards = [];
+  reviewRound = false;
+  isFlipped = false;
+  gameActive = true;
+
+  document.getElementById('victory').classList.remove('show');
+  document.getElementById('game-area').style.display = 'block';
+  document.getElementById('actions').style.display = 'none';
+  document.getElementById('card-total').textContent = cards.length;
+  updateProgress();
+  showCard();
+}
+
+function resetAll() {
+  gameActive = false;
+  document.getElementById('victory').classList.remove('show');
+  document.getElementById('game-area').style.display = 'none';
+  document.getElementById('empty').style.display = 'block';
+  document.getElementById('deck-selector').value = '';
+}
+
+// ── Init ───────────────────────────────────────────────
+document.getElementById('btn-start').addEventListener('click', startGame);
+loadDecks();
+</script>
+</body>
+</html>
