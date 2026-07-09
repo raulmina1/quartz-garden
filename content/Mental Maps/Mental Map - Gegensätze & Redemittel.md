@@ -27,7 +27,7 @@ aliases:
 
 **VHS · 8. Juli 2026 · Kapitel 6: Zusammenleben**
 
-<iframe src="/static/mental-maps/gegensaetze-redemittel.html" style="width:100%;height:700px;border:1px solid #e0e0d8;border-radius:8px;background:#fafaf5;" title="Interaktives Mermaid-Diagramm"></iframe>
+<iframe src="/static/mental-maps/gegensaetze-redemittel.html" style="width:100%;height:700px;border:1px solid #3a3a3a;border-radius:8px;background:#000;" title="Interaktives Mermaid-Diagramm"></iframe>
 
 <p style="text-align:center;font-size:0.85rem;color:#6b6b6b;margin-top:0.3rem;">
   <em>🖱️ Zoom: Scroll · Pan: Ziehen · Knoten verschieben: Klick + Ziehen</em>
