@@ -42,7 +42,7 @@ Mapas mentales interactivos que conectan **gramática → Redemittel → frases 
 
 | Fecha | Tema | Kapitel |
 |-------|------|---------|
-| [08.07.2026](https://raulmina1.github.io/ra-blog/static/mental-maps/gegensaetze-redemittel.html) | Gegensätze & Redemittel — *trotz, obwohl, trotzdem, Konjunktiv II* | 6 — Zusammenleben |
+| 08.07.2026 | [[Mental Map - Gegensätze & Redemittel\|Gegensätze & Redemittel]] — *trotz, obwohl, trotzdem, Konjunktiv II* | 6 — Zusammenleben |
 
 ---
 
