@@ -13,13 +13,21 @@ Welcome to the **RA Blog** — a digital garden published from my Obsidian vault
 | [[Kolumnen/Die Werkzeuge, die ich mir selbst gebaut habe\|Die Werkzeuge, die ich mir selbst gebaut habe]] | Persönliche Automatisierung: Agenten, kognitive Stille und was ich dabei gelernt habe. |
 | [[Kolumnen/Deutsch lernen als Ingenieur\|Deutsch lernen als Ingenieur]] | Was der Kurs mir beibringt — und was ich außerhalb davon lernen muss. |
 
+## Shop
+
+| Product | Description | Price |
+|---------|-------------|-------|
+| [[Projekte/Prompt Shop\|Prompt Shop]] | Curated AI prompts for engineering, German learning, and personal automation. | €15–€55 |
+| [[Projekte/Agent Shop\|Agent Shop]] | Autonomous AI agents — vocabulary cards, task decomposition, annotation. | €40–€100 |
+| [[Projekte/Cron Shop\|Cron Shop]] | Scheduled automations — daily reviews, vault maintenance, blog sync. | €20–€55 |
+| [[Projekte/Hook Shop\|Hook Shop]] | File watchers and event triggers — the reactive layer for your vault. | €30–€75 |
+
 ## Über RA
 
 | Note | Description |
 |------|-------------|
 | [[Einführung]] | Who is RA — about, topics and links. |
 | [[Projekte]] | Current projects, services and what's coming next. |
-| [[Projekte/Prompt Shop\|Prompt Shop]] | Curated AI prompts for engineering, German learning, and personal automation. |
 | [[Mandamientos RA]] | The RA principles — ideas and reflection. |
 
 ## Knowledge

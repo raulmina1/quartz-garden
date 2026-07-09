@@ -1,0 +1,215 @@
+---
+Topics:
+  - RA Blog
+  - Crons
+  - Shop
+  - Automation
+tags:
+  - crons
+  - shop
+  - automation
+  - schedule
+related:
+  - "[[Mandamientos RA]]"
+  - "[[AI Ecosystem]]"
+  - "[[Projekte/Prompt Shop|Prompt Shop]]"
+  - "[[Projekte/Agent Shop|Agent Shop]]"
+description: Pre-configured cron jobs that run AI agents on a schedule — daily briefings, German exercises, vault backups, and custom automations. No manual triggers needed.
+publish: true
+date: 2026-07-09
+type: showcase
+lang: en
+---
+
+###### Related: [[Projekte/Prompt Shop|Prompt Shop]] | [[Projekte/Agent Shop|Agent Shop]] | [[Projekte/Hook Shop|Hook Shop]]
+
+---
+
+# RA Cron Shop
+
+> Scheduled AI automations that run without you. A cron is a prompt + agent + schedule bundled into one package — fire and forget.
+
+Unlike a prompt (one-time) or an agent (on-demand), a cron runs **automatically at set intervals**. You never have to remember to run it. It just works.
+
+---
+
+## How a cron works
+
+```mermaid
+flowchart LR
+    A[⏰ Schedule<br/>fires] --> B[Hermes loads<br/>agent + skill]
+    B --> C[Agent executes<br/>defined prompt]
+    C --> D[Output written<br/>to vault / delivered]
+    D --> E[Logged to<br/>cron history]
+    E --> A
+    
+    style A fill:#4a6fa5,color:#fff
+    style B fill:#2d5a27,color:#fff
+    style C fill:#2d5a27,color:#fff
+    style D fill:#b8860b,color:#fff
+    style E fill:#4a6fa5,color:#fff
+```
+
+---
+
+## Packs & Pricing
+
+| Pack | Crons included | Price |
+|------|----------------|-------|
+| 🇩🇪 Daily German Routine | 3 crons | €35 |
+| 🗂️ Vault Maintenance Pack | 3 crons | €35 |
+| 🔧 Custom Cron (your spec) | 1 bespoke schedule | €20 |
+| 📦 Complete Cron Bundle — All 6 | 6 crons | **€55** |
+
+To order: **raulmina13@gmail.com** — include which pack(s) you want.
+
+---
+
+## 🇩🇪 Daily German Routine — €35
+
+3 crons that keep your German practice going every day without lifting a finger.
+
+| Cron | Schedule | What it does |
+|------|----------|-------------|
+| **Daily Vocabulary Review** | Every morning | Picks 10 random vocabulary cards from your vault and generates a formatted review note with conjugations, example sentences, and gender reminders. |
+| **VHS Class Processing** | After class | Reads the latest class note and triggers Klodi to generate Anki cards. If no new class note, stays silent. |
+| **Weekly Summary** | Every Sunday | Synthesizes the week's new vocabulary, grammar concepts, and mistakes into one master review note. |
+
+### Flowchart: Daily German Routine
+
+```mermaid
+flowchart TD
+    A["⏰ 07:00<br/>Daily Review"] --> B[Pick 10 random<br/>vocab cards from vault]
+    B --> C[Generate review note<br/>with conjugations + examples]
+    C --> D[Note delivered<br/>to daily inbox]
+    
+    E["⏰ After class<br/>(detected via file change)"] --> F[Read latest<br/>VHS class note]
+    F --> G{New content?}
+    G -->|Yes| H[Generate Anki cards<br/>via Klodi agent]
+    G -->|No| I[Skip — stay silent]
+    
+    J["⏰ Sunday 18:00<br/>Weekly Summary"] --> K[Scan week's<br/>new vocabulary]
+    K --> L[Generate master<br/>review note]
+    L --> M[Note written to<br/>German folder]
+    
+    style A fill:#4a6fa5,color:#fff
+    style B fill:#2d5a27,color:#fff
+    style C fill:#2d5a27,color:#fff
+    style D fill:#b8860b,color:#fff
+    style E fill:#4a6fa5,color:#fff
+    style F fill:#2d5a27,color:#fff
+    style G fill:#b8860b,color:#fff
+    style H fill:#2d5a27,color:#fff
+    style I fill:#555,color:#fff
+    style J fill:#4a6fa5,color:#fff
+    style K fill:#2d5a27,color:#fff
+    style L fill:#2d5a27,color:#fff
+    style M fill:#b8860b,color:#fff
+```
+
+---
+
+## 🗂️ Vault Maintenance Pack — €35
+
+3 crons that keep your vault clean, backed up, and growing.
+
+| Cron | Schedule | What it does |
+|------|----------|-------------|
+| **Daily Note Processor** | Every evening | Reads the day's daily note, extracts completed tasks, moves them to the task archive, and appends unfinished tasks to tomorrow's note. |
+| **Weekly Vault Audit** | Every Monday | Scans the vault for orphan notes (no wikilinks pointing to them), suggests folders for unclassified notes, and reports vault health metrics. |
+| **Blog Sync** | Every 6 hours | Checks `02_RA BLOG/` for new publishable notes, runs Privacy Firewall, copies approved notes to Quartz `content/`, and runs `quartz sync`. |
+
+### Flowchart: Vault Maintenance Pipeline
+
+```mermaid
+flowchart TD
+    A["⏰ 22:00<br/>Daily Note Processor"] --> B[Read today's<br/>daily note]
+    B --> C[Extract completed<br/>tasks]
+    C --> D[Move to<br/>task archive]
+    D --> E[Carry forward<br/>unfinished tasks]
+    
+    F["⏰ Monday 09:00<br/>Weekly Audit"] --> G[Scan vault for<br/>orphan notes]
+    G --> H{Orphans found?}
+    H -->|Yes| I[Suggest folder<br/>placement]
+    H -->|No| J[Report: vault<br/>healthy ✓]
+    I --> K[Generate audit<br/>report note]
+    J --> K
+    
+    L["⏰ Every 6h<br/>Blog Sync"] --> M[Check 02_RA BLOG/<br/>for new notes]
+    M --> N{Run Privacy<br/>Firewall}
+    N -->|Pass| O[Copy to content/]
+    N -->|Fail| P[Report blocked<br/>note]
+    O --> Q["npx quartz sync<br/>→ deploy"]
+    
+    style A fill:#4a6fa5,color:#fff
+    style B fill:#2d5a27,color:#fff
+    style C fill:#2d5a27,color:#fff
+    style D fill:#2d5a27,color:#fff
+    style E fill:#b8860b,color:#fff
+    style F fill:#4a6fa5,color:#fff
+    style G fill:#2d5a27,color:#fff
+    style H fill:#b8860b,color:#fff
+    style I fill:#2d5a27,color:#fff
+    style J fill:#2d5a27,color:#fff
+    style K fill:#b8860b,color:#fff
+    style L fill:#4a6fa5,color:#fff
+    style M fill:#2d5a27,color:#fff
+    style N fill:#b8860b,color:#fff
+    style O fill:#2d5a27,color:#fff
+    style P fill:#8b0000,color:#fff
+    style Q fill:#2d5a27,color:#fff
+```
+
+---
+
+## 🔧 Custom Cron — €20
+
+Describe the schedule and the task. I build the cron.
+
+**What you get:**
+- Cron manifest with exact schedule
+- Prompt + skill configuration
+- Hermes cron job definition
+- Delivery configuration (vault, email, or message)
+- Tested end-to-end
+
+**Examples:**
+- Nightly backup status report
+- Weekly AI art prompt delivery
+- Monthly expense report generator
+- Daily quote or word-of-the-day
+- Periodic market/price checker
+
+---
+
+## 📦 Complete Cron Bundle — All 6 crons — €55
+
+Everything in both packs at a discount. Save €15 vs. buying separately.
+
+---
+
+## How to Order
+
+1. Send an email to **raulmina13@gmail.com** with the subject `Cron Pack Order`
+2. Specify which pack(s) or the Complete Bundle (describe the schedule + task if ordering Custom)
+3. Transfer payment via bank (details below)
+4. You will receive the `.md` cron manifests + setup instructions within 24 hours
+
+---
+
+## Payment Details
+
+| Field | Details |
+|-------|---------|
+| Bank | N26 |
+| Owner | Raul Esteban Mina Riascos |
+| IBAN | DE35 1001 1001 2030 9802 37 |
+| Reference | Cron Pack + your name |
+
+> [!warning] Requirements
+> You need **Hermes Agent** (or compatible cron system) to run these schedules. The crons ship as Hermes cron job definitions that load skills and execute prompts automatically. No coding required — just import the JSON definitions.
+
+---
+
+> [!quote] Ra
+> The best automation is the one you forget exists because it always just works.

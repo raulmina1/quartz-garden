@@ -1,0 +1,195 @@
+---
+Topics:
+  - RA Blog
+  - Agents
+  - Shop
+tags:
+  - agents
+  - shop
+  - automation
+  - ai
+related:
+  - "[[Mandamientos RA]]"
+  - "[[AI Ecosystem]]"
+  - "[[Projekte/Prompt Shop|Prompt Shop]]"
+description: Pre-built autonomous AI agents for Obsidian automation — vocabulary cards, German annotation, task management, and custom workflows. Each agent ships as a Hermes skill.
+publish: true
+date: 2026-07-09
+type: showcase
+lang: en
+---
+
+###### Related: [[Projekte/Prompt Shop|Prompt Shop]] | [[Projekte/Cron Shop|Cron Shop]] | [[Projekte/Hook Shop|Hook Shop]]
+
+---
+
+# RA Agent Shop
+
+> Autonomous AI agents that live in your vault and do work without supervision. Each agent is a complete specification: Hermes skill file, vault note, workflow documentation, and guardrails.
+
+An agent is not a prompt. A prompt tells the AI what to do once. An agent has a **role**, a **personality**, a **workflow**, and **memory** — it works continuously, maintains context across sessions, and follows guardrails automatically.
+
+---
+
+## How an agent works
+
+```mermaid
+flowchart LR
+    A[Trigger<br/>manual/cron/hook] --> B[Skill loaded]
+    B --> C[Agent executes<br/>defined workflow]
+    C --> D{Guardrails<br/>check}
+    D -->|Pass| E[Write output<br/>to vault note]
+    D -->|Fail| F[Stop + report<br/>violation]
+    E --> G[Optional:<br/>blog sync /<br/>Anki export]
+    
+    style A fill:#4a6fa5,color:#fff
+    style B fill:#2d5a27,color:#fff
+    style C fill:#2d5a27,color:#fff
+    style D fill:#b8860b,color:#fff
+    style E fill:#2d5a27,color:#fff
+    style F fill:#8b0000,color:#fff
+    style G fill:#4a6fa5,color:#fff
+```
+
+---
+
+## Packs & Pricing
+
+| Pack | Agents included | Price |
+|------|----------------|-------|
+| 🇩🇪 German Learning Agent Pack | 3 agents | €60 |
+| 🗂️ Vault Automation Pack | 3 agents | €60 |
+| 🔧 Custom Agent (your spec) | 1 bespoke agent | €40 |
+| 📦 Complete Agent Bundle — All 6 | 6 agents | **€100** |
+
+To order: **raulmina13@gmail.com** — include which pack(s) you want.
+
+---
+
+## 🇩🇪 German Learning Agent Pack — €60
+
+3 agents that automate your German study pipeline — from class notes to Anki cards to sentence annotation.
+
+| Agent | What it does | Real-world impact |
+|-------|-------------|-------------------|
+| **Wörter-Scout** | Watches your vault for empty German vocabulary stubs, fills them with full lexical data (gender, plural, conjugations, examples). | ~734 cards generated automatically. No more manual card creation. |
+| **Klodi** | Reads a VHS class note and generates 8 Anki cards per session: vocabulary, grammar rules, Redemittel, and exam tips. | One command → full deck ready for import. |
+| **Neue Sätze Übersetzer** | Incrementally annotates collected German sentences with wikilinks, translations, and grammar breakdowns. | Processes one sentence at a time, never overwhelming you. |
+
+### Flowchart: German Learning Pipeline
+
+```mermaid
+flowchart TD
+    A[VHS Class Note<br/>saved to vault] --> B[Klodi agent<br/>triggered]
+    B --> C[8 Anki cards<br/>generated]
+    C --> D[Import to Anki<br/>for review]
+    
+    E[German word stub<br/>detected] --> F[Wörter-Scout<br/>agent triggered]
+    F --> G[Full card created:<br/>gender, plural, conjugation]
+    G --> H[Card ready for<br/>daily review]
+    
+    I[New German sentence<br/>added to note] --> J[Neue Sätze<br/>agent triggered]
+    J --> K[Sentence annotated:<br/>wikilinks + translation]
+    
+    style A fill:#4a6fa5,color:#fff
+    style B fill:#2d5a27,color:#fff
+    style C fill:#2d5a27,color:#fff
+    style D fill:#4a6fa5,color:#fff
+    style E fill:#4a6fa5,color:#fff
+    style F fill:#2d5a27,color:#fff
+    style G fill:#2d5a27,color:#fff
+    style H fill:#4a6fa5,color:#fff
+    style I fill:#4a6fa5,color:#fff
+    style J fill:#2d5a27,color:#fff
+    style K fill:#2d5a27,color:#fff
+```
+
+---
+
+## 🗂️ Vault Automation Pack — €60
+
+3 agents that keep your vault organized and your tasks moving — no manual triage needed.
+
+| Agent | What it does | Real-world impact |
+|-------|-------------|-------------------|
+| **Dexter** | Takes any scheduled task from your daily note and decomposes it into actionable subtasks with ABC priority triage. | One task → clear next steps. No more staring at a vague todo. |
+| **RA Mirror** | Reads your daily note at end of day and writes a reflective commentary — a second perspective on what happened. | Daily introspection without the mental effort of writing it yourself. |
+| **Content Router** | Watches for new files in the vault root and automatically moves them to the correct folder based on content analysis. | Zero inbox. Every note lands where it belongs. |
+
+### Flowchart: Vault Automation Pipeline
+
+```mermaid
+flowchart TD
+    A[Daily note<br/>updated] --> B[Dexter agent<br/>reads SCH tasks]
+    B --> C[Tasks decomposed<br/>A: critical<br/>B: important<br/>C: nice-to-have]
+    C --> D[Clear next steps<br/>written to note]
+    
+    E[End of day<br/>trigger] --> F[RA Mirror agent<br/>reads daily note]
+    F --> G[Reflective commentary<br/>written to vault]
+    
+    H[New file in<br/>vault root] --> I[Content Router<br/>watcher detects]
+    I --> J[File analyzed +<br/>moved to correct folder]
+    
+    style A fill:#4a6fa5,color:#fff
+    style B fill:#2d5a27,color:#fff
+    style C fill:#b8860b,color:#fff
+    style D fill:#2d5a27,color:#fff
+    style E fill:#4a6fa5,color:#fff
+    style F fill:#2d5a27,color:#fff
+    style G fill:#2d5a27,color:#fff
+    style H fill:#4a6fa5,color:#fff
+    style I fill:#2d5a27,color:#fff
+    style J fill:#2d5a27,color:#fff
+```
+
+---
+
+## 🔧 Custom Agent — €40
+
+You describe the task. I build the agent.
+
+**What you get:**
+- Hermes skill file (SKILL.md) with full workflow
+- Vault specification note
+- Guardrails and privacy rules
+- Tested against your vault structure
+- Documentation for triggering (manual, cron, or hook)
+
+**Examples of custom agents:**
+- A weekly newsletter compiler from your reading notes
+- A job-matching agent that scores new postings against your CV
+- A habit tracker that analyzes daily note entries and generates monthly reports
+
+---
+
+## 📦 Complete Agent Bundle — All 6 agents — €100
+
+Everything in both packs at a discount. Save €20 vs. buying separately.
+
+---
+
+## How to Order
+
+1. Send an email to **raulmina13@gmail.com** with the subject `Agent Pack Order`
+2. Specify which pack(s) or the Complete Bundle (describe the problem if ordering Custom)
+3. Transfer payment via bank (details below)
+4. You will receive the `.md` skill files + instructions within 48 hours
+
+---
+
+## Payment Details
+
+| Field | Details |
+|-------|---------|
+| Bank | N26 |
+| Owner | Raul Esteban Mina Riascos |
+| IBAN | DE35 1001 1001 2030 9802 37 |
+| Reference | Agent Pack + your name |
+
+> [!warning] Requirements
+> You need **Hermes Agent** (or compatible MCP client) to run these agents. The agents ship as skill files that hook into the vault via the Prompt Runner system. No coding required — just drop the skills into your Hermes skills folder and configure the triggers.
+
+---
+
+> [!quote] Ra
+> Every agent is a task you no longer have to think about. That silence is the actual product.

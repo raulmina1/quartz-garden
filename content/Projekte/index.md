@@ -42,6 +42,9 @@ publish: true
 | Agente Mera | KI-Entrepreneurship-Coach für Geschäftsideen — Bewertungs-Framework mit Scoring | 🔨 in Entwicklung |
 | RAG + Vector DB | KI-System über dem YellowVault (Chroma / Weaviate / Pinecone) | 🔨 in Entwicklung |
 | [[Prompt Shop]] | Kuratierte Prompt-Sammlung für Engineering-Aufgaben | 🟢 aktiv |
+| [[Agent Shop]] | Autonome KI-Agenten — kaufen statt selbst bauen | 🆕 neu |
+| [[Cron Shop]] | Zeitgesteuerte Automatisierungen — einstellen und vergessen | 🆕 neu |
+| [[Hook Shop]] | Datei-Watcher und Ereignis-Trigger — der Reaktiv-Layer | 🆕 neu |
 | ActivityWatch Statistik | Dashboard für Zeitanalyse — Export, Metriken, Wochenberichte | 🔨 in Entwicklung |
 | Ordner-Chaos | Systematische Sortierung von Desktop, Downloads und Dokumenten | 🗂️ in Bearbeitung |
 
