@@ -1,5 +1,5 @@
 ---
-title: "Deutsch lernen"
+title: "Deutsch"
 date: 2026-07-09
 tags:
   - deutsch
@@ -8,14 +8,14 @@ tags:
   - vhs
   - grammatik
   - flashcards
-description: Deutsch lernen — Grammatik, Flashcards, Mental Maps. Aus meinem VHS-Kurs in Berlin.
+description: Deutsch — Grammatik, Flashcards, Mental Maps. Aus meinem VHS-Kurs in Berlin.
 reading_time: "1 min"
 type: section-index
 lang: de
 publish: true
 ---
 
-# Deutsch lernen
+# Deutsch
 
 > Materialien, Spiele, Grammatik und Mental Maps aus dem VHS-Kurs in Berlin. Alles an einem Ort.
 

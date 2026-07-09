@@ -89,6 +89,11 @@ pre {
   border-radius: 6px;
 }
 
+// ── Page header spacing — gap between breadcrumbs/title/meta and content ──
+.page-header {
+  margin-bottom: 2rem;
+}
+
 // ── Mobile: folder page listing container ──────────────────────────────
 @media all and (max-width: 800px) {
   .page-listing {
