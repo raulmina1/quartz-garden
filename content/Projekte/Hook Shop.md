@@ -1,16 +1,10 @@
 ---
-Topics:
-  - RA Blog
-  - Hooks
-  - Shop
-  - Automation
 tags:
   - hooks
   - shop
   - automation
   - watchers
 related:
-  - "[[Mandamientos RA]]"
   - "[[AI Ecosystem]]"
   - "[[Projekte/Prompt Shop|Prompt Shop]]"
   - "[[Projekte/Agent Shop|Agent Shop]]"

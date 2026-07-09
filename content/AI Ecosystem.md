@@ -1,9 +1,4 @@
 ---
-Topics:
-  - RA Blog
-  - AI
-  - Catalog
-  - Ecosystem
 tags:
   - ai
   - catalog

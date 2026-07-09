@@ -1,16 +1,10 @@
 ---
-Topics:
-  - RA Blog
-  - Crons
-  - Shop
-  - Automation
 tags:
   - crons
   - shop
   - automation
   - schedule
 related:
-  - "[[Mandamientos RA]]"
   - "[[AI Ecosystem]]"
   - "[[Projekte/Prompt Shop|Prompt Shop]]"
   - "[[Projekte/Agent Shop|Agent Shop]]"

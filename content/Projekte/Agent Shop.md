@@ -1,15 +1,10 @@
 ---
-Topics:
-  - RA Blog
-  - Agents
-  - Shop
 tags:
   - agents
   - shop
   - automation
   - ai
 related:
-  - "[[Mandamientos RA]]"
   - "[[AI Ecosystem]]"
   - "[[Projekte/Prompt Shop|Prompt Shop]]"
 description: Pre-built autonomous AI agents for Obsidian automation — vocabulary cards, German annotation, task management, and custom workflows. Each agent ships as a Hermes skill.

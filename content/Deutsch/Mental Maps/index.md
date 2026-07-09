@@ -7,10 +7,6 @@ tags:
   - mindmap
   - b1.2
   - vhs
-Topics:
-  - RA Blog
-  - Deutschkurs
-  - Mindmaps
 related:
   - "[[Deutsch/index]]"
   - "[[Einführung]]"

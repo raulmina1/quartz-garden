@@ -10,8 +10,9 @@ Welcome to the **RA Blog** — a digital garden by Raul Mina. Process engineer i
 
 | Note | Description |
 |------|-------------|
-| [[Einfuhrung]] | Who I am, what I do, and how to contact me. |
+| [[Einführung]] | Who I am, what I do, and how to contact me. |
 | [[Projekte]] | Current projects, services and what I'm building. |
+| [[Kolumnen/index|Kolumnen]] | Opinion columns on engineering, AI, and language learning. |
 
 ## Wissen
 

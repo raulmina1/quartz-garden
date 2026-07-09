@@ -1,8 +1,4 @@
 ---
-Topics:
-  - RA Blog
-  - Prompts
-  - Shop
 tags:
   - prompts
   - shop
@@ -10,13 +6,12 @@ tags:
   - ai
   - claude
 related:
-  - "[[Mandamientos RA]]"
   - "[[Einführung]]"
   - "[[AI Ecosystem]]"
 publish: true
 ---
 
-###### Related: [[Mandamientos RA]] | [[Einführung]] | [[AI Ecosystem]]
+###### Related: [[Einführung]] | [[AI Ecosystem]]
 
 ---
 

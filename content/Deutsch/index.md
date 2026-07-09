@@ -26,7 +26,7 @@ publish: true
 | [[Deutsch/Grammatik/Trennbare-Verben|Trennbare Verben]] | 30+ Praefixe, Satzstellung, Infinitiv und Partizip II |
 | [[Deutsch/Grammatik/Modalverben|Modalverben]] | Konjugation, Bedeutung, Satzstellung |
 | [[Deutsch/Grammatik/Vorgangspassiv|Passiv]] | werden-Passiv, Tempora, Aktiv-Passiv |
-| [[Deutsch/Grammatik/Nebensaetze|Nebensaetze]] | weil, dass, wenn, obwohl |
+| [[Deutsch/Grammatik/Nebensätze|Nebensätze]] | weil, dass, wenn, obwohl |
 
 ## Mental Maps
 
