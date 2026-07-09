@@ -23,8 +23,10 @@ publish: true
 |-------|-------------|
 | [[Deutsch/Grammatik/Trennbare-Verben\|🔧 Trennbare Verben]] | Präfixe, Satzstellung, Infinitiv und Partizip II — vollständige Liste mit 30+ Präfixen |
 | [[Deutsch/Grammatik/Modalverben\|⚡ Modalverben und unregelmäßige Verben]] | Konjugation, Bedeutung, Satzstellung — mit Übungen |
+| [[Deutsch/Grammatik/Vorgangspassiv\|🔁 Vorgangspassiv]] | werden-Passiv — Bildung, Tempora, Aktiv↔Passiv Umwandlung |
+| [[Deutsch/Grammatik/Nebensätze\|📎 Nebensätze]] | weil, dass, wenn, obwohl — Verb am Ende, Konnektoren, Stellung |
 
 ---
 
 > [!tip] Lern-Strategie
-> Trennbare Verben sind der Schlüssel zum deutschen Satzbau. Wenn du die Präfixe und ihre Bedeutung kennst, verstehst du 80% der Alltagskommunikation.
+> Trennbare Verben sind der Schlüssel zum deutschen Satzbau. Wenn du die Präfixe und ihre Bedeutung kennst, verstehst du 80% der Alltagskommunikation. Die Nebensätze kommen direkt danach — sie bestimmen, wie komplex dein Deutsch klingt.

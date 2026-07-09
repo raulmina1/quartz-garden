@@ -22,12 +22,14 @@ publish: true
 
 | Guide | Description |
 |-------|-------------|
-| [[Engineering/Hydrogen-Pathways\|🧪 Hydrogen Production Pathways]] | Grey, blue, and green hydrogen — technologies, costs, and the European hydrogen backbone. |
-| [[Engineering/Direct-Air-Capture\|🌿 Direct Air Capture (DAC) — Capturing CO₂ from the Atmosphere]] | How DAC works, PVSA technology, adsorbent materials, and the Skarstrom cycle. |
+| [[Engineering/Hydrogen-Pathways\|🧪 Hydrogen Production Pathways]] | Grey, blue, and green hydrogen — technologies, costs, and infrastructure. |
+| [[Engineering/SMR\|🏭 Steam Methane Reforming (SMR)]] | How grey hydrogen is made — chemistry, process, emissions, integration with CCS. |
+| [[Engineering/PSA\|💨 Pressure Swing Adsorption (PSA)]] | Cyclic gas separation — the workhorse of hydrogen purification and CO₂ capture. |
+| [[Engineering/Direct-Air-Capture\|🌿 Direct Air Capture (DAC)]] | Capturing CO₂ from ambient air — PVSA, Skarstrom cycle, adsorbent materials. |
 
 ---
 
 > Coming next
-> - Pressure Swing Adsorption (PSA) explained
-> - Steam Methane Reforming (SMR) — process and emissions
-> - Germany's refinery landscape and hydrogen demand
+> - CO₂ Transport and Storage Infrastructure
+> - Refinery Processes: Hydrocracking, Desulfurization
+> - Energy Management Systems and Redispatch 2.0

@@ -30,15 +30,23 @@ Welcome to the **RA Blog** — a digital garden published from my Obsidian vault
 | [[Projekte]] | Current projects, services and what's coming next. |
 | [[Mandamientos RA]] | The RA principles — ideas and reflection. |
 
-## Knowledge
+## Wissen & Technik
 
 | Note | Description |
 |------|-------------|
-| [[Engineering/index\|🧪 Engineering & Technology]] | Hydrogen production, carbon capture, energy systems. |
-| [[Wirtschaft/index\|⚡ Wirtschaft & Energie]] | Energy economics, merit order system, CO₂ costs in Germany. |
+| [[Engineering/index\|🧪 Engineering & Technology]] | Hydrogen, carbon capture, PSA, SMR — chemical engineering deep-dives. |
+| [[Wirtschaft/index\|⚡ Wirtschaft & Energie]] | Energy economics, merit order, CO₂ costs in Germany. |
 | [[Semantic Web/index\|Semantic Web & Knowledge Graphs]] | RDF, SPARQL, OWL, Ontology Engineering, Linked Data. |
-| [[AI Ecosystem]] | Everything inside the YellowVault AI layer — prompts, agents, workflows, tools. |
-| [[Deutsch/index\|🇩🇪 Deutsch Ressourcen]] | German learning tools, flashcards, grammar, and study resources. |
+| [[AI Ecosystem]] | Everything inside the YellowVault AI layer — prompts, agents, workflows. |
+| [[AI Architecture\|🔌 AI Architecture]] | Hook systems, file watchers, and the reactive automation layer. |
+| [[File Watcher Pattern\|🔄 File Watcher Pattern]] | How vault automation works at the filesystem level. |
+
+## Deutsch
+
+| Note | Description |
+|------|-------------|
+| [[Deutsch/index\|🇩🇪 Deutsch Ressourcen]] | Learning tools, flashcards, grammar guides. |
+| [[Deutsch/Grammatik/index\|📚 Grammatik]] | Trennbare Verben, Modalverben, Passiv, Nebensätze. |
 | [[Mental Maps/index\|🧠 Mental Maps — Deutsch B1.2]] | Interactive concept maps from VHS class. |
 
 > [!quote] Ra
