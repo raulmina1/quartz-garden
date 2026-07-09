@@ -45,7 +45,7 @@ This is not a portfolio. This is the actual system I use every day: a structured
 | [4. Scheduled Tasks](#4-scheduled-tasks-03_schedule) | 4 | Cron-driven AI processes |
 | [5. Workflows](#5-workflows-13_workflows) | 5 | Documented multi-step procedures |
 | [6. Rules](#6-rules-07_rules) | 4 | Behavioral constraints for AI operations |
-| [7. Semantic Web](#7-semantic-web-11_semantic_web) | 17 | Ontology research for TIB Data Architect |
+| [7. Semantic Web](/Semantic-Web) | 17 | Ontology research for TIB Data Architect — published as full guides |
 | [8. Tools](#8-tools-14_tools) | 2 | Custom-built utilities |
 | [9. Troubleshooting](#9-troubleshooting-06_troubleshooting) | 6 | Bug reports and resolution logs |
 | [10. Reference](#10-reference-05_information) | 9 | Architecture notes and comparisons |
