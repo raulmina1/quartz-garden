@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gegensätze & Redemittel — Mermaid Diagramm</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#fafaf5;display:flex;justify-content:center;padding:1rem;min-height:100vh}
+  .mermaid-container{width:100%;max-width:1200px}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true,theme:'default',securityLevel:'loose',flowchart:{useMaxWidth:true,htmlLabels:true,curve:'basis'}})</script>
+</head>
+<body>
+<div class="mermaid-container"><pre class="mermaid">
+flowchart LR
+    subgraph ABSTRACTO["🧩 ABSTRAKT: Grammatik"]
+        G1["trotz + Genitiv<br/>Präposition · Nomen-basiert<br/>DTZ: immer Genitiv"]
+        G2["obwohl + Nebensatz<br/>Konjunktion · Verb am Ende<br/>Flexibler: ganze Sachverhalte"]
+        G3["trotzdem<br/>Adverb · Zwei Hauptsätze<br/>Betonung auf Kontrast"]
+        G4["Konjunktiv II<br/>wäre · hätte · könnte · würde<br/>Distanz = Höflichkeit"]
+        G5["wenn-Sätze<br/>temporal ODER konditional<br/>Verb am Ende"]
+    end
+    G1 ---|"3-in-1<br/>Kontrast-Toolkit"| G2
+    G2 ---|"3-in-1<br/>Kontrast-Toolkit"| G3
+    subgraph MITTEL["🔧 WERKZEUGE: Redemittel"]
+        R1["💡 Vorschläge machen<br/>Ich schlage vor, dass…<br/>Was hältst du davon, wenn…?"]
+        R2["🎩 Höflich kritisieren<br/>Es wäre schön, wenn…<br/>Ich hätte da eine Bitte"]
+        R3["😮 Reagieren<br/>😊 freundlich · 😲 erstaunt<br/>😤 verärgert · 😔 entschuldigend"]
+    end
+    subgraph KONKRET["💬 KONKRET: Sätze"]
+        P1["trotz des Regens<br/>trotz der großen Hitze<br/>trotz der vielen Probleme"]
+        P2["Ich schlage vor, dass…<br/>Wir können auch…<br/>Mein Vorschlag ist…"]
+        P3["Es wäre schön, wenn…<br/>Das tut mir schrecklich leid.<br/>Kein Problem."]
+        P4["Das ist ja wohl<br/>eine Frechheit!<br/>Ach, wirklich?"]
+    end
+    subgraph KONTEXT["🏠 KONTEXT: Wohnungssuche"]
+        W1["wenn man umzieht<br/>wenn man ein Baby bekommt<br/>wenn die Miete teurer wird"]
+        W2["Vokabeln:<br/>gründen · Anzeige<br/>umgeben · geeignet<br/>Wohngelegenheit<br/>teilweise · Vorort"]
+    end
+    subgraph NOTEN["📓 NOTIZBUCH: Korrekturen"]
+        N1["3 Wege für Gegensätze<br/>gleiche Logik · 3 Strukturen<br/>Je nach Kontext wählen"]
+        N2["wenn + Nebensatz<br/>trotz + Genitiv Tabelle<br/>Konjunktiv II für Höflichkeit"]
+    end
+    subgraph PRAXIS["✅ PRAXIS: Übungen"]
+        U1["C1: Anzeigen zuordnen"]
+        U2["C2: trotz + Genitiv<br/>Tabelle ausfüllen"]
+        U3["12: Höflich kritisieren<br/>& reagieren"]
+        U4["14: obwohl-Sätze<br/>bilden"]
+        U5["16: Situationen lösen<br/>Wortschatz Wohnen"]
+    end
+    subgraph SIDE["📄 SEITE: Papier-Übungen"]
+        S1["trotz + Genitiv<br/>trotz der Hitze<br/>trotz des Unfalls"]
+        S2["3 Pfade zum Gegensatz<br/>trotz · obwohl · trotzdem<br/>im Direktvergleich"]
+    end
+    subgraph LERN["🎯 LERNZUSAMMENFASSUNG"]
+        L1["Gegensätze auf 3 Arten<br/>Höflich kritisieren<br/>ohne Befehlston"]
+        L2["7 neue Wörter<br/>6 Übungen bearbeitet<br/>Kapitel 6: Zusammenleben"]
+    end
+    G1 -->|"trotz-Sätze<br/>als Vorschläge nutzbar"| R1
+    G1 -->|"trotz-Sätze<br/>als Reaktion einsetzbar"| R3
+    G4 -->|"ermöglicht höfliche<br/>Kritik statt Befehl"| R2
+    G5 -->|"wenn für<br/>Vorschlags-Fragen"| R1
+    R1 -->|"materialisiert sich in"| P2
+    R2 -->|"materialisiert sich in"| P3
+    R3 -->|"materialisiert sich in"| P3
+    R3 -->|"materialisiert sich in"| P4
+    G1 -->|"wird konkret in"| P1
+    G4 -->|"wird konkret in"| P3
+    G5 -->|"wenn-Sätze<br/>als Bedingung"| W1
+    G2 -->|"obwohl für<br/>Wohnungsbeschreibung"| W1
+    G1 -->|"trotz für<br/>Wohnungskontext"| W1
+    W1 -->|"Kontext liefert"| W2
+    P1 -->|"geübt in"| U2
+    P2 -->|"geübt in"| U3
+    P3 -->|"geübt in"| U3
+    P4 -->|"angewendet in"| U5
+    G2 -->|"geübt in"| U4
+    G1 -->|"zusammengefasst in"| N1
+    G2 -->|"zusammengefasst in"| N1
+    G3 -->|"zusammengefasst in"| N1
+    G4 -->|"Grammatik-Callout in"| N2
+    G5 -->|"Grammatik-Callout in"| N2
+    G1 -->|"Genitiv praktisch<br/>geübt in"| S1
+    G1 -->|"Direktvergleich<br/>der 3 Varianten"| S2
+    G2 -->|"Direktvergleich<br/>der 3 Varianten"| S2
+    G3 -->|"Direktvergleich<br/>der 3 Varianten"| S2
+    U1 -->|"fließt ein in"| L1
+    U2 -->|"fließt ein in"| L1
+    U3 -->|"fließt ein in"| L1
+    U4 -->|"fließt ein in"| L1
+    U5 -->|"fließt ein in"| L1
+    W2 -->|"fließt ein in"| L2
+    S1 -->|"fließt ein in"| L1
+    S2 -->|"fließt ein in"| L1
+    N1 -->|"fließt ein in"| L1
+    N2 -->|"fließt ein in"| L1
+    style ABSTRACTO fill:#e8eaf6,stroke:#283593,stroke-width:2px
+    style MITTEL fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style KONKRET fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px
+    style KONTEXT fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style NOTEN fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style PRAXIS fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    style SIDE fill:#fff9c4,stroke:#f9a825,stroke-width:2px
+    style LERN fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px
+    style G1 fill:#c5cae9,stroke:#283593
+    style G2 fill:#c5cae9,stroke:#283593
+    style G3 fill:#c5cae9,stroke:#283593
+    style G4 fill:#c5cae9,stroke:#283593
+    style G5 fill:#c5cae9,stroke:#283593
+    style R1 fill:#ffe0b2,stroke:#e65100
+    style R2 fill:#ffe0b2,stroke:#e65100
+    style R3 fill:#ffe0b2,stroke:#e65100
+    style P1 fill:#c8e6c9,stroke:#1b5e20
+    style P2 fill:#c8e6c9,stroke:#1b5e20
+    style P3 fill:#c8e6c9,stroke:#1b5e20
+    style P4 fill:#c8e6c9,stroke:#1b5e20
+    style W1 fill:#b3e5fc,stroke:#01579b
+    style W2 fill:#b3e5fc,stroke:#01579b
+    style N1 fill:#e1bee7,stroke:#7b1fa2
+    style N2 fill:#e1bee7,stroke:#7b1fa2
+    style U1 fill:#f8bbd0,stroke:#880e4f
+    style U2 fill:#f8bbd0,stroke:#880e4f
+    style U3 fill:#f8bbd0,stroke:#880e4f
+    style U4 fill:#f8bbd0,stroke:#880e4f
+    style U5 fill:#f8bbd0,stroke:#880e4f
+    style S1 fill:#fff9c4,stroke:#f9a825
+    style S2 fill:#fff9c4,stroke:#f9a825
+    style L1 fill:#a5d6a7,stroke:#2e7d32
+    style L2 fill:#a5d6a7,stroke:#2e7d32
+</pre></div>
+</body>
+</html>
