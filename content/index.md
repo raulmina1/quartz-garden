@@ -34,10 +34,12 @@ Welcome to the **RA Blog** — a digital garden published from my Obsidian vault
 
 | Note | Description |
 |------|-------------|
-| [[Semantic Web/index\|Semantic Web & Knowledge Graphs]] | A complete guide series: RDF, SPARQL, OWL, Ontology Engineering, Linked Data, and more. |
+| [[Engineering/index\|🧪 Engineering & Technology]] | Hydrogen production, carbon capture, energy systems. |
+| [[Wirtschaft/index\|⚡ Wirtschaft & Energie]] | Energy economics, merit order system, CO₂ costs in Germany. |
+| [[Semantic Web/index\|Semantic Web & Knowledge Graphs]] | RDF, SPARQL, OWL, Ontology Engineering, Linked Data. |
 | [[AI Ecosystem]] | Everything inside the YellowVault AI layer — prompts, agents, workflows, tools. |
+| [[Deutsch/index\|🇩🇪 Deutsch Ressourcen]] | German learning tools, flashcards, grammar, and study resources. |
 | [[Mental Maps/index\|🧠 Mental Maps — Deutsch B1.2]] | Interactive concept maps from VHS class. |
-| [[Deutsch/index\|🇩🇪 Deutsch Ressourcen]] | German learning tools, flashcards, and study resources. |
 
 > [!quote] Ra
 > Every published note is a seed. What grows from it is no longer only mine.
