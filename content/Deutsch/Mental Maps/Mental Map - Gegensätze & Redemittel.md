@@ -12,8 +12,8 @@ Topics:
   - Deutschkurs
   - Mindmaps
 related:
-  - "[[Mental Maps]]"
-  - "[[Deutsch lernen als Ingenieur]]"
+  - "[[Mental Maps/index]]"
+  - "[[Deutsch/index]]"
 description: "Interaktive Mental Map: trotz, obwohl, trotzdem, Konjunktiv II und Redemittel zur Wohnungssuche. 8 Schichten — von Grammatik über echte Sätze bis zu den Übungen."
 reading_time: "2 min"
 type: miniguide
