@@ -14,7 +14,7 @@ tags:
   - hooks
   - workflows
 related:
-  - "[[Projekte & Leistungen]]"
+  - "[[Projekte]]"
   - "[[Prompt Shop]]"
   - "[[Einführung]]"
 date: 2026-07-06
@@ -23,7 +23,7 @@ lang: en
 publish: true
 ---
 
-###### Related: [[Projekte & Leistungen]] | [[Prompt Shop]] | [[Einführung]]
+###### Related: [[Projekte]] | [[Prompt Shop]] | [[Einführung]]
 
 ---
 

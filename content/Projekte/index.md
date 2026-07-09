@@ -1,8 +1,6 @@
 ---
-Topics:
-  - RA Blog
-  - Projects
-  - Services
+title: "Projekte & Leistungen"
+date: 2026-07-09
 tags:
   - projekte
   - leistungen
@@ -10,9 +8,16 @@ tags:
 related:
   - "[[Einführung]]"
   - "[[Mandamientos RA]]"
+description: Current projects, services, and what's coming next — from AI agents to knowledge systems and engineering consulting.
+reading_time: "3 min"
+type: section-index
+lang: de
+publish: true
 ---
 
-###### Related: [[Einführung]] | [[Mandamientos RA]]
+# Projekte & Leistungen
+
+> Was ich mache, woran ich arbeite und was als Nächstes kommt.
 
 ---
 
@@ -36,7 +41,7 @@ related:
 | **Tasks Auto-verschieben** | Migración automática de tareas pendientes entre daily notes | ✅ neu |
 | Agente Mera | KI-Entrepreneurship-Coach für Geschäftsideen — Bewertungs-Framework mit Scoring | 🔨 in Entwicklung |
 | RAG + Vector DB | KI-System über dem YellowVault (Chroma / Weaviate / Pinecone) | 🔨 in Entwicklung |
-| Prompt Shop | Kuratierte Prompt-Sammlung für Engineering-Aufgaben | 🟢 aktiv |
+| [[Prompt Shop]] | Kuratierte Prompt-Sammlung für Engineering-Aufgaben | 🟢 aktiv |
 | ActivityWatch Statistik | Dashboard für Zeitanalyse — Export, Metriken, Wochenberichte | 🔨 in Entwicklung |
 | Ordner-Chaos | Systematische Sortierung von Desktop, Downloads und Dokumenten | 🗂️ in Bearbeitung |
 

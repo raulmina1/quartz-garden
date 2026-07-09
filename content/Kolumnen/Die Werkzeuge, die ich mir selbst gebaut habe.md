@@ -9,7 +9,7 @@ tags:
   - ki
   - ra-blog
 related:
-  - "[[Projekte & Leistungen]]"
+  - "[[Projekte]]"
   - "[[Einführung]]"
 date: 2026-06-15
 type: kolumne
@@ -17,7 +17,7 @@ lang: de
 publish: true
 ---
 
-###### Related: [[Projekte & Leistungen]] | [[Einführung]]
+###### Related: [[Projekte]] | [[Einführung]]
 
 ---
 
