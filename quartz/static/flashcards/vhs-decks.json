@@ -1,10 +1,744 @@
 {
-  "generated": "2026-07-09T12:58:51.048033",
+  "generated": "2026-07-09T22:22:40.490404",
   "source": "C:\\Vaults\\YellowVault\\03_INFORMATIONEN\\05_PROGRAMS\\14_ANKI\\01_DATABASE",
-  "total_decks": 13,
-  "total_vocab_pairs": 367,
-  "total_grammar_cards": 574,
+  "total_decks": 14,
+  "total_vocab_pairs": 444,
+  "total_grammar_cards": 626,
   "decks": [
+    {
+      "id": "vhs-b12--090726--hausregeln---verben-mit-prpositionen---zwei",
+      "title": "VHS B1.2 — 09.07.26 — Hausregeln · Verben mit Präpositionen · Zweiteilige Konnektoren",
+      "date": "2026-07-09",
+      "deck": "Deutsch::Anki - VHS B1.2 — 09.07.26 — Hausregeln · Verben mit Präpositionen · Zweiteilige Konnektoren",
+      "vocab_pairs": [
+        {
+          "de": "das Eigentum",
+          "en": "property / belongings",
+          "example": "Wir achten auf das Eigentum der anderen.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "der Lärm",
+          "en": "noise",
+          "example": "Wir machen keinen Lärm in der Ruhezeit.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "die Ruhezeiten (Pl.)",
+          "en": "quiet hours",
+          "example": "Ruhezeiten gelten von 13 bis 15 Uhr.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "die Mahlzeiten (Pl.)",
+          "en": "meals",
+          "example": "Wir essen gemeinsam die Mahlzeiten.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "die Pflichten (Pl.)",
+          "en": "duties / chores",
+          "example": "Jeder hat Pflichten im Haushalt.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "der Umgang",
+          "en": "interaction / dealing with",
+          "example": "Der Umgang miteinander ist freundlich.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "miteinander",
+          "en": "with each other",
+          "example": "Wir sprechen friedlich miteinander.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "beleidigen",
+          "en": "to insult",
+          "example": "Wir beleidigen niemanden.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "niemanden (Akk.)",
+          "en": "nobody (accusative)",
+          "example": "Wir schreien niemanden an.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "besprechen",
+          "en": "to discuss",
+          "example": "Probleme besprechen wir gemeinsam.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "ausreden",
+          "en": "to finish speaking",
+          "example": "Wir lassen den anderen ausreden.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "mindestens",
+          "en": "at least",
+          "example": "Wir essen mindestens einmal am Tag zusammen.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "gemeinsam",
+          "en": "together",
+          "example": "Die Familie isst gemeinsam.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "liegen",
+          "en": "to lie / be placed",
+          "example": "Keine Zeitungen liegen auf dem Tisch.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "die Zeitung, -en",
+          "en": "newspaper",
+          "example": "Zeitungen gehören nicht auf den Esstisch.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "die Rücksicht",
+          "en": "consideration",
+          "example": "Wir nehmen Rücksicht aufeinander.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "schlafen (schläft, schlief, hat geschlafen)",
+          "en": "to sleep",
+          "example": "Wenn jemand schläft, machen wir keinen Lärm.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "sich beschäftigen mit + D",
+          "en": "to occupy oneself with",
+          "example": "Alle beschäftigen sich ruhig.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "übernehmen (übernimmt, übernahm, hat übernommen)",
+          "en": "to take over",
+          "example": "Jedes Familienmitglied übernimmt Aufgaben.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "entweder",
+          "en": "either",
+          "example": "Entweder trägt man den Müll runter oder hilft aufräumen.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "aufräumen",
+          "en": "to tidy up",
+          "example": "Wir helfen beim Aufräumen.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "der Haushalt",
+          "en": "household",
+          "example": "Pflichten im Haushalt sind wichtig.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "achten auf + A",
+          "en": "to pay attention to",
+          "example": "Wir achten auf die Privatsphäre.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "die Privatsphäre",
+          "en": "privacy",
+          "example": "Jeder hat ein Recht auf Privatsphäre.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "klopfen an + A",
+          "en": "to knock on",
+          "example": "Wir klopfen an, bevor wir reingehen.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "außerdem",
+          "en": "furthermore / besides",
+          "example": "Außerdem fragen wir um Erlaubnis.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "benutzen",
+          "en": "to use",
+          "example": "Wir fragen, bevor wir etwas benutzen.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "der Raum, die Räume",
+          "en": "room",
+          "example": "Jeder hat eigene Räume.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "die Geduld",
+          "en": "patience",
+          "example": "Wir haben Geduld miteinander.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "füreinander",
+          "en": "for each other",
+          "example": "Wir sind alle füreinander da.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "sondern (Konjunktion)",
+          "en": "but rather (used after negation)",
+          "example": "Ich esse keine Schokolade, sondern ich esse Obst.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "besonders",
+          "en": "especially / particularly",
+          "example": "Die Ruhezeiten sind besonders wichtig.",
+          "section": "Vokabeln"
+        },
+        {
+          "de": "Rücksicht nehmen auf + A",
+          "en": "to consider / be considerate of",
+          "example": "",
+          "section": "Phrasen"
+        },
+        {
+          "de": "aufpassen auf + A",
+          "en": "to pay attention to / look after",
+          "example": "",
+          "section": "Phrasen"
+        },
+        {
+          "de": "klopfen an + A",
+          "en": "to knock on",
+          "example": "",
+          "section": "Phrasen"
+        },
+        {
+          "de": "fragen um Erlaubnis",
+          "en": "to ask for permission",
+          "example": "",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich ausreden lassen",
+          "en": "to let someone finish speaking",
+          "example": "",
+          "section": "Phrasen"
+        },
+        {
+          "de": "füreinander da sein",
+          "en": "to be there for each other",
+          "example": "",
+          "section": "Phrasen"
+        },
+        {
+          "de": "zuhören + D",
+          "en": "to listen to",
+          "example": "Wir hören einander zu.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "Privatsphäre respektieren",
+          "en": "to respect privacy",
+          "example": "Wir respektieren die Privatsphäre der anderen.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "Geduld haben",
+          "en": "to have patience",
+          "example": "Wir haben Geduld miteinander.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "warten auf + A",
+          "en": "to wait for",
+          "example": "Ich warte auf den Bus.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "denken an + A",
+          "en": "to think of",
+          "example": "Ich denke an dich.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich freuen auf + A (Zukunft)",
+          "en": "to look forward to",
+          "example": "Ich freue mich auf das Wochenende.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich freuen über + A (Gegenwart)",
+          "en": "to be happy about",
+          "example": "Ich freue mich über das Geschenk.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich interessieren für + A",
+          "en": "to be interested in",
+          "example": "Ich interessiere mich für Musik.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich kümmern um + A",
+          "en": "to take care of",
+          "example": "Ich kümmere mich um den Hund.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich bewerben um + A / bei + D",
+          "en": "to apply for / at",
+          "example": "Ich bewerbe mich um den Job bei der Firma.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "teilnehmen an + D",
+          "en": "to participate in",
+          "example": "Ich nehme an dem Kurs teil.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "verzichten auf + A",
+          "en": "to do without / give up",
+          "example": "Ich verzichte auf Zucker.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich verlassen auf + A",
+          "en": "to rely on",
+          "example": "Du kannst dich auf mich verlassen.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "träumen von + D",
+          "en": "to dream of",
+          "example": "Ich träume von einer Weltreise.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "hoffen auf + A",
+          "en": "to hope for",
+          "example": "Ich hoffe auf gutes Wetter.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich erinnern an + A",
+          "en": "to remember",
+          "example": "Ich erinnere mich an unseren Urlaub.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich vorbereiten auf + A",
+          "en": "to prepare for",
+          "example": "Ich bereite mich auf die Prüfung vor.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich entschuldigen für + A / bei + D",
+          "en": "to apologize for / to",
+          "example": "Ich entschuldige mich für den Fehler bei dir.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich beschweren über + A / bei + D",
+          "en": "to complain about / to",
+          "example": "Er beschwert sich über das Essen beim Chef.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "gratulieren zu + D",
+          "en": "to congratulate on",
+          "example": "Wir gratulieren dir zum Geburtstag.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "einladen zu + D",
+          "en": "to invite to",
+          "example": "Ich lade dich zum Essen ein.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "gehören zu + D",
+          "en": "to belong to",
+          "example": "Dieses Buch gehört zu meiner Sammlung.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "zweifeln an + D",
+          "en": "to doubt",
+          "example": "Ich zweifle an seiner Geschichte.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sprechen über + A / mit + D / von + D",
+          "en": "to talk about / with / of",
+          "example": "Wir sprechen über das Projekt. / Ich spreche mit meinem Lehrer.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich gewöhnen an + A",
+          "en": "to get used to",
+          "example": "Ich gewöhne mich an das kalte Wetter.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich engagieren für + A",
+          "en": "to get involved in",
+          "example": "Sie engagiert sich für den Umweltschutz.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "nachdenken über + A",
+          "en": "to reflect on",
+          "example": "Ich denke über das Problem nach.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "reagieren auf + A",
+          "en": "to react to",
+          "example": "Er reagiert nicht auf meine Nachricht.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich wundern über + A",
+          "en": "to wonder about",
+          "example": "Ich wundere mich über sein Verhalten.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "lachen über + A",
+          "en": "to laugh about",
+          "example": "Wir lachen über den Witz.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich ärgern über + A",
+          "en": "to get annoyed about",
+          "example": "Ich ärgere mich über den Stau.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "anfangen mit + D",
+          "en": "to start with",
+          "example": "Ich fange mit der Hausaufgabe an.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "beginnen mit + D",
+          "en": "to begin with",
+          "example": "Der Kurs beginnt mit einer Einführung.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich treffen mit + D",
+          "en": "to meet with",
+          "example": "Ich treffe mich mit meinen Freunden.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "telefonieren mit + D",
+          "en": "to talk on the phone with",
+          "example": "Ich telefoniere mit meiner Mutter.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "diskutieren über + A / mit + D",
+          "en": "to discuss about / with",
+          "example": "Wir diskutieren über das Thema.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "passen zu + D",
+          "en": "to match / fit with",
+          "example": "Die Jacke passt gut zu deiner Hose.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "sich bedanken für + A / bei + D",
+          "en": "to thank for / to thank someone",
+          "example": "Ich bedanke mich für die Einladung.",
+          "section": "Phrasen"
+        },
+        {
+          "de": "schicken an + A / zu + D",
+          "en": "to send to",
+          "example": "Ich schicke den Brief an dich.",
+          "section": "Phrasen"
+        }
+      ],
+      "grammar_cards": [
+        {
+          "front": "cards-deck: Deutsch",
+          "back": "Anki - VHS B1.2 — 09.07.26 — Hausregeln · Verben mit Präpositionen · Zweiteilige Konnektoren",
+          "section": ""
+        },
+        {
+          "front": "Was bedeutet \"entweder ... oder\" und wie wird es verwendet?",
+          "back": "Es bedeutet \"either ... or\". Es verbindet zwei Alternativen. Position: entweder + Verb + Subjekt + Rest + oder + Verb + Subjekt + Rest. Beispiel: Entweder kommst du mit oder du wartest hier. Man kann es auch vor Satzgliedern verwenden: Ich arbeite entweder am Samstag oder am Sonntag.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Was bedeutet \"zwar ... aber\" und wie wird es verwendet?",
+          "back": "Es bedeutet \"it is true that ... but\". Es drückt einen Gegensatz aus — etwas Positives oder Faktisches wird eingeräumt, dann folgt eine Einschränkung mit \"aber\". Zwar steht oft nach dem Verb (Position 3). Beispiel: Ich mag zwar Schokolade, aber ich esse sie nicht oft.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Was bedeutet \"nicht nur ... sondern auch\" und wie wird es verwendet?",
+          "back": "Es bedeutet \"not only ... but also\". Es betont, dass zwei Dinge gleichzeitig gelten. Beispiel: Wir haben nicht nur die Stadt besichtigt, sondern wir haben auch eingekauft.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat das Verb \"warten\"?",
+          "back": "warten auf + Akkusativ. Beispiel: Ich warte auf den Bus.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat das Verb \"denken\"?",
+          "back": "denken an + Akkusativ. Beispiel: Ich denke oft an meine Familie.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat das Verb \"sich freuen\" und was ist der Unterschied?",
+          "back": "sich freuen auf + A (Zukunft) — to look forward to. sich freuen über + A (Gegenwart/Vergangenheit) — to be happy about. Beispiel: Ich freue mich auf das Wochenende. / Ich freue mich über das Geschenk.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"sich interessieren\"?",
+          "back": "sich interessieren für + Akkusativ. Beispiel: Ich interessiere mich für Musik.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"sich kümmern\"?",
+          "back": "sich kümmern um + Akkusativ. Beispiel: Ich kümmere mich um den Hund.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"sich bewerben\"?",
+          "back": "sich bewerben um + A (den Job) / bei + D (der Firma). Beispiel: Ich bewerbe mich um den Job bei der Firma.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"teilnehmen\"?",
+          "back": "teilnehmen an + Dativ (trennbares Verb). Beispiel: Ich nehme an dem Kurs teil.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"verzichten\"?",
+          "back": "verzichten auf + Akkusativ. Beispiel: Ich verzichte auf Zucker.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"sich verlassen\"?",
+          "back": "sich verlassen auf + Akkusativ. Beispiel: Du kannst dich auf mich verlassen.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"träumen\"?",
+          "back": "träumen von + Dativ. Beispiel: Ich träume von einer Weltreise.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"hoffen\"?",
+          "back": "hoffen auf + Akkusativ. Beispiel: Ich hoffe auf gutes Wetter.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"sich erinnern\"?",
+          "back": "sich erinnern an + Akkusativ. Beispiel: Ich erinnere mich an unseren Urlaub.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"sich vorbereiten\"?",
+          "back": "sich vorbereiten auf + Akkusativ. Beispiel: Ich bereite mich auf die Prüfung vor.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"sich entschuldigen\"?",
+          "back": "sich entschuldigen für + A (den Fehler) / bei + D (der Person). Beispiel: Ich entschuldige mich für den Fehler bei dir.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"sich beschweren\"?",
+          "back": "sich beschweren über + A (das Problem) / bei + D (der Person). Beispiel: Er beschwert sich über das Essen beim Chef.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"gratulieren\"?",
+          "back": "gratulieren zu + Dativ. Beispiel: Wir gratulieren dir zum Geburtstag.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"einladen\"?",
+          "back": "einladen zu + Dativ (trennbares Verb). Beispiel: Ich lade dich zum Essen ein.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"gehören\"?",
+          "back": "gehören zu + Dativ. Beispiel: Dieses Buch gehört zu meiner Sammlung.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präposition hat \"zweifeln\"?",
+          "back": "zweifeln an + Dativ. Beispiel: Ich zweifle an seiner Geschichte.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Welche Präpositionen hat \"sprechen\" und wann verwendet man welche?",
+          "back": "sprechen über + A (Thema — to talk about), sprechen mit + D (Person — to talk with), sprechen von + D (allgemein — to talk of). Beispiel: Wir sprechen über das Projekt. / Ich spreche mit meinem Lehrer. / Sie sprechen von der Reise.",
+          "section": "Grammatik-Regeln"
+        },
+        {
+          "front": "Wir nehmen ___ aufeinander. (consideration)",
+          "back": "Rücksicht",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Jeder klopft ___, bevor er reingeht. (on the door)",
+          "back": "an",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich frage ___ Erlaubnis, bevor ich etwas benutze. (for)",
+          "back": "um",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "___ trägt man den Müll runter, ___ hilft man beim Aufräumen. (either ... or)",
+          "back": "Entweder ... oder",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich mag ___ Schokolade, ___ ich esse sie nicht oft. (zwar ... aber)",
+          "back": "zwar ... aber",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Wir haben ___ ___ die Stadt besichtigt, ___ wir haben ___ eingekauft. (not only ... but also)",
+          "back": "nicht nur ... sondern ... auch",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich warte ___ den Bus. (auf + Akk)",
+          "back": "auf",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich denke oft ___ meine Familie. (an + Akk)",
+          "back": "an",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich freue mich ___ das Wochenende. (Zukunft)",
+          "back": "auf",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich freue mich ___ das Geschenk. (Gegenwart)",
+          "back": "über",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich interessiere mich ___ Musik. (für + Akk)",
+          "back": "für",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich kümmere mich ___ den Hund. (um + Akk)",
+          "back": "um",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich bewerbe mich ___ den Job ___ der Firma. (um / bei)",
+          "back": "um / bei",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich nehme ___ dem Kurs ___. (an + Dat, teil-)",
+          "back": "an / teil",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Du kannst dich ___ mich verlassen. (auf + Akk)",
+          "back": "auf",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich träume ___ einer Weltreise. (von + Dat)",
+          "back": "von",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich erinnere mich ___ unseren Urlaub. (an + Akk)",
+          "back": "an",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich bereite mich ___ die Prüfung ___. (auf + Akk, vor-)",
+          "back": "auf / vor",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Er beschwert sich ___ das Essen ___ Chef. (über + Akk / bei + Dat)",
+          "back": "über / beim",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Sie engagiert sich ___ den Umweltschutz. (für + Akk)",
+          "back": "für",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich gewöhne mich langsam ___ das kalte Wetter. (an + Akk)",
+          "back": "an",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Wir gratulieren dir ___ Geburtstag. (zu + Dat)",
+          "back": "zum",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Ich lade dich ___ Essen ___. (zu + Dat, ein-)",
+          "back": "zum / ein",
+          "section": "Lückensätze"
+        },
+        {
+          "front": "Eselsbrücke: sich freuen auf vs über",
+          "back": "auf = A wie \"Auf die Zukunft\" (Future). über = Ü wie \"Überraschung jetzt\" (Gegenwart).",
+          "section": "Eselsbrücken"
+        },
+        {
+          "front": "Eselsbrücke: sich beschweren bei vs über",
+          "back": "bei = B wie \"Bei wem?\" (Person). über = Ü wie \"Über was?\" (Thema).",
+          "section": "Eselsbrücken"
+        },
+        {
+          "front": "Eselsbrücke: sich entschuldigen bei vs für",
+          "back": "bei = B wie \"Bei wem?\" (Person). für = F wie \"Für was?\" (Grund).",
+          "section": "Eselsbrücken"
+        },
+        {
+          "front": "Eselsbrücke: \"entweder ... oder\" Wortstellung",
+          "back": "entweder zwingt das Verb direkt dahinter (wie eine Frage). Entweder KOMMST du mit oder du WARTEST hier. → Verb, Subjekt!",
+          "section": "Eselsbrücken"
+        },
+        {
+          "front": "Eselsbrücke: \"zwar ... aber\" = yes, but...",
+          "back": "Zwar = \"It's true that...\" (räumt ein). Aber = \"BUT\" (die echte Einschränkung). Wie: \"Ja, schon, ABER...\"",
+          "section": "Eselsbrücken"
+        }
+      ],
+      "total_vocab": 77,
+      "total_grammar": 52
+    },
     {
       "id": "vhs-b12--060726--zusammenleben---nachbarschaftsprobleme",
       "title": "VHS B1.2 — 06.07.26 — Zusammenleben · Nachbarschaftsprobleme",
