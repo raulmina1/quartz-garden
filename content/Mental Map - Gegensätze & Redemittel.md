@@ -14,7 +14,7 @@ Topics:
 related:
   - "[[Mental Maps]]"
   - "[[Deutsch lernen als Ingenieur]]"
-description: "Mapa mental interactivo: trotz, obwohl, trotzdem, Konjunktiv II y Redemittel para Wohnungssuche. 8 capas conectando gramática → frases reales → ejercicios."
+description: "Interaktive Mental Map: trotz, obwohl, trotzdem, Konjunktiv II und Redemittel zur Wohnungssuche. 8 Schichten — von Grammatik über echte Sätze bis zu den Übungen."
 reading_time: "2 min"
 type: miniguide
 lang: de
@@ -31,7 +31,7 @@ aliases:
 
 <pre class="mermaid">
 flowchart LR
-    subgraph ABSTRACTO["🧩 ABSTRACTO: Grammatik"]
+    subgraph ABSTRACTO["🧩 ABSTRAKT: Grammatik"]
         G1["trotz + Genitiv&lt;br/&gt;Präposition · Nomen-basiert&lt;br/&gt;DTZ: immer Genitiv"]
         G2["obwohl + Nebensatz&lt;br/&gt;Konjunktion · Verb am Ende&lt;br/&gt;Flexibler: ganze Sachverhalte"]
         G3["trotzdem&lt;br/&gt;Adverb · Zwei Hauptsätze&lt;br/&gt;Betonung auf Kontrast"]
@@ -48,7 +48,7 @@ flowchart LR
         R3["😮 Reagieren&lt;br/&gt;😊 freundlich · 😲 erstaunt&lt;br/&gt;😤 verärgert · 😔 entschuldigend"]
     end
 
-    subgraph KONKRET["💬 KONKRET: Phrasen"]
+    subgraph KONKRET["💬 KONKRET: Sätze"]
         P1["trotz des Regens&lt;br/&gt;trotz der großen Hitze&lt;br/&gt;trotz der vielen Probleme"]
         P2["Ich schlage vor, dass…&lt;br/&gt;Wir können auch…&lt;br/&gt;Mein Vorschlag ist…"]
         P3["Es wäre schön, wenn…&lt;br/&gt;Das tut mir schrecklich leid.&lt;br/&gt;Kein Problem."]
@@ -60,7 +60,7 @@ flowchart LR
         W2["Vokabeln:&lt;br/&gt;gründen · Anzeige&lt;br/&gt;umgeben · geeignet&lt;br/&gt;Wohngelegenheit&lt;br/&gt;teilweise · Vorort"]
     end
 
-    subgraph NOTEN["📓 NOTENBUCH: Korrekturen"]
+    subgraph NOTEN["📓 NOTIZBUCH: Korrekturen"]
         N1["3 Wege für Gegensätze&lt;br/&gt;gleiche Logik · 3 Strukturen&lt;br/&gt;Je nach Kontext wählen"]
         N2["wenn + Nebensatz&lt;br/&gt;trotz + Genitiv Tabelle&lt;br/&gt;Konjunktiv II für Höflichkeit"]
     end
@@ -73,7 +73,7 @@ flowchart LR
         U5["16: Situationen lösen&lt;br/&gt;Wortschatz Wohnen"]
     end
 
-    subgraph SIDE["📄 SIDE: Papier-Übungen"]
+    subgraph SIDE["📄 SEITE: Papier-Übungen"]
         S1["trotz + Genitiv&lt;br/&gt;trotz der Hitze&lt;br/&gt;trotz des Unfalls"]
         S2["3 Pfade zum Gegensatz&lt;br/&gt;trotz · obwohl · trotzdem&lt;br/&gt;im Direktvergleich"]
     end
@@ -83,7 +83,7 @@ flowchart LR
         L2["7 neue Wörter&lt;br/&gt;6 Übungen bearbeitet&lt;br/&gt;Kapitel 6: Zusammenleben"]
     end
 
-    G1 -->|"trotz-Phrasen&lt;br/&gt;als Vorschläge nutzbar"| R1
+    G1 -->|"trotz-Sätze&lt;br/&gt;als Vorschläge nutzbar"| R1
     G1 -->|"trotz-Sätze&lt;br/&gt;als Reaktion einsetzbar"| R3
     G4 -->|"ermöglicht höfliche&lt;br/&gt;Kritik statt Befehl"| R2
     G5 -->|"wenn für&lt;br/&gt;Vorschlags-Fragen"| R1
@@ -158,7 +158,7 @@ flowchart LR
 </pre>
 
 <p style="text-align:center; margin-top:0.5rem; font-size:0.85rem; color:#6b6b6b;">
-  <em>🖱️ Zoom: scroll · Pan: drag · Mover nodos: click + drag</em>
+  <em>🖱️ Zoom: Scroll · Pan: Ziehen · Knoten verschieben: Klick + Ziehen</em>
 </p>
 </div>
 
@@ -170,28 +170,28 @@ flowchart LR
 
 ---
 
-## 📊 Leyenda de capas
+## 📊 Legende der Schichten
 
-| Capa | Color | Significado |
-|------|-------|-------------|
-| 🧩 ABSTRACTO | Azul-gris | Reglas gramaticales puras — el "motor" de todo |
-| 🔧 WERKZEUGE | Naranja | Redemittel — cómo aplicar la gramática en conversación |
-| 💬 KONKRET | Verde | Frases reales que materializan las reglas |
-| 🏠 KONTEXT | Celeste | El tema *Wohnungssuche* como campo de pruebas |
-| 📓 NOTENBUCH | Lila | Síntesis del profesor — lo que el feedback revela |
-| 📄 SIDE | Amarillo | Ejercicios de papel — práctica directa |
-| ✅ PRAXIS | Rosa | Ejercicios del libro — aplicación formal |
-| 🎯 LERN | Verde fuerte | **Destino final** — todo confluye aquí |
+| Schicht | Farbe | Bedeutung |
+|---------|-------|-----------|
+| 🧩 ABSTRAKT | Blau-grau | Reine Grammatikregeln — der „Motor“ von allem |
+| 🔧 WERKZEUGE | Orange | Redemittel — wie man Grammatik im Gespräch einsetzt |
+| 💬 KONKRET | Grün | Echte Sätze, die die Regeln materialisieren |
+| 🏠 KONTEXT | Hellblau | Das Thema *Wohnungssuche* als Übungsfeld |
+| 📓 NOTIZBUCH | Lila | Feedback des Lehrers — was die Korrekturen zeigen |
+| 📄 SEITE | Gelb | Papierübungen — direkte Praxis |
+| ✅ PRAXIS | Rosa | Buchübungen — formale Anwendung |
+| 🎯 LERN | Kräftiges Grün | **Endziel** — alles fließt hier zusammen |
 
 ---
 
-## 🔑 Las 3 relaciones clave
+## 🔑 Die 3 wichtigsten Zusammenhänge
 
-1. **`trotz ─ obwohl ─ trotzdem`** (línea punteada horizontal) — son **1 idea × 3 estructuras**, no 3 temas separados
+1. **`trotz ─ obwohl ─ trotzdem`** (gestrichelte horizontale Linie) — das sind **1 Idee × 3 Strukturen**, nicht 3 getrennte Themen
 
-2. **Konjunktiv II → höfliche Kritik → Phrasen** — el Konjunktiv II no es "otro tema más", es el **habilitador** que convierte una orden en una petición cortés
+2. **Konjunktiv II → höfliche Kritik → Sätze** — der Konjunktiv II ist kein „weiteres Thema", sondern der **Ermöglicher**, der einen Befehl in eine höfliche Bitte verwandelt
 
-3. **Todos los caminos → Lernzusammenfassung** — las 7 capas confluyen en 2 nodos finales; si algo no llega a L1 o L2, no se aprendió realmente
+3. **Alle Wege → Lernzusammenfassung** — die 7 Schichten fließen in 2 Endknoten zusammen; was nicht bei L1 oder L2 ankommt, wurde nicht wirklich gelernt
 
-> [!tip] Navegación
-> Sigue las flechas de izquierda a derecha. Cada etiqueta en la flecha explica **por qué** existe esa conexión, no solo que existe.
+> [!tip] Navigation
+> Folge den Pfeilen von links nach rechts. Jede Beschriftung am Pfeil erklärt, **warum** diese Verbindung existiert — nicht nur, dass sie existiert.
