@@ -277,7 +277,15 @@ Custom-built utilities designed and documented in the vault.
 | **Dexter ABC Task Questions** | ABC triage question bank |
 | **Claude Code Window Views** | VS Code / Obsidian integration |
 | **Codex - OpenAI Coding Agent** | Alternative agent research |
-| **AI - Prompt Chaining** | Multi-prompt pipeline design |
+| **AI - Prompt Chaining** | Multi-prompt pipeline design patterns |
+| **ChatGPT Prompts** | General-purpose prompt collection |
+
+---
+
+> [!tip] Blog architecture pages
+> Detailed explanations of key system components are published on the blog:
+> - [[AI Architecture|🔌 Hook System — The Reactive Layer of an AI-Powered Vault]]
+> - [[File Watcher Pattern|🔄 File Watcher Pattern — How to Automate a Vault]]
 
 ---
 
