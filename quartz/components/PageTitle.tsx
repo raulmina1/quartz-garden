@@ -34,6 +34,13 @@ PageTitle.css = `
   display: block;
 }
 
+@media all and (max-width: 800px) {
+  .ra-logo {
+    width: 42px !important;
+    height: 42px !important;
+  }
+}
+
 .page-title {
   font-size: 1.75rem;
   margin: 0;
