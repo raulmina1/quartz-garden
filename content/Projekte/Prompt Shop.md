@@ -124,27 +124,17 @@ To order: **raulmina13@gmail.com** — include which pack(s) you want. Payment v
 
 ---
 
-## How to Order
+## Order
 
-1. Send an email to **raulmina13@gmail.com** with the subject `Prompt Pack Order`
-2. Specify which pack(s) or the Complete Bundle
-3. Transfer payment via bank (details below)
-4. You will receive the `.md` prompt files within 24 hours
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/TODO_RA_KO_FI)
 
----
+1. Fill the form below with your email and which pack(s) you want
+2. I'll send you a payment link via Ko-fi (card, PayPal, or bank transfer)
+3. After payment, you'll receive the `.md` files within 24 hours
 
-## Payment Details
-
-| Field | Details |
-|-------|---------|
-| Bank | N26 |
-| Owner | Raul Esteban Mina Riascos |
-| IBAN | DE35 1001 1001 2030 9802 37 |
-| Reference | Prompt Pack + your name |
-
-> Include your order reference (e.g. "German Learning Pack — Name") in the transfer description so the payment can be matched.
+**[Request Form →](mailto:raulmina13@gmail.com?subject=Prompt%20Pack%20Order&body=Email:%0A%0APacks%20wanted:%0A%0AMessage:)** *Click to open email with pre-filled subject. Include your email address and which packs you want.*
 
 ---
 
-> [!quote] Ra
-> Three thousand years as the source of all energy — and mortals are only now learning to package it.
+> [!note] RA
+> This is a curated collection of production prompts. Each one has been used daily, refined over months, and wired into a real vault. No refunds — you get exactly what I use.

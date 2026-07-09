@@ -188,28 +188,20 @@ Everything in both packs at a discount. Save €15 vs. buying separately.
 
 ---
 
-## How to Order
+## Order
 
-1. Send an email to **raulmina13@gmail.com** with the subject `Cron Pack Order`
-2. Specify which pack(s) or the Complete Bundle (describe the schedule + task if ordering Custom)
-3. Transfer payment via bank (details below)
-4. You will receive the `.md` cron manifests + setup instructions within 24 hours
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/TODO_RA_KO_FI)
 
----
+1. Fill the form below with your email and which cron(s) you want
+2. I'll send you a payment link via Ko-fi
+3. After payment, you'll receive the cron manifests + setup within 24 hours
 
-## Payment Details
-
-| Field | Details |
-|-------|---------|
-| Bank | N26 |
-| Owner | Raul Esteban Mina Riascos |
-| IBAN | DE35 1001 1001 2030 9802 37 |
-| Reference | Cron Pack + your name |
+**[Request Form →](mailto:raulmina13@gmail.com?subject=Cron%20Pack%20Order&body=Email:%0A%0ACrons%20wanted:%0A%0AMessage:)** *Click to send me an email. Include your email, which crons you want, and the schedule for Custom orders.*
 
 > [!warning] Requirements
-> You need **Hermes Agent** (or compatible cron system) to run these schedules. The crons ship as Hermes cron job definitions that load skills and execute prompts automatically. No coding required — just import the JSON definitions.
+> You need **Hermes Agent** (or compatible cron system) to run these schedules. No coding required — just import the JSON definitions.
 
 ---
 
-> [!quote] Ra
+> [!note] RA
 > The best automation is the one you forget exists because it always just works.

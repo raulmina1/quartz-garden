@@ -160,15 +160,53 @@ Also includes the **Agents Database** (master index) and **Improvement Plan** (d
 
 ## 3. Hooks (`02_HOOKS`)
 
-5 automation triggers that connect vault events to AI actions.
+5 automation triggers that connect vault events to AI actions. This is the reactive layer — the vault's nervous system.
+
+```mermaid
+flowchart TD
+    A[File change in vault] --> B[OS watcher detects]
+    B --> C[Debounce + settle delay]
+    C --> D{Trigger condition?}
+    D -->|No| E[Ignore]
+    D -->|Yes| F["run_prompt: true<br/>or invoke CLI"]
+    F --> G[Agent executes]
+    G --> H[Output to vault]
+
+    style A fill:#b8860b,stroke:#f0c040,color:#fff
+    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style E fill:#333,stroke:#444,color:#666
+    style F fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style G fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style H fill:#1a1a1a,stroke:#f0c040,color:#fff
+```
+
+### Active Hooks
 
 | Hook | Trigger | Action |
 |------|---------|--------|
-| **Prompt Runner Watcher** | File change in vault root | Reads `run_prompt: true` → executes prompt |
+| **Prompt Runner Watcher** | File change with `run_prompt: true` | Reads `run_prompt: true` → executes prompt |
 | **Vault Root File Watcher** | New file in vault root | Routes file to correct folder |
 | **Daily Note Trigger** | New daily note created | Executes daily AI routine |
 | **Neue Sätze Watcher** | New sentence added | Triggers Übersetzer agent |
 | **Deutsche Wörter Stammverzeichnis** | Vocabulary note created | Registers word in master index |
+
+### Hook vs. Agent
+
+| Characteristic | Hook | Agent |
+|----------------|------|-------|
+| **Nature** | Static, deterministic | Dynamic, cognitive |
+| **Initiative** | Reactive — waits for event | Proactive — decides how/when |
+| **Workflow** | Linear (if A → B) | Non-linear (can pivot, retry) |
+| **Resource cost** | Low | High (tokens per decision) |
+
+### File Watcher Pattern
+
+All filesystem hooks use the same infrastructure: Python `watchdog` with `PollingObserver`, 30s debounce per file, 2s settle delay for Obsidian's atomic saves, and a `state.json` keyed by modification time. The system follows a three-layer separation: **Watcher** (senses) → **Trigger** (decides) → **Executor** (acts). This makes debugging trivial — if a prompt didn't run, check which layer failed.
+
+> [!note] RA
+> Hooks are the nervous system (senses). Agents are the brain (decisions). Neither works alone.
 
 ---
 
@@ -313,5 +351,5 @@ Custom-built utilities designed and documented in the vault.
 
 ---
 
-> [!quote] Ra
+> [!note] RA
 > Every system I've built is a mirror of a gap I found — not in the tools, but in how I was using them.

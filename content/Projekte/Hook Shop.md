@@ -195,28 +195,20 @@ Everything in both packs at a discount. Save €15 vs. buying separately.
 
 ---
 
-## How to Order
+## Order
 
-1. Send an email to **raulmina13@gmail.com** with the subject `Hook Pack Order`
-2. Specify which pack(s) or the Complete Bundle (describe the trigger + action if ordering Custom)
-3. Transfer payment via bank (details below)
-4. You will receive the `.md` hook definitions + watcher scripts within 48 hours
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/TODO_RA_KO_FI)
 
----
+1. Fill the form below with your email and which hook(s) you want
+2. I'll send you a payment link via Ko-fi
+3. After payment, you'll receive the hook definitions + scripts within 48 hours
 
-## Payment Details
-
-| Field | Details |
-|-------|---------|
-| Bank | N26 |
-| Owner | Raul Esteban Mina Riascos |
-| IBAN | DE35 1001 1001 2030 9802 37 |
-| Reference | Hook Pack + your name |
+**[Request Form →](mailto:raulmina13@gmail.com?subject=Hook%20Pack%20Order&body=Email:%0A%0AHooks%20wanted:%0A%0AMessage:)** *Click to send me an email. Include your email, which hooks you want, and the trigger+action for Custom orders.*
 
 > [!warning] Requirements
-> You need **Hermes Agent** (or compatible watcher system) to run these hooks. The hooks ship as Python watcher scripts + Hermes hook configurations. Basic familiarity with the file system is helpful. No coding required.
+> You need **Hermes Agent** (or compatible watcher system) to run these hooks. No coding required.
 
 ---
 
-> [!quote] Ra
-> A hook is not automation. Automation is what happens after — the hook just tells the vault it's time to wake up.
+> [!note] RA
+> A hook is not automation. It just tells the vault it's time to wake up.

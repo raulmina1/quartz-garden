@@ -12,7 +12,7 @@ Topics:
   - Deutschkurs
   - Mindmaps
 related:
-  - "[[Deutsch lernen als Ingenieur]]"
+  - "[[Deutsch/index]]"
   - "[[Einführung]]"
 description: "Interaktive Mental Maps aus dem Deutschkurs B1.2 an der VHS. Jede Map verbindet Grammatik, Redemittel und Übungen in einer navigierbaren Ansicht."
 reading_time: "1 min"
