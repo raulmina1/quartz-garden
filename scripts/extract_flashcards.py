@@ -37,15 +37,23 @@ def parse_note(filepath: Path) -> dict | None:
     date_str = fm.get("date", "")
     deck_name = fm.get("cards-deck", "")
 
-    # Extract H1 title
+    # Extract H1 title — skip section-marker headings like "Vokabeln ( ::: )"
     title = ""
     for line in lines:
         if line.startswith("# ") and not line.startswith("## "):
-            title = line[2:].strip()
-            break
+            candidate = line[2:].strip()
+            # Skip if it looks like a section header (contains separators, not a real title)
+            if not re.match(r'^(Vokabeln|Grammatik|Phrasen|Klassenübungen|Buch-Übungen|Leseverstehen|Eselsbrücken|Tipo)\b', candidate):
+                title = candidate
+                break
 
     if not title:
+        # Use filename, stripping "Anki - " prefix
         title = filepath.stem
+        title = re.sub(r'^Anki\s*[-–—]\s*', '', title)
+        # If it still looks like a section heading (e.g. "Vokabeln ( ::: )"), use filename as-is
+        if re.match(r'^(Vokabeln|Grammatik|Phrasen)\b', title):
+            title = filepath.stem
 
     vocab_pairs = []
     grammar_cards = []
@@ -119,6 +127,21 @@ def main():
 
     # Sort by date descending
     decks.sort(key=lambda d: d["date"], reverse=True)
+
+    # Deduplicate: keep the version with more vocab pairs when same title+date
+    seen = {}
+    deduped = []
+    for d in decks:
+        key = (d["title"], d["date"])
+        if key in seen:
+            prev = seen[key]
+            if d["total_vocab"] > prev["total_vocab"]:
+                deduped[deduped.index(prev)] = d
+                seen[key] = d
+        else:
+            seen[key] = d
+            deduped.append(d)
+    decks = deduped
 
     output = {
         "generated": datetime.now().isoformat(),
