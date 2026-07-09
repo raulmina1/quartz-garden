@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deutsch Matching Pairs — VHS Flashcards</title>
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --surface: #1a1a1a;
+    --surface-hover: #252525;
+    --border: #333;
+    --text: #e0e0d8;
+    --text-dim: #888;
+    --accent: #4a9eff;
+    --success: #2ecc71;
+    --success-bg: rgba(46,204,113,0.15);
+    --error-bg: rgba(231,76,60,0.15);
+    --de-color: #4a9eff;
+    --en-color: #e67e22;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #fafaf5;
+      --surface: #fff;
+      --surface-hover: #f5f5f0;
+      --border: #e0e0d8;
+      --text: #2c2c2c;
+      --text-dim: #888;
+      --accent: #2563eb;
+      --success: #16a34a;
+      --success-bg: rgba(22,163,74,0.1);
+      --error-bg: rgba(220,38,38,0.1);
+    }
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .container { width: 100%; max-width: 800px; }
+
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+  .header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .header .subtitle {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+  }
+
+  /* Controls */
+  .controls {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+
+  .controls select, .controls button {
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+  }
+  .controls select:hover, .controls button:hover {
+    background: var(--surface-hover);
+  }
+  .controls select {
+    flex: 1;
+    min-width: 180px;
+    max-width: 400px;
+  }
+  .controls button {
+    white-space: nowrap;
+    font-weight: 500;
+  }
+  .controls button.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .controls button.primary:hover {
+    opacity: 0.9;
+  }
+
+  /* Status bar */
+  .status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .status .stat {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .status .stat strong { color: var(--text); }
+
+  /* Grid */
+  .grid {
+    display: grid;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+  .grid.cols-6 { grid-template-columns: repeat(6, 1fr); }
+
+  /* Card */
+  .card {
+    aspect-ratio: 3 / 2;
+    perspective: 600px;
+    cursor: pointer;
+    min-width: 70px;
+    max-width: 140px;
+  }
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s ease;
+    transform-style: preserve-3d;
+  }
+  .card.flipped .card-inner,
+  .card.matched .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-face {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 2px solid var(--border);
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 0.35rem;
+    line-height: 1.3;
+    word-break: break-word;
+    hyphens: auto;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .card-front {
+    background: var(--surface);
+    color: var(--text-dim);
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  .card-front:hover {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px rgba(74,158,255,0.2);
+  }
+
+  .card-back {
+    transform: rotateY(180deg);
+    font-size: 0.78rem;
+  }
+  .card-back.de-card {
+    background: rgba(74,158,255,0.1);
+    border-color: var(--de-color);
+    color: var(--de-color);
+  }
+  .card-back.en-card {
+    background: rgba(230,126,34,0.1);
+    border-color: var(--en-color);
+    color: var(--en-color);
+  }
+
+  .card.matched .card-back {
+    background: var(--success-bg);
+    border-color: var(--success);
+    color: var(--success);
+  }
+  .card.matched {
+    cursor: default;
+    opacity: 0.85;
+  }
+  .card.matched .card-back.de-card,
+  .card.matched .card-back.en-card {
+    background: var(--success-bg);
+    border-color: var(--success);
+    color: var(--success);
+  }
+
+  /* Locked state (prevent rapid clicks) */
+  .grid.locked .card:not(.matched) { pointer-events: none; }
+
+  /* Victory overlay */
+  .victory {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .victory.show { display: flex; }
+  .victory-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    max-width: 380px;
+    width: 90%;
+  }
+  .victory-box h2 { font-size: 1.6rem; margin-bottom: 0.5rem; }
+  .victory-box .stats { color: var(--text-dim); margin: 1rem 0; line-height: 1.8; }
+  .victory-box button {
+    margin-top: 0.75rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .victory-box button:hover { opacity: 0.9; }
+
+  /* Empty state */
+  .empty {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-dim);
+  }
+  .empty .icon { font-size: 3rem; margin-bottom: 0.5rem; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .grid { gap: 0.35rem; }
+    .card { min-width: 55px; }
+    .card-back, .card-front { font-size: 0.7rem; padding: 0.2rem; }
+    .card-front { font-size: 1.1rem; }
+    .header h1 { font-size: 1.2rem; }
+    .controls { flex-direction: column; }
+    .controls select { max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>🃏 Deutsch Matching Pairs</h1>
+    <p class="subtitle">Finde die Paare — deutsches Wort ↔ englische Übersetzung</p>
+  </div>
+
+  <div class="controls" id="controls">
+    <select id="deck-selector">
+      <option value="">-- Deck wählen --</option>
+    </select>
+    <button id="btn-grid4" class="primary">4×4 (8 Paare)</button>
+    <button id="btn-grid6">6×6 (18 Paare)</button>
+    <button id="btn-shuffle">🔀 Neu mischen</button>
+  </div>
+
+  <div class="status" id="status" style="display:none">
+    <div class="stat">🕐 <strong id="timer">0:00</strong></div>
+    <div class="stat">🔄 <strong id="moves">0</strong> Züge</div>
+    <div class="stat">✅ <strong id="pairs-found">0</strong> / <span id="pairs-total">0</span> Paare</div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="empty" id="empty">
+    <div class="icon">🃏</div>
+    <p>Wähle ein Deck und eine Spielfeldgröße, um zu starten.</p>
+  </div>
+</div>
+
+<div class="victory" id="victory">
+  <div class="victory-box">
+    <h2>🎉 Geschafft!</h2>
+    <div class="stats" id="victory-stats"></div>
+    <button onclick="restartGame()">Nochmal spielen</button>
+  </div>
+</div>
+
+<script>
+// ── State ──────────────────────────────────────────────
+let allDecks = [];
+let currentDeck = null;
+let cards = [];
+let flippedCards = [];
+let matchedPairs = 0;
+let moves = 0;
+let timerSec = 0;
+let timerInterval = null;
+let gridCols = 4;
+let gameActive = false;
+
+// ── Load data ──────────────────────────────────────────
+async function loadDecks() {
+  try {
+    const resp = await fetch('./vhs-decks.json');
+    const data = await resp.json();
+    allDecks = data.decks;
+    populateSelector();
+  } catch (e) {
+    document.getElementById('empty').innerHTML =
+      '<p style="color:#e74c3c">❌ Konnte Datendatei nicht laden.<br><small>vhs-decks.json nicht gefunden</small></p>';
+    console.error(e);
+  }
+}
+
+function populateSelector() {
+  const sel = document.getElementById('deck-selector');
+  sel.innerHTML = '<option value="">-- Deck wählen --</option>';
+  allDecks.forEach((deck, i) => {
+    const opt = document.createElement('option');
+    opt.value = i;
+    opt.textContent = `${deck.title} (${deck.total_vocab} Paare)`;
+    sel.appendChild(opt);
+  });
+}
+
+// ── Game logic ─────────────────────────────────────────
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function startGame(deckIdx, cols) {
+  if (!allDecks[deckIdx]) return;
+  currentDeck = allDecks[deckIdx];
+  gridCols = cols;
+  const pairCount = cols === 4 ? 8 : 18;
+
+  // Pick random subset of vocab pairs
+  const selectedPairs = shuffle(currentDeck.vocab_pairs).slice(0, pairCount);
+
+  // Create cards: one DE + one EN per pair
+  cards = [];
+  selectedPairs.forEach((pair, idx) => {
+    cards.push({
+      id: idx,
+      side: 'de',
+      text: pair.de,
+      pairId: pair.de + '|||' + pair.en
+    });
+    cards.push({
+      id: idx,
+      side: 'en',
+      text: pair.en,
+      pairId: pair.de + '|||' + pair.en
+    });
+  });
+
+  cards = shuffle(cards);
+  matchedPairs = 0;
+  moves = 0;
+  flippedCards = [];
+  gameActive = true;
+
+  // Reset timer
+  clearInterval(timerInterval);
+  timerSec = 0;
+  updateTimer();
+  timerInterval = setInterval(() => {
+    timerSec++;
+    updateTimer();
+  }, 1000);
+
+  updateStatus();
+  renderGrid();
+  document.getElementById('empty').style.display = 'none';
+  document.getElementById('status').style.display = 'flex';
+  document.getElementById('victory').classList.remove('show');
+}
+
+function updateTimer() {
+  const m = Math.floor(timerSec / 60);
+  const s = timerSec % 60;
+  document.getElementById('timer').textContent = `${m}:${String(s).padStart(2, '0')}`;
+}
+
+function updateStatus() {
+  document.getElementById('moves').textContent = moves;
+  document.getElementById('pairs-found').textContent = matchedPairs;
+  document.getElementById('pairs-total').textContent = cards.length / 2;
+}
+
+function renderGrid() {
+  const grid = document.getElementById('grid');
+  grid.className = `grid cols-${gridCols}`;
+  grid.innerHTML = '';
+
+  cards.forEach((card, cardIdx) => {
+    const el = document.createElement('div');
+    el.className = 'card';
+    el.dataset.index = cardIdx;
+    el.innerHTML = `
+      <div class="card-inner">
+        <div class="card-face card-front">?</div>
+        <div class="card-face card-back ${card.side}-card">${card.text}</div>
+      </div>`;
+    el.addEventListener('click', () => onCardClick(el, cardIdx));
+    grid.appendChild(el);
+  });
+}
+
+function onCardClick(el, cardIdx) {
+  if (!gameActive) return;
+  // Prevent clicking already matched or already flipped
+  if (el.classList.contains('matched')) return;
+  if (el.classList.contains('flipped')) return;
+  // Prevent clicking more than 2
+  if (flippedCards.length >= 2) return;
+
+  el.classList.add('flipped');
+  flippedCards.push({ el, cardIdx });
+
+  if (flippedCards.length === 2) {
+    moves++;
+    updateStatus();
+    checkMatch();
+  }
+}
+
+function checkMatch() {
+  const [a, b] = flippedCards;
+  const cardA = cards[a.cardIdx];
+  const cardB = cards[b.cardIdx];
+
+  if (cardA.id === cardB.id && cardA.side !== cardB.side) {
+    // Match!
+    setTimeout(() => {
+      a.el.classList.add('matched');
+      b.el.classList.add('matched');
+      matchedPairs++;
+      updateStatus();
+      flippedCards = [];
+
+      if (matchedPairs === cards.length / 2) {
+        victory();
+      }
+    }, 300);
+  } else {
+    // No match — flip back
+    const grid = document.getElementById('grid');
+    grid.classList.add('locked');
+    setTimeout(() => {
+      a.el.classList.remove('flipped');
+      b.el.classList.remove('flipped');
+      flippedCards = [];
+      grid.classList.remove('locked');
+    }, 800);
+  }
+}
+
+function victory() {
+  gameActive = false;
+  clearInterval(timerInterval);
+
+  const m = Math.floor(timerSec / 60);
+  const s = timerSec % 60;
+  const timeStr = `${m}:${String(s).padStart(2, '0')}`;
+
+  document.getElementById('victory-stats').innerHTML = `
+    ⏱️ Zeit: <strong>${timeStr}</strong><br>
+    🔄 Züge: <strong>${moves}</strong><br>
+    📚 Deck: <strong>${currentDeck.title}</strong>
+  `;
+  document.getElementById('victory').classList.add('show');
+}
+
+function restartGame() {
+  document.getElementById('victory').classList.remove('show');
+  const idx = document.getElementById('deck-selector').value;
+  if (idx !== '') {
+    startGame(parseInt(idx), gridCols);
+  }
+}
+
+// ── Event listeners ────────────────────────────────────
+document.getElementById('deck-selector').addEventListener('change', function() {
+  if (this.value !== '') {
+    document.getElementById('btn-grid4').click();
+  }
+});
+
+document.getElementById('btn-grid4').addEventListener('click', function() {
+  const idx = document.getElementById('deck-selector').value;
+  if (idx === '') return;
+  this.classList.add('primary');
+  document.getElementById('btn-grid6').classList.remove('primary');
+  startGame(parseInt(idx), 4);
+});
+
+document.getElementById('btn-grid6').addEventListener('click', function() {
+  const idx = document.getElementById('deck-selector').value;
+  if (idx === '') return;
+  this.classList.add('primary');
+  document.getElementById('btn-grid4').classList.remove('primary');
+  startGame(parseInt(idx), 6);
+});
+
+document.getElementById('btn-shuffle').addEventListener('click', function() {
+  const idx = document.getElementById('deck-selector').value;
+  if (idx === '') return;
+  startGame(parseInt(idx), gridCols);
+});
+
+// Keyboard shortcuts
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'r' || e.key === 'R') {
+    restartGame();
+  }
+});
+
+// ── Init ────────────────────────────────────────────────
+loadDecks();
+</script>
+
+</body>
+</html>
