@@ -8,7 +8,7 @@ from pathlib import Path
 from datetime import datetime
 
 ANKI_DIR = Path(r"C:\Vaults\YellowVault\03_INFORMATIONEN\05_PROGRAMS\14_ANKI\01_DATABASE")
-OUTPUT_DIR = Path(r"C:\Users\DELLPHOTO\OneDrive\Documents\GitHub\quartz-garden\quartz\static\flashcards")
+OUTPUT_DIR = Path(r"C:\Users\DELLPHOTO\Documents\GitHub\ra-blog\quartz\static\flashcards")
 OUTPUT_FILE = OUTPUT_DIR / "vhs-decks.json"
 
 VOCAB_RE = re.compile(r'^(.+?)\s*:::\s*(.+?)(?:\s*▸\s*(.+))?$')

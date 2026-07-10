@@ -1,5 +1,5 @@
 ---
-title: "Deutsch lernen"
+title: "Deutsch"
 date: 2026-07-09
 tags:
   - deutsch
@@ -14,7 +14,7 @@ lang: de
 publish: true
 ---
 
-# Deutsch lernen
+# Deutsch
 
 > Materialien, Spiele, Grammatik und Mental Maps aus dem VHS-Kurs in Berlin. Alles an einem Ort.
 

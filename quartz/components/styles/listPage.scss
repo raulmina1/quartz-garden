@@ -14,8 +14,17 @@ li.section-li {
     grid-template-columns: fit-content(8em) 3fr 1fr;
 
     @media all and ($mobile) {
+      grid-template-columns: 1fr;
+      row-gap: 0.15rem;
+
       & > .tags {
         display: none;
+      }
+
+      & .meta {
+        margin: 0;
+        font-size: 0.78rem;
+        opacity: 0.55;
       }
     }
 

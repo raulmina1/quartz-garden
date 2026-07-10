@@ -55,5 +55,23 @@ Lies die Frage, überlege die Antwort, decke auf und bewerte dich selbst. Perfek
 
 ---
 
+## Technische Umsetzung
+
+Die Spiele werden als standalone HTML-Widgets in Quartz eingebettet (`<iframe>`). Die Vokabeldaten werden automatisch aus meinen Anki-Notizen im YellowVault extrahiert:
+
+```
+01_DATABASE/*.md  →  extract_flashcards.py  →  vhs-decks.json  →  matching-pairs.html / flash-cards.html
+```
+
+- **Extraction:** Python-Script parst `:::` (Vokabeln) und `::` (Grammatik) aus den Markdown-Notizen
+- **Game engines:** Vanilla JS + CSS 3D transforms — keine externen Abhängigkeiten
+- **Speicherung:** `localStorage` für Session-Persistenz
+- **Deployment:** Automatisch via `quartz sync` → GitHub Actions → GitHub Pages
+
 > [!note] Über die Karten
 > Die Vokabeln und Grammatik-Karten stammen aus meinem Deutschkurs an der VHS (B1.1 und B1.2). Sie werden automatisch aus meinen Anki-Notizen extrahiert — jede Karte enthält den Artikel, die Pluralform und einen Beispielsatz im Originalkontext. Mehr dazu: [[Deutsch lernen als Ingenieur]].
+
+## Verwandte Notizen
+
+- [[Deutsch lernen als Ingenieur]] — Hintergrund zu meinem Lernsystem
+- [[Die Werkzeuge, die ich mir selbst gebaut habe]] — Übersicht meiner Automatisierungen

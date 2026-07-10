@@ -89,6 +89,23 @@ pre {
   border-radius: 6px;
 }
 
+// ── Page header spacing — gap between breadcrumbs/title/meta and content ──
+.page-header {
+  margin-bottom: 2rem;
+}
+
+// ── Mobile: folder page listing container ──────────────────────────────
+@media all and (max-width: 800px) {
+  .page-listing {
+    padding: 0;
+
+    & > p {
+      font-size: 0.82rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
 // Page title in sidebar: matches Obsidian vault name style
 #quartz-body .page-title {
   font-weight: 700;
