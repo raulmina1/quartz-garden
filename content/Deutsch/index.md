@@ -37,7 +37,7 @@ publish: true
 
 | Ressource | Beschreibung |
 |-----------|-------------|
-| [[Deutsch Flashcards|Flashcards]] | Interaktives Memory-Spiel aus dem VHS-Kurs |
+| [[Deutsch Flashcards|Lernkarten]] | Interaktives Lernspiel aus dem VHS-Kurs |
 
 ## Prüfung
 

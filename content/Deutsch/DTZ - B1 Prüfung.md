@@ -6,7 +6,7 @@ tags:
   - dtz
   - prüfung
   - b1
-description: Übersicht der DTZ B1 Prüfung: Hören, Lesen, Schreiben, Sprechen — Dauer, Punkte, Bestehensgrenzen und alle vier Prüfungsteile.
+description: "Übersicht der DTZ B1 Prüfung — Hören, Lesen, Schreiben, Sprechen — Dauer, Punkte, Bestehensgrenzen und alle vier Prüfungsteile."
 reading_time: "2 min"
 lang: de
 publish: true
