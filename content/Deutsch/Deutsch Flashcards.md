@@ -1,9 +1,9 @@
 ---
-title: "Deutsch Flashcards — Interaktive Lernspiele"
+title: "Deutsch Lernkarten"
 date: 2026-07-09
 tags:
   - deutsch
-  - flashcards
+  - lernkarten
   - vhs
   - spiel
   - lernen
@@ -14,15 +14,15 @@ lang: de
 publish: true
 ---
 
-# 🃏 Deutsch Flashcards
+# Lernkarten & Spiele
 
-*Zwei Spiele — Vokabeln und Grammatik aus meinem VHS-Kurs B1.1/B1.2*
+*Vokabeln und Grammatik aus meinem VHS-Kurs B1.1/B1.2*
 
 ---
 
-## 🃏 Matching Pairs — Vokabeln
+## Paarspiel
 
-Finde die Paare: deutsches Wort ↔ englische Übersetzung. Trainiert Artikel, Plural und Kontext.
+Finde die Paare: deutsches Wort und englische Übersetzung. Trainiert Artikel, Plural und Kontext.
 
 > [!tip] So funktioniert's
 > 1. **Deck wählen** — jedes Deck entspricht einer Unterrichtseinheit
@@ -31,12 +31,12 @@ Finde die Paare: deutsches Wort ↔ englische Übersetzung. Trainiert Artikel, P
 > 4. **Alle Paare finden** — schaffe es in möglichst wenigen Zügen!
 
 <iframe src="/static/flashcards/matching-pairs.html"
-  style="width:100%;height:620px;border:1px solid #e0e0d8;border-radius:12px;background:#0d0d0d;">
+  style="width:100%;height:620px;border:1px solid #c4ab00;border-radius:12px;background:#0d0d0d;">
 </iframe>
 
 ---
 
-## 📇 Flash Cards — Grammatik & Phrasen
+## Selbsttest
 
 Lies die Frage, überlege die Antwort, decke auf und bewerte dich selbst. Perfekt für Grammatik-Regeln, Verben mit Präpositionen, Eselsbrücken und Phrasen.
 
@@ -50,7 +50,7 @@ Lies die Frage, überlege die Antwort, decke auf und bewerte dich selbst. Perfek
 > **Tastatur**: Leertaste = aufdecken · ← = wiederholen · → = gewusst
 
 <iframe src="/static/flashcards/flash-cards.html"
-  style="width:100%;height:680px;border:1px solid #e0e0d8;border-radius:12px;background:#0d0d0d;">
+  style="width:100%;height:680px;border:1px solid #c4ab00;border-radius:12px;background:#0d0d0d;">
 </iframe>
 
 ---

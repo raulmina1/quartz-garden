@@ -37,9 +37,10 @@ publish: true
 
 | Ressource | Beschreibung |
 |-----------|-------------|
-| [[Deutsch Flashcards|Flashcards]] | Interaktives Memory-Spiel aus dem VHS-Kurs |
+| [[Deutsch Flashcards|Lernkarten]] | Interaktives Lernspiel aus dem VHS-Kurs |
 
-> [!question] Lust mitzumachen?
-> Suchst du auch nach besseren Materialien für deinen Deutschkurs? Schreib mir — vielleicht entsteht daraus ein gemeinsames Lernprojekt. → [[Einführung|Kontakt]]
+## Prüfung
 
->*Letzte Aktualisierung: Juli 2026*
+| Ressource | Beschreibung |
+|-----------|-------------|
+| [[Deutsch/DTZ - B1 Prüfung|DTZ B1 Prüfung]] | Struktur, Teile, Dauer und Bestehensgrenzen der DTZ B1 Prüfung |
