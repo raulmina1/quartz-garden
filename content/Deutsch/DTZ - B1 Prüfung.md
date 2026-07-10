@@ -93,3 +93,7 @@ Paarprüfung mit zwei Kandidaten und einem/einer Prüfer*in.
 - Liegt das Ergebnis unter A2 → nur schriftliche Mitteilung, kein Zertifikat.
 - Prüfung wird zentral durch BAMF-autorisierte Träger abgenommen.
 - Keine Fachkenntnisse nötig — nur Alltagskommunikation.
+
+---
+
+*Bereitest du dich auch auf den DTZ vor? Schreib mir — vielleicht können wir gemeinsam üben. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
