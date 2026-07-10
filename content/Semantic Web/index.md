@@ -5,9 +5,6 @@ tags:
   - knowledge-graphs
   - ontology
   - vault
-aliases:
-  - Semantic Web Section
-  - Knowledge Graph Section
 description: A complete guide to Semantic Web technologies — RDF, SPARQL, OWL, Knowledge Graphs, Ontology Engineering, and Linked Data. Built from hands-on research for the TIB Semantic Data Architect role.
 reading_time: "2 min"
 lang: en
@@ -77,7 +74,7 @@ The vault's frontmatter already contains semantic metadata (`Topics`, `semantic_
 ## Related
 
 - [AI Ecosystem — What I've Built](/AI-Ecosystem)
-- [Die Werkzeuge, die ich mir selbst gebaut habe](/Die-Werkzeuge,-die-ich-mir-selbst-gebaut-habe)
+- [Die Werkzeuge, die ich mir selbst gebaut habe](/Kolumnen/Die-Werkzeuge,-die-ich-mir-selbst-gebaut-habe)
 
 ---
 

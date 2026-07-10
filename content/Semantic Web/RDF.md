@@ -1,12 +1,10 @@
 ---
+title: "RDF — Resource Description Framework"
 tags:
   - semantic-web
   - rdf
   - data-modeling
   - w3c
-aliases:
-  - Resource Description Framework
-  - RDF
 description: RDF (Resource Description Framework) is the W3C standard for representing web data as triples. Learn how to model, serialize, and query interconnected data.
 reading_time: "4 min"
 lang: en

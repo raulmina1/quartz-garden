@@ -1,13 +1,10 @@
 ---
+title: "Semantic Web Standards — W3C Stack Overview"
 tags:
   - semantic-web
   - w3c
   - standards
   - linked-data
-aliases:
-  - Semantic Web
-  - W3C Semantic Web
-  - Semantic Web Stack
 description: The Semantic Web stack is a layered set of W3C standards — from URIs and RDF to OWL and SPARQL. This overview covers each layer and how they work together.
 reading_time: "4 min"
 lang: en
