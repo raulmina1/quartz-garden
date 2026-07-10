@@ -39,3 +39,9 @@ publish: true
 | Ressource | Beschreibung |
 |-----------|-------------|
 | [[Deutsch Flashcards|Flashcards]] | Interaktives Memory-Spiel aus dem VHS-Kurs |
+
+## Prüfung
+
+| Ressource | Beschreibung |
+|-----------|-------------|
+| [[Deutsch/DTZ - B1 Prüfung|DTZ B1 Prüfung]] | Struktur, Teile, Dauer und Bestehensgrenzen der DTZ B1 Prüfung |
