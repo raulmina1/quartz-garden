@@ -1,13 +1,13 @@
 ---
+title: "AI Ecosystem — What I've Built"
 tags:
   - ai
-  - catalog
   - ecosystem
+  - catalog
   - ra-blog
-  - prompts
-  - agents
-  - hooks
-  - workflows
+  - automation
+description: "130+ prompts, 18 autonomous agents, 6 cron jobs, and 8 file watchers — the complete AI system I built over my Obsidian vault to automate German learning, job applications, and knowledge management."
+reading_time: "12 min"
 related:
   - "[[Projekte]]"
   - "[[Prompt Shop]]"

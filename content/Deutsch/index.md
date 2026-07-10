@@ -7,8 +7,7 @@ tags:
   - b1.2
   - vhs
   - grammatik
-  - flashcards
-description: Deutsch — Grammatik, Flashcards, Mental Maps. Aus meinem VHS-Kurs in Berlin.
+description: Deutsch lernen — Grammatik, Flashcards und Mental Maps aus meinem VHS-B1.2-Kurs in Berlin. Trennbare Verben, Modalverben, Passiv, Nebensätze.
 reading_time: "1 min"
 type: section-index
 lang: de

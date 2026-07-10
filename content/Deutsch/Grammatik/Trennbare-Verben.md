@@ -8,7 +8,7 @@ tags:
   - trennbar
   - b1
 description: Trennbare Verben sind der Schlüssel zum deutschen Satzbau. Vollständige Liste der Präfixe, Satzstellung in Hauptsatz/Nebensatz/Infinitiv, und 30+ Beispiele.
-reading_time: 5
+reading_time: "4 min"
 lang: de
 publish: true
 type: concept-guide
@@ -120,3 +120,6 @@ Manche Präfixe können sowohl trennbar als auch untrennbar sein — die Bedeutu
 - [[Deutsch/Grammatik/Modalverben\|⚡ Modalverben und unregelmäßige Verben]]
 - [[Mental Maps/index\|🧠 Mental Maps — Grammatik visuell]]
 - [[Deutsch Flashcards\|🃏 Deutsch Flashcards]]
+
+---
+*Übe heute bewusst 5 trennbare Verben im Satz — die Bewegung des Präfixes ans Ende ist der Schlüssel zum natürlichen Deutsch.*

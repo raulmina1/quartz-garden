@@ -1,10 +1,16 @@
 ---
+title: "RA Prompt Shop"
 tags:
   - prompts
   - shop
   - obsidian
   - ai
   - claude
+description: "Ready-to-use AI prompts for Obsidian, German learning, job hunting, and personal automation — 34 prompts, 5 packs, built for Claude, refined daily."
+reading_time: "5 min"
+type: showcase
+lang: en
+date: 2026-07-09
 related:
   - "[[Einführung]]"
   - "[[AI Ecosystem]]"

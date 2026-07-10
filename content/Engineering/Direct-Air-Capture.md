@@ -8,7 +8,7 @@ tags:
   - climate
   - chemical-engineering
 description: Direct Air Capture removes CO₂ from ambient air using specialized adsorbents. This guide covers PVSA technology, the Skarstrom cycle, adsorbent materials, and lab-scale DAC system design.
-reading_time: 5
+reading_time: "5 min"
 lang: en
 publish: true
 type: concept-guide
@@ -130,3 +130,6 @@ NeoCarbon is one of the companies piloting DAC technology in Germany. Their appr
 - [[Engineering/Hydrogen-Pathways|🧪 Hydrogen Production Pathways]]
 - [[Wirtschaft/CO2-Kosten|🌍 CO₂ Costs and Their Impact on German Electricity Prices]]
 - [[Wirtschaft/Merit-Order-System|⚡ How Germany's Electricity Market Sets Prices]]
+
+---
+*DAC is still expensive — €600-1000/t CO₂ — but costs are falling fast. At what price does it become viable where you are?*

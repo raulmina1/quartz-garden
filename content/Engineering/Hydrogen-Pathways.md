@@ -8,7 +8,7 @@ tags:
   - decarbonization
   - chemical-engineering
 description: Grey, blue, and green hydrogen — technologies, costs, and infrastructure. A guide to hydrogen production pathways and the European Hydrogen Backbone.
-reading_time: 4
+reading_time: "5 min"
 lang: en
 publish: true
 type: concept-guide
@@ -139,3 +139,6 @@ Germany's industrial base (steel, chemicals, refining) is hard to electrify. Hyd
 - [[Wirtschaft/Merit-Order-System|⚡ How Germany's Electricity Market Sets Prices]]
 - [[Wirtschaft/CO2-Kosten|🌍 CO₂ Costs and Their Impact on German Electricity Prices]]
 - [[Engineering/Direct-Air-Capture|🌿 Direct Air Capture (DAC)]]
+
+---
+*Which hydrogen pathway will dominate in 2030? I'm betting on blue with CCS bridging to green. What's your take?*

@@ -27,3 +27,6 @@ publish: true
 
 > [!note] RA
 > Kolumnen erscheinen unregelmäßig — wenn eine Idee reif genug ist, nicht nach Redaktionsplan.
+
+---
+*Hast du eine Meinung zu einem Thema? Schreib mir — vielleicht wird daraus die nächste Kolumne.*

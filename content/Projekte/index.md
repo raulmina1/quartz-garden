@@ -5,7 +5,7 @@ tags:
   - projekte
   - leistungen
   - ra-blog
-description: What I build — AI agents, automations, prompts, and engineering systems.
+description: What I build and sell — AI agents, automations, custom prompts, file watchers, and scheduled cron jobs for Obsidian and Hermes. Every product is something I use daily.
 reading_time: "1 min"
 type: section-index
 lang: en
@@ -35,3 +35,6 @@ publish: true
 
 > [!note] RA
 > Projects are promises made to the future. The ones you finish are the only ones the future remembers.
+
+---
+*What are you building? Let's talk → raulmina13@gmail.com*
