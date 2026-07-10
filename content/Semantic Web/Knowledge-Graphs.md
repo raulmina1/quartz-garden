@@ -1,4 +1,5 @@
 ---
+title: "Knowledge Graphs — Architecture & Practical Guide"
 tags:
   - knowledge-graph
   - semantic-web
@@ -8,7 +9,7 @@ aliases:
   - Knowledge Graph
   - KG
 description: A knowledge graph is a structured network of entities and relationships. This guide covers architecture, key components, querying, and practical applications from job-search vaults to enterprise systems.
-reading_time: 4
+reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide

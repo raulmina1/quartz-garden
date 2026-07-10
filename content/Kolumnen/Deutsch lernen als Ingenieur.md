@@ -97,3 +97,7 @@ Der Kurs gibt mir die Struktur. Den Rest muss ich mir holen.
 
 > [!note] RA
 > Language is not a system to be optimized — it is a territory to be inhabited. You do not debug your way into fluency; you live your way there.
+
+---
+
+*Lernst du auch Deutsch? Welche Lücke hat dein Kurs nicht gefüllt? Ich bin gespannt auf deine Geschichte. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

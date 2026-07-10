@@ -6,7 +6,7 @@ tags:
   - catalog
   - ra-blog
   - automation
-description: "130+ prompts, 18 autonomous agents, 6 cron jobs, and 8 file watchers — the complete AI system I built over my Obsidian vault to automate German learning, job applications, and knowledge management."
+description: "130+ prompts, 18 autonomous agents, 6 cron jobs, and 8 file watchers — the full AI system automating German learning, job apps, and knowledge management in Obsidian."
 reading_time: "12 min"
 related:
   - "[[Projekte]]"

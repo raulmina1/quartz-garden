@@ -8,7 +8,7 @@ aliases:
   - Resource Description Framework
   - RDF
 description: RDF (Resource Description Framework) is the W3C standard for representing web data as triples. Learn how to model, serialize, and query interconnected data.
-reading_time: 4
+reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide

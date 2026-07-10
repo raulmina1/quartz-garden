@@ -9,7 +9,7 @@ aliases:
   - Semantic Web Section
   - Knowledge Graph Section
 description: A complete guide to Semantic Web technologies — RDF, SPARQL, OWL, Knowledge Graphs, Ontology Engineering, and Linked Data. Built from hands-on research for the TIB Semantic Data Architect role.
-reading_time: 2
+reading_time: "2 min"
 lang: en
 publish: true
 type: section-index

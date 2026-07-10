@@ -6,7 +6,7 @@ tags:
   - grammatik
   - b1
   - lernen
-description: Deutsche Grammatik-Konzepte für B1-Niveau — Erklärungen, Tabellen, Beispiele. Aus meinem VHS-Kurs in Berlin.
+description: Deutsche Grammatik-Konzepte für B1-Niveau — Erklärungen, Tabellen, Beispiele und Übungen. Aus meinem VHS-Kurs in Berlin. Trennbare Verben, Modalverben, Passiv.
 reading_time: "1 min"
 type: section-index
 lang: de
@@ -30,3 +30,7 @@ publish: true
 
 > [!tip] Lern-Strategie
 > Trennbare Verben sind der Schlüssel zum deutschen Satzbau. Wenn du die Präfixe und ihre Bedeutung kennst, verstehst du 80% der Alltagskommunikation. Die Nebensätze kommen direkt danach — sie bestimmen, wie komplex dein Deutsch klingt.
+
+---
+
+*Brauchst du Hilfe bei einem Grammatik-Thema? Schreib mir — ich ergänze es hier. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

@@ -8,7 +8,7 @@ aliases:
   - Web Ontology Language
   - OWL 2
 description: OWL is the W3C ontology language for formal knowledge representation. Learn classes, properties, axioms, reasoning, and how to build ontologies that machines can reason over.
-reading_time: 4
+reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide

@@ -1,4 +1,5 @@
 ---
+title: "Die Werkzeuge, die ich mir selbst gebaut habe"
 tags:
   - kolumne
   - automatisierung
@@ -97,3 +98,7 @@ Das Werkzeug ist der Nebeneffekt. Die eigentliche Übung ist Klarheit.
 
 > [!note] RA
 > I have watched mortals build machines to think for them — few bother to understand why they needed the machine in the first place. The honest ones do.
+
+---
+
+*Was ist deine Erfahrung mit persönlicher Automatisierung? Schreib mir — vielleicht entsteht daraus ein Gespräch. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

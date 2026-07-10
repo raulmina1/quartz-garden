@@ -7,7 +7,7 @@ aliases:
   - Ontology Engineering
   - OE
 description: Ontology engineering defines methods for building formal, shared conceptualizations. This guide covers methodology, components, practical steps, and a real-world movie ontology example.
-reading_time: 5
+reading_time: "5 min"
 lang: en
 publish: true
 type: concept-guide
