@@ -10,7 +10,7 @@ tags:
 related:
   - "[[Deutsch/index]]"
   - "[[Einführung]]"
-description: "Interaktive Mental Maps aus dem Deutschkurs B1.2 an der VHS. Jede Map verbindet Grammatik, Redemittel und Übungen in einer navigierbaren Ansicht."
+description: "Interaktive Mental Maps aus dem Deutschkurs B1.2 an der VHS. Jede Map verbindet Grammatik, Redemittel und Übungen — trotz, obwohl, trotzdem, Konjunktiv II und mehr."
 reading_time: "1 min"
 type: miniguide
 lang: de

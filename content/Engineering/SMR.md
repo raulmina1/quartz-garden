@@ -8,7 +8,7 @@ tags:
   - smr
   - reforming
 description: Steam Methane Reforming is the dominant hydrogen production method worldwide. This guide covers the chemistry, process steps, emissions, and integration with carbon capture.
-reading_time: 4
+reading_time: "5 min"
 lang: en
 publish: true
 type: concept-guide
@@ -155,3 +155,6 @@ Source: IEA Global Hydrogen Review 2025
 - [[Engineering/Hydrogen-Pathways|🧪 Hydrogen Production Pathways]]
 - [[Engineering/PSA|💨 Pressure Swing Adsorption (PSA)]]
 - [[Engineering/Direct-Air-Capture|🌿 Direct Air Capture (DAC)]]
+
+---
+*SMR with CCS is the most practical near-term decarbonization pathway for hydrogen. The infrastructure question remains open — what's the CO₂ storage solution where you are?*

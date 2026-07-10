@@ -8,7 +8,7 @@ tags:
   - co2
   - carbon-pricing
 description: How CO₂ certificate costs flow through Germany's merit order system and directly impact electricity prices for households and industry.
-reading_time: 3
+reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide
@@ -103,3 +103,6 @@ The paradox: more renewables → less fossil generation → but when fossil is n
 
 - [[Wirtschaft/Merit-Order-System|⚡ How Germany's Electricity Market Sets Prices]]
 - [[Engineering/Hydrogen-Pathways|🧪 Hydrogen Production Pathways]]
+
+---
+*As long as fossil plants set the marginal price, decarbonization doesn't lower consumer bills. How should Germany resolve this paradox?*

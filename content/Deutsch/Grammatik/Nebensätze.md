@@ -8,7 +8,7 @@ tags:
   - satzbau
   - b1
 description: Nebensätze im Deutschen — die goldene Regel (Verb am Ende), Konnektoren, Stellung, und Übungen für B1-Niveau.
-reading_time: 4
+reading_time: "4 min"
 lang: de
 publish: true
 type: concept-guide
@@ -138,4 +138,6 @@ Wenn es zwei Verben gibt, stehen **beide am Ende**:
 - [[Deutsch/Grammatik/Vorgangspassiv\|🔁 Vorgangspassiv — werden-Passiv]]
 - [[Deutsch/Grammatik/Trennbare-Verben\|🔧 Trennbare Verben]]
 - [[Deutsch/Grammatik/Modalverben\|⚡ Modalverben]]
-- [[Mental Maps/index\|🧠 Mental Maps — Grammatik visuell]]
+
+---
+*Übe diesen Konnektor beim nächsten Gespräch bewusst ein — eine Woche lang jeden Tag einen neuen Nebensatz.*

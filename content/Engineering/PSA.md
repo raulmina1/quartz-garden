@@ -8,7 +8,7 @@ tags:
   - psa
   - gas-treatment
 description: Pressure Swing Adsorption is a cyclic gas separation technology that uses pressure changes to selectively adsorb and release gas components. Essential for hydrogen purification, CO₂ capture, and air separation.
-reading_time: 5
+reading_time: "6 min"
 lang: en
 publish: true
 type: concept-guide
@@ -143,3 +143,6 @@ flowchart LR
 - [[Engineering/Direct-Air-Capture|🌿 Direct Air Capture (DAC)]]
 - [[Engineering/Hydrogen-Pathways|🧪 Hydrogen Production Pathways]]
 - [[Engineering/index|Engineering & Technology]]
+
+---
+*PSA is everywhere in chemical engineering — hydrogen purification, CO₂ capture, oxygen concentrators. What's your experience with cyclic separation processes?*

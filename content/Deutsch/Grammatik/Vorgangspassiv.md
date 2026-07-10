@@ -8,7 +8,7 @@ tags:
   - verben
   - b1
 description: Das Vorgangspassiv beschreibt eine Handlung am Subjekt — mit werden + Partizip II. Vollständige Konjugation, Umwandlung Aktiv→Passiv, Beispiele.
-reading_time: 4
+reading_time: "3 min"
 lang: de
 publish: true
 type: concept-guide
@@ -112,3 +112,6 @@ Passiv: *Das Essen **wird** gekocht.* → Das Essen erfährt die Handlung.
 - [[Deutsch/Grammatik/Modalverben\|⚡ Modalverben und unregelmäßige Verben]]
 - [[Deutsch/Grammatik/Nebensätze\|📎 Nebensätze — weil, dass, wenn, obwohl]]
 - [[Deutsch/Grammatik/Trennbare-Verben\|🔧 Trennbare Verben]]
+
+---
+*Versuche, einen ganzen Satz im Passiv zu formulieren — und drehe ihn dann ins Aktiv zurück. Das ist die beste Übung.*

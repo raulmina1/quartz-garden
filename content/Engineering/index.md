@@ -33,3 +33,6 @@ publish: true
 > - CO₂ Transport and Storage Infrastructure
 > - Refinery Processes: Hydrocracking, Desulfurization
 > - Energy Management Systems and Redispatch 2.0
+
+---
+*Know a process I should cover? Open an issue on GitHub or send a message.*

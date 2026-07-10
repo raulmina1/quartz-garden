@@ -1,4 +1,5 @@
 ---
+title: "Semantic Web & Knowledge Graphs"
 tags:
   - semantic-web
   - knowledge-graphs
@@ -7,7 +8,7 @@ tags:
 aliases:
   - Semantic Web Section
   - Knowledge Graph Section
-description: A full guide to Semantic Web technologies — RDF, SPARQL, OWL, Knowledge Graphs, Ontology Engineering, Linked Data, and Semantic Web Standards — built from hands-on research.
+description: A complete guide to Semantic Web technologies — RDF, SPARQL, OWL, Knowledge Graphs, Ontology Engineering, and Linked Data. Built from hands-on research for the TIB Semantic Data Architect role.
 reading_time: 2
 lang: en
 publish: true
@@ -77,3 +78,7 @@ The vault's frontmatter already contains semantic metadata (`Topics`, `semantic_
 
 - [AI Ecosystem — What I've Built](/AI-Ecosystem)
 - [Die Werkzeuge, die ich mir selbst gebaut habe](/Die-Werkzeuge,-die-ich-mir-selbst-gebaut-habe)
+
+---
+
+*Ready to build your own knowledge graph? Start with [[Semantic Web/RDF|RDF]] and work your way up.*

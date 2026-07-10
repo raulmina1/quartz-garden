@@ -8,7 +8,7 @@ tags:
   - electricity
   - merit-order
 description: The merit order system determines German electricity prices in real time. This guide explains marginal cost pricing, the spot market mechanism, and why natural gas drives your power bill.
-reading_time: 4
+reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide
@@ -108,3 +108,6 @@ CO₂ pricing adds another layer to the merit order. Since natural gas and coal 
 
 - [[Wirtschaft/CO2-Kosten|🌍 CO₂ Costs and Their Impact on German Electricity Prices]]
 - [[Engineering/Hydrogen-Pathways|🧪 Hydrogen Production Pathways]]
+
+---
+*The paradox of the Energiewende: more renewables → same or higher prices as long as gas sets the marginal cost. What reform would you prioritize?*
