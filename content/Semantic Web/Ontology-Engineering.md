@@ -104,3 +104,6 @@ If your ontology can't answer your competency questions, it's not complete.
 - [SPARQL — Query Language](/Semantic-Web/SPARQL)
 - [Knowledge Graphs — Architecture Guide](/Semantic-Web/Knowledge-Graphs)
 - [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
+
+---
+*Ontology engineering is where theory meets practice. Start with a small domain and build your first competency questions — you'll learn more in one hour than in ten tutorials.*

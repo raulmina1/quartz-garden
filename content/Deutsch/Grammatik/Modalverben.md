@@ -106,7 +106,7 @@ Setze das richtige Modalverb ein (können, müssen, dürfen, sollen, wollen, mö
 ## Related
 
 - [[Deutsch/Grammatik/Trennbare-Verben\|🔧 Trennbare Verben — complete list]]
-- [[Mental Maps/index\|🧠 Mental Maps — Grammatik visuell]]
+- [[Deutsch/Mental Maps/index\|🧠 Mental Maps — Grammatik visuell]]
 - [[Deutsch Flashcards\|🃏 Deutsch Flashcards]]
 
 ---

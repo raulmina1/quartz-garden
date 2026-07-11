@@ -8,7 +8,7 @@ tags:
   - b1.2
   - vhs
 related:
-  - "[[Mental Maps/index]]"
+  - "[[Deutsch/Mental Maps/index]]"
   - "[[Deutsch/index]]"
 description: "Interaktive Mental Map: trotz, obwohl, trotzdem, Konjunktiv II und Redemittel zur Wohnungssuche. 8 Schichten — von Grammatik über echte Sätze bis zu den Übungen."
 reading_time: "2 min"

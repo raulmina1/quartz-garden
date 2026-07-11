@@ -80,3 +80,6 @@ A personal knowledge vault (Obsidian) is a lightweight knowledge graph — each 
 - [Ontology Engineering — A Practical Guide](/Semantic-Web/Ontology-Engineering)
 - [Linked Data Principles](/Semantic-Web/Linked-Data)
 - [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
+
+---
+*Which technology in the semantic web stack interests you most? I started with RDF triples and the whole graph opened up from there.*

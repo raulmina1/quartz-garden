@@ -96,3 +96,6 @@ yv:SemanticDataArchitect yv:requiresSkill yv:RDF ,
 - [Knowledge Graphs — Architecture Guide](/Semantic-Web/Knowledge-Graphs)
 - [Ontology Engineering — A Practical Guide](/Semantic-Web/Ontology-Engineering)
 - [Linked Data Principles](/Semantic-Web/Linked-Data)
+
+---
+*OWL adds the reasoning layer. Pair it with Ontology Engineering to build models that machines can actually infer from.*

@@ -97,3 +97,6 @@ SELECT ?job ?skill WHERE {
 - [Knowledge Graphs — Architecture Guide](/Semantic-Web/Knowledge-Graphs)
 - [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
 - [Ontology Engineering Guide](/Semantic-Web/Ontology-Engineering)
+
+---
+*Linked data is the bridge between isolated datasets and a global graph. See how everything connects in the Semantic Web Standards overview.*

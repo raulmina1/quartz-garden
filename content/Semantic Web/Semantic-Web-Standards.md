@@ -99,3 +99,6 @@ Publish an Obsidian vault as linked data — assign IRIs to notes, use FOAF for 
 - [Knowledge Graphs — Architecture Guide](/Semantic-Web/Knowledge-Graphs)
 - [Linked Data Principles](/Semantic-Web/Linked-Data)
 - [Ontology Engineering Guide](/Semantic-Web/Ontology-Engineering)
+
+---
+*The semantic web stack is deep but coherent. Pick one layer and master it — the rest will connect naturally.*

@@ -1,5 +1,5 @@
 ---
-title: "Deutsch lernen als Ingenieur — was mir der Kurs nicht beigebracht hat"
+title: "Deutsch lernen als Ingenieur — was der Kurs nicht lehrte"
 date: 2026-06-22
 tags:
   - deutschkurs

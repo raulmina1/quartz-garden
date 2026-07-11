@@ -118,7 +118,7 @@ Manche Präfixe können sowohl trennbar als auch untrennbar sein — die Bedeutu
 ## Related
 
 - [[Deutsch/Grammatik/Modalverben\|⚡ Modalverben und unregelmäßige Verben]]
-- [[Mental Maps/index\|🧠 Mental Maps — Grammatik visuell]]
+- [[Deutsch/Mental Maps/index\|🧠 Mental Maps — Grammatik visuell]]
 - [[Deutsch Flashcards\|🃏 Deutsch Flashcards]]
 
 ---

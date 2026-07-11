@@ -102,3 +102,6 @@ This returns RDF, SPARQL, OWL, Knowledge Graphs, Ontology Engineering — the ex
 - [OWL — Web Ontology Language](/Semantic-Web/OWL)
 - [Linked Data Principles](/Semantic-Web/Linked-Data)
 - [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
+
+---
+*SPARQL turns RDF from a storage format into a queryable graph. Next up: formalizing your knowledge model with OWL.*

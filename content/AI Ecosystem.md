@@ -10,7 +10,7 @@ description: "130+ prompts, 18 autonomous agents, 6 cron jobs, and 8 file watche
 reading_time: "12 min"
 related:
   - "[[Projekte]]"
-  - "[[Prompt Shop]]"
+  - "[[Projekte/Prompt Shop]]"
   - "[[Einführung]]"
 date: 2026-07-06
 type: about
@@ -18,7 +18,7 @@ lang: en
 publish: true
 ---
 
-###### Related: [[Projekte]] | [[Prompt Shop]] | [[Einführung]]
+###### Related: [[Projekte]] | [[Projekte/Prompt Shop]] | [[Einführung]]
 
 ---
 

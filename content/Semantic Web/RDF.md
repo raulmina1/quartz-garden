@@ -83,3 +83,6 @@ Convert an Obsidian vault to RDF — each note gets an IRI, each `[[wikilink]]` 
 - [Linked Data Principles](/Semantic-Web/Linked-Data)
 - [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
 - [Ontology Engineering Guide](/Semantic-Web/Ontology-Engineering)
+
+---
+*RDF is the foundation. Once you grasp triples, try querying them with SPARQL — that's where the real power shows up.*
