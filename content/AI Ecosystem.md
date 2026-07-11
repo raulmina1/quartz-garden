@@ -315,10 +315,8 @@ Custom-built utilities designed and documented in the vault.
 
 ---
 
-> [!tip] Blog architecture pages
-> Detailed explanations of key system components are published on the blog:
-> - [[AI Architecture|🔌 Hook System — The Reactive Layer of an AI-Powered Vault]]
-> - [[File Watcher Pattern|🔄 File Watcher Pattern — How to Automate a Vault]]
+> [!tip] In-page references
+> The Hook System and File Watcher Pattern are documented in context above — see [§3 Hooks](#3-hooks-02_hooks) and the **File Watcher Pattern** subsection under hooks.
 
 ---
 
