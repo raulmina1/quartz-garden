@@ -69,3 +69,5 @@ publish: true
 
 > [!note] RA
 > Schreiben in einer Sprache, die ich noch lerne — genau dort, wo ich glänze, sehen Mut und Hybris identisch aus.
+
+*Hast du Fragen oder ein Projekt im Kopf? Schreib mir. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

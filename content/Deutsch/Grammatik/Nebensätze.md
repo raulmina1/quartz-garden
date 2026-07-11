@@ -18,118 +18,136 @@ type: concept-guide
 
 > Ein **Nebensatz** ist ein grammatikalisch abhängiger Satz, der **nicht allein stehen kann**. Er gibt zusätzliche Informationen und ist mit einem Hauptsatz verbunden.
 
-**Die goldene Regel:** Das konjugierte Verb steht **immer am Ende** des Nebensatzes.
+---
+
+## Die goldene Regel
+
+> **Im Nebensatz steht das Verb am Ende.**
+
+Das ist die wichtigste Regel im Deutschen. Die Konjugation bleibt — aber das konjugierte Verb wandert ans Satzende.
 
 ---
 
-## Die Goldene Regel
+## Die 9 häufigsten Konnektoren
 
-```mermaid
-flowchart LR
-    A[Konnektor] --> B[Subjekt]
-    B --> C[Rest des Satzes]
-    C --> D[⚡ VERB<br/>am Ende]
-    
-    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
-    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
-```
+### Kausale Nebensätze — Grund
 
-**Struktur:** `[Konnektor] + [Subjekt] + [Rest des Satzes] + VERB`
+| Konnektor | Bedeutung | Beispiel |
+|-----------|-----------|----------|
+| **weil** | weil (fokusierter Grund) | *Ich lerne Deutsch, **weil** ich in Berlin **lebe**.* |
+| **da** | da (allgemeiner Grund) | ***Da** es regnet, bleiben wir zu Hause.* |
 
----
+> [!tip] weil vs. da
+> - **weil** = betont den Grund (Antwort auf *Warum?*)
+> - **da** = der Grund ist bereits bekannt (am Satzanfang üblich)
 
-## Nebensatz-Konnektoren
+### Konditionale Nebensätze — Bedingung
 
-| Konnektor | Funktion | Beispiel |
-|-----------|----------|----------|
-| **weil** | Grund (Kausal) | *... weil ich müde **bin**.* |
-| **da** | Grund (formaler) | *... da ich kein Geld **habe**.* |
-| **dass** | Aussage, Tatsache | *... dass ich Deutsch **lerne**.* |
-| **wenn** | Bedingung / Zeit | *... wenn ich Zeit **habe**.* |
-| **als** | einmalige Vergangenheit | *... als ich in Berlin **ankam**.* |
-| **obwohl** | Gegensatz (Konzessiv) | *... obwohl es regnet.* |
-| **ob** | indirekte Frage (ja/nein) | *... ob er **kommt**.* |
-| **damit** | Zweck (final) | *... damit ich besser **verstehe**.* |
+| Konnektor | Bedeutung | Beispiel |
+|-----------|-----------|----------|
+| **wenn** | wenn (Bedingung) | ***Wenn** ich Zeit **habe**, lerne ich Vokabeln.* |
+| **falls** | falls (möglich) | ***Falls** es regnet, bleiben wir drinnen.* |
 
----
+### Konsekutive Nebensätze — Folge
 
-## Position im Satz
+| Konnektor | Bedeutung | Beispiel |
+|-----------|-----------|----------|
+| **sodass** | so dass (Folge) | *Er lernt viel, **sodass** er die Prüfung **besteht**.* |
 
-Ein Nebensatz kann vor oder nach dem Hauptsatz stehen:
+### Konzessive Nebensätze — Gegenteil
 
-### Nebensatz nach dem Hauptsatz
+| Konnektor | Bedeutung | Beispiel |
+|-----------|-----------|----------|
+| **obwohl** | obwohl (ungeachtet) | ***Obwohl** es schwierig **ist**, mache ich weiter.* |
 
-> *Ich bleibe zu Hause, **weil ich krank bin**.*
+### Temporale Nebensätze — Zeit
 
-| Hauptsatz | , | Nebensatz |
-|-----------|---|-----------|
-| Ich bleibe zu Hause | , | weil ich krank **bin** |
-
-### Nebensatz vor dem Hauptsatz
-
-> ***Weil ich krank bin**, bleibe ich zu Hause.*
-
-| Nebensatz | , | Hauptsatz |
-|-----------|---|-----------|
-| Weil ich krank **bin** | , | **bleibe** ich zu Hause |
-
-> [!tip] Wenn der Nebensatz vorne steht
-> Das konjugierte Verb im Hauptsatz kommt **direkt nach dem Komma** (Verb-Zweit-Stellung).
+| Konnektor | Bedeutung | Beispiel |
+|-----------|-----------|----------|
+| **während** | während (gleichzeitig) | ***Während** ich **esse**, höre ich Musik.* |
+| **bevor** | bevor (vorher) | ***Bevor** ich **schlafe**, lese ich.* |
+| **nachdem** | nachdem (danach) | ***Nachdem** ich **gelernt habe**, mache ich eine Pause.* |
 
 ---
 
-## Mehrteilige Verben im Nebensatz
+## Satzstellung
 
-Wenn es zwei Verben gibt, stehen **beide am Ende**:
+### Nebensatz vor Hauptsatz
 
-**Struktur:** `[Konnektor] + ... + [Infinitiv/Partizip] + [konjugiertes Verb]`
+> **Nebensatz**, Verb Subjekt ... (Hauptsatz beginnt mit Verb)
 
-| Satz | Verbposition |
-|------|-------------|
-| *Ich hoffe, dass ich dich bald **sehen werde**.* | Infinitiv + konjugiert |
-| *..., weil ich das Buch gestern **gelesen habe**.* | Partizip + konjugiert |
-| *..., obwohl ich das nicht **hätte sagen sollen**.* | Drei Verben am Ende |
+| Nebensatz (Verb am Ende) | Hauptsatz (Verb Position 1) |
+|---------------------------|------------------------------|
+| *Wenn ich Zeit habe,* | ***gehe** ich ins Kino.* |
+| *Weil es regnet,* | ***bleiben** wir zu Hause.* |
+| *Obwohl es spät ist,* | ***lernen** wir weiter.* |
+
+### Nebensatz nach Hauptsatz
+
+> Hauptsatz **Konnektor** Subjekt ... **Verb**
+
+| Hauptsatz | Konnektor | Subjekt | ... | Verb |
+|-----------|-----------|---------|-----|------|
+| Ich lerne Deutsch, | **weil** | ich | in Berlin | **lebe**. |
+| Wir bleiben zu Hause, | **obwohl** | das Wetter | schön | **ist**. |
+| Ich rufe dich an, | **wenn** | ich | zu Hause | **bin**. |
+
+### Infinitiv mit zu im Nebensatz
+
+Wenn das Verb im Nebensatz *nicht* konjugiert wird (mit *um...zu*, *ohne...zu*, oder direkt):
+
+- *Ich lerne Deutsch, **um** in Berlin zu **arbeiten**.*
+- *Er geht, **ohne** ein Wort zu **sagen**.*
+
+> [!warning] Achtung
+> Bei trennbaren Verben: **zu** kommt zwischen Präfix und Stamm.
+> - *Ich habe keine Zeit, **aufzuräumen**.* (nicht: *zu aufräumen*)
+> - *Es ist wichtig, **einzukaufen**.* (nicht: *zu einkaufen*)
 
 ---
 
-## Die wichtigsten Konnektoren im Überblick
+## Vergleichstabelle
 
-| Konnektor | Satztyp | Verbposition |
-|-----------|---------|-------------|
-| **weil** | Nebensatz | Ende |
-| **da** | Nebensatz (formell) | Ende |
-| **dass** | Nebensatz | Ende |
-| **wenn** | Nebensatz | Ende |
-| **als** | Nebensatz | Ende |
-| **obwohl** | Nebensatz | Ende |
-| **ob** | Nebensatz | Ende |
-| **damit** | Nebensatz | Ende |
-| **denn** | Hauptsatz | Position 2 (kein Nebensatz!) |
-| **aber** | Hauptsatz | Position 2 |
-| **und** | Hauptsatz | Position 2 |
-
-> [!warning] **weil** vs. **denn**
-> *Ich lerne Deutsch, **weil** ich in Deutschland **leben möchte**.* (Verb am Ende)
-> *Ich lerne Deutsch, **denn** ich **möchte** in Deutschland leben.* (Verb an Position 2)
+| Konnektor | Typ | Position | Bedeutung |
+|-----------|-----|----------|-----------|
+| **weil** | kausal | Verb am Ende | betonter Grund |
+| **da** | kausal | Verb am Ende | bekannter Grund |
+| **wenn** | konditional / temporal | Verb am Ende | Bedingung / wiederholt |
+| **obwohl** | konzessiv | Verb am Ende | unerwarteter Gegensatz |
+| **während** | temporal | Verb am Ende | Gleichzeitigkeit |
+| **bevor** | temporal | Verb am Ende | Vorzeitigkeit |
+| **nachdem** | temporal | Verb am Ende (Plusquamperfekt) | Nachzeitigkeit |
+| **sodass** | konsekutiv | Verb am Ende | Folge / Ergebnis |
+| **falls** | konditional | Verb am Ende | mögliche Bedingung |
 
 ---
 
-## Übung: Sätze bilden
+## Übungen
 
-1. Ich lerne Deutsch. Ich möchte in Deutschland leben. (weil)
-   → *Ich lerne Deutsch, **weil** ich in Deutschland leben **möchte**.*
+1. Verbinde die Sätze mit *weil*:
+   - *Ich lerne Deutsch. Ich will in Berlin arbeiten.*
+   → **Ich lerne Deutsch, weil ich in Berlin arbeiten will.**
 
-2. Ich habe keine Zeit. Ich kann nicht kommen. (weil)
-   → *Ich kann nicht kommen, **weil** ich keine Zeit **habe**.*
+2. Verbinde mit *obwohl*:
+   - *Es ist schwierig. Ich mache weiter.*
+   → **Obwohl es schwierig ist, mache ich weiter.**
 
-3. Es regnet. Ich gehe spazieren. (obwohl)
-   → *Ich gehe spazieren, **obwohl** es **regnet**.*
+3. Verbinde mit *wenn*:
+   - *Ich habe Zeit. Ich gehe ins Kino.*
+   → **Wenn ich Zeit habe, gehe ich ins Kino.**
 
-4. Hast du morgen Zeit? Wir können ins Kino gehen. (wenn)
+4. Setze das Verb an die richtige Position:
+   - *Hast du morgen Zeit? Wir können ins Kino gehen. (wenn)*
    → ***Wenn** du morgen Zeit **hast**, können wir ins Kino gehen.*
 
-5. Er sagt etwas. Er ist nicht da. (obwohl)
+5. Setze das Verb an die richtige Position:
+   - *Er sagt etwas. Er ist nicht da. (obwohl)*
    → *Er sagt, **dass** er nicht da **ist**.*
+
+> [!tip] Übungsstrategie
+> - **Woche 1:** Nur *weil* und *wenn* — diese beiden decken 70% der Alltagskommunikation ab.
+> - **Woche 2:** *obwohl* und *dass* — die nuancierteren Verbindungen.
+> - **Woche 3:** *bevor*, *nachdem*, *während* — temporale Strukturen.
 
 ---
 
@@ -140,4 +158,5 @@ Wenn es zwei Verben gibt, stehen **beide am Ende**:
 - [[Deutsch/Grammatik/Modalverben\|⚡ Modalverben]]
 
 ---
-*Übe diesen Konnektor beim nächsten Gespräch bewusst ein — eine Woche lang jeden Tag einen neuen Nebensatz.*
+
+*Welcher Nebensatz-Typ fällt dir am schwersten? Bei mir war es „obwohl" — die Wortstellung am Ende fühlt sich nie natürlich an.*
