@@ -16,10 +16,6 @@ description: "Wie ein Ingenieur anfing, sich selbst zu automatisieren — und wa
 reading_time: "5 min"
 ---
 
-###### Related: [[Projekte]] | [[Einführung]]
-
----
-
 # Die Werkzeuge, die ich mir selbst gebaut habe
 
 *Kolumne — Automatisierung als persönliche Praxis*

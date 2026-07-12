@@ -17,10 +17,6 @@ related:
 publish: true
 ---
 
-###### Related: [[Einführung]] | [[AI Ecosystem]]
-
----
-
 ## RA Prompt Shop
 
 > Ready-to-use AI prompts for Obsidian, German learning, job hunting, and personal automation — built for Claude, refined daily.

@@ -13,10 +13,6 @@ lang: de
 publish: true
 ---
 
-###### Related: [[Einführung]] | [[Die Werkzeuge, die ich mir selbst gebaut habe]]
-
----
-
 # Deutsch lernen als Ingenieur
 
 *Kolumne — Sprachenlernen als Prozess*
