@@ -2,6 +2,7 @@
 title: RA Blog
 tags:
   - home
+description: "Digital garden by Raul Mina — Process Engineer & AI Automation Specialist. Engineering guides, German learning resources, AI ecosystem, and opinion columns. Built with Quartz 4."
 ---
 
 Welcome to the **RA Blog** — a digital garden by Raul Mina. Process engineer in Berlin, building AI systems and learning German.

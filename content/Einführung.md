@@ -5,7 +5,7 @@ tags:
   - about
   - einführung
   - kontakt
-description: Raúl Mina — Process Engineer & AI Automation Specialist. MSc Engineering Management. Living in Berlin, building AI systems over Obsidian vaults, learning German.
+description: "Raúl Mina — Process Engineer & AI Automation Specialist. MSc Engineering Management. Living in Berlin, building AI systems over Obsidian vaults, writing about German learning, engineering, and knowledge management."
 reading_time: "2 min"
 type: about
 lang: de
