@@ -56,7 +56,7 @@ Lies die Frage, überlege die Antwort, decke auf und bewerte dich selbst. Perfek
 ---
 
 > [!note] Über die Karten
-> Die Vokabeln und Grammatik-Karten stammen aus meinem Deutschkurs an der VHS (B1.1 und B1.2). Sie werden automatisch aus meinen Anki-Notizen extrahiert — jede Karte enthält den Artikel, die Pluralform und einen Beispielsatz im Originalkontext. Mehr dazu: [[Deutsch lernen als Ingenieur]].
+> Die Vokabeln und Grammatik-Karten stammen aus meinem Deutschkurs an der VHS (B1.1 und B1.2). Sie werden automatisch aus meinen Anki-Notizen extrahiert — jede Karte enthält den Artikel, die Pluralform und einen Beispielsatz im Originalkontext. Mehr dazu: [[Kolumnen/Deutsch lernen als Ingenieur]].
 
 ---
 
