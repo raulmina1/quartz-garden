@@ -38,7 +38,7 @@ Every prompt runs on **Claude** (claude-sonnet-4-6 recommended) or any LLM compa
 | 🧠 Personal Life & Reflection Pack | 5 prompts | €15 |
 | 📦 Complete Bundle — All 34 Prompts | 34 prompts | **€55** |
 
-To order: **raulmina13@gmail.com** — include which pack(s) you want. Payment via bank transfer (details at the bottom).
+To order: **raulmina13@gmail.com** or use the Ko-fi form below — include which pack(s) you want.
 
 ---
 
