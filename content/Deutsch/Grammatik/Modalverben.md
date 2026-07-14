@@ -7,7 +7,7 @@ tags:
   - modalverben
   - verben
   - b1
-description: "Modalverben, unregelmäßige Verben, und ihre Konjugation — vollständige Tabellen und Satzstellung für Deutsch B1-Niveau. Inklusive Übungen, Vokalwechsel-Muster und Alltagsbeispiele."
+description: "Modalverben, unregelmäßige Verben und ihre Konjugation — vollständige Tabellen und Satzstellung für Deutsch B1. Inklusive Übungen und Alltagsbeispiele."
 reading_time: "3 min"
 lang: de
 publish: true

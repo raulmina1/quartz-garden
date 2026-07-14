@@ -5,7 +5,7 @@ tags:
   - semantic-web
   - rdf
   - open-data
-description: Linked data is a set of W3C principles for publishing structured data on the web so it can be interlinked and queried. Learn the 4 rules, 5-star deployment, and how to connect your data to the global graph.
+description: "Linked data principles for publishing structured data on the web so it can be interlinked and queried. Learn the 4 rules, 5-star deployment, and how to connect to the global graph."
 reading_time: "4 min"
 lang: en
 publish: true

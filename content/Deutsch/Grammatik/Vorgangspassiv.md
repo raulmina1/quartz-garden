@@ -7,7 +7,7 @@ tags:
   - passiv
   - verben
   - b1
-description: "Das Vorgangspassiv beschreibt eine Handlung am Subjekt — mit werden + Partizip II. Vollständige Konjugation in allen Tempora, Umwandlung Aktiv→Passiv, Unterschied zum Zustandspassiv und Übungen."
+description: "Das Vorgangspassiv beschreibt eine Handlung am Subjekt — mit werden + Partizip II. Vollständige Konjugation, Umwandlung Aktiv→Passiv, und Übungen auf B1-Niveau."
 reading_time: "3 min"
 lang: de
 publish: true

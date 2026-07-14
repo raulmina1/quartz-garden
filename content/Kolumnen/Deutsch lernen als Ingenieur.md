@@ -6,7 +6,7 @@ tags:
   - lernen
   - deutsch
   - ra-blog
-description: "Ich lerne Deutsch auf B1.1-Niveau und bereite mich auf den DTZ vor. Was der Kurs mir beibringt — und was ich außerhalb davon lernen muss."
+description: "Ich lerne Deutsch auf B1.1-Niveau und bereite mich auf den DTZ vor. Was der VHS-Kurs mir beibringt — und was ich außerhalb davon lernen muss."
 reading_time: "4 min"
 type: kolumne
 lang: de

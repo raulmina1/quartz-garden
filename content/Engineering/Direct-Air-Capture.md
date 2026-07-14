@@ -7,7 +7,7 @@ tags:
   - dac
   - climate
   - chemical-engineering
-description: Direct Air Capture removes CO₂ from ambient air using specialized adsorbents. This guide covers PVSA technology, the Skarstrom cycle, adsorbent materials, and lab-scale DAC system design.
+description: "Direct Air Capture removes CO₂ from ambient air using specialized adsorbents. Covers PVSA technology, the Skarstrom cycle, adsorbent materials, and lab-scale system design."
 reading_time: "5 min"
 lang: en
 publish: true
