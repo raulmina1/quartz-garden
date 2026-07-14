@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deutsch Multiple Choice — VHS Lernkarten</title>
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --surface: #1a1a1a;
+    --surface-hover: #252525;
+    --border: #333;
+    --text: #e0e0d8;
+    --text-dim: #888;
+    --accent: #c4ab00;
+    --success: #2ecc71;
+    --success-bg: rgba(46,204,113,0.15);
+    --error: #e74c3c;
+    --error-bg: rgba(231,76,60,0.15);
+    --de-color: #c4ab00;
+    --en-color: #e67e22;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #fafaf5;
+      --surface: #fff;
+      --surface-hover: #f5f5f0;
+      --border: #e0e0d8;
+      --text: #2c2c2c;
+      --text-dim: #888;
+      --accent: #a89400;
+      --success: #16a34a;
+      --success-bg: rgba(22,163,74,0.1);
+      --error: #dc2626;
+      --error-bg: rgba(220,38,38,0.1);
+    }
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .container { width: 100%; max-width: 700px; }
+
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+  .header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .header .subtitle {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+  }
+
+  /* Controls */
+  .controls {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+
+  .controls select, .controls button {
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+  }
+  .controls select:hover, .controls button:hover {
+    background: var(--surface-hover);
+  }
+  .controls select {
+    flex: 1;
+    min-width: 180px;
+    max-width: 400px;
+  }
+  .controls button {
+    white-space: nowrap;
+    font-weight: 500;
+  }
+  .controls button.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .controls button.primary:hover { opacity: 0.9; }
+
+  /* Progress */
+  .progress-bar {
+    width: 100%;
+    height: 6px;
+    background: var(--border);
+    border-radius: 3px;
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+    transition: width 0.3s ease;
+  }
+
+  /* Status */
+  .status-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .status-row .stat {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .status-row .stat strong { color: var(--text); }
+
+  /* Question area */
+  .question-area {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .question-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dim);
+    background: rgba(196,171,0,0.1);
+    padding: 0.2rem 0.7rem;
+    border-radius: 12px;
+    border: 1px solid rgba(196,171,0,0.2);
+    display: inline-block;
+    margin-bottom: 0.75rem;
+  }
+  .question-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--text);
+    padding: 0.5rem 1rem;
+  }
+  .question-hint {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-top: 0.35rem;
+  }
+
+  /* Options grid */
+  .options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .option-btn {
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    border: 2px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    font-size: 0.95rem;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.15s ease;
+    word-break: break-word;
+    hyphens: auto;
+    line-height: 1.4;
+    min-height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .option-btn:hover {
+    border-color: var(--accent);
+    background: var(--surface-hover);
+  }
+  .option-btn:active { transform: scale(0.97); }
+
+  .option-btn.correct {
+    background: var(--success-bg);
+    border-color: var(--success);
+    color: var(--success);
+    cursor: default;
+  }
+  .option-btn.wrong {
+    background: var(--error-bg);
+    border-color: var(--error);
+    color: var(--error);
+    cursor: default;
+  }
+  .option-btn.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+  }
+
+  .option-btn .icon {
+    font-size: 1.1rem;
+    margin-left: 0.4rem;
+  }
+
+  /* Next button */
+  .next-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .next-area button {
+    padding: 0.65rem 2rem;
+    border-radius: 8px;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: opacity 0.2s, transform 0.1s;
+  }
+  .next-area button:hover { opacity: 0.9; }
+  .next-area button:active { transform: scale(0.96); }
+
+  /* Feedback toast */
+  .toast {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    display: none;
+  }
+  .toast.show { display: block; }
+  .toast.correct-toast {
+    background: var(--success-bg);
+    color: var(--success);
+    border: 1px solid var(--success);
+  }
+  .toast.wrong-toast {
+    background: var(--error-bg);
+    color: var(--error);
+    border: 1px solid var(--error);
+  }
+
+  /* Empty state */
+  .empty {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-dim);
+  }
+  .empty .icon { font-size: 3rem; margin-bottom: 0.5rem; }
+  .empty p { max-width: 400px; margin: 0 auto; }
+
+  /* Victory */
+  .victory {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .victory.show { display: flex; }
+  .victory-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    max-width: 420px;
+    width: 90%;
+  }
+  .victory-box h2 { font-size: 1.6rem; margin-bottom: 0.5rem; }
+  .victory-box .stats { color: var(--text-dim); margin: 1rem 0; line-height: 1.8; }
+  .victory-box button {
+    margin: 0.35rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .victory-box button.secondary {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+  }
+  .victory-box button:hover { opacity: 0.9; }
+
+  @media (max-width: 600px) {
+    .options-grid {
+      grid-template-columns: 1fr;
+    }
+    .header h1 { font-size: 1.2rem; }
+    .question-text { font-size: 1.1rem; }
+    .controls { flex-direction: column; }
+    .controls select { max-width: 100%; }
+    .option-btn { padding: 0.75rem; font-size: 0.9rem; min-height: 3rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>🎯 Multiple Choice</h1>
+    <p class="subtitle">Deutsches Wort — wähle die richtige Übersetzung</p>
+  </div>
+
+  <div class="controls" id="controls">
+    <select id="deck-selector">
+      <option value="">-- Deck wählen --</option>
+    </select>
+    <button id="btn-start" class="primary">▶ Start</button>
+    <button id="btn-direction">DE → EN</button>
+  </div>
+
+  <div id="game-area" style="display:none">
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+    </div>
+    <div class="status-row">
+      <div class="stat">📇 <strong id="q-index">0</strong> / <span id="q-total">0</span></div>
+      <div class="stat">✅ <strong id="score-correct">0</strong> richtig</div>
+      <div class="stat">❌ <strong id="score-wrong">0</strong> falsch</div>
+      <div class="stat">🎯 <strong id="score-pct">0%</strong></div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <div class="question-area">
+      <div class="question-label" id="section-label">Vokabeln</div>
+      <div class="question-text" id="question-text"></div>
+      <div class="question-hint" id="question-hint"></div>
+    </div>
+
+    <div class="options-grid" id="options-grid"></div>
+
+    <div class="next-area" id="next-area" style="display:none">
+      <button id="btn-next">→ Nächste</button>
+    </div>
+  </div>
+
+  <div class="empty" id="empty">
+    <div class="icon">🎯</div>
+    <p>Wähle ein Deck und klicke auf <strong>Start</strong>.<br>Wähle die richtige Übersetzung aus vier Optionen.</p>
+  </div>
+</div>
+
+<div class="victory" id="victory">
+  <div class="victory-box">
+    <h2 id="victory-emoji">🏆</h2>
+    <div class="stats" id="victory-stats"></div>
+    <button onclick="restartGame()">Nochmal mit diesem Deck</button>
+    <button class="secondary" onclick="resetAll()">Anderes Deck wählen</button>
+  </div>
+</div>
+
+<script>
+// ── State ──────────────────────────────────────────────
+let allDecks = [];
+let currentDeck = null;
+let questions = [];        // Generated question objects
+let currentQIdx = 0;
+let correctCount = 0;
+let wrongCount = 0;
+let direction = 'de-en';   // 'de-en' or 'en-de'
+let answered = false;
+let gameActive = false;
+
+// ── Load data ──────────────────────────────────────────
+async function loadDecks() {
+  try {
+    const resp = await fetch('./vhs-decks.json');
+    const data = await resp.json();
+    allDecks = data.decks;
+    populateSelector();
+  } catch (e) {
+    document.getElementById('empty').innerHTML =
+      '<p style="color:#e74c3c">❌ Konnte Datendatei nicht laden.<br><small>vhs-decks.json nicht gefunden</small></p>';
+    console.error(e);
+  }
+}
+
+function populateSelector() {
+  const sel = document.getElementById('deck-selector');
+  sel.innerHTML = '<option value="">-- Deck wählen --</option>';
+  allDecks.forEach((deck, i) => {
+    if (!deck.vocab_pairs || deck.vocab_pairs.length < 4) return;
+    const opt = document.createElement('option');
+    opt.value = i;
+    opt.textContent = `${deck.title} (${deck.vocab_pairs.length} Paare)`;
+    sel.appendChild(opt);
+  });
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// ── Generate questions ─────────────────────────────────
+function generateQuestions() {
+  const pairs = currentDeck.vocab_pairs;
+  // Build pool of all wrong options per question
+  questions = pairs.map((pair, idx) => {
+    const correct = direction === 'de-en' ? pair.en : pair.de;
+    const prompt = direction === 'de-en' ? pair.de : pair.en;
+    const allWrongs = pairs
+      .filter((_, i) => i !== idx)
+      .map(p => direction === 'de-en' ? p.en : p.de);
+
+    // Pick 3 random wrong options (unique)
+    const wrongs = shuffle(allWrongs).slice(0, 3);
+
+    // Build 4 options, shuffle them
+    const options = shuffle([
+      { text: correct, correct: true },
+      ...wrongs.map(w => ({ text: w, correct: false }))
+    ]);
+
+    return {
+      prompt,
+      correct,
+      options,
+      section: pair.section || 'Vokabeln',
+      example: pair.example || ''
+    };
+  });
+
+  questions = shuffle(questions);
+}
+
+// ── Game logic ──────────────────────────────────────────
+function startGame() {
+  const idx = parseInt(document.getElementById('deck-selector').value);
+  if (isNaN(idx) || !allDecks[idx]) return;
+
+  currentDeck = allDecks[idx];
+  if (!currentDeck.vocab_pairs || currentDeck.vocab_pairs.length < 4) {
+    document.getElementById('empty').innerHTML =
+      '<p style="color:#e74c3c">⚠️ Dieses Deck hat zu wenige Vokabel-Paare.<br><small>Mindestens 4 Paare für Multiple Choice.</small></p>';
+    document.getElementById('empty').style.display = 'block';
+    return;
+  }
+
+  generateQuestions();
+  currentQIdx = 0;
+  correctCount = 0;
+  wrongCount = 0;
+  answered = false;
+  gameActive = true;
+
+  document.getElementById('empty').style.display = 'none';
+  document.getElementById('game-area').style.display = 'block';
+  document.getElementById('victory').classList.remove('show');
+  document.getElementById('next-area').style.display = 'none';
+  document.getElementById('toast').classList.remove('show', 'correct-toast', 'wrong-toast');
+
+  document.getElementById('q-total').textContent = questions.length;
+  updateScores();
+  showQuestion();
+}
+
+function showQuestion() {
+  const q = questions[currentQIdx];
+  answered = false;
+
+  document.getElementById('section-label').textContent = q.section;
+  document.getElementById('question-text').textContent = q.prompt;
+  document.getElementById('question-hint').textContent = q.example ? `"${q.example}"` : '';
+  document.getElementById('next-area').style.display = 'none';
+  document.getElementById('toast').classList.remove('show', 'correct-toast', 'wrong-toast');
+
+  const grid = document.getElementById('options-grid');
+  grid.innerHTML = '';
+
+  q.options.forEach((opt, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'option-btn';
+    btn.textContent = opt.text;
+    btn.dataset.index = i;
+    btn.addEventListener('click', () => onOptionClick(btn, opt, q));
+    grid.appendChild(btn);
+  });
+
+  document.getElementById('q-index').textContent = currentQIdx + 1;
+  updateScores();
+}
+
+function onOptionClick(btn, opt, q) {
+  if (answered || !gameActive) return;
+  answered = true;
+
+  const allBtns = document.querySelectorAll('#options-grid .option-btn');
+
+  // Show correct answer green
+  allBtns.forEach(b => {
+    const idx = parseInt(b.dataset.index);
+    if (q.options[idx].correct) {
+      b.classList.add('correct');
+      b.innerHTML = q.options[idx].text + '<span class="icon">✓</span>';
+    }
+  });
+
+  if (opt.correct) {
+    correctCount++;
+    btn.classList.add('correct');
+    btn.innerHTML = opt.text + '<span class="icon">✓</span>';
+    showToast('Richtig! 🎉', 'correct-toast');
+  } else {
+    wrongCount++;
+    btn.classList.add('wrong');
+    btn.innerHTML = opt.text + '<span class="icon">✗</span>';
+    showToast(`Falsch. Die richtige Antwort ist: <strong>${q.correct}</strong>`, 'wrong-toast');
+  }
+
+  // Disable all buttons
+  allBtns.forEach(b => b.classList.add('disabled'));
+
+  updateScores();
+
+  // Show next button
+  document.getElementById('next-area').style.display = 'flex';
+}
+
+function showToast(msg, cls) {
+  const toast = document.getElementById('toast');
+  toast.innerHTML = msg;
+  toast.className = `toast show ${cls}`;
+}
+
+function updateScores() {
+  const total = questions.length;
+  const done = correctCount + wrongCount;
+  const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('score-correct').textContent = correctCount;
+  document.getElementById('score-wrong').textContent = wrongCount;
+  document.getElementById('score-pct').textContent =
+    done > 0 ? Math.round((correctCount / done) * 100) + '%' : '0%';
+  document.getElementById('q-index').textContent = Math.min(done + 1, total);
+}
+
+function nextQuestion() {
+  if (currentQIdx + 1 >= questions.length) {
+    victory();
+    return;
+  }
+  currentQIdx++;
+  showQuestion();
+}
+
+function victory() {
+  gameActive = false;
+  document.getElementById('game-area').style.display = 'none';
+
+  const total = questions.length;
+  const pct = Math.round((correctCount / total) * 100);
+  let emoji = pct >= 90 ? '🏆' : pct >= 70 ? '🎯' : pct >= 50 ? '📚' : '💪';
+
+  document.getElementById('victory-emoji').textContent = emoji;
+  document.getElementById('victory-stats').innerHTML = `
+    <p><strong>${total}</strong> Fragen beantwortet</p>
+    <p>✅ <strong>${correctCount}</strong> richtig (${pct}%)</p>
+    <p>❌ <strong>${wrongCount}</strong> falsch</p>
+    <p>📚 Deck: <strong>${currentDeck.title}</strong></p>
+  `;
+  document.getElementById('victory').classList.add('show');
+}
+
+function restartGame() {
+  if (!currentDeck) return;
+  generateQuestions();
+  currentQIdx = 0;
+  correctCount = 0;
+  wrongCount = 0;
+  answered = false;
+  gameActive = true;
+
+  document.getElementById('victory').classList.remove('show');
+  document.getElementById('game-area').style.display = 'block';
+  document.getElementById('next-area').style.display = 'none';
+  document.getElementById('toast').classList.remove('show', 'correct-toast', 'wrong-toast');
+  document.getElementById('q-total').textContent = questions.length;
+  updateScores();
+  showQuestion();
+}
+
+function resetAll() {
+  gameActive = false;
+  document.getElementById('victory').classList.remove('show');
+  document.getElementById('game-area').style.display = 'none';
+  document.getElementById('empty').style.display = 'block';
+  document.getElementById('deck-selector').value = '';
+}
+
+function toggleDirection() {
+  direction = direction === 'de-en' ? 'en-de' : 'de-en';
+  const btn = document.getElementById('btn-direction');
+  btn.textContent = direction === 'de-en' ? 'DE → EN' : 'EN → DE';
+  if (gameActive) {
+    // Regenerate questions with new direction
+    generateQuestions();
+    currentQIdx = 0;
+    correctCount = 0;
+    wrongCount = 0;
+    answered = false;
+    document.getElementById('next-area').style.display = 'none';
+    document.getElementById('toast').classList.remove('show', 'correct-toast', 'wrong-toast');
+    document.getElementById('q-total').textContent = questions.length;
+    updateScores();
+    showQuestion();
+  }
+}
+
+// ── Event listeners ────────────────────────────────────
+document.getElementById('btn-start').addEventListener('click', startGame);
+document.getElementById('btn-next').addEventListener('click', nextQuestion);
+document.getElementById('btn-direction').addEventListener('click', toggleDirection);
+
+// Keyboard shortcuts
+document.addEventListener('keydown', function(e) {
+  if (!gameActive) return;
+  if (e.key === 'Enter' || e.key === ' ') {
+    e.preventDefault();
+    if (!answered) return;
+    nextQuestion();
+  } else if (e.key === 'ArrowRight' && answered) {
+    e.preventDefault();
+    nextQuestion();
+  } else if (!answered && (e.key === '1' || e.key === '2' || e.key === '3' || e.key === '4')) {
+    e.preventDefault();
+    const idx = parseInt(e.key) - 1;
+    const btns = document.querySelectorAll('#options-grid .option-btn');
+    if (btns[idx]) btns[idx].click();
+  }
+});
+
+// ── Init ────────────────────────────────────────────────
+loadDecks();
+</script>
+
+</body>
+</html>
