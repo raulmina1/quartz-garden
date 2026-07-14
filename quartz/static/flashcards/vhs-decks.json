@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-14T23:46:23.165714",
+  "generated": "2026-07-14T23:48:45.483165",
   "source": "C:\\Vaults\\YellowVault\\03_INFORMATIONEN\\05_PROGRAMS\\14_ANKI\\01_DATABASE",
   "total_decks": 16,
-  "total_vocab_pairs": 616,
-  "total_grammar_cards": 725,
+  "total_vocab_pairs": 615,
+  "total_grammar_cards": 741,
   "decks": [
     {
-      "id": "ccc8340eaeca185b",
+      "id": "vhs-b12--140726--verben-mit-prpositionen---relativpronomen--",
       "title": "VHS B1.2 — 14.07.26 — Verben mit Präpositionen · Relativpronomen · Relativsätze",
       "date": "2026-07-14",
       "deck": "Deutsch::Anki - VHS B1.2 — 14.07.26 — Verben mit Präpositionen · Relativpronomen · Relativsätze",
@@ -896,6 +896,11 @@
       ],
       "grammar_cards": [
         {
+          "front": "cards-deck: Deutsch",
+          "back": "Anki - VHS B1.2 — 14.07.26 — Verben mit Präpositionen · Relativpronomen · Relativsätze",
+          "section": ""
+        },
+        {
           "front": "sich freuen auf vs. sich freuen über — Unterschied?",
           "back": "sich freuen AUF = Zukunft (Vorfreude auf etwas, das noch kommt). sich freuen ÜBER = Gegenwart/Vergangenheit (Freude über etwas, das schon passiert ist). Beide + Akkusativ.",
           "section": "Tipo 2 — Grammatik-Regeln"
@@ -1245,10 +1250,12 @@
           "back": "\"AUF FÜR ÜBER UM AN\" — sing es wie ein Mantra: auf-für-über-um-an!",
           "section": "Tipo 8 — Eselsbrücken"
         }
-      ]
+      ],
+      "total_vocab": 147,
+      "total_grammar": 71
     },
     {
-      "id": "e0ff3be94f6e1b3d",
+      "id": "vhs-b12--130726--komparativ---je-desto---arbeitsklima",
       "title": "VHS B1.2 — 13.07.26 — Komparativ · Je Desto · Arbeitsklima",
       "date": "2026-07-13",
       "deck": "Deutsch::Anki - VHS B1.2 — 13.07.26 — Komparativ · Je Desto · Arbeitsklima",
@@ -1399,6 +1406,11 @@
         }
       ],
       "grammar_cards": [
+        {
+          "front": "cards-deck: Deutsch",
+          "back": "Anki - VHS B1.2 — 13.07.26 — Komparativ · Je Desto · Arbeitsklima",
+          "section": ""
+        },
         {
           "front": "je … desto — wohin geht das Verb im je-Teil?",
           "back": "Im je-Teil steht das Verb am Ende (Nebensatz). Je + Komparativ + Subjekt + … + Verb.",
@@ -1614,10 +1626,12 @@
           "back": "\"Ich\" selbst hat den ich-Laut — weich wie ein Flüstern. \"Ach!\" ruft man mit offenem Rachen — hart.",
           "section": "Tipo 8 — Eselsbrücken"
         }
-      ]
+      ],
+      "total_vocab": 24,
+      "total_grammar": 44
     },
     {
-      "id": "8744ff02aa7936a6",
+      "id": "vhs-b12--090726--hausregeln---verben-mit-prpositionen---zwei",
       "title": "VHS B1.2 — 09.07.26 — Hausregeln · Verben mit Präpositionen · Zweiteilige Konnektoren",
       "date": "2026-07-09",
       "deck": "Deutsch::Anki - VHS B1.2 — 09.07.26 — Hausregeln · Verben mit Präpositionen · Zweiteilige Konnektoren",
@@ -2087,6 +2101,11 @@
       ],
       "grammar_cards": [
         {
+          "front": "cards-deck: Deutsch",
+          "back": "Anki - VHS B1.2 — 09.07.26 — Hausregeln · Verben mit Präpositionen · Zweiteilige Konnektoren",
+          "section": ""
+        },
+        {
           "front": "Was bedeutet \"entweder ... oder\" und wie wird es verwendet?",
           "back": "Es bedeutet \"either ... or\". Es verbindet zwei Alternativen. Position: entweder + Verb + Subjekt + Rest + oder + Verb + Subjekt + Rest. Beispiel: Entweder kommst du mit oder du wartest hier. Man kann es auch vor Satzgliedern verwenden: Ich arbeite entweder am Samstag oder am Sonntag.",
           "section": "Grammatik-Regeln"
@@ -2341,340 +2360,343 @@
           "back": "Zwar = \"It's true that...\" (räumt ein). Aber = \"BUT\" (die echte Einschränkung). Wie: \"Ja, schon, ABER...\"",
           "section": "Eselsbrücken"
         }
-      ]
+      ],
+      "total_vocab": 77,
+      "total_grammar": 52
     },
     {
-      "id": "924737a57ca1c8f1",
+      "id": "vhs-b12--060726--zusammenleben---nachbarschaftsprobleme",
       "title": "VHS B1.2 — 06.07.26 — Zusammenleben · Nachbarschaftsprobleme",
       "date": "2026-07-06",
       "deck": "Deutsch::Anki - VHS B1.2 — 06.07.26 — Zusammenleben · Nachbarschaftsprobleme",
       "vocab_pairs": [
         {
-          "de": "# Vokabeln (",
-          "en": ")",
-          "example": "",
-          "section": ""
-        },
-        {
           "de": "die Wohnungswahl, -en",
           "en": "apartment choice",
           "example": "Bei der Wohnungswahl ist die Lage am wichtigsten.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "wählen",
           "en": "to choose, to select",
           "example": "Ich wähle eine Wohnung mit Balkon.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "das Reihenhaus, -",
           "en": "terraced house",
           "example": "Ein Reihenhaus hat oft einen kleinen Garten.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "die Kehrwoche, -n",
-          "en": "cleaning rotation — Schwäbische Tradition",
+          "en": "cleaning rotation",
           "example": "In dieser Wohnung müssen wir Kehrwoche machen.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "gezogen",
-          "en": "moved — Partizip II von *ziehen*",
+          "en": "moved",
           "example": "Ich bin letztes Jahr nach Berlin gezogen.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "bereuen",
           "en": "to regret",
           "example": "Ich bereue meine Entscheidung nicht.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "wären",
-          "en": "would be — Konjunktiv II von *sein*",
+          "en": "would be",
           "example": "Das wäre schön, wenn ich einen Balkon hätte.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "die Lage, -n",
           "en": "location, position",
           "example": "Die Lage der Wohnung ist zentral.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "die Größe, -n",
           "en": "size",
           "example": "Die Größe des Balkons ist perfekt.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "der Balkon, -s",
           "en": "balcony",
           "example": "Eine Wohnung mit Balkon ist teurer.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "die Warmmiete, -n",
           "en": "warm rent (rent including utilities)",
           "example": "Die Warmmiete beträgt 850 €.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "die Kaution, -en",
           "en": "security deposit",
           "example": "Die Kaution entspricht drei Kaltmieten.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "die Verkehrsanbindung, -en",
           "en": "public transport connection",
           "example": "Die Verkehrsanbindung ist hier ausgezeichnet.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "die Geruchsbelästigung, -en",
           "en": "odor nuisance",
           "example": "Geruchsbelästigungen sind ein häufiger Grund für Nachbarschaftsstreit.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "die Rücksicht",
           "en": "consideration, regard",
           "example": "Sie nimmt Rücksicht auf ihre kleinen Kinder.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "der Ärger",
           "en": "annoyance, anger",
           "example": "Der Ärger ist berechtigt.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "stinken",
           "en": "to stink",
           "example": "Im Treppenhaus stinkt es nach Rauch.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "rauchen",
           "en": "to smoke",
           "example": "Das Rauchen auf dem Balkon stört die Nachbarn.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "der Müll",
           "en": "trash, garbage",
           "example": "Den Müll einfach im Flur stehen zu lassen, ist nicht erlaubt.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "putzen",
           "en": "to clean",
           "example": "In diesem Haus putzen wir das Treppenhaus abwechselnd.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "begegnen",
           "en": "to encounter, run into",
           "example": "Man begegnet den Nachbarn oft im Treppenhaus.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "die Aussage, -n",
           "en": "statement, assertion",
           "example": "Welche Aussage über Nachbarschaftsstreit ist richtig?",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "aufhören",
-          "en": "to stop, quit — trennbar",
+          "en": "to stop, quit",
           "example": "Er muss mit dem Rauchen aufhören.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         },
         {
           "de": "tolerant",
           "en": "tolerant",
           "example": "Man sollte tolerant gegenüber den Nachbarn sein.",
-          "section": ""
+          "section": "Vokabeln ( ::: )"
         }
       ],
       "grammar_cards": [
         {
+          "front": "cards-deck: Deutsch",
+          "back": "Anki - VHS B1.2 — 06.07.26 — Zusammenleben · Nachbarschaftsprobleme",
+          "section": ""
+        },
+        {
           "front": "weil + Nebensatz — wohin geht das Verb?",
           "back": "Ans Ende — *Ich ärgere mich, weil mein Nachbar laut Musik **hört**.*",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "Konjunktiv II — irrealer Wunsch: Bildung mit *hätte*?",
           "back": "*hätte* + Subjekt + *bloß* + Partizip II — *Hätte Herr Bremer bloß nichts gesagt.*",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "⚠️ Fehler: *möchte* im Konjunktiv II — Vergangenheit?",
           "back": "*hätte … gewollt* — *möchte* hat kein eigenes Präteritum; Umschreibung mit *hätte … gewollt* oder *hätte gern gehabt*",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "streiten mit + Dativ",
           "back": "to argue with someone ▸ Ich streite mit meinem Nachbarn.",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "streiten über + Akkusativ",
           "back": "to argue about something ▸ Wir streiten über den Lärm.",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "sich streiten mit + Dativ über + Akkusativ",
           "back": "to argue with sb. about sth. ▸ Er streitet sich mit ihr über die Musik.",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "wegen + Genitiv",
           "back": "because of — *Streit wegen des Lärms, Probleme wegen der Kinder*",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "Rücksicht nehmen auf + Akkusativ",
           "back": "to be considerate of ▸ Sie nimmt Rücksicht auf ihre kleinen Kinder.",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "verärgert sein",
           "back": "to be annoyed ▸ Ich bin verärgert über den Lärm.",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "in Streit geraten",
           "back": "to get into an argument ▸ Sie sind wegen der Musik in Streit geraten.",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "Das geht Sie gar nichts an",
           "back": "That is none of your business.",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "Der Ärger ist berechtigt",
           "back": "The annoyance is justified.",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "Substantivierung von Verben — wie wird aus \"rauchen\" ein Nomen?",
           "back": "Infinitiv groß + der/die/das — *das Rauchen, das Stinken, das Singen*",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "Wortbildung Buchstabensalat — \"gerÄr\"",
           "back": "Ärger — die Buchstaben sind vertauscht; die richtige Form erkennen",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "⚠️ aufhören — trennbar: Perfekt?",
           "back": "*hat aufgehört* — *Er hat mit dem Rauchen aufgehört.*",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "auf Kritik reagieren",
           "back": "to respond to criticism ▸ Er hat mit Verständnis auf die Kritik reagiert.",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "sich an den Vermieter wenden",
           "back": "to contact the landlord ▸ Wenden Sie sich an den Vermieter, wenn das Gespräch nicht hilft.",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "zum Rechtsanwalt gehen",
           "back": "to go to a lawyer ▸ Gehen Sie nur zum Rechtsanwalt, wenn es keine andere Lösung gibt.",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "nicht drin sein",
           "back": "to not be present (colloquial) ▸ Er muss nur dann rauchen, wenn Sie nicht drin sind.",
-          "section": ""
+          "section": "Grammatik & Phrasen ( :: )"
         },
         {
           "front": "Der Blick auf den See / aufs Meer / aufs Wasser gefällt mir besonders gut. — Welche Präposition?",
           "back": "*auf* + Akkusativ — feste Präposition bei *Blick*",
-          "section": ""
+          "section": "Klassenübungen ( :: )"
         },
         {
           "front": "Realität vs. Wunsch — Herr Bremer hat etwas gesagt.",
           "back": "Hätte Herr Bremer bloß nichts gesagt. — Konjunktiv II für irreversible Wünsche",
-          "section": ""
+          "section": "Klassenübungen ( :: )"
         },
         {
           "front": "Kursbuch A2a — Darüber streiten Nachbarn: Was passt?",
           "back": "Nomen (Substantive) — Wortschatz Nachbarschaft zuordnen",
-          "section": ""
+          "section": "Buch-Übungen ( :: )"
         },
         {
           "front": "Kursbuch A2b — Vergleichen und sprechen",
           "back": "Sprechen — eigene Erfahrungen mit Nachbarschaftsstreit teilen",
-          "section": ""
+          "section": "Buch-Übungen ( :: )"
         },
         {
           "front": "Arbeitsbuch 5a — Radiosendung: Hören und ordnen",
           "back": "Hörverstehen — Kontext Nachbarschaftsstreit",
-          "section": ""
+          "section": "Buch-Übungen ( :: )"
         },
         {
           "front": "Arbeitsbuch 5b — Was ist richtig? Hören und ankreuzen",
           "back": "Hörverstehen — *weil*-Sätze im Kontext",
-          "section": ""
+          "section": "Buch-Übungen ( :: )"
         },
         {
           "front": "Arbeitsbuch 4 — Bilden Sie Wörter und ordnen Sie zu",
           "back": "Wortschatz — Gerüche, Schmutz, Lärm",
-          "section": ""
+          "section": "Buch-Übungen ( :: )"
         },
         {
           "front": "Arbeitsbuch 6a — Was tun bei Ärger? Finden Sie die Ausdrücke",
           "back": "Feste Verbverbindungen — *Rücksicht nehmen, auf Kritik reagieren, sich an jemanden wenden, zum Rechtsanwalt gehen*",
-          "section": ""
+          "section": "Buch-Übungen ( :: )"
         },
         {
           "front": "Arbeitsbuch 6b — Wie heißen die Wörter? Buchstabensalat",
           "back": "Wortbildung — Buchstabenmuster entschlüsseln (*Ärger, typische, tolerant, berechtigt, aufhören*)",
-          "section": ""
+          "section": "Buch-Übungen ( :: )"
         },
         {
           "front": "Arbeitsbuch 6c — Lesen und ergänzen Sie die Ausdrücke",
           "back": "Feste Wendungen im Kontext — idiomatische Ausdrücke mit Präposition + Nomen",
-          "section": ""
+          "section": "Buch-Übungen ( :: )"
         },
         {
           "front": "Eselsbrücke: *wegen* + Genitiv (des/der)",
           "back": "Denk an «wegen des Wetters» — Genitiv klingt förmlich, aber ist korrekt in Schriftsprache",
-          "section": ""
+          "section": "Eselsbrücken ( :: )"
         },
         {
           "front": "Eselsbrücke: *hätte … bloß* für Wünsche",
           "back": "«Hätte ich bloß …» = «If only I had …» — das *bloß* ist der Schlüssel zum irrealen Wunsch",
-          "section": ""
+          "section": "Eselsbrücken ( :: )"
         },
         {
           "front": "Eselsbrücke: *streiten mit* (Person) / *über* (Sache)",
           "back": "MIT wem? ÜBER was? — die Präposition zeigt die Rolle",
-          "section": ""
+          "section": "Eselsbrücken ( :: )"
         },
         {
           "front": "Eselsbrücke: Substantivierung = Verb groß + Artikel",
           "back": "Wenn ein Verb zum Nomen wird, schreib es groß und setz einen Artikel davor — *das Rauchen, das Stinken*",
-          "section": ""
+          "section": "Eselsbrücken ( :: )"
         },
         {
           "front": "Eselsbrücke: *aufhören* ist trennbar",
           "back": "Im Präsens: *hört auf*, im Perfekt: *hat aufgehört* — der Präfix wandert ans Ende",
-          "section": ""
+          "section": "Eselsbrücken ( :: )"
         }
-      ]
+      ],
+      "total_vocab": 24,
+      "total_grammar": 35
     },
     {
-      "id": "f28bf109a83e56be",
+      "id": "vhs-b11--020726--finalstze---verkaufsgesprche---abhngigkeit",
       "title": "VHS B1.1 — 02.07.26 — Finalsätze · Verkaufsgespräche · Abhängigkeit",
       "date": "2026-07-02",
       "deck": "Deutsch::Anki - VHS B1.1 — 02.07.26 — Finalsätze · Verkaufsgespräche · Abhängigkeit",
@@ -2880,6 +2902,11 @@
       ],
       "grammar_cards": [
         {
+          "front": "cards-deck: Deutsch",
+          "back": "Anki - VHS B1.1 — 02.07.26 — Finalsätze · Verkaufsgespräche · Abhängigkeit",
+          "section": ""
+        },
+        {
           "front": "Wozu fragt nach dem ___ einer Handlung.",
           "back": "Zweck oder Ziel",
           "section": "Grammatik"
@@ -3079,35 +3106,37 @@
           "back": "Vorteil = advantage, Nachteil = disadvantage",
           "section": "Eselsbrücken"
         }
-      ]
+      ],
+      "total_vocab": 33,
+      "total_grammar": 41
     },
     {
-      "id": "3260516928561afd",
+      "id": "vhs-b11--010726--es-position-in-sentences",
       "title": "VHS B1.1 — 01.07.26 — Es Position in Sentences",
       "date": "2026-07-01",
       "deck": "Deutsch::Anki - VHS B1.1 — 01.07.26 — Es Position in Sentences",
       "vocab_pairs": [
         {
           "de": "schützen",
-          "en": "to protect — schützte, hat geschützt",
+          "en": "to protect",
           "example": "Die Kleidung schützt vor Kälte.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "pflegen",
-          "en": "to care for / maintain — pflegte, hat gepflegt",
+          "en": "to care for / maintain",
           "example": "Man muss den Mantel gut pflegen.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "empfehlen",
-          "en": "to recommend — empfiehlt, empfahl, hat empfohlen",
+          "en": "to recommend",
           "example": "Der Verkäufer empfiehlt diesen Mantel.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "die Reinigung, -en",
-          "en": "dry cleaning / cleaning — die Reinigung, -en",
+          "en": "dry cleaning / cleaning",
           "example": "Die Reinigung ist einfach und preiswert.",
           "section": "Tipo 1 — Vokabeln"
         },
@@ -3119,7 +3148,7 @@
         },
         {
           "de": "die Haut, Häute",
-          "en": "skin — die Haut, Häute",
+          "en": "skin",
           "example": "Die Creme ist gut für die Haut.",
           "section": "Tipo 1 — Vokabeln"
         },
@@ -3137,7 +3166,7 @@
         },
         {
           "de": "sich lohnen",
-          "en": "to be worth it — lohnte, hat gelohnt",
+          "en": "to be worth it",
           "example": "Es lohnt sich, Deutsch zu lernen.",
           "section": "Tipo 1 — Vokabeln"
         },
@@ -3161,7 +3190,7 @@
         },
         {
           "de": "streiten",
-          "en": "to argue / quarrel — stritt, hat gestritten",
+          "en": "to argue / quarrel",
           "example": "Es lohnt sich nicht, darüber zu streiten.",
           "section": "Tipo 1 — Vokabeln"
         },
@@ -3185,19 +3214,19 @@
         },
         {
           "de": "das Angebot, -e",
-          "en": "offer / special offer — das Angebot, -e",
+          "en": "offer / special offer",
           "example": "Es gibt gerade verschiedene Sonderangebote.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "der Helm, -e",
-          "en": "helmet — der Helm, -e",
+          "en": "helmet",
           "example": "Was halten Sie von diesem Helm?",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "sparen",
-          "en": "to save — sparte, hat gespart",
+          "en": "to save",
           "example": "Es lohnt sich, Strom zu sparen.",
           "section": "Tipo 1 — Vokabeln"
         },
@@ -3209,7 +3238,7 @@
         },
         {
           "de": "schneien",
-          "en": "to snow — schneite, hat geschneit",
+          "en": "to snow",
           "example": "Auch [[wenn]] es regnet oder schneit.",
           "section": "Tipo 1 — Vokabeln"
         },
@@ -3263,6 +3292,11 @@
         }
       ],
       "grammar_cards": [
+        {
+          "front": "cards-deck: Deutsch",
+          "back": "Anki - VHS B1.1 — 01.07.26 — Es Position in Sentences",
+          "section": ""
+        },
         {
           "front": "Wann benutzt man das unpersönliche „es\"?",
           "back": "Bei [[Wetter]] (Es regnet.), Uhrzeit (Es ist 18 Uhr.), Befinden (Wie geht es Ihnen?) und in festen Wendungen (Es gibt..., Es lohnt sich...).",
@@ -3453,125 +3487,127 @@
           "back": "Nur EIN „es\": „Es ist schwierig, den Mantel zu pflegen.\" — NICHT: „Es ist es schwierig...\"",
           "section": "Tipo 8 — Eselsbrücken"
         }
-      ]
+      ],
+      "total_vocab": 29,
+      "total_grammar": 39
     },
     {
-      "id": "08565cce099378ba",
-      "title": "Deutsch::VHS B1.1",
+      "id": "anki---vhs-b11--300626--einkaufen---geschfte---kommunikation",
+      "title": "Anki - VHS B1.1 — 30.06.26 — Einkaufen · Geschäfte · Kommunikation im Laden",
       "date": "2026-06-30",
       "deck": "Deutsch::VHS B1.1",
       "vocab_pairs": [
         {
           "de": "der Verkäufer, -",
-          "en": "salesperson — der Verkäufer, -",
+          "en": "salesperson",
           "example": "Der Verkäufer berät die Kunden freundlich im Geschäft.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "die Kundin, -nen / der Kunde, -n",
-          "en": "customer — die Kundin, -nen",
+          "en": "customer",
           "example": "Die Kunden warten an der Kasse.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "die Ware, -n",
-          "en": "goods / merchandise — die Ware, -n",
+          "en": "goods / merchandise",
           "example": "Die Ware steht im Erdgeschoss.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "das Sonderangebot, -e",
-          "en": "special offer — das Sonderangebot, -e",
+          "en": "special offer",
           "example": "Heute gibt es ein Sonderangebot auf Wintermäntel.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "das Hemd, -en",
-          "en": "shirt — das Hemd, -en",
+          "en": "shirt",
           "example": "Hemden finden Sie im dritten Stock.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "der Zettel, -",
-          "en": "note / slip of paper — der Zettel, -",
+          "en": "note / slip of paper",
           "example": "Der Zettel der Wasserwerke hängt im Treppenhaus.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "beschädigt",
-          "en": "damaged —",
+          "en": "damaged",
           "example": "Das beschädigte Produkt habe ich zurückgegeben.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "der Ersatz (nur Sg.)",
-          "en": "replacement — der Ersatz",
+          "en": "replacement",
           "example": "Ich brauche Ersatz für das kaputte Gerät.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "der Zugang, -¨e",
-          "en": "access — der Zugang, -¨e",
+          "en": "access",
           "example": "Man braucht einen schnellen Zugang zum Internet.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "der Händler, -",
-          "en": "dealer / retailer — der Händler, -",
+          "en": "dealer / retailer",
           "example": "Der Händler um die Ecke hat gute Angebote.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "die Rechnung, -en",
-          "en": "invoice / bill — die Rechnung, -en",
+          "en": "invoice / bill",
           "example": "Welchen Betrag man bezahlen muss, steht auf der Rechnung.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "das Haushaltsgerät, -e",
-          "en": "household appliance — das Haushaltsgerät, -e",
+          "en": "household appliance",
           "example": "Spülmaschine und Waschmaschine sind Haushaltsgeräte.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "der Prospekt, -e",
-          "en": "brochure / flyer — der Prospekt, -e",
+          "en": "brochure / flyer",
           "example": "Wo finde ich die [[Artikel]] aus Ihrem aktuellen Prospekt?",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "das Gebäude, -",
-          "en": "building — das Gebäude, -",
+          "en": "building",
           "example": "Die Angebote befinden sich in unserem anderen Gebäude nebenan.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "der Gebrauch (nur Sg.)",
-          "en": "use / usage — der Gebrauch",
+          "en": "use / usage",
           "example": "Die Sachen für den täglichen Gebrauch kaufe ich beim Händler.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "anprobieren",
-          "en": "to try on — probierte an, hat anprobiert",
+          "en": "to try on",
           "example": "Zu Hause kann ich die Sachen in Ruhe anprobieren.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "zurückgeben",
-          "en": "to return (an item) — gab zurück, hat zurückgegeben",
+          "en": "to return (an item)",
           "example": "Was mir nicht gefällt, gebe ich einfach zurück.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "sich beschweren",
-          "en": "to complain — beschwerte sich, hat sich beschwert",
+          "en": "to complain",
           "example": "Ich habe mich beschwert, aber das hat nicht geholfen.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "Können Sie mir sagen, …? (DTZ)",
-          "en": "Can you tell me …? — höfliche Anfrage im Laden/Brief",
+          "en": "Can you tell me …?",
           "example": "",
           "section": "Tipo 4 — Phrasen"
         },
@@ -3613,19 +3649,19 @@
         },
         {
           "de": "Sie können mich unter … erreichen. (DTZ)",
-          "en": "You can reach me at … — Pflichtformel Erreichbarkeit",
+          "en": "You can reach me at …",
           "example": "",
           "section": "Tipo 4 — Phrasen"
         },
         {
           "de": "Mit freundlichen Grüßen (DTZ)",
-          "en": "Yours sincerely / Kind regards — Pflichtformel Grußformel",
+          "en": "Yours sincerely / Kind regards",
           "example": "",
           "section": "Tipo 4 — Phrasen"
         },
         {
           "de": "Könnten Sie mir bitte … ? (DTZ)",
-          "en": "Could you please … ? — höflichste Bitte im DTZ-Schreiben",
+          "en": "Could you please … ?",
           "example": "",
           "section": "Tipo 4 — Phrasen"
         },
@@ -3637,6 +3673,11 @@
         }
       ],
       "grammar_cards": [
+        {
+          "front": "cards-deck: Deutsch",
+          "back": "VHS B1.1",
+          "section": ""
+        },
         {
           "front": "Wo finde ich …? — welche Verbstellung?",
           "back": "W-Wort + Verb (V2) + Subjekt — Beispiel: **Wo finde ich** Wintermäntel?",
@@ -3912,23 +3953,25 @@
           "back": "\"Sie können mich unter ... **erreichen**\" — ohne diese Zeile = Punktabzug! Immer die letzte Zeile vor dem Gruß.",
           "section": "Tipo 8 — Eselsbrücken"
         }
-      ]
+      ],
+      "total_vocab": 29,
+      "total_grammar": 56
     },
     {
-      "id": "08565cce099378ba",
-      "title": "Deutsch::VHS B1.1",
+      "id": "infinitivstze---wortschatz--290626-card",
+      "title": "Infinitivsätze · Wortschatz — 29.06.26 #card",
       "date": "2026-06-29",
       "deck": "Deutsch::VHS B1.1",
       "vocab_pairs": [
         {
           "de": "abnehmen",
-          "en": "to lose weight / to decrease — abnehmen, nahm ab, hat abgenommen",
+          "en": "to lose weight / to decrease",
           "example": "Es ist mir gelungen, vier Kilo abzunehmen.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "zunehmen",
-          "en": "to gain weight / to increase — zunehmen, nahm zu, hat zugenommen",
+          "en": "to gain weight / to increase",
           "example": "Er hat im Urlaub drei Kilo zugenommen.",
           "section": "Tipo 1 — Vokabeln"
         },
@@ -3976,7 +4019,7 @@
         },
         {
           "de": "stellen",
-          "en": "to place / to put — stellen, stellte, hat gestellt",
+          "en": "to place / to put",
           "example": "Ich möchte mich um diese Stelle bewerben.",
           "section": "Tipo 1 — Vokabeln"
         },
@@ -3988,7 +4031,7 @@
         },
         {
           "de": "abschließen",
-          "en": "to complete / to finish — abschließen, schloss ab, hat abgeschlossen",
+          "en": "to complete / to finish",
           "example": "Ich habe meine Ausbildung vor drei Jahren abgeschlossen.",
           "section": "Tipo 1 — Vokabeln"
         },
@@ -4036,13 +4079,13 @@
         },
         {
           "de": "reduzieren",
-          "en": "to reduce — reduzieren, reduzierte, hat reduziert",
+          "en": "to reduce",
           "example": "Reduzieren Sie die Bildschirmzeit.",
           "section": "Tipo 1 — Vokabeln"
         },
         {
           "de": "umgehen",
-          "en": "to deal with / to handle — umgehen, ging um, ist umgegangen",
+          "en": "to deal with / to handle",
           "example": "Lernen Sie, wie Sie mit Stress umgehen können.",
           "section": "Tipo 1 — Vokabeln"
         },
@@ -4102,6 +4145,11 @@
         }
       ],
       "grammar_cards": [
+        {
+          "front": "cards-deck: Deutsch",
+          "back": "VHS B1.1",
+          "section": ""
+        },
         {
           "front": "Infinitivsatz — wann benutzt man ihn statt eines [[dass]]-Satzes?",
           "back": "Nach vielen Verben, Adjektiven und Nomen steht **zu** + Infinitiv statt eines Nebensatzes: Ich hoffe, meine Familie bald **zu** treffen. (statt: Ich hoffe, [[dass]] ich meine Familie bald treffe.)",
@@ -4312,793 +4360,809 @@
           "back": "Wer aufhört, tut nichts mehr — und das **zu** signalisiert: hier endet die Aktion. Ich höre auf, **zu** rauchen.",
           "section": "Tipo 8 — Eselsbrücken"
         }
-      ]
+      ],
+      "total_vocab": 30,
+      "total_grammar": 43
     },
     {
-      "id": "08565cce099378ba",
-      "title": "Deutsch::VHS B1.1",
+      "id": "vhs-b11--250626--zu---whrend---besonders",
+      "title": "VHS B1.1 — 25.06.26 — zu · während · besonders",
       "date": "2026-06-25",
       "deck": "Deutsch::VHS B1.1",
       "vocab_pairs": [
         {
           "de": "während",
-          "en": "during / while — Konjunktion; Präposition + [[Genitiv]]",
+          "en": "during / while",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "besonders",
           "en": "especially / particularly",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "untersuchen",
-          "en": "to examine / to investigate — untersuchen*, untersuchte, untersucht",
+          "en": "to examine / to investigate",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "zumachen",
-          "en": "to close — hat zugemacht",
+          "en": "to close",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "zunehmen",
-          "en": "to gain weight / to increase — nimmt zu*, nahm zu, zugenommen",
+          "en": "to gain weight / to increase",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "die Untersuchung, -en",
-          "en": "examination / check-up — die Untersuchung, -en",
+          "en": "examination / check-up",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "der Bäcker, -",
-          "en": "baker — der Bäcker, -",
+          "en": "baker",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "die Bäckerei, -en",
-          "en": "bakery — die Bäckerei, -en",
+          "en": "bakery",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "zu Hause",
           "en": "at home",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "zu Fuß",
           "en": "on foot",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "zu Ende",
           "en": "finished / over",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "Zum Glück",
           "en": "luckily",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "zu viel",
           "en": "too much",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "zu spät",
           "en": "too late",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "Ich versuche, jeden Tag Sport zu machen.",
           "en": "I try to exercise every day.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "in der Praxis anrufen",
           "en": "to call the doctor's office",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "de": "Bei einem anderen Arzt anrufen.",
           "en": "Call a different doctor.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         }
       ],
       "grammar_cards": [
         {
+          "front": "cards-deck: Deutsch",
+          "back": "VHS B1.1",
+          "section": ""
+        },
+        {
           "front": "zu Präposition — welcher Kasus?",
           "back": "[[Dativ]]",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "zu + dem (m./n.) — Form?",
           "back": "zum",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "zu + der (f.) — Form?",
           "back": "zur",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Infinitiv mit zu nach Modalverben?",
           "back": "nein",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "zu [[als]] Adverb — Übermaß?",
           "back": "too (much)",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "zu [[als]] Adverb — Tür zu?",
           "back": "geschlossen",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "zu Präposition — Richtung Person?",
           "back": "zu + Dat.",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Infinitivpartikel zu — Position?",
           "back": "vor Infinitiv",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "zu Präposition — Zeitangabe?",
           "back": "zu + Dat.",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Ich gehe ___ Maria. (Richtung)",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "___ Weihnachten fahre ich heim.",
           "back": "Zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Das ist ___ teuer. (Übermaß)",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Die Tür ist ___. (geschlossen)",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Ich versuche, ___ schlafen.",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Ich gehe ___ Arzt. (m.)",
           "back": "zum",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Er fährt ___ Schule. (f.)",
           "back": "zur",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Es ist zu kalt, um draußen ___ sitzen.",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Ich kann ___ laufen. (nach Modalverb)",
           "back": "laufen",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "___ Geburtstag bekomme ich ein Geschenk.",
           "back": "Zum",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Ich versuche, Sport ___ machen.",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Ich fahre ___ meiner Mutter.",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "___ Glück hat es nicht geregnet.",
           "back": "Zum",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Er geht ___ Fuß ___ Arbeit.",
           "back": "zu, zur",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "___ Hause fühle ich mich am wohlsten.",
           "back": "Zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Für Tanja ist es schwer, still ___ sitzen.",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Sie hat vergessen, die Tür ___ zumachen.",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Du kannst nicht den ganzen Tag stillsitzen — still ___ sitzen",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Das Café ist ___.",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Der Bäcker geht ___ spät ins Bett.",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Sie hat vergessen, die Tür ___zumachen.",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Wenn du ___ viel Kaffee trinkst …",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Ich habe versucht, ___ Hause zu arbeiten.",
           "back": "zu",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "in der ___ anrufen. (Hörübung)",
           "back": "Praxis",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         },
         {
           "front": "Bei ___ anderen Arzt anrufen.",
           "back": "einem",
-          "section": ""
+          "section": "VHS B1.1 — 25.06.26 — zu · während · besonders"
         }
-      ]
+      ],
+      "total_vocab": 17,
+      "total_grammar": 35
     },
     {
-      "id": "08565cce099378ba",
-      "title": "Deutsch::VHS B1.1",
+      "id": "vhs-b11--240626--bewerbung---mchte---wortschatz",
+      "title": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz",
       "date": "2026-06-24",
       "deck": "Deutsch::VHS B1.1",
       "vocab_pairs": [
         {
           "de": "die Bewerbung",
-          "en": "application — die Bewerbung, -en",
+          "en": "application",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "der Verkehrsbericht",
-          "en": "traffic report — der Verkehrsbericht, -e",
+          "en": "traffic report",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "der Wetterbericht",
-          "en": "weather report — der Wetterbericht, -e",
+          "en": "weather report",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "die Nachrichten",
-          "en": "news — die Nachrichten, -",
+          "en": "news",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "das Gewitter",
-          "en": "thunderstorm — das Gewitter, -",
+          "en": "thunderstorm",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "jeweils",
           "en": "respectively / each",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "zufrieden",
-          "en": "satisfied / content — mit + [[Dativ]]",
+          "en": "satisfied / content",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "kümmern",
-          "en": "to care for / look after — kümmern, kümmerte, gekümmert",
+          "en": "to care for / look after",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "beschweren",
-          "en": "to complain — beschweren, beschwerte, beschwert",
+          "en": "to complain",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "erzählen",
-          "en": "to tell / narrate — erzählen, erzählte, erzählt",
+          "en": "to tell / narrate",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "die Lieferung",
-          "en": "delivery — die Lieferung, -en",
+          "en": "delivery",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "der Auftrag",
-          "en": "order / task — der Auftrag, Aufträge",
+          "en": "order / task",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "aussagen",
-          "en": "to state / declare — aussagen, sagte aus, ausgesagt",
+          "en": "to state / declare",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "bewerben",
-          "en": "to apply — bewerben*, bewarb, beworben",
+          "en": "to apply",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "die Verkäuferin",
-          "en": "saleswoman — die Verkäuferin, -nen",
+          "en": "saleswoman",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "die Einladung",
-          "en": "invitation — die Einladung, -en",
+          "en": "invitation",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "das Vorstellungsgespräch",
-          "en": "job interview — das Vorstellungsgespräch, -e",
+          "en": "job interview",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "zeigen",
-          "en": "to show — zeigen, zeigte, gezeigt",
+          "en": "to show",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "umgehen",
-          "en": "to deal with — umgehen*, ging um, umgegangen",
+          "en": "to deal with",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "der Lebenslauf",
-          "en": "CV / résumé — der Lebenslauf, Lebensläufe",
+          "en": "CV / résumé",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "das Anschreiben",
-          "en": "cover letter — das Anschreiben, -",
+          "en": "cover letter",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "die Stelle",
-          "en": "position / job — die Stelle, -n",
+          "en": "position / job",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "die Qualifikation, -en",
-          "en": "qualification — die Qualifikation, -en",
+          "en": "qualification",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "berufserfahren",
           "en": "experienced (professionally)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "Auf dem Foto ist ... (DTZ)",
           "en": "On the photo there is ...",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "Auf dem Foto sieht man ... (DTZ)",
           "en": "In the photo one sees ...",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "Das Foto zeigt ... (DTZ)",
           "en": "The photo shows ...",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "Das Foto hat das Thema ... (DTZ)",
           "en": "The photo's theme is ...",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "Auf dem Foto geht es um ... (DTZ)",
           "en": "The photo is about ...",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "ich kann nicht mit der Grammatik umgehen",
           "en": "I can't deal with the grammar",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "Ich möchte mich um die Stelle bewerben.",
           "en": "I would like to apply for the position.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "Ich bin zufrieden mit meiner Arbeit.",
           "en": "I am satisfied with my work.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "Haben Sie Erfahrung in diesem Bereich?",
           "en": "Do you have experience in this area?",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "Mein größter Wunsch ist es, ... zu ...",
           "en": "My greatest wish is to ...",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "de": "Ich kümmere mich darum.",
           "en": "I'll take care of it.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         }
       ],
       "grammar_cards": [
         {
+          "front": "cards-deck: Deutsch",
+          "back": "VHS B1.1",
+          "section": ""
+        },
+        {
           "front": "möchte — stammt von?",
           "back": "mögen",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "möchte — welcher Modus?",
           "back": "Konj. II",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "möchte — höfliche Alternative?",
           "back": "[[wollen]]",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Vergangenheit von möchte?",
           "back": "wollte",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "möchte — eigenes Präteritum?",
           "back": "nein",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "sich bewerben — Präposition?",
           "back": "um + Akk.",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "sich bewerben — Reflexivpronomen?",
           "back": "sich",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "kümmern — Präposition?",
           "back": "um + Akk.",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "zufrieden — Präposition?",
           "back": "mit + Dat.",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "sich beschweren — Präposition?",
           "back": "über + Akk.",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "möchte + Infinitiv — Verbposition?",
           "back": "am Ende",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "erzählen — Rektion?",
           "back": "[[Dativ]] (Person) + [[Akkusativ]] (Sache) / von + Dat.",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "umgehen mit — Präposition?",
           "back": "mit + Dat.",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "bewerben sich — [[Konjugation]] 1. Pers. Sg.?",
           "back": "ich bewerbe mich",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich ___ bitte einen Apfelsaft trinken.",
           "back": "möchte",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "___ Sie einen Tisch reservieren?",
           "back": "Möchten",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Als Kind ___ ich Pilot werden.",
           "back": "wollte",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Er ___ nach dem Studium Arzt werden.",
           "back": "möchte",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich schreibe eine ___ für die Stelle.",
           "back": "Bewerbung",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Der ___ zeigt Staus auf der Autobahn.",
           "back": "Verkehrsbericht",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "___ zwei Personen arbeiten zusammen.",
           "back": "Jeweils",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich ___ mich um die Stelle [[als]] Verkäuferin.",
           "back": "bewerbe",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich ___ mich um die Stelle bei Rossmann.",
           "back": "bewerbe",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Meine Eltern ___ [[dich]] gerne kennenlernen.",
           "back": "möchten",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Im Radio hörte ich die ___.",
           "back": "Nachrichten",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Es gibt ein ___ heute Nacht.",
           "back": "Gewitter",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich habe mich gestern bei Rossmann ___.",
           "back": "beworben",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "___ zu einem Vorstellungsgespräch",
           "back": "Einladung",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Das Foto ___",
           "back": "zeigt",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich bin ___ mit meinem neuen Job.",
           "back": "zufrieden",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich ___ mich um meine Großmutter.",
           "back": "kümmere",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Er ___ sich über den Lärm.",
           "back": "beschwert",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Sie ___ eine Geschichte.",
           "back": "erzählt",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Die Medikamenten___ muss ausgepackt werden.",
           "back": "lieferung",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Der ___ war sehr kompliziert.",
           "back": "Auftrag",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Der Verkehrsbericht ___ Staus.",
           "back": "zeigt",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "So können Sie mit Stress besser ___.",
           "back": "umgehen",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich kann nicht mit der deutschen Grammatik ___.",
           "back": "umgehen",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "___ du heute Abend mitkommen?",
           "back": "Möchtest",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich ___ ein Eis.",
           "back": "möchte",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich habe eine ___ zum Vorstellungsgespräch bekommen.",
           "back": "Einladung",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich schreibe eine Bewerbung ___ die Stelle.",
           "back": "für",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Im ___ sagt man, [[dass]] es regnen wird.",
           "back": "Wetterbericht",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Der Chef gab einen neuen ___.",
           "back": "Auftrag",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich schicke meinen ___ und das Anschreiben.",
           "back": "Lebenslauf",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Die ___ zeigt meine Fähigkeiten. (Qualifikation)",
           "back": "Qualifikation",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Formuliere höflich: „Ich will einen Kaffee.\" → Ich ___ einen Kaffee.",
           "back": "möchte",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Reflexiv: „Er bewirbt ___ um die Stelle.\"",
           "back": "sich",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Präposition: „Ich bin zufrieden ___ meinem Job.\"",
           "back": "mit",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Präposition: „Ich beschwere mich ___ den Lärm.\"",
           "back": "über",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Vergangenheit: „Ich möchte Arzt werden.\" (Kind) → Als Kind ___ ich Arzt werden.",
           "back": "wollte",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich habe mich ___ die Stelle [[als]] Koch beworben.",
           "back": "um",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Bitte kümmern Sie sich ___ die Reservierung.",
           "back": "um",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Er beschwert sich ___ die schlechte Qualität.",
           "back": "über",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "Ich bin sehr ___ mit Ihrem Service.",
           "back": "zufrieden",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         },
         {
           "front": "___ Sie bitte Ihren Lebenslauf. (zeigen, [[Imperativ]] Sie)",
           "back": "Zeigen",
-          "section": ""
+          "section": "VHS B1.1 — 24.06.26 — Bewerbung · Möchte · Wortschatz"
         }
-      ]
+      ],
+      "total_vocab": 35,
+      "total_grammar": 57
     },
     {
-      "id": "08565cce099378ba",
-      "title": "Deutsch::VHS B1.1",
+      "id": "vhs-b11--190626--genitiv-sonderflle---bruchzahlen---passiv",
+      "title": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv",
       "date": "2026-06-19",
       "deck": "Deutsch::VHS B1.1",
       "vocab_pairs": [
@@ -5106,1977 +5170,2012 @@
           "de": "die Kirsche, -n",
           "en": "cherry",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "der Schuh, -e",
           "en": "shoe",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "die Schokolade",
           "en": "chocolate (kein Pl.)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "der Fisch, -e",
           "en": "fish",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "der Koffer, -",
           "en": "suitcase",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "die Gitarre, -n",
           "en": "guitar",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "das Glas, Gläser",
           "en": "glass (drinking)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "die Geldbörse, -n",
           "en": "wallet / purse",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "der Personalausweis, -e",
           "en": "ID card",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "die PIN, -s",
           "en": "PIN number",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "ausreichend",
           "en": "sufficient / adequate",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "bestellen",
           "en": "to order (hat bestellt)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "ausmisten",
           "en": "to clear out / declutter (hat ausgemistet)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "verteilen",
           "en": "to distribute (hat verteilt)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "liefern",
           "en": "to deliver (hat geliefert)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "reparieren",
           "en": "to repair (hat repariert)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "bauen",
           "en": "to build (hat gebaut)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "schreiben",
           "en": "to write (unr.: schrieb, geschrieben)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "Das bringt Glück.",
           "en": "That brings good luck.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "Das bringt Pech.",
           "en": "That brings bad luck.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "Ich glaube, [[dass]] das Glück bringt.",
           "en": "I believe that brings luck.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "Es bringt Pech, [[wenn]]...",
           "en": "It brings bad luck when...",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "Die Hälfte der Klasse...",
           "en": "Half of the class...",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "Die meisten Deutschen...",
           "en": "Most Germans...",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "Das gefällt mir überhaupt nicht!",
           "en": "I don't like that at all!",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "Sehen Sie mal!",
           "en": "Have a look!",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "Das muss erledigt werden.",
           "en": "That needs to be done.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "Das wurde schon gemacht.",
           "en": "That was already done.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "de": "Hier wird nicht geraucht.",
           "en": "Smoking is not allowed here.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         }
       ],
       "grammar_cards": [
         {
+          "front": "cards-deck: Deutsch",
+          "back": "VHS B1.1",
+          "section": ""
+        },
+        {
           "front": "Eigennamen im [[Genitiv]] — Endung?",
           "back": "-s ohne Apostroph (z.B. Ursulas Tasche)",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Plural ohne [[Artikel]] — [[Genitiv]]-Alternative?",
           "back": "von + [[Dativ]]",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Bruchzahl Sg. (ein Viertel) — Verbkongruenz?",
           "back": "Singular",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Bruchzahl Pl. (zwei Drittel) — Verbkongruenz?",
           "back": "Singular (bevorzugt)",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "[[Adjektiv]] Pl. (die meisten / fast alle / alle) — Verbkongruenz?",
           "back": "Plural",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "ein Viertel — Genus?",
           "back": "das (neutrum)",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "die Hälfte — Genus?",
           "back": "die (feminin)",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Passiv Präsens — Bildung?",
           "back": "werden (konjugiert) + [[Partizip II]]",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Passiv + Modalverb (muss) — Struktur?",
           "back": "Modalverb + [[Partizip II]] + werden (Satzende)",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Nebensatz mit [[dass]] — Verbposition?",
           "back": "am Satzende",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Nebensatz mit [[wenn]] — Verbposition?",
           "back": "am Satzende",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Passiv — Agens (Handelnder) mit welcher Präposition?",
           "back": "von + [[Dativ]]",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Aktiv → Passiv — Akkusativobjekt wird?",
           "back": "Subjekt im Passivsatz",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Passiv Präteritum — Bildung?",
           "back": "wurde (Prät.) + [[Partizip II]]",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Passiv [[Perfekt]] — Bildung?",
           "back": "ist + [[Partizip II]] + worden",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Das ist (___) Tasche. (Eigenname Ursula)",
           "back": "Ursulas",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Das ist das Lachen (___) Kindern. (Pl. ohne [[Artikel]])",
           "back": "von",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Ein Viertel der Klasse (___) zu spät.",
           "back": "kommt",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Die Hälfte der Schüler (___) krank.",
           "back": "war",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Alle Kinder (___) gern draußen.",
           "back": "spielen",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Die meisten Menschen (___) Kaffee.",
           "back": "trinken",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Ich glaube, (___) das Glück bringt.",
           "back": "[[dass]]",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Es bringt Pech, (___) eine schwarze Katze läuft.",
           "back": "[[wenn]]",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Mehr [[als]] ein Drittel des Kurses (___) nicht ausreichend.",
           "back": "schläft",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Neue Möbel (___) bei Ikea (___). (Passiv Präsens, Pl.)",
           "back": "werden / bestellt",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Der Keller (___) komplett (___). (Passiv Präsens)",
           "back": "wird / ausgemistet",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Die Mutter muss den Kuchen backen → Der Kuchen (___) gebacken (___). (Passiv + Modalverb)",
           "back": "muss / werden",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Das Haus (___) von den Arbeitern (___). (bauen, Passiv Präsens)",
           "back": "wird / gebaut",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Die Pizza (___) um 20 Uhr (___). (liefern, Passiv Präsens)",
           "back": "wird / geliefert",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Das Auto (___) in der Werkstatt (___). (reparieren, Passiv Präteritum)",
           "back": "wurde / repariert",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Der Brief (___) gestern (___). (schreiben, Passiv [[Perfekt]])",
           "back": "ist / geschrieben worden",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Das Paket (___) verteilt (___). (werden, Passiv [[Perfekt]])",
           "back": "ist / worden",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Fast alle Studenten (___) die Prüfung. (bestehen, Plural)",
           "back": "bestehen",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Das ist das Foto (___) Müllers. (Eigenname [[Genitiv]])",
           "back": "von",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Das ist der Koffer (___) Kollegin. (Possessiv fem. [[Genitiv]])",
           "back": "deiner",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Weniger [[als]] zwei Drittel des Teams (___) ausreichend.",
           "back": "schlafen",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "(___) Ursulas Tasche. (Eigenname [[Genitiv]])",
           "back": "Das ist",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Aktiv → Passiv: Die Schüler schreiben den Test. → Der Test (___) von den Schülern (___).",
           "back": "wird / geschrieben",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Aktiv → Passiv: Man baut das Haus. → Das Haus (___).",
           "back": "wird gebaut",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "A4 — Das ist der Koffer (___) Freundes. (best. mask. [[Genitiv]])",
           "back": "des",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "A5 — Das ist die Tasche (___) Kollegin. (Possessiv, fem. [[Genitiv]])",
           "back": "meiner",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "A6 — das Lachen (___) Kindern. (von + [[Dativ]], kein [[Artikel]])",
           "back": "von",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Das Formular (___) ausgefüllt. (Passiv Präteritum)",
           "back": "wurde",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Die E-Mail (___) von der Chefin (___). (schreiben, Passiv Präsens)",
           "back": "wird / geschrieben",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         },
         {
           "front": "Die Möbel (___) morgen (___). (liefern, Passiv Präsens)",
           "back": "werden / geliefert",
-          "section": ""
+          "section": "VHS B1.1 — 19.06.26 — [[Genitiv]] Sonderfälle · Bruchzahlen · Passiv"
         }
-      ]
+      ],
+      "total_vocab": 29,
+      "total_grammar": 46
     },
     {
-      "id": "08565cce099378ba",
-      "title": "Deutsch::VHS B1.1",
+      "id": "vhs-b11--180626--der-krper---genitiv",
+      "title": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]",
       "date": "2026-06-18",
       "deck": "Deutsch::VHS B1.1",
       "vocab_pairs": [
         {
           "de": "das Altenheim, -e",
-          "en": "nursing home — das Altenheim, -e",
+          "en": "nursing home",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "der/die Angehörige, -n",
-          "en": "relative / family member — Angehörige (Pl.)",
+          "en": "relative / family member",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "der Bart, Bärte",
-          "en": "beard — der Bart, Bärte",
+          "en": "beard",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "die Brust, Brüste",
-          "en": "chest / breast — die Brust, Brüste",
+          "en": "chest / breast",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "der Krankenpfleger, -",
-          "en": "(male) nurse — der Krankenpfleger, - / die Krankenpflegerin, -nen",
+          "en": "(male) nurse",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "das Gewicht, -e",
-          "en": "weight — das Gewicht, -e",
+          "en": "weight",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "das Gift, -e",
-          "en": "poison / venom — das Gift, -e",
+          "en": "poison / venom",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "der Magen, Mägen",
-          "en": "stomach — der Magen, Mägen",
+          "en": "stomach",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "das Mittel, -",
-          "en": "remedy / means — das Mittel, -",
+          "en": "remedy / means",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "das Pflaster, -",
-          "en": "plaster / bandage — das Pflaster, -",
+          "en": "plaster / bandage",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "der Schnupfen",
-          "en": "cold / runny nose — der Schnupfen (kein Pl.)",
+          "en": "cold / runny nose",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "der Husten",
-          "en": "cough — der Husten (kein Pl.)",
+          "en": "cough",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "die Spritze, -n",
-          "en": "injection / syringe — die Spritze, -n",
+          "en": "injection / syringe",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "der Tropfen, -",
-          "en": "drop / drops (medicine) — der Tropfen, -",
+          "en": "drop / drops (medicine)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "die Verletzung, -en",
-          "en": "injury — die Verletzung, -en",
+          "en": "injury",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "die Wunde, -n",
-          "en": "wound — die Wunde, -n",
+          "en": "wound",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "die Packungsbeilage, -n",
-          "en": "package insert / leaflet — die Packungsbeilage, -n",
+          "en": "package insert / leaflet",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "schwanger",
-          "en": "pregnant — schwanger sein",
+          "en": "pregnant",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "pflegen",
-          "en": "to care for / to nurse — hat gepflegt",
+          "en": "to care for / to nurse",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "wehtun",
-          "en": "to hurt / to ache — tut weh*, tat weh, wehgetan (+ [[Dativ]])",
+          "en": "to hurt / to ache",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "abnehmen",
-          "en": "to lose weight / to take off — nimmt ab*, nahm ab, abgenommen",
+          "en": "to lose weight / to take off",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "sich wenden an",
-          "en": "to contact / to turn to — wendet sich* an, wandte, gewandt (an + Akk.)",
+          "en": "to contact / to turn to",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "atmen",
-          "en": "to breathe — hat geatmet",
+          "en": "to breathe",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "betrauen",
-          "en": "to entrust / to assign — hat betraut (mit + Dat.)",
+          "en": "to entrust / to assign",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "anrühren",
-          "en": "to stir / to mix (a preparation) — hat angerührt",
+          "en": "to stir / to mix (a preparation)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "die Schulter, -n",
-          "en": "shoulder — die Schulter, -n",
+          "en": "shoulder",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "der Knochen, -",
-          "en": "bone — der Knochen, -",
+          "en": "bone",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "die Lunge, -n",
-          "en": "lung — die Lunge, -n",
+          "en": "lung",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "das Knie, -",
-          "en": "knee — das Knie, -",
+          "en": "knee",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "der Ellbogen, -",
-          "en": "elbow — der Ellbogen, -",
+          "en": "elbow",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "mindestens 7 Stunden Schlaf",
           "en": "at least 7 hours of sleep",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "Der Rücken tut mir weh.",
           "en": "My back hurts.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "Ich habe Kopfschmerzen.",
           "en": "I have a headache.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "zur Vorsorgeuntersuchung gehen",
           "en": "to go for a preventive check-up",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "Tief atmen hilft bei Stress.",
           "en": "Deep breathing helps with stress.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "Bitte wenden Sie sich an unsere Mitarbeiter.",
           "en": "Please contact our staff.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "Ich habe mir das Knie verletzt.",
           "en": "I injured my knee.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "Das Mittel hilft sofort.",
           "en": "The remedy works immediately.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "Ich brauche etwas gegen Husten.",
           "en": "I need something for my cough.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "de": "Mach mal Pause und erhol [[dich]]!",
           "en": "Take a break and recover!",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         }
       ],
       "grammar_cards": [
         {
+          "front": "cards-deck: Deutsch",
+          "back": "VHS B1.1",
+          "section": ""
+        },
+        {
           "front": "[[Genitiv]] mask. best. [[Artikel]] — Form?",
           "back": "des + -(e)s",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "[[Genitiv]] neutr. best. [[Artikel]] — Form?",
           "back": "des + -(e)s",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "[[Genitiv]] fem. best. [[Artikel]] — Form?",
           "back": "der (Nomen unverändert)",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "[[Genitiv]] Pl. best. [[Artikel]] — Form?",
           "back": "der (Nomen unverändert)",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "[[Genitiv]] mask. unbest. [[Artikel]] — Form?",
           "back": "eines + -(e)s",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "[[Genitiv]] fem. unbest. [[Artikel]] — Form?",
           "back": "einer",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "[[Genitiv]] — [[Possessivartikel]] mask./neutr.?",
           "back": "meines / seines / Ihres + -(e)s",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "[[Genitiv]] — [[Possessivartikel]] fem./Pl.?",
           "back": "meiner / ihrer / Ihrer",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "wehtun — Rektion?",
           "back": "[[Dativ]] (Der Rücken tut mir weh.)",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "wehtun — Satzstruktur?",
           "back": "Körperteil (Nom.) + tut + Person (Dat.) + weh",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Schmerzen (Pl.) haben — [[Artikel]]?",
           "back": "kein [[Artikel]] (Kopfschmerzen, Rückenschmerzen)",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Erkältung haben — [[Artikel]]?",
           "back": "eine Erkältung (mit [[Artikel]])",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "[[Genitiv]] — wann -es, wann -s?",
           "back": "einsilbige Nomen → -es; mehrsilbige → -s",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "abnehmen — Gegenteil?",
           "back": "zunehmen",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "___ Rücken tut mir weh.",
           "back": "Der",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Der Rücken tut ___ weh. (1. Pers. Sg.)",
           "back": "mir",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Ich habe ___. (Plural, kein [[Artikel]])",
           "back": "Kopfschmerzen",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Ich habe ___ Erkältung.",
           "back": "eine",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Das ist die Hilfe ___ Freundes. ([[Genitiv]], Possessiv mask.)",
           "back": "meines",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Das ist das Buch ___ Arztes. (best. [[Artikel]], mask.)",
           "back": "des",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Das ist das Ergebnis ___ Untersuchung. ([[Genitiv]] fem.)",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Das ist das Labor ___ Krankenhauses. ([[Genitiv]] neutr.)",
           "back": "des",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Ich möchte ___ reduzieren. (das Gewicht)",
           "back": "mein Gewicht",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Bitte ___ Sie sich an unsere Mitarbeiter. (wenden)",
           "back": "wenden",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Lies die ___ vor der Einnahme.",
           "back": "Packungsbeilage",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Der Arzt gibt mir eine ___ gegen die Schmerzen.",
           "back": "Spritze",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Mein ___ tut weh. (Magen)",
           "back": "Magen",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Die ___ meiner Schwester ist nicht schwer. (Verletzung)",
           "back": "Verletzung",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Er arbeitet [[als]] ___ im Altenheim.",
           "back": "Krankenpfleger",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Tief ___ hilft gegen Stress.",
           "back": "atmen",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Das Essen des ___ lag auf dem Tisch. (Arzt)",
           "back": "Arztes",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Die Pflege ___ Patienten ist anspruchsvoll. (Pl.)",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Welche Körperteile tun weh? → Der ___ tut mir weh. (Rücken / Magen / Hals)",
           "back": "Rücken / Magen / Hals",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "[[Genitiv]]-Phrase: das Auto — mein Vater → das Auto ___ Vaters",
           "back": "meines",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "[[Genitiv]]-Phrase: die Tasche — die Ärztin → die Tasche ___ Ärztin",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "[[Genitiv]]-Phrase: das Zimmer — das Altenheim → das Zimmer ___ Altenheims",
           "back": "des",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Zur ___ des Nackens: Kopf neigen. ([[Genitiv]] nach Präp.)",
           "back": "Dehnung",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Ein Viertel ___ Kurses schläft nicht ausreichend.",
           "back": "des",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Die Hälfte ___ Gruppe braucht mehr Bewegung.",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Von ___ Teilnehmern trinken viele zu viel Kaffee. (Pl. ohne Art.)",
           "back": "den",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Das ist die Meinung ___ Arztes. (best. mask. [[Genitiv]])",
           "back": "des",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Das ist die Wirkung ___ Tropfen. (best. mask. [[Genitiv]])",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         },
         {
           "front": "Lies die Anweisung ___ Herstellers. ([[Genitiv]] mask.)",
           "back": "des",
-          "section": ""
+          "section": "VHS B1.1 — 18.06.26 — Der Körper · [[Genitiv]]"
         }
-      ]
+      ],
+      "total_vocab": 40,
+      "total_grammar": 44
     },
     {
-      "id": "08565cce099378ba",
-      "title": "Deutsch::VHS B1.1",
+      "id": "vhs-b11--170626--relativpronomen---irgend-wrter---obwohl",
+      "title": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl",
       "date": "2026-06-17",
       "deck": "Deutsch::VHS B1.1",
       "vocab_pairs": [
         {
           "de": "irgendwer",
-          "en": "someone / anyone (unknown person) — unveränderlich",
+          "en": "someone / anyone (unknown person)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "irgendwas",
-          "en": "something / anything (unknown thing) — unveränderlich",
+          "en": "something / anything (unknown thing)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "irgendwo",
-          "en": "somewhere / anywhere (unknown place) — unveränderlich",
+          "en": "somewhere / anywhere (unknown place)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "irgendwann",
-          "en": "sometime / at some point — unveränderlich",
+          "en": "sometime / at some point",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "irgendwie",
-          "en": "somehow / anyhow — unveränderlich",
+          "en": "somehow / anyhow",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "irgendein-",
-          "en": "some / any (+ noun, dekliniert) — irgendein / irgendeine / irgendeinen",
+          "en": "some / any (+ noun, dekliniert)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "speichern",
-          "en": "to save (data/file) — hat gespeichert",
+          "en": "to save (data/file)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "die Vertretung, -en",
-          "en": "substitute / deputy — die Vertretung, -en",
+          "en": "substitute / deputy",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "sich verlassen auf",
-          "en": "to rely on — verlässt sich*, verließ, verlassen (auf + Akk.)",
+          "en": "to rely on",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "besichtigen",
-          "en": "to view / inspect — hat besichtigt",
+          "en": "to view / inspect",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "überlegen",
-          "en": "to consider / think about — hat überlegt",
+          "en": "to consider / think about",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "irgendwoher",
-          "en": "from somewhere — unveränderlich",
+          "en": "from somewhere",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "irgendwohin",
-          "en": "to somewhere — unveränderlich",
+          "en": "to somewhere",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "irgendjemandem",
-          "en": "to someone ([[Dativ]]) — Dativform von irgendwer",
+          "en": "to someone ([[Dativ]])",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "Wie schreibt man das?",
           "en": "How do you write that?",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "Sie zeigt ihr Fotos.",
           "en": "She shows her photos.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "Ich verlasse mich auf [[dich]].",
           "en": "I'm counting on you.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "Das muss irgendwo hier sein.",
           "en": "It must be somewhere around here.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "Irgendwann lerne ich das.",
           "en": "I'll learn that someday.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "Er hat sich irgendwie damit abgefunden.",
           "en": "He somehow came to terms with it.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "Hast du irgendwas vergessen?",
           "en": "Did you forget something?",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "de": "Ich überlege es mir noch.",
           "en": "I'm still thinking about it.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         }
       ],
       "grammar_cards": [
         {
+          "front": "cards-deck: Deutsch",
+          "back": "VHS B1.1",
+          "section": ""
+        },
+        {
           "front": "Irgend-Wörter — Funktion?",
           "back": "Unbestimmtheit ausdrücken",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "irgendwer — bezieht sich auf?",
           "back": "unbekannte Person",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "irgendwas — bezieht sich auf?",
           "back": "unbekannte Sache",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "irgendwo — bezieht sich auf?",
           "back": "unbekannten Ort",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "irgendwann — bezieht sich auf?",
           "back": "unbekannte Zeit",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "irgendwie — bezieht sich auf?",
           "back": "unbekannte Art und Weise",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "irgendein- — [[Deklination]]?",
           "back": "wie ein- / kein- (regulär)",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "irgendwer — Dativform?",
           "back": "irgendjemandem",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "obwohl — Verb steht am?",
           "back": "Satzende (Nebensatz)",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "obwohl — kann am Satzanfang stehen?",
           "back": "ja (dann [[Hauptsatz]] danach mit Verb an Pos. 2)",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Relativpronomen — Genus richtet sich nach?",
           "back": "Bezugsnomen",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Relativpronomen — Kasus richtet sich nach?",
           "back": "Funktion im Relativsatz",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "___ hat angerufen. (unbekannte Person)",
           "back": "Irgendwer",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Ich muss [[dir]] ___ sagen. (unbekannte Sache)",
           "back": "irgendwas",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Er wohnt ___ in Berlin. (unbekannter Ort)",
           "back": "irgendwo",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Lass uns ___ treffen. (unbekannte Zeit)",
           "back": "irgendwann",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Wir lösen das ___. (unbekannte Weise)",
           "back": "irgendwie",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Hast du ___ Stift? (mask. Akk.)",
           "back": "irgendeinen",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Das ist mein Freund, mit ___ ich immer wandern gegangen bin. (Dat. mask.)",
           "back": "dem",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Das ist mein Opa, ___ mir [[als]] Kind Geschichten erzählt hat. (Nom. mask.)",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Das ist mein Bruder, ___ ich immer vertraue. (Dat. mask.)",
           "back": "dem",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Das ist meine Nichte, ___ vor zwei Jahren geboren ist. (Nom. fem.)",
           "back": "die",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Das ist mein Auto, ___ kaputt ist. (Nom. neutr.)",
           "back": "das",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Das ist mein Handy, ___ ich letzte Woche gekauft habe. (Akk. neutr.)",
           "back": "das",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Das ist meine Uni, in ___ ich jeden Freitag gehe. (Akk. fem.)",
           "back": "die",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Das kommt ___ aus Italien. (unbekannter Herkunftsort)",
           "back": "irgendwoher",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Ich lege das ___ hin. (unbekannter Zielort)",
           "back": "irgendwohin",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Er hat ___ um Hilfe gebeten. (Dat. von irgendwer)",
           "back": "irgendjemandem",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Hast du ___ Buch gesehen? (fem. Akk.)",
           "back": "irgendeine",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Das ist das Buch, ___ ich [[dir]] empfohlen habe. (Akk. neutr.)",
           "back": "das",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Das ist die Lehrerin, ___ mir sehr gut erklärt. (Nom. fem.)",
           "back": "die",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Ersetze „jemand\" durch ein Irgend-Wort: Jemand hat geklingelt. → ___ hat geklingelt.",
           "back": "Irgendwer",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Ersetze „etwas\" durch ein Irgend-Wort: Ich höre etwas. → Ich höre ___.",
           "back": "irgendwas",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Bilde Relativsatz: Das ist das Gerät. Ich habe es gespeichert. → Das ist das Gerät, ___ ich gespeichert habe.",
           "back": "das",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Obwohl-Satz: Er ist traurig. Er lacht. → Er lacht, ___ er traurig ist.",
           "back": "obwohl",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Obwohl ___ sich nicht für Musik interessiert, geht er ins Konzert.",
           "back": "Paul / er",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Er kauft eine Schallplatte, ___ er keinen Plattenspieler hat.",
           "back": "obwohl",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "___ er alt ist, hört er moderne Musik.",
           "back": "Obwohl",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Kennst du jemanden, ___ eine Maske trägt? (Nom. mask.)",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Das ist das Album, ___ jeder kennt. (Akk. neutr.)",
           "back": "das",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Das ist ein Musiker, ___ du sicher gut kennst. (Akk. mask.)",
           "back": "den",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         },
         {
           "front": "Ich habe ___ eine Nachricht geschickt. (Dat. unbekannte Person)",
           "back": "irgendjemandem",
-          "section": ""
+          "section": "VHS B1.1 — 17.06.26 — Relativpronomen · Irgend-Wörter · obwohl"
         }
-      ]
+      ],
+      "total_vocab": 22,
+      "total_grammar": 43
     },
     {
-      "id": "08565cce099378ba",
-      "title": "Deutsch::VHS B1.1",
+      "id": "vhs-b11--160626--relativpronomen-akk-dat---musikvokabular",
+      "title": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular",
       "date": "2026-06-16",
       "deck": "Deutsch::VHS B1.1",
       "vocab_pairs": [
         {
           "de": "einfallen",
-          "en": "to come to mind — fällt ein*, fiel ein, eingefallen (+ [[Dativ]])",
+          "en": "to come to mind",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "der Schlager, -",
-          "en": "German pop song / hit — der Schlager, -",
+          "en": "German pop song / hit",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "die Schallplatte, -n",
-          "en": "vinyl record — die Schallplatte, -n",
+          "en": "vinyl record",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "die Sendung, -en",
-          "en": "broadcast / TV programme — die Sendung, -en",
+          "en": "broadcast / TV programme",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "die Erfahrung, -en",
-          "en": "experience — die Erfahrung, -en",
+          "en": "experience",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "das Treppenhaus, -häuser",
-          "en": "stairwell / staircase — das Treppenhaus, -häuser",
+          "en": "stairwell / staircase",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "der Umzug, Umzüge",
-          "en": "move (relocation) / procession — der Umzug, Umzüge",
+          "en": "move (relocation) / procession",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "das Konzert, -e",
-          "en": "concert — das Konzert, -e",
+          "en": "concert",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "der Sänger, -",
-          "en": "singer (male) — der Sänger, - / die Sängerin, -nen",
+          "en": "singer (male)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "das Instrument, -e",
-          "en": "instrument — das Instrument, -e",
+          "en": "instrument",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "das Lied, -er",
-          "en": "song — das Lied, -er",
+          "en": "song",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "der Rhythmus, Rhythmen",
-          "en": "rhythm — der Rhythmus, Rhythmen",
+          "en": "rhythm",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "aufnehmen",
-          "en": "to record — nimmt auf*, nahm auf, aufgenommen",
+          "en": "to record",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "das Mikrofon, -e",
-          "en": "microphone — das Mikrofon, -e",
+          "en": "microphone",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "der Plattenspieler, -",
-          "en": "record player — der Plattenspieler, -",
+          "en": "record player",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "die Melodie, -n",
-          "en": "melody — die Melodie, -n",
+          "en": "melody",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "Das Wort fällt mir im Moment nicht ein.",
           "en": "The word doesn't come to mind right now.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "eine Wohnung besichtigen",
           "en": "to view / tour an apartment",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "noch nicht gemietet",
           "en": "not yet rented",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "[[Sollen]] wir sie mieten?",
           "en": "Should we rent it?",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "Sie überlegen es sich noch.",
           "en": "They're still thinking about it.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "Das ist eine Sendung, die ich immer sehe.",
           "en": "That's a show I always watch.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "Das Lied kenne ich auswendig.",
           "en": "I know the song by heart.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "Das ist der Rhythmus, der mich mitreißt.",
           "en": "That's the rhythm that carries me away.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "de": "Musik hören entspannt mich.",
           "en": "Listening to music relaxes me.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         }
       ],
       "grammar_cards": [
         {
+          "front": "cards-deck: Deutsch",
+          "back": "VHS B1.1",
+          "section": ""
+        },
+        {
           "front": "Relativpronomen Genus — richtet sich nach?",
           "back": "dem Bezugsnomen",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativpronomen Kasus — richtet sich nach?",
           "back": "der Funktion im Relativsatz",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativpronomen Akk. mask. — Form?",
           "back": "den",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativpronomen Akk. fem. — Form?",
           "back": "die",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativpronomen Akk. neutr. — Form?",
           "back": "das",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativpronomen Akk. Pl. — Form?",
           "back": "die",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativpronomen Dat. mask. — Form?",
           "back": "dem",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativpronomen Dat. fem. — Form?",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativpronomen Dat. neutr. — Form?",
           "back": "dem",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativpronomen Dat. Pl. — Form?",
           "back": "denen",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativpronomen Nom. mask. — Form?",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativpronomen Nom. fem. — Form?",
           "back": "die",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativpronomen Nom. neutr. — Form?",
           "back": "das",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativsatz — Verbposition?",
           "back": "am Satzende",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Präposition im Relativsatz — Position?",
           "back": "vor dem Relativpronomen",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "einfallen — Rektion?",
           "back": "[[Dativ]] (es fällt mir ein)",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Relativsatz — Komma?",
           "back": "immer Komma vor dem Relativpronomen",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist der Mann, ___ ich liebe. (Akk. mask.)",
           "back": "den",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist die Frau, ___ ich mag. (Akk. fem.)",
           "back": "die",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist das Kind, ___ ich jeden Tag begrüße. (Akk. neutr.)",
           "back": "das",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist der Mann, ___ wir von Herzen gedankt haben. (Dat. mask.)",
           "back": "dem",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist die Frau, ___ ich beim Umzug geholfen habe. (Dat. fem.)",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist das Kind, mit ___ ich spiele. (Dat. neutr.)",
           "back": "dem",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das sind die Kinder, mit ___ ich spiele. (Dat. Pl.)",
           "back": "denen",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist mein Glücksbringer, ___ ich immer dabei habe. (Akk. mask.)",
           "back": "den",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das sind meine Turnschuhe, mit ___ ich trainiere. (Dat. Pl.)",
           "back": "denen",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist der Nachbar, ___ oft im Treppenhaus schimpft. (Nom. mask.)",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist das Handy, auf ___ ich alle Nummern gespeichert habe. (Dat. neutr.)",
           "back": "dem",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist die Verkäuferin, ___ ich immer danke. (Dat. fem.)",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist die Kette, von ___ ich [[dir]] erzählt habe. (Dat. fem.)",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist der Mann, mit ___ ich Tennis spiele. (Dat. mask.)",
           "back": "dem",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist die Touristin, für ___ ich die Fahrkarte gekauft habe. (Dat. fem.)",
           "back": "die",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist der Sänger, ___ ich sehr mag. (Akk. mask.)",
           "back": "den",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist die Melodie, ___ ich nicht vergessen kann. (Akk. fem.)",
           "back": "die",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist das Lied, von ___ alle begeistert sind. (Dat. neutr.)",
           "back": "dem",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das sind die Musikstücke, ___ mir am besten gefallen. (Nom. Pl.)",
           "back": "die",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist der Plattenspieler, für ___ ich die Schallplatte brauche. (Akk. mask.)",
           "back": "den",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Bilde Relativsatz: Das ist der Mann. Ich kenne ihn. → Das ist der Mann, ___ ich kenne. (Akk.)",
           "back": "den",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Bilde Relativsatz: Das ist die Frau. Ich helfe ihr. → Das ist die Frau, ___ ich helfe. (Dat. fem.)",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Bilde Relativsatz: Das ist das Buch. Ich lese es gerade. → Das ist das Buch, ___ ich gerade lese. (Akk. neutr.)",
           "back": "das",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Bilde Relativsatz: Das ist der Freund. Ich spiele mit ihm Musik. → Das ist der Freund, mit ___ ich Musik spiele.",
           "back": "dem",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist das Album, ___ ich mir gekauft habe. (Akk. neutr.)",
           "back": "das",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist die Sängerin, ___ alle kennen. (Akk. fem.)",
           "back": "die",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist der Musiker, ___ in meiner Stadt wohnt. (Nom. mask.)",
           "back": "der",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das sind die Instrumente, mit ___ das Orchester spielt. (Dat. Pl.)",
           "back": "denen",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         },
         {
           "front": "Das ist das Konzert, auf ___ wir uns freuen. (Dat. neutr.)",
           "back": "das",
-          "section": ""
+          "section": "VHS B1.1 — 16.06.26 — Relativpronomen Akk·Dat · Musikvokabular"
         }
-      ]
+      ],
+      "total_vocab": 25,
+      "total_grammar": 47
     },
     {
-      "id": "08565cce099378ba",
-      "title": "Deutsch::VHS B1.1",
+      "id": "vhs-b11--150626--obwohl---weil---adjektive",
+      "title": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive",
       "date": "2026-06-15",
       "deck": "Deutsch::VHS B1.1",
       "vocab_pairs": [
         {
           "de": "der Grund, Gründe",
-          "en": "reason / ground — der Grund, Gründe",
+          "en": "reason / ground",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "sich verändern",
-          "en": "to change — hat sich verändert",
+          "en": "to change",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "versteckt",
           "en": "hidden",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "langweilig",
           "en": "boring",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "grauhaarig",
           "en": "grey-haired",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "gefährlich",
           "en": "dangerous",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "beruflich",
           "en": "professional / career-related",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "komisch",
           "en": "strange / funny / odd",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "die Raumausstattung, -en",
-          "en": "interior decoration / room furnishing — die Raumausstattung, -en",
+          "en": "interior decoration / room furnishing",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "riechen",
-          "en": "to smell — hat gerochen",
+          "en": "to smell",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "duften",
-          "en": "to smell good / to be fragrant — hat geduftet",
+          "en": "to smell good / to be fragrant",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "stinken",
-          "en": "to stink — hat gestunken",
+          "en": "to stink",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "atemlos",
           "en": "breathless",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "spüren",
-          "en": "to feel / to sense — hat gespürt",
+          "en": "to feel / to sense",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "ewig",
           "en": "eternal / forever",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "trotzdem",
           "en": "nevertheless / anyway",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "[[deshalb]]",
           "en": "therefore / that's why",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "deswegen",
           "en": "because of that / therefore",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "dennoch",
           "en": "nonetheless / still",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "außerdem",
           "en": "besides / in addition",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "sich ansehen",
-          "en": "to look at / to watch — ansehen*, sah an, angesehen",
+          "en": "to look at / to watch",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "Ich kann nicht mit der Grammatik umgehen.",
           "en": "I can't deal with the grammar.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "Das klingt komisch, aber es stimmt.",
           "en": "That sounds strange, but it's true.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "Ich bin beruflich sehr beschäftigt.",
           "en": "I am very busy professionally.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "Obwohl es schwer ist, lerne ich weiter.",
           "en": "Although it's hard, I keep learning.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "Er hat gute Gründe dafür.",
           "en": "He has good reasons for it.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "de": "Das spürt man sofort.",
           "en": "You feel that right away.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         }
       ],
       "grammar_cards": [
         {
+          "front": "cards-deck: Deutsch",
+          "back": "VHS B1.1",
+          "section": ""
+        },
+        {
           "front": "obwohl — Konjunktionstyp?",
           "back": "Konzessivkonjunktion",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "obwohl — Verbposition?",
           "back": "am Satzende",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "obwohl — drückt aus?",
           "back": "Widerspruch / Gegensatz (although)",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "[[weil]] — Konjunktionstyp?",
           "back": "Kausalkonjunktion",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "[[weil]] — Verbposition?",
           "back": "am Satzende",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "[[weil]] — drückt aus?",
           "back": "Begründung / Ursache (because)",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "[[denn]] — Konjunktionstyp?",
           "back": "koordinierende Konjunktion",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "[[denn]] — Verbposition?",
           "back": "[[Hauptsatz]]-Wortstellung (kein Einfluss)",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "[[deshalb]] — Wortart?",
           "back": "Adverb / Konjunktionaladverb",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "[[deshalb]] — Position im Satz?",
           "back": "Position 1 → Verb an Position 2",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "trotzdem — drückt aus?",
           "back": "Kontrast / obwohl-Bedeutung (koordinierend)",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "obwohl vs. trotzdem — Unterschied?",
           "back": "obwohl → Nebensatz; trotzdem → [[Hauptsatz]]",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "[[weil]] vs. [[denn]] — Unterschied?",
           "back": "[[weil]] → Verb ans Ende; [[denn]] → normal",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Er ist müde, ___ er gut geschlafen hat. (Gegensatz)",
           "back": "obwohl",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Ich lerne Deutsch, ___ es schwer ist.",
           "back": "obwohl",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Ich bleibe zu Hause, ___ ich krank bin.",
           "back": "[[weil]]",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Ich lerne viel, ___ ich die Prüfung bestehen will.",
           "back": "[[weil]]",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "___ er krank ist, geht er zur Arbeit.",
           "back": "Obwohl",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Er kommt nicht, ___ er müde ist.",
           "back": "[[weil]]",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Das Essen ___ komisch, aber es schmeckt gut.",
           "back": "riecht",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Ich bin müde, ___ ich gut geschlafen habe. (koordinierend)",
           "back": "dennoch / trotzdem",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Ich habe keine Zeit, ___ helfe ich [[dir]] trotzdem.",
           "back": "dennoch",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Er mag keinen Sport, ___ er läuft jeden Morgen.",
           "back": "trotzdem",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Es regnet, ___ gehe ich spazieren.",
           "back": "trotzdem",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Ich habe Hunger, ___ esse ich jetzt nicht.",
           "back": "trotzdem",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Ich bin krank, ___ ich muss zur Arbeit gehen. ([[denn]])",
           "back": "[[denn]]",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Er mag Musik, ___ er spielt kein Instrument.",
           "back": "aber / obwohl",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Das Café ___ nach frischem Kaffee.",
           "back": "duftet",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Der Müll ___ unangenehm.",
           "back": "stinkt",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Verbinde mit „obwohl\": Er ist reich. Er ist unglücklich. → Er ist unglücklich, ___ er reich ist.",
           "back": "obwohl",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Verbinde mit „[[weil]]\": Ich lerne viel. Ich will bestehen. → Ich lerne viel, ___ ich bestehen will.",
           "back": "[[weil]]",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Umformung mit „trotzdem\": Obwohl ich müde bin, arbeite ich. → Ich bin müde, ___ arbeite ich.",
           "back": "trotzdem",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Satzstellung „[[deshalb]]\": Er ist krank. Er bleibt zu Hause. → Er ist krank, ___ bleibt er zu Hause.",
           "back": "[[deshalb]]",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Er ist beruflich sehr erfolgreich, ___ er unglücklich ist.",
           "back": "obwohl",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Ich lerne täglich, ___ ich die DTZ bestehen möchte.",
           "back": "[[weil]]",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Sie geht nicht aus, ___ sie krank ist.",
           "back": "[[weil]]",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Er raucht, ___ er weiß, [[dass]] es gefährlich ist.",
           "back": "obwohl",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         },
         {
           "front": "Das Zimmer ___ nach altem Holz. (riechen)",
           "back": "riecht",
-          "section": ""
+          "section": "VHS B1.1 — 15.06.26 — obwohl · [[weil]] · Adjektive"
         }
-      ]
+      ],
+      "total_vocab": 27,
+      "total_grammar": 39
     },
     {
-      "id": "08565cce099378ba",
-      "title": "Deutsch::VHS B1.1",
+      "id": "vhs-b11--120626--hflichkeitsform---zeitformen---dtz-sprechen",
+      "title": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen",
       "date": "2026-06-12",
       "deck": "Deutsch::VHS B1.1",
       "vocab_pairs": [
@@ -7084,407 +7183,414 @@
           "de": "wahrscheinlich",
           "en": "probably / likely",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "die Folge, -n",
-          "en": "consequence / episode (TV) — die Folge, -n",
+          "en": "consequence / episode (TV)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "die Staffel, -n",
-          "en": "season (TV series) / relay race — die Staffel, -n",
+          "en": "season (TV series) / relay race",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "die Kneipe, -n",
-          "en": "pub / bar — die Kneipe, -n",
+          "en": "pub / bar",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "die Erkältung, -en",
-          "en": "cold (illness) — die Erkältung, -en",
+          "en": "cold (illness)",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "das Fieber",
-          "en": "fever — das Fieber (kein Pl.)",
+          "en": "fever",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "die Kopfschmerzen (Pl.)",
-          "en": "headache — Kopfschmerzen haben",
+          "en": "headache",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "die Apotheke, -n",
-          "en": "pharmacy — die Apotheke, -n",
+          "en": "pharmacy",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "das Rezept, -e",
-          "en": "prescription / recipe — das Rezept, -e",
+          "en": "prescription / recipe",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "der Termin, -e",
-          "en": "appointment — der Termin, -e",
+          "en": "appointment",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "die Praxis, Praxen",
-          "en": "doctor's practice / office — die Praxis, Praxen",
+          "en": "doctor's practice / office",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "das Wartezimmer, -",
-          "en": "waiting room — das Wartezimmer, -",
+          "en": "waiting room",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "das Formular, -e",
-          "en": "form / document — das Formular, -e",
+          "en": "form / document",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "sich erholen",
-          "en": "to recover / to rest — hat sich erholt",
+          "en": "to recover / to rest",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "die Krankenversicherung, -en",
-          "en": "health insurance — die Krankenversicherung, -en",
+          "en": "health insurance",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "Ich … schon oft … (DTZ)",
           "en": "I have … many times …",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "Das war so: Einmal bin ich … (DTZ)",
           "en": "This is how it was: Once I …",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "Das habe ich noch nie gemacht. (DTZ)",
           "en": "I have never done that.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "[[deshalb]] weiß ich das nicht. (DTZ)",
           "en": "That's why I don't know.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "Bei uns ist das so: … (DTZ)",
           "en": "Where I come from, it's like this: …",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "Das ist (ähnlich) wie hier. (DTZ)",
           "en": "That is (similar) to here.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "die Frau putzt sich die Nase.",
           "en": "the woman is blowing her nose",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "Sie hat eine Erkältung. / Sie ist erkältet.",
           "en": "She has a cold. / She caught a cold.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "Ich muss einen Termin machen.",
           "en": "I need to make an appointment.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "Ich bin krankenversichert.",
           "en": "I have health insurance.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "Schlafen Sie sich gesund!",
           "en": "Sleep it off! / Get some rest!",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "de": "Ich brauche eine Krankschreibung.",
           "en": "I need a sick note.",
           "example": "",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         }
       ],
       "grammar_cards": [
         {
+          "front": "cards-deck: Deutsch",
+          "back": "VHS B1.1",
+          "section": ""
+        },
+        {
           "front": "Höflichkeitsform Subjekt — Kasus?",
           "back": "[[Nominativ]] → Sie",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Höflichkeitsform Dativobjekt — Form?",
           "back": "Ihnen",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Höflichkeitsform Akkusativobjekt — Form?",
           "back": "Sie",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Höflichkeitsform Possessiv Dat. mask./neutr. — Form?",
           "back": "Ihrem",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Höflichkeitsform Possessiv Nom./Akk. fem. — Form?",
           "back": "Ihre",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Höflichkeitsform [[Imperativ]] — Aufbau?",
           "back": "Infinitiv + Sie (Bitte kommen Sie.)",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Nominalisierter Infinitiv — Schreibweise?",
           "back": "großgeschrieben",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Nominalisierter Infinitiv — Satzfunktion?",
           "back": "Subjekt oder Objekt",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Nominalisierter Infinitiv — Genus?",
           "back": "Neutrum (das Schlafen, das Essen)",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Modalverben Vergangenheit — bevorzugte Zeitform?",
           "back": "Präteritum",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "[[Perfekt]] Bewegungsverben (gehen) — Auxiliar?",
           "back": "sein",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Präteritum sein — ich-Form?",
           "back": "war",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Präteritum haben — ich-Form?",
           "back": "hatte",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Präteritum können — ich-Form?",
           "back": "konnte",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Präteritum müssen — ich-Form?",
           "back": "musste",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Präteritum dürfen — ich-Form?",
           "back": "durfte",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Präteritum [[wollen]] — ich-Form?",
           "back": "wollte",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "[[Perfekt]] vs. Präteritum Modalverben — welches bevorzugt?",
           "back": "Präteritum (Ich musste / ich konnte)",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Ich ___ zu Hause, [[wenn]] ich krank bin.",
           "back": "bleibe",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Ich ___ viel Tee, [[wenn]] ich krank bin.",
           "back": "trinke",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "___ hilft auch gegen Erkältung. (Infinitiv [[als]] Subjekt)",
           "back": "Schlafen",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Wenn ich Fieber ___, gehe ich zum Arzt.",
           "back": "habe",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Ja, ich ___ schon oft beim Arzt hier.",
           "back": "war",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Ich ___ und einen Termin ___. (anrufen / machen, [[Perfekt]])",
           "back": "habe angerufen … gemacht",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Einmal ___ ich ohne Termin zum Arzt ___. (gehen, [[Perfekt]])",
           "back": "bin … gegangen",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Weil ich Rückenschmerzen ___, musste ich lange warten.",
           "back": "hatte",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Da ___ ich sehr lange warten.",
           "back": "musste",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Das ___ ich noch nie ___. (machen, [[Perfekt]])",
           "back": "habe … gemacht",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Wie ist das bei ___: Gehen Sie zur Arbeit, [[wenn]] Sie krank sind?",
           "back": "Ihnen",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "In ___ Land — was machen die Menschen, [[wenn]] sie krank sind?",
           "back": "Ihrem",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Bitte füllen Sie dieses ___ aus. (höflich)",
           "back": "Formular",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Haben ___ einen Termin? (höflich)",
           "back": "Sie",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Ich kann ___ leider nicht helfen. (höflich, Dat.)",
           "back": "Ihnen",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Als Kind ___ ich nie krank werden. ([[wollen]], Prät.)",
           "back": "wollte",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Ich ___ gestern nicht schlafen. (können, Prät.)",
           "back": "konnte",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Er ___ zwei Wochen zu Hause bleiben. (müssen, Prät.)",
           "back": "musste",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "___ ist die beste Medizin. (nominalisierter Infinitiv)",
           "back": "Schlafen",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Das ___ mir sehr gut. (gefallen, [[Perfekt]])",
           "back": "hat … gefallen",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Wie sagt man höflich: „Gib mir das Formular.\" → ___ Sie mir bitte das Formular.",
           "back": "Geben",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Wie sagt man höflich: „Warte!\" → Bitte ___ Sie.",
           "back": "warten Sie",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Infinitiv nominalisiert: „schlafen\" → ___ ist gesund.",
           "back": "Schlafen",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Modalverb Prät.: „Ich kann nicht kommen.\" → Ich ___ nicht kommen.",
           "back": "konnte",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Modalverb Prät.: „Ich muss warten.\" → Ich ___ warten.",
           "back": "musste",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Haben ___ die Krankenversicherungskarte dabei? (Höflichkeit)",
           "back": "Sie",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Bitte nehmen ___ im Wartezimmer Platz.",
           "back": "Sie",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Ich ___ [[als]] Kind oft krank. (sein, Prät.)",
           "back": "war",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Damals ___ ich keine Versicherung. (haben, Prät.)",
           "back": "hatte",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         },
         {
           "front": "Das ___ ich nicht wissen. (dürfen, Prät.)",
           "back": "durfte",
-          "section": ""
+          "section": "VHS B1.1 — 12.06.26 — Höflichkeitsform · Zeitformen · DTZ Sprechen"
         }
-      ]
+      ],
+      "total_vocab": 27,
+      "total_grammar": 49
     }
   ]
 }
