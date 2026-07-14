@@ -5,7 +5,7 @@ tags:
   - knowledge-graphs
   - ontology
   - vault
-description: A complete guide to Semantic Web technologies — RDF, SPARQL, OWL, Knowledge Graphs, Ontology Engineering, and Linked Data. Built from hands-on research for the TIB Semantic Data Architect role.
+description: A complete guide to Semantic Web technologies — RDF, SPARQL, OWL, Knowledge Graphs, and Ontology Engineering. Built from hands-on research for enterprise knowledge systems.
 reading_time: "2 min"
 lang: en
 publish: true

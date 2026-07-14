@@ -43,4 +43,8 @@ publish: true
 
 | Ressource | Beschreibung |
 |-----------|-------------|
-| [[Deutsch/DTZ - B1 Prüfung|DTZ B1 Prüfung]] | Struktur, Teile, Dauer und Bestehensgrenzen der DTZ B1 Prüfung |
+|| [[Deutsch/DTZ - B1 Prüfung|DTZ B1 Prüfung]] | Struktur, Teile, Dauer und Bestehensgrenzen der DTZ B1 Prüfung |
+
+---
+
+*Hast du Fragen zu einem Deutsch-Thema? Schreib mir — ich helfe gern. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

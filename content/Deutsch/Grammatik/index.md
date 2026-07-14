@@ -6,7 +6,7 @@ tags:
   - grammatik
   - b1
   - lernen
-description: Deutsche Grammatik-Konzepte für B1-Niveau — Erklärungen, Tabellen, Beispiele und Übungen. Aus meinem VHS-Kurs in Berlin. Trennbare Verben, Modalverben, Passiv.
+description: Deutsche Grammatik-Konzepte für B1-Niveau — Erklärungen, Tabellen und Beispiele aus meinem VHS-Kurs. Trennbare Verben, Modalverben, Nebensätze, Passiv.
 reading_time: "1 min"
 type: section-index
 lang: de

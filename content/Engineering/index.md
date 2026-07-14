@@ -7,7 +7,7 @@ tags:
   - energy
   - hydrogen
   - carbon-capture
-description: "Engineering concepts, technology deep-dives, and energy systems — from chemical process engineering to carbon capture, hydrogen production, and gas separation technologies like PSA and SMR."
+description: "Engineering concepts and energy systems — from chemical process engineering to carbon capture, hydrogen production, and gas separation technologies like PSA and SMR."
 reading_time: "1 min"
 type: section-index
 lang: en

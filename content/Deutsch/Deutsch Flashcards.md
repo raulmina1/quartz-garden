@@ -7,7 +7,7 @@ tags:
   - vhs
   - spiel
   - lernen
-description: "Zwei interaktive Lernspiele aus dem VHS-Deutschkurs: Matching Pairs zum Vokabeln-Paare-Finden und Flash Cards zum Selbsttesten von Grammatik und Phrasen."
+description: "Zwei interaktive Lernspiele aus dem VHS-Deutschkurs: Matching Pairs und Flash Cards zum Selbsttesten von Vokabeln, Grammatik und Phrasen."
 reading_time: "2 min"
 type: showcase
 lang: de

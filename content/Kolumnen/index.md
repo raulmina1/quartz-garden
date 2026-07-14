@@ -5,7 +5,7 @@ tags:
   - kolumnen
   - opinion
   - ra-blog
-description: "Meinungskolumnen zu Ingenieurwesen, KI und Sprachenlernen — geschrieben aus der Perspektive eines Prozessingenieurs in Berlin. Deutsch lernen, Automatisierung, Bildung und Technologie."
+description: "Meinungskolumnen zu Ingenieurwesen, KI und Sprachenlernen — aus der Perspektive eines Prozessingenieurs in Berlin. Deutsch lernen, Automatisierung und Technologie."
 reading_time: "1 min"
 type: section-index
 lang: de
