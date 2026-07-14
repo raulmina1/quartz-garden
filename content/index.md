@@ -2,6 +2,7 @@
 title: RA Blog
 tags:
   - home
+description: "Digital garden by Raul Mina — Process Engineer & AI Automation Specialist. Engineering guides, German learning resources, AI ecosystem, and opinion columns. Built with Quartz 4."
 ---
 
 Welcome to the **RA Blog** — a digital garden by Raul Mina. Process engineer in Berlin, building AI systems and learning German.
@@ -18,7 +19,7 @@ Welcome to the **RA Blog** — a digital garden by Raul Mina. Process engineer i
 
 | Note | Description |
 |------|-------------|
-| [[Deutsch/index|Deutsch]] | Grammatik, Flashcards, Mental Maps — B1.2 Ressourcen. |
+| [[Deutsch/index|Deutsch lernen]] | Grammatik, Flashcards, Mental Maps — B1.2 Ressourcen. |
 | [[Engineering/index|Engineering]] | Hydrogen, carbon capture, PSA, SMR — chemical engineering. |
 | [[Wirtschaft/index|Wirtschaft und Energie]] | Energy economics, merit order, CO2 costs in Germany. |
 | [[Semantic Web/index|Semantic Web]] | RDF, SPARQL, OWL, Knowledge Graphs. |

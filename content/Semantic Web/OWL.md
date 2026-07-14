@@ -1,14 +1,12 @@
 ---
+title: "OWL — Web Ontology Language"
 tags:
   - semantic-web
   - ontology
   - owl
   - w3c
-aliases:
-  - Web Ontology Language
-  - OWL 2
-description: OWL is the W3C ontology language for formal knowledge representation. Learn classes, properties, axioms, reasoning, and how to build ontologies that machines can reason over.
-reading_time: 4
+description: "OWL is the W3C ontology language for formal knowledge representation. Learn classes, properties, reasoning, and how to build ontologies machines can reason over."
+reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide
@@ -98,3 +96,6 @@ yv:SemanticDataArchitect yv:requiresSkill yv:RDF ,
 - [Knowledge Graphs — Architecture Guide](/Semantic-Web/Knowledge-Graphs)
 - [Ontology Engineering — A Practical Guide](/Semantic-Web/Ontology-Engineering)
 - [Linked Data Principles](/Semantic-Web/Linked-Data)
+
+---
+*OWL adds the reasoning layer. Pair it with Ontology Engineering to build models that machines can actually infer from.*

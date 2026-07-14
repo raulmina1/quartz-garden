@@ -1,20 +1,16 @@
 ---
-title: "Deutsch lernen als Ingenieur — was mir der Kurs nicht beigebracht hat"
+title: "Deutsch lernen als Ingenieur — was der Kurs nicht lehrte"
 date: 2026-06-22
 tags:
   - deutschkurs
   - lernen
   - deutsch
   - ra-blog
-description: "Ich lerne Deutsch auf B1.1-Niveau und bereite mich auf den DTZ vor. Was der Kurs mir beibringt — und was ich außerhalb davon lernen muss."
+description: "Ich lerne Deutsch auf B1.1-Niveau und bereite mich auf den DTZ vor. Was der VHS-Kurs mir beibringt — und was ich außerhalb davon selbst lernen muss, um die Lücken zu schließen."
 reading_time: "4 min"
 type: kolumne
 lang: de
 publish: true
----
-
-###### Related: [[Einführung]] | [[Die Werkzeuge, die ich mir selbst gebaut habe]]
-
 ---
 
 # Deutsch lernen als Ingenieur
@@ -97,3 +93,7 @@ Der Kurs gibt mir die Struktur. Den Rest muss ich mir holen.
 
 > [!note] RA
 > Language is not a system to be optimized — it is a territory to be inhabited. You do not debug your way into fluency; you live your way there.
+
+---
+
+*Lernst du auch Deutsch? Welche Lücke hat dein Kurs nicht gefüllt? Ich bin gespannt auf deine Geschichte. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

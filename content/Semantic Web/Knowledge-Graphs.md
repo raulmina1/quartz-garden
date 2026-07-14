@@ -1,4 +1,5 @@
 ---
+title: "Knowledge Graphs — Architecture & Practical Guide"
 tags:
   - knowledge-graph
   - semantic-web
@@ -7,8 +8,8 @@ tags:
 aliases:
   - Knowledge Graph
   - KG
-description: A knowledge graph is a structured network of entities and relationships. This guide covers architecture, key components, querying, and practical applications from job-search vaults to enterprise systems.
-reading_time: 4
+description: "A knowledge graph is a structured network of entities and relationships. Covers architecture, components, querying, and practical applications from vaults to enterprise systems."
+reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide
@@ -79,3 +80,6 @@ A personal knowledge vault (Obsidian) is a lightweight knowledge graph — each 
 - [Ontology Engineering — A Practical Guide](/Semantic-Web/Ontology-Engineering)
 - [Linked Data Principles](/Semantic-Web/Linked-Data)
 - [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
+
+---
+*Which technology in the semantic web stack interests you most? I started with RDF triples and the whole graph opened up from there.*

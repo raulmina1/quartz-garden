@@ -7,7 +7,7 @@ tags:
   - modalverben
   - verben
   - b1
-description: Modalverben, unregelmäßige Verben, und ihre Konjugation — vollständige Tabellen für Deutsch B1-Niveau.
+description: "Modalverben, unregelmäßige Verben und ihre Konjugation — vollständige Tabellen und Satzstellung für Deutsch B1. Inklusive Übungen und Alltagsbeispiele."
 reading_time: "3 min"
 lang: de
 publish: true
@@ -106,7 +106,7 @@ Setze das richtige Modalverb ein (können, müssen, dürfen, sollen, wollen, mö
 ## Related
 
 - [[Deutsch/Grammatik/Trennbare-Verben\|🔧 Trennbare Verben — complete list]]
-- [[Mental Maps/index\|🧠 Mental Maps — Grammatik visuell]]
+- [[Deutsch/Mental Maps/index\|🧠 Mental Maps — Grammatik visuell]]
 - [[Deutsch Flashcards\|🃏 Deutsch Flashcards]]
 
 ---

@@ -5,7 +5,7 @@ tags:
   - projekte
   - leistungen
   - ra-blog
-description: What I build and sell — AI agents, automations, custom prompts, file watchers, and scheduled cron jobs for Obsidian and Hermes. Every product is something I use daily.
+description: What I build and sell — AI agents, automations, custom prompts, file watchers, and cron jobs for Obsidian and Hermes. Every product I use daily.
 reading_time: "1 min"
 type: section-index
 lang: en

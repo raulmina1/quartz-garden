@@ -6,11 +6,11 @@ tags:
   - catalog
   - ra-blog
   - automation
-description: "130+ prompts, 18 autonomous agents, 6 cron jobs, and 8 file watchers — the complete AI system I built over my Obsidian vault to automate German learning, job applications, and knowledge management."
+description: "130+ prompts, 18 autonomous agents, 6 cron jobs, and 8 file watchers — the AI system I built over Obsidian to automate German learning, job apps, and knowledge management."
 reading_time: "12 min"
 related:
   - "[[Projekte]]"
-  - "[[Prompt Shop]]"
+  - "[[Projekte/Prompt Shop]]"
   - "[[Einführung]]"
 date: 2026-07-06
 type: about
@@ -18,7 +18,7 @@ lang: en
 publish: true
 ---
 
-###### Related: [[Projekte]] | [[Prompt Shop]] | [[Einführung]]
+###### Related: [[Projekte]] | [[Projekte/Prompt Shop]] | [[Einführung]]
 
 ---
 
@@ -315,10 +315,8 @@ Custom-built utilities designed and documented in the vault.
 
 ---
 
-> [!tip] Blog architecture pages
-> Detailed explanations of key system components are published on the blog:
-> - [[AI Architecture|🔌 Hook System — The Reactive Layer of an AI-Powered Vault]]
-> - [[File Watcher Pattern|🔄 File Watcher Pattern — How to Automate a Vault]]
+> [!tip] In-page references
+> The Hook System and File Watcher Pattern are documented in context above — see [§3 Hooks](#3-hooks-02_hooks) and the **File Watcher Pattern** subsection under hooks.
 
 ---
 
@@ -348,3 +346,5 @@ Custom-built utilities designed and documented in the vault.
 
 > [!note] RA
 > Every system I've built is a mirror of a gap I found — not in the tools, but in how I was using them.
+
+*What gap would you automate? I'm always curious what other engineers build for themselves. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

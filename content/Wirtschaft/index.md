@@ -6,7 +6,7 @@ tags:
   - energie
   - economics
   - germany
-description: Energy economics, market mechanisms, and economic analysis — with a focus on Germany's Energiewende, electricity markets, and industrial policy.
+description: "Energy economics in Germany — electricity markets, the merit order system, and how CO₂ costs affect industrial policy and consumer prices."
 reading_time: "1 min"
 type: section-index
 lang: en

@@ -1,14 +1,12 @@
 ---
+title: "RDF — Resource Description Framework"
 tags:
   - semantic-web
   - rdf
   - data-modeling
   - w3c
-aliases:
-  - Resource Description Framework
-  - RDF
 description: RDF (Resource Description Framework) is the W3C standard for representing web data as triples. Learn how to model, serialize, and query interconnected data.
-reading_time: 4
+reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide
@@ -85,3 +83,6 @@ Convert an Obsidian vault to RDF — each note gets an IRI, each `[[wikilink]]` 
 - [Linked Data Principles](/Semantic-Web/Linked-Data)
 - [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
 - [Ontology Engineering Guide](/Semantic-Web/Ontology-Engineering)
+
+---
+*RDF is the foundation. Once you grasp triples, try querying them with SPARQL — that's where the real power shows up.*

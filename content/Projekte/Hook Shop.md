@@ -1,4 +1,5 @@
 ---
+title: "RA Hook Shop"
 tags:
   - hooks
   - shop
@@ -9,7 +10,8 @@ related:
   - "[[Projekte/Prompt Shop|Prompt Shop]]"
   - "[[Projekte/Agent Shop|Agent Shop]]"
   - "[[Projekte/Cron Shop|Cron Shop]]"
-description: File watchers and event triggers that connect your vault to AI agents. A hook watches for a specific change and automatically fires the right agent — no buttons, no commands.
+description: "File watchers and event triggers that connect your vault to AI agents. A hook watches for changes and automatically fires the right agent — no buttons, no commands."
+reading_time: "5 min"
 publish: true
 date: 2026-07-09
 type: showcase

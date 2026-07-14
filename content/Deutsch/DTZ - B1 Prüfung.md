@@ -6,7 +6,7 @@ tags:
   - dtz
   - prüfung
   - b1
-description: "Übersicht der DTZ B1 Prüfung — Hören, Lesen, Schreiben, Sprechen — Dauer, Punkte, Bestehensgrenzen und alle vier Prüfungsteile."
+description: "Übersicht der DTZ B1 Prüfung — Hören, Lesen, Schreiben, Sprechen mit Dauer, Punkten und Bestehensgrenzen. Inklusive Niveaustufen und Zertifikatsinformationen."
 reading_time: "2 min"
 lang: de
 publish: true
@@ -16,7 +16,7 @@ type: resource
 # DTZ B1 Prüfung
 
 ###### Datum:
-[[2026-08-29 DTZ B1 Prüfung| 29.09.26 - DTZ B1 Prüfung]]
+29.09.26 - DTZ B1 Prüfung
 
 
 ---
@@ -24,16 +24,16 @@ type: resource
 
 | Teil | Fertigkeit | Dauer | Punkte | Aufgaben |
 |------|-----------|-------|--------|----------|
-| 1 | [[DTZ B1 - Teil 1 Hören\|Hören]] | ~25 min | 25 | 20 Aufgaben |
-| 2 | [[DTZ B1 - Teil 2 Lesen\|Lesen]] | ~45 min | 25 | 25 Aufgaben |
-| 3 | [[DTZ B1 - Teil 3 Schreiben\|Schreiben]] | ~30 min | 20 | 1 Brief + Lückentext |
-| 4 | [[DTZ B1 - Teil 4 Sprechen\|Sprechen]] | ~15 min | 30 | 3 Teile (Paarprüfung) |
+| 1 | Hören | ~25 min | 25 | 20 Aufgaben |
+| 2 | Lesen | ~45 min | 25 | 25 Aufgaben |
+| 3 | Schreiben | ~30 min | 20 | 1 Brief + Lückentext |
+| 4 | Sprechen | ~15 min | 30 | 3 Teile (Paarprüfung) |
 | | **Gesamt** | **~3,5 h** | **100** | |
 
 > [!info] Bestehensgrenzen
 > - **60/100 Punkte** → Zertifikat B1
-> - **Sprechen ist Pflicht:** Im [[Sprechen]] UND mindestens einem [[schriftlichen]] Teil muss B1 erreicht werden.
-> - Unter 60 Punkte oder unter A2 → nur schriftliche [[Mitteilung]], kein Zertifikat
+> - **Sprechen ist Pflicht:** Im Sprechen UND mindestens einem schriftlichen Teil muss B1 erreicht werden.
+> - Unter 60 Punkte oder unter A2 → nur schriftliche Mitteilung, kein Zertifikat
 
 ---
 ### Teil 1 — Hören (~25 min | 20 Punkte)
@@ -93,3 +93,7 @@ Paarprüfung mit zwei Kandidaten und einem/einer Prüfer*in.
 - Liegt das Ergebnis unter A2 → nur schriftliche Mitteilung, kein Zertifikat.
 - Prüfung wird zentral durch BAMF-autorisierte Träger abgenommen.
 - Keine Fachkenntnisse nötig — nur Alltagskommunikation.
+
+---
+
+*Bereitest du dich auch auf den DTZ vor? Schreib mir — vielleicht können wir gemeinsam üben. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

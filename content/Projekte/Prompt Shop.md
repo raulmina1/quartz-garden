@@ -6,7 +6,7 @@ tags:
   - obsidian
   - ai
   - claude
-description: "Ready-to-use AI prompts for Obsidian, German learning, job hunting, and personal automation — 34 prompts, 5 packs, built for Claude, refined daily."
+description: "Ready-to-use AI prompts for Obsidian, German learning, job hunting, and automation — 34 prompts, 5 packs, built for Claude and refined daily."
 reading_time: "5 min"
 type: showcase
 lang: en
@@ -15,10 +15,6 @@ related:
   - "[[Einführung]]"
   - "[[AI Ecosystem]]"
 publish: true
----
-
-###### Related: [[Einführung]] | [[AI Ecosystem]]
-
 ---
 
 ## RA Prompt Shop
@@ -42,7 +38,7 @@ Every prompt runs on **Claude** (claude-sonnet-4-6 recommended) or any LLM compa
 | 🧠 Personal Life & Reflection Pack | 5 prompts | €15 |
 | 📦 Complete Bundle — All 34 Prompts | 34 prompts | **€55** |
 
-To order: **raulmina13@gmail.com** — include which pack(s) you want. Payment via bank transfer (details at the bottom).
+To order: **raulmina13@gmail.com** or use the Ko-fi form below — include which pack(s) you want.
 
 ---
 

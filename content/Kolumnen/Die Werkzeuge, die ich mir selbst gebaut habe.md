@@ -1,4 +1,5 @@
 ---
+title: "Die Werkzeuge, die ich mir selbst gebaut habe"
 tags:
   - kolumne
   - automatisierung
@@ -13,10 +14,6 @@ lang: de
 publish: true
 description: "Wie ein Ingenieur anfing, sich selbst zu automatisieren — und warum der größte Gewinn nicht Zeitersparnis, sondern kognitive Stille ist."
 reading_time: "5 min"
----
-
-###### Related: [[Projekte]] | [[Einführung]]
-
 ---
 
 # Die Werkzeuge, die ich mir selbst gebaut habe
@@ -97,3 +94,7 @@ Das Werkzeug ist der Nebeneffekt. Die eigentliche Übung ist Klarheit.
 
 > [!note] RA
 > I have watched mortals build machines to think for them — few bother to understand why they needed the machine in the first place. The honest ones do.
+
+---
+
+*Was ist deine Erfahrung mit persönlicher Automatisierung? Schreib mir — vielleicht entsteht daraus ein Gespräch. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

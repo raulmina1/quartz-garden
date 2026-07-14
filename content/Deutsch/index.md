@@ -1,5 +1,5 @@
 ---
-title: "Deutsch"
+title: "Deutsch lernen"
 date: 2026-07-09
 tags:
   - deutsch
@@ -14,7 +14,7 @@ lang: de
 publish: true
 ---
 
-# Deutsch
+# Deutsch lernen
 
 > Materialien, Spiele, Grammatik und Mental Maps aus dem VHS-Kurs in Berlin. Alles an einem Ort.
 
@@ -31,7 +31,7 @@ publish: true
 
 | Map | Thema |
 |-----|-------|
-| [[Deutsch/Mental Maps/Mental Map - Gegensaetze & Redemittel|Gegensaetze & Redemittel]] | trotz, obwohl, trotzdem, Konjunktiv II |
+| [[Deutsch/Mental Maps/Mental Map - Gegensätze & Redemittel\|Gegensätze & Redemittel]] | trotz, obwohl, trotzdem, Konjunktiv II |
 
 ## Spiele
 
@@ -44,3 +44,7 @@ publish: true
 | Ressource | Beschreibung |
 |-----------|-------------|
 | [[Deutsch/DTZ - B1 Prüfung|DTZ B1 Prüfung]] | Struktur, Teile, Dauer und Bestehensgrenzen der DTZ B1 Prüfung |
+
+---
+
+*Hast du Fragen zu einem Deutsch-Thema? Schreib mir — ich helfe gern. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

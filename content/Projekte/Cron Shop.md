@@ -1,4 +1,5 @@
 ---
+title: "RA Cron Shop"
 tags:
   - crons
   - shop
@@ -9,6 +10,7 @@ related:
   - "[[Projekte/Prompt Shop|Prompt Shop]]"
   - "[[Projekte/Agent Shop|Agent Shop]]"
 description: Pre-configured cron jobs that run AI agents on a schedule — daily briefings, German exercises, vault backups, and custom automations. No manual triggers needed.
+reading_time: "5 min"
 publish: true
 date: 2026-07-09
 type: showcase

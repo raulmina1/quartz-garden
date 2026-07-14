@@ -1,15 +1,12 @@
 ---
+title: "Linked Data Principles"
 tags:
   - linked-data
   - semantic-web
   - rdf
   - open-data
-aliases:
-  - Linked Data
-  - Linked Open Data
-  - LOD
-description: Linked data is a set of W3C principles for publishing structured data on the web so it can be interlinked and queried. Learn the 4 rules, 5-star deployment, and how to connect your data to the global graph.
-reading_time: 4
+description: "Linked data principles for publishing structured data on the web so it can be interlinked and queried. Learn the 4 rules, 5-star deployment, and how to connect to the global graph."
+reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide
@@ -100,3 +97,6 @@ SELECT ?job ?skill WHERE {
 - [Knowledge Graphs — Architecture Guide](/Semantic-Web/Knowledge-Graphs)
 - [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
 - [Ontology Engineering Guide](/Semantic-Web/Ontology-Engineering)
+
+---
+*Linked data is the bridge between isolated datasets and a global graph. See how everything connects in the Semantic Web Standards overview.*
