@@ -24,10 +24,10 @@ type: resource
 
 | Teil | Fertigkeit | Dauer | Punkte | Aufgaben |
 |------|-----------|-------|--------|----------|
-|| 1 | Hören | ~25 min | 25 | 20 Aufgaben |
-|| 2 | Lesen | ~45 min | 25 | 25 Aufgaben |
-|| 3 | Schreiben | ~30 min | 20 | 1 Brief + Lückentext |
-|| 4 | Sprechen | ~15 min | 30 | 3 Teile (Paarprüfung) |
+| 1 | Hören | ~25 min | 25 | 20 Aufgaben |
+| 2 | Lesen | ~45 min | 25 | 25 Aufgaben |
+| 3 | Schreiben | ~30 min | 20 | 1 Brief + Lückentext |
+| 4 | Sprechen | ~15 min | 30 | 3 Teile (Paarprüfung) |
 | | **Gesamt** | **~3,5 h** | **100** | |
 
 > [!info] Bestehensgrenzen
