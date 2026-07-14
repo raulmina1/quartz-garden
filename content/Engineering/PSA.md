@@ -1,5 +1,5 @@
 ---
-title: "💨 Pressure Swing Adsorption (PSA) — The Workhorse of Gas Separation"
+title: "💨 Pressure Swing Adsorption (PSA) — Gas Separation Workhorse"
 date: 2026-07-09
 tags:
   - engineering
