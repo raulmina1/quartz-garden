@@ -1,10 +1,1635 @@
 {
-  "generated": "2026-07-09T22:22:40.490404",
+  "generated": "2026-07-14T23:48:45.483165",
   "source": "C:\\Vaults\\YellowVault\\03_INFORMATIONEN\\05_PROGRAMS\\14_ANKI\\01_DATABASE",
-  "total_decks": 14,
-  "total_vocab_pairs": 444,
-  "total_grammar_cards": 626,
+  "total_decks": 16,
+  "total_vocab_pairs": 615,
+  "total_grammar_cards": 741,
   "decks": [
+    {
+      "id": "vhs-b12--140726--verben-mit-prpositionen---relativpronomen--",
+      "title": "VHS B1.2 — 14.07.26 — Verben mit Präpositionen · Relativpronomen · Relativsätze",
+      "date": "2026-07-14",
+      "deck": "Deutsch::Anki - VHS B1.2 — 14.07.26 — Verben mit Präpositionen · Relativpronomen · Relativsätze",
+      "vocab_pairs": [
+        {
+          "de": "achten auf (+Akk)",
+          "en": "aufmerksam sein, beachten",
+          "example": "Achten Sie bei der Maschine auf die Sicherheitshinweise.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "ankommen auf (+Akk)",
+          "en": "abhängen von, entscheidend sein",
+          "example": "Bei einer Bewerbung kommt es auf die persönliche Wirkung an.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich anpassen an (+Akk)",
+          "en": "sich angleichen, sich einfügen in",
+          "example": "Man muss sich nicht an jeden Trend anpassen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "antworten auf (+Akk)",
+          "en": "eine Antwort geben auf",
+          "example": "Hat die Firma schon auf deine Bewerbung geantwortet?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich ärgern über (+Akk)",
+          "en": "verärgert sein wegen, wütend sein über",
+          "example": "Ich habe mich heute über meine Kollegin geärgert.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "aufpassen auf (+Akk)",
+          "en": "beaufsichtigen, achten auf",
+          "example": "Könntest du heute Abend auf meine Kinder aufpassen?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "ausgeben für (+Akk)",
+          "en": "Geld bezahlen für, Geld verwenden für",
+          "example": "Wie viel haben Sie für das Geschäftsessen ausgegeben?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich bedanken für (+Akk)",
+          "en": "Dank aussprechen für, danken für",
+          "example": "Wir wollen uns für die gelungene Fortbildung bedanken.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich begeistern für (+Akk)",
+          "en": "große Freude haben an, fasziniert sein von",
+          "example": "Gabriela begeistert sich für Fotografie.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich beklagen über (+Akk)",
+          "en": "sich beschweren über, Unzufriedenheit äußern über",
+          "example": "Ein Kunde hat sich über unseren Service beklagt.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "berichten über (+Akk)",
+          "en": "informieren über, Auskunft geben über",
+          "example": "Im Fernsehen wurde über das Ereignis berichtet.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich beschweren über (+Akk)",
+          "en": "formell Kritik äußern über, reklamieren",
+          "example": "Herr Polt hat sich über die neue Kollegin beschwert.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich bewerben auf/um (+Akk)",
+          "en": "eine Bewerbung einreichen für, kandidieren für",
+          "example": "Sie hat sich auf eine Stelle beim ÖPNV beworben.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich beziehen auf (+Akk)",
+          "en": "in Zusammenhang stehen mit, betreffen",
+          "example": "Die Mahnung bezieht sich auf die Rechnung vom Januar.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "bitten um (+Akk)",
+          "en": "höflich fragen nach, ersuchen um",
+          "example": "Könnte ich dich um einen Gefallen bitten?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "danken für (+Akk)",
+          "en": "Dank sagen für, sich bedanken für",
+          "example": "Ich möchte Ihnen für Ihre Unterstützung danken.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "denken an (+Akk)",
+          "en": "im Kopf haben, nicht vergessen, sich erinnern an",
+          "example": "Denk doch nicht immer nur an dich!",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "diskutieren über (+Akk)",
+          "en": "Meinungen austauschen über, debattieren über",
+          "example": "Wir müssen morgen über unseren Terminplan diskutieren.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "eingehen auf (+Akk)",
+          "en": "reagieren auf, sich beschäftigen mit",
+          "example": "Meine Chefin geht meistens auf die Meinung anderer ein.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich einigen auf (+Akk)",
+          "en": "gemeinsam entscheiden, sich verständigen auf",
+          "example": "Können wir uns auf diese Farbe einigen?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich einsetzen für (+Akk)",
+          "en": "aktiv unterstützen, sich engagieren für",
+          "example": "Wir setzen uns für eine bessere Berufsausbildung ein.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "einziehen in (+Akk)",
+          "en": "in ein neues Gebäude/eine neue Wohnung umziehen",
+          "example": "Wir sind erst vor kurzem in die neue Werkstatt eingezogen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich engagieren für/gegen (+Akk)",
+          "en": "sich aktiv einsetzen für/gegen, sich beteiligen an",
+          "example": "Viele Leute engagieren sich für einen guten Zweck.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich entscheiden für/gegen (+Akk)",
+          "en": "eine Wahl treffen für/gegen, auswählen",
+          "example": "Wir haben uns für dieses Sofa entschieden.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich entschuldigen für (+Akk)",
+          "en": "um Verzeihung bitten für, Verzeihung erbitten für",
+          "example": "Herr Bieber hat sich für seinen Fehler entschuldigt.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich erinnern an (+Akk)",
+          "en": "im Gedächtnis haben, denken an",
+          "example": "Erinnern Sie sich an unser Gespräch neulich?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "erzählen über/von (+Akk/Dat)",
+          "en": "mündlich berichten über, eine Geschichte geben über",
+          "example": "Was hat Pablo denn über den Chef erzählt?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich freuen auf (+Akk)",
+          "en": "Vorfreude haben auf (Zukunft), mit Freude erwarten",
+          "example": "Ich freue mich auf unseren Ausflug am Wochenende.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich freuen über (+Akk)",
+          "en": "glücklich sein über (Gegenwart/Vergangenheit), Freude empfinden über",
+          "example": "Meine Eltern haben sich sehr über meinen Besuch gefreut.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich gewöhnen an (+Akk)",
+          "en": "vertraut werden mit, sich anpassen an",
+          "example": "Ich kann mich einfach nicht an dieses Essen gewöhnen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "glauben an (+Akk)",
+          "en": "Vertrauen haben in, überzeugt sein von",
+          "example": "Seine Chefin glaubt an ihn, das macht ihm Mut.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "halten für (+Akk)",
+          "en": "eine Meinung haben über, betrachten als",
+          "example": "Ich halte Sie für eine sehr kompetente Fachkraft.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich halten an (+Akk)",
+          "en": "befolgen, respektieren, einhalten",
+          "example": "Halten Sie sich in Zukunft bitte an unsere Abmachung!",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich handeln um (+Akk)",
+          "en": "gehen um, betreffen, sich drehen um",
+          "example": "Hier handelt es sich um einen sehr wichtigen Auftrag.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "hinweisen auf (+Akk)",
+          "en": "aufmerksam machen auf, zeigen auf",
+          "example": "Ich möchte Sie noch auf unsere Sonderangebote hinweisen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "hoffen auf (+Akk)",
+          "en": "wünschen, erwarten, mit Hoffnung rechnen mit",
+          "example": "Wir haben lange auf besseres Wetter gehofft.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich informieren über (+Akk)",
+          "en": "Wissen sammeln über, Informationen einholen über",
+          "example": "Vor seiner Bewerbung hat er sich über die Firma informiert.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich interessieren für (+Akk)",
+          "en": "Neugier haben für, Interesse zeigen an",
+          "example": "Rosa interessiert sich sehr für große Lkws.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "investieren in (+Akk)",
+          "en": "Geld oder Zeit einsetzen für, Kapital anlegen in",
+          "example": "Das Unternehmen hat viel Geld in dieses Projekt investiert.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "kämpfen für/gegen (+Akk)",
+          "en": "sich stark einsetzen für/gegen, streiten für/gegen",
+          "example": "Sie kämpfen für bessere Arbeitsbedingungen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich konzentrieren auf (+Akk)",
+          "en": "die Aufmerksamkeit richten auf, fokussieren auf",
+          "example": "Seid leiser! Ich muss mich auf die Aufgabe konzentrieren.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich kümmern um (+Akk)",
+          "en": "Verantwortung übernehmen für, betreuen, versorgen",
+          "example": "Wer kümmert sich um die Jacke von Herrn Pohl?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "lachen über (+Akk)",
+          "en": "lustig finden, amüsant finden, sich lustig machen über",
+          "example": "Über diesen Witz kann ich immer wieder lachen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "nachdenken über (+Akk)",
+          "en": "gründlich überlegen, reflektieren über",
+          "example": "Ich denke über Ihr Angebot nach und gebe Ihnen Bescheid.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "reagieren auf (+Akk)",
+          "en": "eine Antwort oder Handlung zeigen auf, erwidern",
+          "example": "Wie hat die Chefin auf deinen Vorschlag reagiert?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "reden über (+Akk)",
+          "en": "sprechen über, ein Gespräch führen über",
+          "example": "Wir müssen dringend über unsere Arbeitsverteilung reden.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "schimpfen über (+Akk)",
+          "en": "sich lautstark beschweren über, meckern über",
+          "example": "Sie schimpft immer über ihre Kollegen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sorgen für (+Akk)",
+          "en": "dafür verantwortlich sein, dass etwas passiert, gewährleisten",
+          "example": "Davi sorgt dafür, dass die Schneiderei eine Homepage bekommt.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich sorgen um (+Akk)",
+          "en": "Angst haben um, sich Gedanken machen um",
+          "example": "Rosa sorgt sich nicht um ihre berufliche Zukunft.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich spezialisieren auf (+Akk)",
+          "en": "sich auf ein Fachgebiet konzentrieren, Fachkenntnisse erwerben in",
+          "example": "Davi will sich auf Herrenmode spezialisieren.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sprechen über (+Akk)",
+          "en": "ein Gespräch führen über, thematisieren",
+          "example": "Habt ihr auch über die Arbeitsbedingungen gesprochen?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "streiten über/um (+Akk)",
+          "en": "eine Auseinandersetzung haben über, diskutieren über",
+          "example": "Streitet ihr schon wieder über die gleiche Frage?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich unterhalten über (+Akk)",
+          "en": "ein lockeres Gespräch führen über, plaudern über",
+          "example": "Wir haben uns den ganzen Abend über Politik unterhalten.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich verlassen auf (+Akk)",
+          "en": "Vertrauen haben in, zählen auf",
+          "example": "Auf meine Kollegen kann ich mich immer verlassen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich verlieben in (+Akk)",
+          "en": "starke romantische Gefühle entwickeln für, Liebe empfinden für",
+          "example": "Nina hat sich schon während der Schulzeit in Paul verliebt.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "verzichten auf (+Akk)",
+          "en": "bewusst ohne etwas leben, aufgeben, entsagen",
+          "example": "Faris kann morgens nicht auf Kaffee verzichten.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich vorbereiten auf (+Akk)",
+          "en": "sich bereit machen für, Vorkehrungen treffen für",
+          "example": "Hast du dich gut auf das Vorstellungsgespräch vorbereitet?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "warten auf (+Akk)",
+          "en": "Zeit verbringen, bis jemand oder etwas kommt, erwarten",
+          "example": "Auf wen wartest du denn?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich wenden an (+Akk)",
+          "en": "Kontakt aufnehmen mit, sich in Verbindung setzen mit",
+          "example": "Wenden Sie sich mit weiteren Fragen bitte an Frau Beyerle.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "werben für (+Akk)",
+          "en": "Reklame machen für, Werbung betreiben für",
+          "example": "Die Schneiderei wirbt jetzt im Internet für ihre Angebote.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich wundern über (+Akk)",
+          "en": "überrascht sein von, erstaunt sein über",
+          "example": "Ich habe mich sehr über diese Frage gewundert.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "abhängen von (+Dat)",
+          "en": "bestimmt werden durch, beeinflusst werden von",
+          "example": "Das Einkommen von Kellnern hängt vom Trinkgeld ab.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "abraten von (+Dat)",
+          "en": "empfehlen, etwas nicht zu tun, warnen vor",
+          "example": "Ich kann euch von diesem Restaurant nur abraten.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "anfangen mit (+Dat)",
+          "en": "beginnen mit, starten mit",
+          "example": "Haben Sie mit der Änderung der Hose schon angefangen?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "aufhören mit (+Dat)",
+          "en": "beenden, stoppen, Schluss machen mit",
+          "example": "Könnt ihr bitte mit dem Streit aufhören?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "ausgehen von (+Dat)",
+          "en": "als wahrscheinlich annehmen, vermuten, erwarten",
+          "example": "Ich gehe davon aus, dass der Termin gehalten wird.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich auskennen mit (+Dat)",
+          "en": "gut Bescheid wissen über, vertraut sein mit",
+          "example": "Ahmed kennt sich gut mit Computern aus.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "beitragen zu (+Dat)",
+          "en": "einen Teil zu etwas geben, mitwirken an",
+          "example": "Möchtest du auch etwas zu dieser Diskussion beitragen?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "bestehen aus (+Dat)",
+          "en": "zusammengesetzt sein aus, gebildet werden aus",
+          "example": "Dieser Stoff besteht zu 90% aus Merinowolle.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich beschweren bei (+Dat)",
+          "en": "Kritik äußern gegenüber einer Person, reklamieren bei",
+          "example": "Herr Pohl hat sich bei der Chefin beschwert.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "erkennen an (+Dat)",
+          "en": "identifizieren durch, wiedererkennen anhand von",
+          "example": "Ich erkenne ihn an seiner Stimme.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich erkundigen bei/nach (+Dat)",
+          "en": "nachfragen bei/nach, Informationen einholen bei",
+          "example": "Ich habe mich bei der VHS nach Kursen erkundigt.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "führen zu (+Dat)",
+          "en": "verursachen, zur Folge haben, bewirken",
+          "example": "Der Klimawandel führt zu immer mehr Unwettern.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "gehören zu (+Dat)",
+          "en": "Teil sein von, dazugehören zu",
+          "example": "Zu welcher Projektgruppe gehörst du?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "gratulieren zu (+Dat)",
+          "en": "Glückwünsche aussprechen zu, beglückwünschen zu",
+          "example": "Ich möchte dir zu deinem guten Prüfungsergebnis gratulieren.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "halten von (+Dat)",
+          "en": "eine Meinung haben über, denken über",
+          "example": "Was hältst du von dem neuen Büro?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "helfen bei (+Dat)",
+          "en": "Unterstützung geben bei, behilflich sein bei",
+          "example": "Könntest du mir bitte beim Aufräumen helfen?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "klarkommen mit (+Dat)",
+          "en": "gut zurechtkommen mit, auskommen mit",
+          "example": "Sie kommt sehr gut mit ihren Kolleginnen klar.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "leiden an/unter (+Dat)",
+          "en": "Schmerzen oder Probleme haben wegen, erkrankt sein an",
+          "example": "Er leidet an einer schweren Krankheit.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "passen zu (+Dat)",
+          "en": "gut zusammenpassen mit, harmonieren mit",
+          "example": "Ich glaube, Davi wird gut zu uns passen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich retten vor (+Dat)",
+          "en": "in Sicherheit bringen vor, entkommen",
+          "example": "Alle haben sich vor dem Feuer gerettet.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich richten nach (+Dat)",
+          "en": "sich orientieren an, folgen",
+          "example": "Ich richte mich da ganz nach Ihnen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sterben an (+Dat)",
+          "en": "das Leben verlieren durch, versterben an",
+          "example": "Mein Opa ist letztes Jahr an Krebs gestorben.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "teilnehmen an (+Dat)",
+          "en": "mitmachen bei, partizipieren an",
+          "example": "Nimmst du auch am nächsten Kurs teil?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "telefonieren mit (+Dat)",
+          "en": "ein Telefongespräch führen mit, anrufen",
+          "example": "Ich habe gerade mit der Personalabteilung telefoniert.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "träumen von (+Dat)",
+          "en": "im Schlaf erleben, sich wünschen, fantasieren von",
+          "example": "Ich träume vom nächsten Urlaub.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich treffen mit (+Dat)",
+          "en": "zusammenkommen mit, ein Treffen haben mit",
+          "example": "Nach dem Kurs treffe ich mich noch mit Jenny.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich trennen von (+Dat)",
+          "en": "eine Beziehung beenden mit, auseinandergehen",
+          "example": "Wir haben uns von der Mitarbeiterin leider trennen müssen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "überreden zu (+Dat)",
+          "en": "jemanden dazu bringen, etwas zu tun, überzeugen zu",
+          "example": "Ich habe sie zu einem Ausflug überredet.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "überzeugen von (+Dat)",
+          "en": "jemandem klarmachen, dass etwas richtig ist, beweisen",
+          "example": "Versuch nicht, mich vom Gegenteil zu überzeugen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "umgehen mit (+Dat)",
+          "en": "zurechtkommen mit, behandeln, handhaben",
+          "example": "Kannst du gut mit Stress umgehen?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich unterscheiden von (+Dat)",
+          "en": "anders sein als, differieren von, abweichen von",
+          "example": "Meine neue Firma unterscheidet sich deutlich von der alten.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "unterstützen bei (+Dat)",
+          "en": "Hilfe leisten bei, fördern bei",
+          "example": "Können Sie uns bei dem Projekt unterstützen?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich verabreden mit (+Dat)",
+          "en": "ein Treffen vereinbaren mit, eine Verabredung treffen mit",
+          "example": "Ich würde mich gern mal mit ihm privat verabreden.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich verabschieden von (+Dat)",
+          "en": "Abschied nehmen von, Lebewohl sagen zu",
+          "example": "Unsere Kunden haben sich erst um 12 Uhr von uns verabschiedet.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "verbinden mit (+Dat)",
+          "en": "in Zusammenhang bringen mit, assoziieren mit",
+          "example": "Was verbindest du mit dem Begriff \"Gerechtigkeit\"?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "vergleichen mit (+Dat)",
+          "en": "Ähnlichkeiten oder Unterschiede prüfen mit, gegenüberstellen",
+          "example": "Man kann Äpfel nicht mit Birnen vergleichen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich verstecken vor (+Dat)",
+          "en": "sich verbergen vor, versteckt bleiben vor",
+          "example": "Er versteckt sich vor ihr.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich verstehen mit (+Dat)",
+          "en": "eine gute Beziehung haben mit, harmonieren mit",
+          "example": "Gabriela versteht sich sehr gut mit ihren Kollegen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "vorbeikommen bei (+Dat)",
+          "en": "kurz besuchen, einen kurzen Besuch machen bei",
+          "example": "Kommt ihr nachher noch bei uns vorbei?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "weglaufen vor (+Dat)",
+          "en": "fliehen vor, davonlaufen vor",
+          "example": "Du kannst nicht immer vor deinen Problemen weglaufen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sich wünschen von (+Dat)",
+          "en": "einen Wunsch haben an, erhoffen von",
+          "example": "Gabriela wünscht sich von Ron ein Buch.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "zählen zu (+Dat)",
+          "en": "dazugehören zu, gerechnet werden zu, gelten als",
+          "example": "Rosa zählt zu den besten Fahrerinnen in ihrer Firma.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "zweifeln an (+Dat)",
+          "en": "unsicher sein über, anzweifeln, infrage stellen",
+          "example": "Zweifelst du an deiner Kompetenz?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "zwingen zu (+Dat)",
+          "en": "mit Druck oder Kraft zu etwas bringen, nötigen zu",
+          "example": "Niemand kann dich zu diesem Projekt zwingen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "das Relativpronomen, -",
+          "en": "Pronomen, das einen Relativsatz einleitet (der, die, das, den, dem, denen...)",
+          "example": "Relativpronomen leiten Relativsätze ein.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "der Relativsatz, -¨e",
+          "en": "Nebensatz, der durch ein Relativpronomen eingeleitet wird und ein Nomen näher beschreibt",
+          "example": "Das ist die Kollegin, mit der ich zusammenarbeite.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "Achten Sie bei der Maschine auf die Sicherheitshinweise.",
+          "en": "Sicherheitshinweise an der Maschine beachten.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Bei einer Bewerbung kommt es auf die persönliche Wirkung an.",
+          "en": "Der persönliche Eindruck ist bei Bewerbungen entscheidend.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Man muss sich nicht an jeden Trend anpassen.",
+          "en": "Nicht jeder Trend muss mitgemacht werden.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Könntest du heute Abend auf meine Kinder aufpassen?",
+          "en": "Könntest du heute Abend meine Kinder betreuen?",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Wir wollen uns für die gelungene Fortbildung bedanken.",
+          "en": "Vielen Dank für die erfolgreiche Fortbildung.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Ein Kunde hat sich über unseren Service beklagt.",
+          "en": "Ein Kunde war mit unserem Service unzufrieden.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Herr Polt hat sich über die neue Kollegin beschwert.",
+          "en": "Herr Polt äußerte Unzufriedenheit über die neue Kollegin.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Sie hat sich auf eine Stelle beim ÖPNV beworben.",
+          "en": "Sie hat eine Bewerbung an den ÖPNV geschickt.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Könnte ich dich um einen Gefallen bitten?",
+          "en": "Hättest du einen Moment Zeit für mich?",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Denk doch nicht immer nur an dich!",
+          "en": "Sei nicht immer so egoistisch!",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Wir setzen uns für eine bessere Berufsausbildung ein.",
+          "en": "Wir engagieren uns für die Verbesserung der Berufsausbildung.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Ich freue mich auf unseren Ausflug am Wochenende.",
+          "en": "Ich bin voller Vorfreude auf den Ausflug am Wochenende.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Meine Eltern haben sich sehr über meinen Besuch gefreut.",
+          "en": "Mein Besuch hat meine Eltern sehr glücklich gemacht.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Ich halte Sie für eine sehr kompetente Fachkraft.",
+          "en": "Meiner Meinung nach sind Sie sehr kompetent.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Hier handelt es sich um einen sehr wichtigen Auftrag.",
+          "en": "Das ist ein Auftrag von großer Bedeutung.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Rosa interessiert sich sehr für große Lkws.",
+          "en": "Große Lastkraftwagen sind Rosas Leidenschaft.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Seid leiser! Ich muss mich auf die Aufgabe konzentrieren.",
+          "en": "Stört mich nicht, ich brauche Ruhe zum Arbeiten.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Wer kümmert sich um die Jacke von Herrn Pohl?",
+          "en": "Wer ist für Herrn Pohls Jacke verantwortlich?",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Wir müssen dringend über unsere Arbeitsverteilung reden.",
+          "en": "Ein Gespräch über die Arbeitsaufteilung ist überfällig.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Davi sorgt dafür, dass die Schneiderei eine Homepage bekommt.",
+          "en": "Davi kümmert sich um die Internetpräsenz der Schneiderei.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Ich konnte ihn nicht von der Kündigung abhalten.",
+          "en": "Trotz meiner Bemühungen hat er gekündigt.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Das Einkommen von Kellnern hängt vom Trinkgeld ab.",
+          "en": "Kellner sind auf Trinkgeld angewiesen.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Ich kann euch von diesem Restaurant nur abraten.",
+          "en": "Meine ehrliche Meinung: Dieses Restaurant solltet ihr meiden.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Wann beginnst du mit deinem neuen Job?",
+          "en": "Ab wann arbeitest du an deiner neuen Stelle?",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Sie bringt mich immer zum Lachen.",
+          "en": "Mit ihr kann ich einfach nur lachen.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Ich erkenne ihn an seiner Stimme.",
+          "en": "Seine Stimme ist für mich unverwechselbar.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Der Klimawandel führt zu immer mehr Unwettern.",
+          "en": "Durch den Klimawandel nehmen extreme Wetterereignisse zu.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Sie kommt sehr gut mit ihren Kolleginnen klar.",
+          "en": "Sie hat ein tolles Verhältnis zu ihren Kolleginnen.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Das klingt nach einem tollen Projekt.",
+          "en": "Das Projekt hört sich wirklich spannend an.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Was hältst du von dem neuen Büro?",
+          "en": "Wie findest du das neue Büro?",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Ich träume vom nächsten Urlaub.",
+          "en": "Ich kann den nächsten Urlaub kaum erwarten.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Kannst du gut mit Stress umgehen?",
+          "en": "Hast du gute Strategien gegen Stress?",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Niemand kann dich zu diesem Projekt zwingen.",
+          "en": "Die Teilnahme an diesem Projekt ist freiwillig.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Das ist die Kollegin, mit der ich eng zusammenarbeite. (DTZ)",
+          "en": "Mit dieser Kollegin arbeite ich eng zusammen.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Das ist der Kollege, von dem ich viel über Computer gelernt habe. (DTZ)",
+          "en": "Dieser Kollege hat mir viel Computerwissen vermittelt.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Das ist die Kollegin, zu der ich bei Problemen immer kommen kann. (DTZ)",
+          "en": "Bei Problemen wende ich mich immer an diese Kollegin.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Das ist die Kollegin, auf die ich mich jeden Morgen freue. (DTZ)",
+          "en": "Jeden Morgen freue ich mich auf diese Kollegin.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Das ist der Job, von dem ich immer geträumt habe. (DTZ)",
+          "en": "Von genau diesem Job habe ich immer geträumt.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Das Buch, an das ich gedacht habe, heißt Momo. (DTZ)",
+          "en": "Das Buch in meinen Gedanken heißt Momo.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Ist das der Hund, vor dem du Angst hast? (DTZ)",
+          "en": "Hast du vor genau diesem Hund Angst?",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        }
+      ],
+      "grammar_cards": [
+        {
+          "front": "cards-deck: Deutsch",
+          "back": "Anki - VHS B1.2 — 14.07.26 — Verben mit Präpositionen · Relativpronomen · Relativsätze",
+          "section": ""
+        },
+        {
+          "front": "sich freuen auf vs. sich freuen über — Unterschied?",
+          "back": "sich freuen AUF = Zukunft (Vorfreude auf etwas, das noch kommt). sich freuen ÜBER = Gegenwart/Vergangenheit (Freude über etwas, das schon passiert ist). Beide + Akkusativ.",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Verben mit Präpositionen — wie lernt man sie richtig?",
+          "back": "Als feste Einheit: Verb + Präposition + Kasus. Keine allgemeine Regel für den Kasus — jedes Verb einzeln lernen.",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Präpositionen bei Relativsätzen — wo steht die Präposition?",
+          "back": "IMMER direkt vor dem Relativpronomen, nie am Satzende. Präposition + Relativpronomen = unzertrennlich.",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Relativpronomen — wie bestimmt man die richtige Form?",
+          "back": "1. Bezugswort → Genus + Numerus. 2. Kasus aus der Funktion im Relativsatz. 3. Relativpronomen in diesem Kasus wählen.",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Relativpronomen — was ist die Besonderheit im Dativ Plural?",
+          "back": "Dativ Plural = \"denen\" (nicht \"den\"!). Denen unterscheidet sich vom bestimmten Artikel (den).",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Relativpronomen — was ist die Besonderheit im Genitiv?",
+          "back": "Genitiv: dessen (maskulin/neutral), deren (feminin/Plural). Anders als der bestimmte Artikel (des/der).",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Verben mit Präpositionen — Akkusativ: nenne die 5 häufigsten Präpositionen",
+          "back": "auf, für, über, um, an (plus: gegen, in, durch)",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Verben mit Präpositionen — Dativ: nenne die 5 häufigsten Präpositionen",
+          "back": "mit, von, bei, zu, nach (plus: an, aus, in, vor)",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "sich bewerben — welche Präpositionen und Kasus?",
+          "back": "um + Akkusativ (Stelle), bei + Dativ (Firma), auf + Akkusativ (Stelle). Drei Kombinationen möglich.",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "sich beschweren — Unterschied: über + Akk vs. bei + Dat?",
+          "back": "sich beschweren ÜBER + Akk = worüber? (den Inhalt). sich beschweren BEI + Dat = bei wem? (die Person/Instanz).",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Das ist die Kollegin, mit ___ ich eng zusammenarbeite. (Relativpronomen, feminin Dativ)",
+          "back": "der",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Das ist der Kollege, von ___ ich viel über Computer gelernt habe. (Relativpronomen, maskulin Dativ)",
+          "back": "dem",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Das ist die Kollegin, zu ___ ich bei Problemen immer kommen kann. (Relativpronomen, feminin Dativ)",
+          "back": "der",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Das sind die Kollegen, mit ___ ich sehr gern zusammenarbeite. (Relativpronomen, Dativ Plural)",
+          "back": "denen",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Das ist die Kollegin, auf ___ ich mich jeden Morgen freue. (Relativpronomen, feminin Akkusativ)",
+          "back": "die",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Das sind die Kollegen, für ___ München die schönste Stadt ist. (Relativpronomen, Akkusativ Plural)",
+          "back": "die",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Das ist meine Nachbarin, über ___ ich mich oft ärgere. (Relativpronomen, feminin Akkusativ)",
+          "back": "die",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Das ist der Job, von ___ ich immer geträumt habe. (Relativpronomen, maskulin Dativ)",
+          "back": "dem",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Das Buch, an ___ ich gedacht habe, heißt Momo. (Relativpronomen, neutral Akkusativ)",
+          "back": "das",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Die CD, nach ___ du gesucht hast. (Relativpronomen, feminin Dativ)",
+          "back": "der",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Die Sendung, auf ___ ich Lust habe, kommt um 23 Uhr. (Relativpronomen, feminin Akkusativ)",
+          "back": "die",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Ist das der Hund, vor ___ du Angst hast? (Relativpronomen, maskulin Dativ)",
+          "back": "dem",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Wer ist der Mann, ___ du gegrüßt hast? (Relativpronomen, maskulin Akkusativ)",
+          "back": "den",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Das ist die Frau, ___ an der Tür steht. (Relativpronomen, feminin Nominativ)",
+          "back": "die",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Die Dame, um ___ ich mich immer gekümmert habe, ist gestorben. (Relativpronomen, feminin Akkusativ)",
+          "back": "die",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Das Fest, zu ___ er mich eingeladen hat, beginnt um acht. (Relativpronomen, neutral Dativ)",
+          "back": "dem",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Die Verkäuferin, mit ___ Sie gesprochen haben, ist neu. (Relativpronomen, feminin Dativ)",
+          "back": "der",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Der Kurs, für ___ Sie sich interessieren, ist leider schon voll. (Relativpronomen, maskulin Akkusativ)",
+          "back": "den",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Der Freund, ___ ich das Geld geliehen habe, war sehr froh. (Relativpronomen, maskulin Dativ)",
+          "back": "dem",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Der Bus, auf ___ ich warte, hatte einen Unfall. (Relativpronomen, maskulin Akkusativ)",
+          "back": "den",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Ich habe mich ___ meine Kollegin geärgert. (Präposition, ärgern)",
+          "back": "über",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Wir wollen uns ___ die gelungene Fortbildung bedanken. (Präposition, sich bedanken)",
+          "back": "für",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Könnte ich dich ___ einen Gefallen bitten? (Präposition, bitten)",
+          "back": "um",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Das Einkommen hängt ___ Trinkgeld ab. (Präposition, abhängen)",
+          "back": "vom",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Ich kann euch ___ diesem Restaurant nur abraten. (Präposition, abraten)",
+          "back": "von",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Sie kommt sehr gut ___ ihren Kolleginnen klar. (Präposition, klarkommen)",
+          "back": "mit",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Ich träume ___ nächsten Urlaub. (Präposition, träumen)",
+          "back": "vom",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Die Dame, ___ (Relativpronomen) ich mich immer gekümmert habe, ist gestorben. (sich kümmern um + Akk)",
+          "back": "um die",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Das Fest, ___ (Relativpronomen) er mich eingeladen hat, beginnt um acht. (einladen zu + Dat)",
+          "back": "zu dem",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Die Verkäuferin, ___ (Relativpronomen) Sie gesprochen haben, ist neu. (sprechen mit + Dat)",
+          "back": "mit der",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Der Kurs, ___ (Relativpronomen) Sie sich interessieren, ist leider schon voll. (sich interessieren für + Akk)",
+          "back": "für den",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Das Mädchen, ___ (Relativpronomen) ich gelacht habe, heißt Lilli. (lachen über + Akk)",
+          "back": "über das",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Der Freund, ___ (Relativpronomen) ich das Geld geliehen habe, war sehr froh. (leihen + Dat)",
+          "back": "dem",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Wo ist der Pulli, ___ (Relativpronomen) ich waschen wollte? (waschen + Akk)",
+          "back": "den",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Da ist ja die CD, ___ (Relativpronomen) du gesucht hast. (suchen nach + Dat)",
+          "back": "nach der",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Die Leute, ___ (Relativpronomen) wir gefragt haben, hatten keine Ahnung. (fragen + Akk)",
+          "back": "die",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Die Übung, ___ (Relativpronomen) wir begonnen haben, war ziemlich leicht. (beginnen mit + Dat)",
+          "back": "mit der",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Der Bus, ___ (Relativpronomen) ich warte, hatte einen Unfall. (warten auf + Akk)",
+          "back": "auf den",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Kennst du die Schülerin, ___ (Relativpronomen) dort hinten steht? (Nominativ)",
+          "back": "die",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Endlich kommt der Notarzt, ___ (Relativpronomen) er vor 30 Minuten gerufen hat. (rufen + Akk)",
+          "back": "den",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "9a — Je ___ Verantwortung man trägt, desto ___ macht man Überstunden. (viel, häufig)",
+          "back": "mehr — häufiger",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "9b — Je ___ die Arbeitsatmosphäre ist, desto ___ gehen die Mitarbeiter zur Arbeit. (gut, gern)",
+          "back": "besser — lieber",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "9c — Je ___ mein Arbeitsplatz ist, desto ___ kann ich mich konzentrieren. (ruhig, gut)",
+          "back": "ruhiger — besser",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "9d — Je ___ das Essen in der Kantine ist, desto ___ Mitarbeiter essen dort. (günstig, viel)",
+          "back": "günstiger — mehr",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "10b — Je mehr Spaß die Mitarbeiter haben, desto ___ sind sie bei der Arbeit. (zufrieden)",
+          "back": "zufriedener",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "10c — Je länger wir als Team zusammenarbeiten, desto ___ verstehen wir uns. (gut)",
+          "back": "besser",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "11 — Wir Krankenkassen empfehlen ___ (die Arbeitgeber), auf das Betriebsklima zu achten.",
+          "back": "Arbeitgebern",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "11 — Im ___ (der Gegensatz) zu früher ist es schwieriger, Freundschaften zu pflegen.",
+          "back": "Gegensatz",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "11 — Die Wahrscheinlichkeit für lange Fehlzeiten wird ___ (gering).",
+          "back": "geringer",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "11 — So haben ___ (beide) Seiten etwas davon.",
+          "back": "beide",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "12 — Antwort auf \"Betriebsklima ist nicht gut\" — was kann man tun? (Stichpunkte)",
+          "back": "Mit Kollegen ins Gespräch kommen, Kaffeepause vorschlagen, kleines Teamevent organisieren, kleine Gesten machen",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "13 — \"nächtelang\" — ich-Laut oder ach-Laut?",
+          "back": "ich-Laut [ç] (nach ä)",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "13 — \"nachts\" — ich-Laut oder ach-Laut?",
+          "back": "ach-Laut [x] (nach a)",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "13 — \"Buch\" — ich-Laut oder ach-Laut?",
+          "back": "ach-Laut [x] (nach u)",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "13 — \"Lachen\" — ich-Laut oder ach-Laut?",
+          "back": "ach-Laut [x] (nach a)",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "Eselsbrücke: Verben mit Präpositionen lernen",
+          "back": "Denk an ein Date: Verb + Präposition sind ein PAAR — du musst beide zusammen lernen, nicht getrennt. Und den Kasus als \"Ehering\" dazu.",
+          "section": "Tipo 8 — Eselsbrücken"
+        },
+        {
+          "front": "Eselsbrücke: Präposition VOR Relativpronomen",
+          "back": "Die Präposition ist wie ein Bodyguard — sie geht IMMER vor dem Relativpronomen, nie dahinter. \"mit der\", nie \"der mit\".",
+          "section": "Tipo 8 — Eselsbrücken"
+        },
+        {
+          "front": "Eselsbrücke: Dativ Plural \"denen\"",
+          "back": "\"Denen\" hat ein extra \"en\" — wie \"denen\" = den + en (extra). So weißt du: Plural braucht Extra-Endung!",
+          "section": "Tipo 8 — Eselsbrücken"
+        },
+        {
+          "front": "Eselsbrücke: sich freuen AUF vs. ÜBER",
+          "back": "AUF = Vorfreude AUF Kommendes (Zukunft). ÜBER = ÜBErraschung (schon passiert). Auf blickt nach vorn, über blickt zurück.",
+          "section": "Tipo 8 — Eselsbrücken"
+        },
+        {
+          "front": "Eselsbrücke: Akkusativ-Präpositionen merken",
+          "back": "\"AUF FÜR ÜBER UM AN\" — sing es wie ein Mantra: auf-für-über-um-an!",
+          "section": "Tipo 8 — Eselsbrücken"
+        }
+      ],
+      "total_vocab": 147,
+      "total_grammar": 71
+    },
+    {
+      "id": "vhs-b12--130726--komparativ---je-desto---arbeitsklima",
+      "title": "VHS B1.2 — 13.07.26 — Komparativ · Je Desto · Arbeitsklima",
+      "date": "2026-07-13",
+      "deck": "Deutsch::Anki - VHS B1.2 — 13.07.26 — Komparativ · Je Desto · Arbeitsklima",
+      "vocab_pairs": [
+        {
+          "de": "das Arbeitsklima",
+          "en": "Atmosphäre und Stimmung am Arbeitsplatz",
+          "example": "Ein gutes Arbeitsklima ist wichtig für die Motivation.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "das Betriebsklima",
+          "en": "Stimmung und Zusammenarbeit in einem Betrieb",
+          "example": "Das Betriebsklima in dieser Firma ist sehr angenehm.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Stimmung, -en",
+          "en": "Gefühlslage, Atmosphäre",
+          "example": "Die Stimmung im Büro ist heute super.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Atmosphäre, -n",
+          "en": "Stimmung, Umgebung",
+          "example": "Die Atmosphäre auf der Arbeit ist entspannt.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "verständnisvoll",
+          "en": "mitfühlsam, einfühlsam",
+          "example": "Meine Chefin ist sehr verständnisvoll.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Arbeitszeiten (Pl.)",
+          "en": "festgelegte Zeiten für die Arbeit",
+          "example": "Flexible Arbeitszeiten sind mir wichtig.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Überstunden (Pl.)",
+          "en": "Arbeitsstunden über die normale Arbeitszeit hinaus",
+          "example": "Ich mache selten Überstunden.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Nachtschichten (Pl.)",
+          "en": "Arbeitsschichten in der Nacht",
+          "example": "Nachtschichten sind sehr anstrengend.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "respektvoll",
+          "en": "mit Respekt, höflich",
+          "example": "Wir gehen respektvoll miteinander um.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "flexibel",
+          "en": "anpassungsfähig, beweglich",
+          "example": "Ich habe flexible Arbeitszeiten.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Bewerbung, -en",
+          "en": "formelle Anfrage für eine Arbeitsstelle",
+          "example": "Die Bewerbung ist überzeugend.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "überzeugend",
+          "en": "glaubhaft, einleuchtend",
+          "example": "Deine Argumente sind sehr überzeugend.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "gestresst",
+          "en": "unter Druck, angespannt",
+          "example": "Nach der Arbeit bin ich oft gestresst.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Lebenserfahrung, -en",
+          "en": "Wissen und Weisheit durch das Leben",
+          "example": "Je älter man wird, desto größer wird die Lebenserfahrung.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die CO2-Emissionen (Pl.)",
+          "en": "Ausstoß von Kohlendioxid",
+          "example": "Je mehr Autos fahren, desto mehr CO2-Emissionen gibt es.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "der Feierabend",
+          "en": "Ende der Arbeitszeit",
+          "example": "Je früher wir Feierabend haben, desto besser!",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "sparsam",
+          "en": "wirtschaftlich, nicht verschwenderisch",
+          "example": "Je weniger Geld man hat, desto sparsamer muss man sein.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Prüfung, -en",
+          "en": "Test, Examen",
+          "example": "Je fleißiger Anna lernt, desto besser wird ihre Prüfung.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "der Umgang",
+          "en": "Art der Interaktion, Behandlung",
+          "example": "Ein respektvoller Umgang ist wichtig.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "Je mehr ich lerne, desto besser bin ich auf die Prüfung vorbereitet. (DTZ)",
+          "en": "Mit mehr Lernaufwand steigt die Prüfungsvorbereitung.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Je weniger Geld man hat, desto sparsamer muss man sein.",
+          "en": "Bei geringem Einkommen ist Sparsamkeit nötig.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Je öfter ich im Kurs fehle, desto mehr Seiten muss ich selbst zu Hause lesen.",
+          "en": "Häufiges Fehlen führt zu mehr Selbststudium.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Je mehr wir im Büro lachen, umso schneller erledigen wir unsere Aufgaben.",
+          "en": "Gute Laune steigert die Arbeitsgeschwindigkeit.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        },
+        {
+          "de": "Je schneller wir unsere Aufgaben erledigen, desto seltener machen wir Überstunden.",
+          "en": "Effizientes Arbeiten reduziert Mehrarbeit.",
+          "example": "",
+          "section": "Tipo 4 — Phrasen"
+        }
+      ],
+      "grammar_cards": [
+        {
+          "front": "cards-deck: Deutsch",
+          "back": "Anki - VHS B1.2 — 13.07.26 — Komparativ · Je Desto · Arbeitsklima",
+          "section": ""
+        },
+        {
+          "front": "je … desto — wohin geht das Verb im je-Teil?",
+          "back": "Im je-Teil steht das Verb am Ende (Nebensatz). Je + Komparativ + Subjekt + … + Verb.",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "je … desto — wohin geht das Verb im desto-Teil?",
+          "back": "Desto/Umso + Komparativ bildet Position 1, das Verb folgt auf Position 2 (Hauptsatz).",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "je … desto vs. weil — Satzbau-Unterschied?",
+          "back": "je → Nebensatz (Verb am Ende), desto → Hauptsatz (Verb Position 2). weil → Nebensatz (Verb am Ende), Hauptsatz davor oder danach.",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Komparativ — wie bildet man regelmäßige Formen?",
+          "back": "Adjektiv + -er. Bei Adjektiven auf -el fällt das e oft weg: dunkel → dunkler.",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Komparativ mit Umlaut — welche Vokale ändern sich?",
+          "back": "Einsilbige Adjektive: a → ä (alt → älter), o → ö (groß → größer), u → ü (jung → jünger).",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Komparativ — unregelmäßige Formen nennen",
+          "back": "gut → besser, gern → lieber, hoch → höher, viel/sehr → mehr, nah → näher",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Was ist der Unterschied zwischen desto und umso?",
+          "back": "Kein Bedeutungsunterschied — beide sind austauschbar. Desto ist häufiger in der Alltagssprache.",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Wie vergleicht man zwei Dinge auf Deutsch?",
+          "back": "Komparativ + als: \"Ich bin größer als du.\" Oder: \"Mein Auto ist schneller als deins.\"",
+          "section": "Tipo 2 — Grammatik-Regeln"
+        },
+        {
+          "front": "Je mehr man isst, ___ dicker wird man. (proportional)",
+          "back": "umso",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Je weniger Geld man hat, ___ sparsamer muss man sein. (proportional)",
+          "back": "desto",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Je ___ (fleißig) man ist, umso besser schreibt man den Test.",
+          "back": "fleißiger",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Je ___ (alt) man wird, desto größer wird die Lebenserfahrung.",
+          "back": "älter",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Je mehr Geld man ausgibt, ___ weniger Geld kann man sparen. (proportional)",
+          "back": "desto",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Je weniger Tiago schläft, desto ___ (müde) und gestresster ist er.",
+          "back": "müder",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Je mehr Menschen mit dem Auto fahren, desto ___ CO2-Emissionen produzieren sie. (proportional)",
+          "back": "mehr",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Je ___ (schnell) wir unsere Aufgaben erledigen, desto seltener machen wir Überstunden.",
+          "back": "schneller",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Je seltener wir Überstunden machen, desto ___ (früh) haben wir Feierabend.",
+          "back": "früher",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Je ___ (oft) ich im Kurs fehle, desto mehr Seiten muss ich selbst zu Hause lesen.",
+          "back": "öfter",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Je ___ (heiß) es ist, desto mehr Wasser trinke ich.",
+          "back": "heißer",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Je öfter ich mich mit meinen Freunden treffe, ___ mehr Geld gebe ich aus. (proportional)",
+          "back": "desto",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Theodor macht viel Sport. Er fühlt sich fit. → Je … desto …",
+          "back": "Je mehr Sport Theodor macht, desto fitter fühlt er sich.",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Die Bewerbung ist überzeugend. Die Chancen stehen gut. → Je … desto …",
+          "back": "Je überzeugender die Bewerbung ist, desto besser stehen die Chancen.",
+          "section": "Tipo 3 — Lückensätze"
+        },
+        {
+          "front": "Anna lernt fleißig. Ihre Prüfung wird gut. → Je … desto …",
+          "back": "Je fleißiger Anna lernt, desto besser wird ihre Prüfung.",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Theodor macht viel Sport. Er fühlt sich fit. → Je … desto …",
+          "back": "Je mehr Sport Theodor macht, desto fitter fühlt er sich.",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "Die Bewerbung ist überzeugend. Die Chancen stehen gut. → Je … desto …",
+          "back": "Je überzeugender die Bewerbung ist, desto besser stehen die Chancen.",
+          "section": "Tipo 5 — Klassenübungen"
+        },
+        {
+          "front": "8a — Je ___ (lang) ich Urlaub habe, desto ___ (gut) erhole ich mich.",
+          "back": "länger — besser",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "8a — Je ___ (spät) Suse ins Büro geht, desto ___ (kurz) macht sie Pause.",
+          "back": "später — kürzer",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "8a — Je ___ (nett) deine Laune ist, desto ___ (stark) sind die Reaktionen.",
+          "back": "netter — stärker",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "8a — Je ___ (gern) du deine Arbeit machst, desto ___ (erfolgreich) wirst du.",
+          "back": "lieber — erfolgreicher",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "10 — Je besser das Betriebsklima ist, desto ___ ist ein Arbeitgeber. (beliebt)",
+          "back": "beliebter",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "10 — Je mehr Spaß die Mitarbeiter haben, desto ___ sind sie bei der Arbeit. (zufrieden)",
+          "back": "zufriedener",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "10 — Je länger wir als Team zusammenarbeiten, desto ___ verstehen wir uns. (gut)",
+          "back": "besser",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "11 — Wir empfehlen ___ (die Arbeitgeber), auf das Betriebsklima zu achten.",
+          "back": "Arbeitgebern",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "11 — Im ___ (der Gegensatz) zu früher ist es schwieriger, Freundschaften zu pflegen.",
+          "back": "Gegensatz",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "11 — Die Wahrscheinlichkeit für lange Fehlzeiten wird ___ (gering).",
+          "back": "geringer",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "13 — ich-Laut: \"ch\" nach i, e, ä, ö, ü, ei, eu, äu, l, n, r → Aussprache?",
+          "back": "[ç] — weich, vorderer Gaumen",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "13 — ach-Laut: \"ch\" nach a, o, u, au → Aussprache?",
+          "back": "[x] — hart, hinterer Rachen",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "13 — \"machst\" — ich-Laut oder ach-Laut?",
+          "back": "ach-Laut [x] (nach a)",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "13 — \"wirklich\" — ich-Laut oder ach-Laut?",
+          "back": "ich-Laut [ç] (nach i)",
+          "section": "Tipo 6 — Buch-Übungen"
+        },
+        {
+          "front": "Eselsbrücke: je + Komparativ = Verb am Ende",
+          "back": "\"Je\" klingt wie \"Yeah\" am Ende einer Party — das Verb kommt erst am ENDE des je-Satzes.",
+          "section": "Tipo 8 — Eselsbrücken"
+        },
+        {
+          "front": "Eselsbrücke: desto/umso = Verb auf Position 2",
+          "back": "\"Desto\" hat 5 Buchstaben, aber das Verb kommt schon auf Position \"2\" — nicht warten!",
+          "section": "Tipo 8 — Eselsbrücken"
+        },
+        {
+          "front": "Eselsbrücke: gut → besser (nicht \"guter\")",
+          "back": "\"Gut\" ist ein guter Freund von \"besser\" — sie sind anders, aber unzertrennlich.",
+          "section": "Tipo 8 — Eselsbrücken"
+        },
+        {
+          "front": "Eselsbrücke: ich-Laut [ç] vs. ach-Laut [x]",
+          "back": "\"Ich\" selbst hat den ich-Laut — weich wie ein Flüstern. \"Ach!\" ruft man mit offenem Rachen — hart.",
+          "section": "Tipo 8 — Eselsbrücken"
+        }
+      ],
+      "total_vocab": 24,
+      "total_grammar": 44
+    },
     {
       "id": "vhs-b12--090726--hausregeln---verben-mit-prpositionen---zwei",
       "title": "VHS B1.2 — 09.07.26 — Hausregeln · Verben mit Präpositionen · Zweiteilige Konnektoren",
