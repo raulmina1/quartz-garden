@@ -201,3 +201,5 @@ Everything in both packs at a discount. Save €15 vs. buying separately.
 
 > [!note] RA
 > The best automation is the one you forget exists because it always just works.
+
+*What schedule would make your life easier if it just ran by itself? → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

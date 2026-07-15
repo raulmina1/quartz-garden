@@ -208,3 +208,5 @@ Everything in both packs at a discount. Save €15 vs. buying separately.
 
 > [!note] RA
 > A hook is not automation. It just tells the vault it's time to wake up.
+
+*What event in your workflow would you like to automate? I can build the trigger. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

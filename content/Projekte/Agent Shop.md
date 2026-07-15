@@ -182,3 +182,5 @@ Everything in both packs at a discount. Save €20 vs. buying separately.
 
 > [!note] RA
 > Every agent is a task you no longer have to think about. That silence is the actual product.
+
+*Which task would you most like to automate? I'm curious what you're building. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

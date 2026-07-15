@@ -135,3 +135,5 @@ To order: **raulmina13@gmail.com** or use the Ko-fi form below — include which
 
 > [!note] RA
 > This is a curated collection of production prompts. Each one has been used daily, refined over months, and wired into a real vault. No refunds — you get exactly what I use.
+
+*Not sure which pack fits your workflow? Tell me what you're working on — I'll recommend the right ones. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
