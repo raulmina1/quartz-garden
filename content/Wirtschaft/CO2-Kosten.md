@@ -105,4 +105,5 @@ The paradox: more renewables → less fossil generation → but when fossil is n
 - [[Engineering/Hydrogen-Pathways|🧪 Hydrogen Production Pathways]]
 
 ---
-*As long as fossil plants set the marginal price, decarbonization doesn't lower consumer bills. How should Germany resolve this paradox?*
+
+*CO₂ pricing increasingly drives decisions in the energy sector. How do you see carbon costs evolving in Europe?*

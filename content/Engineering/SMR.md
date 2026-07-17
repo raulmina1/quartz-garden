@@ -157,4 +157,5 @@ Source: IEA Global Hydrogen Review 2025
 - [[Engineering/Direct-Air-Capture|🌿 Direct Air Capture (DAC)]]
 
 ---
-*SMR with CCS is the most practical near-term decarbonization pathway for hydrogen. The infrastructure question remains open — what's the CO₂ storage solution where you are?*
+
+*SMR remains the backbone of global hydrogen production. Do you think blue hydrogen (SMR+CCS) is a bridge or a detour?*

@@ -110,4 +110,5 @@ CO₂ pricing adds another layer to the merit order. Since natural gas and coal 
 - [[Engineering/Hydrogen-Pathways|🧪 Hydrogen Production Pathways]]
 
 ---
-*The paradox of the Energiewende: more renewables → same or higher prices as long as gas sets the marginal cost. What reform would you prioritize?*
+
+*The merit order system explains a lot about your electricity bill. Does Germany's market design make sense to you?*

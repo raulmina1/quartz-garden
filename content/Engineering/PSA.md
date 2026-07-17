@@ -145,4 +145,5 @@ flowchart LR
 - [[Engineering/index|Engineering & Technology]]
 
 ---
-*PSA is everywhere in chemical engineering — hydrogen purification, CO₂ capture, oxygen concentrators. What's your experience with cyclic separation processes?*
+
+*PSA is everywhere in gas processing — from hydrogen purification to carbon capture. Have you worked with pressure swing systems?*

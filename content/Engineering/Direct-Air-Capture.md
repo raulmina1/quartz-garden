@@ -132,4 +132,5 @@ NeoCarbon is one of the companies piloting DAC technology in Germany. Their appr
 - [[Wirtschaft/Merit-Order-System|⚡ How Germany's Electricity Market Sets Prices]]
 
 ---
-*DAC is still expensive — €600-1000/t CO₂ — but costs are falling fast. At what price does it become viable where you are?*
+
+*DAC feels like sci-fi becoming real. Which carbon removal technology fascinates you most?*
