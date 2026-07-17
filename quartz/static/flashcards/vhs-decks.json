@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-14T23:48:45.483165",
+  "generated": "2026-07-17T07:12:04.718647",
   "source": "C:\\Vaults\\YellowVault\\03_INFORMATIONEN\\05_PROGRAMS\\14_ANKI\\01_DATABASE",
-  "total_decks": 16,
-  "total_vocab_pairs": 615,
-  "total_grammar_cards": 741,
+  "total_decks": 17,
+  "total_vocab_pairs": 633,
+  "total_grammar_cards": 749,
   "decks": [
     {
       "id": "vhs-b12--140726--verben-mit-prpositionen---relativpronomen--",
@@ -7591,6 +7591,166 @@
       ],
       "total_vocab": 27,
       "total_grammar": 49
+    },
+    {
+      "id": "vhs-b12--160726--nachdem-bevor-wahrend-konjunktiv-ii-prateritum",
+      "title": "VHS B1.2 — 16.07.26 — nachdem · bevor · Während · Konjunktiv II · Präteritum",
+      "date": "2026-07-16",
+      "deck": "Deutsch::Anki - VHS B1.2 — 16.07.26 — nachdem · bevor · Während · Konjunktiv II · Präteritum",
+      "vocab_pairs": [
+        {
+          "de": "das Verkehrsmittel, -",
+          "en": "Beförderungsmittel",
+          "example": "Welches Verkehrsmittel nimmst du zur Arbeit?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Telefonnummer, -n",
+          "en": "Rufnummer, phone number",
+          "example": "Er besorgte sich ihre Telefonnummer.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "der Abend, -e",
+          "en": "evening",
+          "example": "Sie verabredeten sich für einen Abend.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Wohnung, -en",
+          "en": "apartment, flat",
+          "example": "Sie suchten eine gemeinsame Wohnung.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Hochzeit, -en",
+          "en": "wedding",
+          "example": "Sie planten ihre Hochzeit.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Hochzeitsreise, -n",
+          "en": "honeymoon",
+          "example": "Sie machten ihre Hochzeitsreise nach Paris.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Welt, -en",
+          "en": "world",
+          "example": "Das erste Kind kam auf die Welt.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "das Glück (Sg.)",
+          "en": "happiness, luck",
+          "example": "Das Glück war perfekt.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "der Sprachkurs, -e",
+          "en": "language course",
+          "example": "Im Sprachkurs bildeten wir Sätze.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "das Thema, Themen",
+          "en": "topic",
+          "example": "Wir wählten ein Thema.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "das Ergebnis, -se",
+          "en": "result",
+          "example": "Wir verglichen unsere Ergebnisse.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "die Gruppe, -n",
+          "en": "group",
+          "example": "Wir bildeten kleine Gruppen.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "der Text, -e",
+          "en": "text",
+          "example": "Die Lehrerin verteilte verschiedene Texte.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "der See, -n",
+          "en": "lake",
+          "example": "Ich gehe zum See.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "davon",
+          "en": "of it, about it",
+          "example": "Was hältst du davon?",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "halten von (+Dat)",
+          "en": "to think of, have an opinion about",
+          "example": "Ich halte viel von der Idee.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "halbtags",
+          "en": "part-time (half days)",
+          "example": "Sie arbeitete nur noch halbtags.",
+          "section": "Tipo 1 — Vokabeln"
+        },
+        {
+          "de": "ähnlich",
+          "en": "similar",
+          "example": "Die Übung ist ähnlich wie die letzte.",
+          "section": "Tipo 1 — Vokabeln"
+        }
+      ],
+      "grammar_cards": [
+        {
+          "front": "nachdem — welche Zeitstufen-Regel gilt?",
+          "back": "Nachdem = Vorzeitigkeit. Nebensatz eine Stufe vor Hauptsatz: Präsens→Perfekt, Präteritum→Plusquamperfekt.",
+          "section": "Tipo 2 — Grammatik"
+        },
+        {
+          "front": "bevor — wie unterscheidet es sich von nachdem?",
+          "back": "Bevor = Nachzeitigkeit. Handlung im Nebensatz passiert NACH der Haupthandlung. Gleiches Tempus in beiden Sätzen.",
+          "section": "Tipo 2 — Grammatik"
+        },
+        {
+          "front": "Während — was drückt es aus?",
+          "back": "Während = Gleichzeitigkeit. Zwei Handlungen passieren gleichzeitig. Beide Sätze im gleichen Tempus.",
+          "section": "Tipo 2 — Grammatik"
+        },
+        {
+          "front": "Konjunktiv II — wofür wird er verwendet?",
+          "back": "Höfliche Bitten (könntest du...?), irreale Wünsche (ich wäre gern...), hypothetische Situationen.",
+          "section": "Tipo 2 — Grammatik"
+        },
+        {
+          "front": "Konjunktiv II — wie wird er gebildet?",
+          "back": "würde + Infinitiv (meiste Verben) oder spezielle Formen: wäre, hätte, könnte, müsste, dürfte.",
+          "section": "Tipo 2 — Grammatik"
+        },
+        {
+          "front": "Infinitiv — in welchen Konstruktionen?",
+          "back": "1. Nach Modalverben (muss gehen). 2. Nach zu (schön zu sehen). 3. Ersatzinfinitiv (habe aufpassen müssen).",
+          "section": "Tipo 2 — Grammatik"
+        },
+        {
+          "front": "Präteritum unregelmäßig — wie erkennt man?",
+          "back": "Stammvokal ändert sich: helfen→half, bleiben→blieb, treffen→traf, bekommen→bekam.",
+          "section": "Tipo 2 — Grammatik"
+        },
+        {
+          "front": "Modalverben im Perfekt — was ist der Ersatzinfinitiv?",
+          "back": "Kein Partizip II! haben + Infinitiv + Modalverb: Ich habe aufpassen müssen. (NICHT: gemusst)",
+          "section": "Tipo 2 — Grammatik"
+        }
+      ],
+      "total_vocab": 18,
+      "total_grammar": 8
     }
   ]
 }
