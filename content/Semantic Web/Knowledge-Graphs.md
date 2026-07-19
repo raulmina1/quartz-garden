@@ -8,7 +8,7 @@ tags:
 aliases:
   - Knowledge Graph
   - KG
-description: "A knowledge graph is a structured network of entities and relationships. Covers architecture, components, querying, and practical applications from vaults to enterprise systems."
+description: "A knowledge graph is a structured network of entities and relationships. Architecture, components, querying, and practical applications for enterprise systems."
 reading_time: "4 min"
 lang: en
 publish: true

@@ -7,7 +7,7 @@ tags:
   - hydrogen
   - smr
   - reforming
-description: Steam Methane Reforming is the dominant hydrogen production method worldwide. This guide covers the chemistry, process steps, emissions, and integration with carbon capture.
+description: "Steam Methane Reforming is the dominant hydrogen production method worldwide. Covers chemistry, process steps, emissions, and carbon capture integration."
 reading_time: "5 min"
 lang: en
 publish: true
