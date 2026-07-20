@@ -5,7 +5,7 @@ tags:
   - knowledge-graphs
   - ontology
   - vault
-description: "A complete guide to Semantic Web technologies — RDF, SPARQL, OWL, Knowledge Graphs, and Ontology Engineering. Built from hands-on research for enterprise systems."
+description: "A complete guide to Semantic Web — RDF, SPARQL, OWL, Knowledge Graphs, and Ontology Engineering. Built from hands-on research."
 reading_time: "2 min"
 lang: en
 publish: true
