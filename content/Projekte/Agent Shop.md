@@ -8,7 +8,7 @@ tags:
 related:
   - "[[AI Ecosystem]]"
   - "[[Projekte/Prompt Shop|Prompt Shop]]"
-description: Pre-built AI agents for Obsidian automation — vocabulary cards, German annotation, task management, and custom workflows. Each ships as a Hermes skill.
+description: Pre-built AI agents for Obsidian automation — vocabulary cards, German annotation, task decomposition, and custom workflows delivered as Hermes skills.
 reading_time: "5 min"
 publish: true
 date: 2026-07-09

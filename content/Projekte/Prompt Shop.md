@@ -6,7 +6,7 @@ tags:
   - obsidian
   - ai
   - claude
-description: "Ready-to-use AI prompts for Obsidian, German learning, job hunting, and automation — 34 prompts, 5 packs, built for Claude and refined daily."
+description: "AI prompts for Obsidian, German learning, job hunting, and automation — 34 prompts in 5 packs, built for Claude and refined through daily use."
 reading_time: "5 min"
 type: showcase
 lang: en

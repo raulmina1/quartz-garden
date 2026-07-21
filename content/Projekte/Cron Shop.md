@@ -9,7 +9,7 @@ related:
   - "[[AI Ecosystem]]"
   - "[[Projekte/Prompt Shop|Prompt Shop]]"
   - "[[Projekte/Agent Shop|Agent Shop]]"
-description: Pre-configured cron jobs that run AI agents on schedule — daily briefings, German exercises, vault backups, and custom automations. No manual triggers.
+description: Pre-configured cron jobs running AI agents on schedule — daily German review, vault maintenance, blog sync, and custom automations with no manual triggers.
 reading_time: "5 min"
 publish: true
 date: 2026-07-09

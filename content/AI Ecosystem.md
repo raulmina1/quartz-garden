@@ -18,7 +18,7 @@ lang: en
 publish: true
 ---
 
-###### Related: [[Projekte]] | [[Projekte/Prompt Shop]] | [[Einführung]]
+###### Related: [[Projekte]] | [[Prompt Shop]] | [[Einführung]]
 
 ---
 
