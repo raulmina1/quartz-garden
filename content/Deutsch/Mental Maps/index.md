@@ -17,7 +17,7 @@ lang: de
 publish: true
 ---
 
-## 🧠 Mental Maps — VHS B1.2
+# 🧠 Mental Maps — VHS B1.2
 
 Interaktive Mental Maps, die **Grammatik → Redemittel → echte Sätze → Übungen** in einer einzigen Ansicht verbinden. Jede Map folgt der 8-Schichten-Struktur:
 
