@@ -14,7 +14,7 @@ Welcome to the **RA Blog** — a digital garden by Raul Mina. Process engineer i
 | Note | Description |
 |------|-------------|
 | [[Einführung]] | Who I am, what I do, and how to contact me. |
-| [[Contacto\|📬 Contacto]] | Schedule a free discovery call or send a message. |
+| [[Contact\|📬 Contacto]] | Schedule a free discovery call or send a message. |
 | [[Projekte]] | Current projects, services and what I'm building. |
 | [[Kolumnen/index|Kolumnen]] | Opinion columns on engineering, AI, and language learning. |
 
