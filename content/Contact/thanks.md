@@ -2,6 +2,8 @@
 title: Gracias por tu mensaje
 tags:
   - contact
+  - mensaje
+publish: true
 description: "Mensaje enviado con éxito — Raul te responderá pronto."
 reading_time: "1 min"
 ---

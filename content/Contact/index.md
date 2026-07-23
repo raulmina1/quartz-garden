@@ -2,6 +2,7 @@
 title: Contacto
 tags:
   - contact
+  - formulario
 description: "Contact Raul Mina — KI-Agenten mit Human-in-the-Loop. Schedule a free discovery call or send a message about AI automation, German learning, or engineering projects."
 reading_time: "1 min"
 ---

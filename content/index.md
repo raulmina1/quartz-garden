@@ -16,16 +16,16 @@ Welcome to the **RA Blog** — a digital garden by Raul Mina. Process engineer i
 | [[Einführung]] | Who I am, what I do, and how to contact me. |
 | [[Contact\|📬 Contacto]] | Schedule a free discovery call or send a message. |
 | [[Projekte]] | Current projects, services and what I'm building. |
-| [[Kolumnen/index|Kolumnen]] | Opinion columns on engineering, AI, and language learning. |
+| [[Kolumnen]] | Opinion columns on engineering, AI, and language learning. |
 
 ## Wissen
 
 | Note | Description |
 |------|-------------|
-| [[Deutsch/index|Deutsch lernen]] | Grammatik, Flashcards, Mental Maps — B1.2 Ressourcen. |
-| [[Engineering/index|Engineering]] | Hydrogen, carbon capture, PSA, SMR — chemical engineering. |
-| [[Wirtschaft/index|Wirtschaft und Energie]] | Energy economics, merit order, CO2 costs in Germany. |
-| [[Semantic Web/index|Semantic Web]] | RDF, SPARQL, OWL, Knowledge Graphs. |
+| [[Deutsch|Deutsch lernen]] | Grammatik, Flashcards, Mental Maps — B1.2 Ressourcen. |
+| [[Engineering]] | Hydrogen, carbon capture, PSA, SMR — chemical engineering. |
+| [[Wirtschaft|Wirtschaft und Energie]] | Energy economics, merit order, CO2 costs in Germany. |
+| [[Semantic Web]] | RDF, SPARQL, OWL, Knowledge Graphs. |
 | [[AI Ecosystem|AI Ecosystem]] | 130+ prompts, 18 agents, hook system, file watchers. |
 
 ## Shop
