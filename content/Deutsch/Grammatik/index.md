@@ -21,10 +21,10 @@ publish: true
 
 | Thema | Beschreibung |
 |-------|-------------|
-| [[Deutsch/Grammatik/Trennbare-Verben\|🔧 Trennbare Verben]] | Präfixe, Satzstellung, Infinitiv und Partizip II — vollständige Liste mit 30+ Präfixen |
-| [[Deutsch/Grammatik/Modalverben\|⚡ Modalverben und unregelmäßige Verben]] | Konjugation, Bedeutung, Satzstellung — mit Übungen |
-| [[Deutsch/Grammatik/Vorgangspassiv\|🔁 Vorgangspassiv]] | werden-Passiv — Bildung, Tempora, Aktiv↔Passiv Umwandlung |
-| [[Deutsch/Grammatik/Nebensätze\|📎 Nebensätze]] | weil, dass, wenn, obwohl — Verb am Ende, Konnektoren, Stellung |
+| [[Deutsch/Grammatik/Trennbare-Verben|🔧 Trennbare Verben]] | Präfixe, Satzstellung, Infinitiv und Partizip II — vollständige Liste mit 30+ Präfixen |
+| [[Deutsch/Grammatik/Modalverben|⚡ Modalverben und unregelmäßige Verben]] | Konjugation, Bedeutung, Satzstellung — mit Übungen |
+| [[Deutsch/Grammatik/Vorgangspassiv|🔁 Vorgangspassiv]] | werden-Passiv — Bildung, Tempora, Aktiv↔Passiv Umwandlung |
+| [[Deutsch/Grammatik/Nebensätze|📎 Nebensätze]] | weil, dass, wenn, obwohl — Verb am Ende, Konnektoren, Stellung |
 
 ---
 

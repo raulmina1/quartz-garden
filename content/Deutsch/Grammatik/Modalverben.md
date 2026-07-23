@@ -105,9 +105,9 @@ Setze das richtige Modalverb ein (können, müssen, dürfen, sollen, wollen, mö
 
 ## Related
 
-- [[Deutsch/Grammatik/Trennbare-Verben\|🔧 Trennbare Verben — complete list]]
-- [[Deutsch/Mental Maps/index\|🧠 Mental Maps — Grammatik visuell]]
-- [[Deutsch Flashcards\|🃏 Deutsch Flashcards]]
+- [[Deutsch/Grammatik/Trennbare-Verben|🔧 Trennbare Verben — complete list]]
+- [[Deutsch/Mental Maps/index|🧠 Mental Maps — Grammatik visuell]]
+- [[Deutsch Flashcards|🃏 Deutsch Flashcards]]
 
 ---
 *Welches Modalverb fällt dir im Alltag am schwersten? Bei mir war es „sollte\" — die Höflichkeitsnuance ist schwer zu treffen.*

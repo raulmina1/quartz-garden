@@ -16,9 +16,9 @@ Mientras tanto, puedes explorar el resto del sitio:
 
 | Página | Descripción |
 |--------|-------------|
-| [[index\|🏠 Inicio]] | Volver al inicio |
-| [[Projekte\|🔧 Proyectos]] | Lo que estoy construyendo |
-| [[Einführung\|👤 Sobre mí]] | Quién soy y qué hago |
+| [[index|🏠 Inicio]] | Volver al inicio |
+| [[Projekte|🔧 Proyectos]] | Lo que estoy construyendo |
+| [[Einführung|👤 Sobre mí]] | Quién soy y qué hago |
 
 ---
 

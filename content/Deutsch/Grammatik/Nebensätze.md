@@ -153,9 +153,9 @@ Wenn das Verb im Nebensatz *nicht* konjugiert wird (mit *um...zu*, *ohne...zu*, 
 
 ## Related
 
-- [[Deutsch/Grammatik/Vorgangspassiv\|🔁 Vorgangspassiv — werden-Passiv]]
-- [[Deutsch/Grammatik/Trennbare-Verben\|🔧 Trennbare Verben]]
-- [[Deutsch/Grammatik/Modalverben\|⚡ Modalverben]]
+- [[Deutsch/Grammatik/Vorgangspassiv|🔁 Vorgangspassiv — werden-Passiv]]
+- [[Deutsch/Grammatik/Trennbare-Verben|🔧 Trennbare Verben]]
+- [[Deutsch/Grammatik/Modalverben|⚡ Modalverben]]
 
 ---
 

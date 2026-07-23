@@ -20,8 +20,8 @@ publish: true
 
 | Kolumne | Beschreibung |
 |---------|-------------|
-| [[Kolumnen/Deutsch lernen als Ingenieur\|🇩🇪 Deutsch lernen als Ingenieur]] | Was der VHS-Kurs mir beibringt — und was ich außerhalb davon lernen muss. |
-| [[Kolumnen/Die Werkzeuge, die ich mir selbst gebaut habe\|🔧 Die Werkzeuge, die ich mir selbst gebaut habe]] | Wie ein Ingenieur anfing, sich selbst zu automatisieren — und warum kognitive Stille der größte Gewinn ist. |
+| [[Kolumnen/Deutsch lernen als Ingenieur|🇩🇪 Deutsch lernen als Ingenieur]] | Was der VHS-Kurs mir beibringt — und was ich außerhalb davon lernen muss. |
+| [[Kolumnen/Die Werkzeuge, die ich mir selbst gebaut habe|🔧 Die Werkzeuge, die ich mir selbst gebaut habe]] | Wie ein Ingenieur anfing, sich selbst zu automatisieren — und warum kognitive Stille der größte Gewinn ist. |
 
 ---
 

@@ -31,7 +31,7 @@ publish: true
 
 | Map | Thema |
 |-----|-------|
-| [[Deutsch/Mental Maps/Mental Map - Gegensätze & Redemittel\|Gegensätze & Redemittel]] | trotz, obwohl, trotzdem, Konjunktiv II |
+| [[Deutsch/Mental Maps/Mental Map - Gegensätze & Redemittel|Gegensätze & Redemittel]] | trotz, obwohl, trotzdem, Konjunktiv II |
 
 ## Spiele
 

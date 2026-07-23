@@ -38,7 +38,7 @@ Interaktive Mental Maps, die **Grammatik → Redemittel → echte Sätze → Üb
 
 | Datum | Thema | Kapitel |
 |-------|-------|---------|
-| 08.07.2026 | [[Mental Map - Gegensätze & Redemittel\|Gegensätze & Redemittel]] — *trotz, obwohl, trotzdem, Konjunktiv II* | 6 — Zusammenleben |
+| 08.07.2026 | [[Mental Map - Gegensätze & Redemittel|Gegensätze & Redemittel]] — *trotz, obwohl, trotzdem, Konjunktiv II* | 6 — Zusammenleben |
 
 ---
 

@@ -109,9 +109,9 @@ Passiv: *Das Essen **wird** gekocht.* → Das Essen erfährt die Handlung.
 
 ## Related
 
-- [[Deutsch/Grammatik/Modalverben\|⚡ Modalverben und unregelmäßige Verben]]
-- [[Deutsch/Grammatik/Nebensätze\|📎 Nebensätze — weil, dass, wenn, obwohl]]
-- [[Deutsch/Grammatik/Trennbare-Verben\|🔧 Trennbare Verben]]
+- [[Deutsch/Grammatik/Modalverben|⚡ Modalverben und unregelmäßige Verben]]
+- [[Deutsch/Grammatik/Nebensätze|📎 Nebensätze — weil, dass, wenn, obwohl]]
+- [[Deutsch/Grammatik/Trennbare-Verben|🔧 Trennbare Verben]]
 
 ---
 *Versuche, einen ganzen Satz im Passiv zu formulieren — und drehe ihn dann ins Aktiv zurück. Das ist die beste Übung.*

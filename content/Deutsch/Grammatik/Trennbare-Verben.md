@@ -173,9 +173,9 @@ Alltagssätze mit trennbaren Verben (★ = besonders häufig):
 
 ## Related
 
-- [[Deutsch/Grammatik/Modalverben\|⚡ Modalverben und unregelmäßige Verben]]
-- [[Deutsch/Mental Maps/index\|🧠 Mental Maps — Grammatik visuell]]
-- [[Deutsch Flashcards\|🃏 Deutsch Flashcards]]
+- [[Deutsch/Grammatik/Modalverben|⚡ Modalverben und unregelmäßige Verben]]
+- [[Deutsch/Mental Maps/index|🧠 Mental Maps — Grammatik visuell]]
+- [[Deutsch Flashcards|🃏 Deutsch Flashcards]]
 
 ---
 
