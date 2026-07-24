@@ -1,28 +1,28 @@
 ---
-title: "Deutsch Lernkarten"
+title: "Deutsch Flashcards — Interaktive Lernspiele"
 date: 2026-07-09
 tags:
   - deutsch
-  - lernkarten
+  - flashcards
   - vhs
   - spiel
   - lernen
-description: "Zwei interaktive Lernspiele aus dem VHS-Deutschkurs: Matching Pairs und Flash Cards zum Selbsttesten von Vokabeln, Grammatik und Phrasen."
-reading_time: "2 min"
+description: "Zwei interaktive Lernspiele mit Vokabeln und Grammatik aus meinem VHS-Deutschkurs. Matching Pairs zum Vokabeln-Paare-Finden und Flash Cards zum Selbsttesten von Grammatik und Phrasen."
+reading_time: "3 min"
 type: showcase
 lang: de
 publish: true
 ---
 
-# Lernkarten & Spiele
+# 🃏 Deutsch Flashcards
 
-*Vokabeln und Grammatik aus meinem VHS-Kurs B1.1/B1.2*
+*Zwei Spiele — Vokabeln und Grammatik aus meinem VHS-Kurs B1.1/B1.2*
 
 ---
 
-## Paarspiel
+## 🃏 Matching Pairs — Vokabeln
 
-Finde die Paare: deutsches Wort und englische Übersetzung. Trainiert Artikel, Plural und Kontext.
+Finde die Paare: deutsches Wort ↔ englische Übersetzung. Trainiert Artikel, Plural und Kontext.
 
 > [!tip] So funktioniert's
 > 1. **Deck wählen** — jedes Deck entspricht einer Unterrichtseinheit
@@ -31,12 +31,12 @@ Finde die Paare: deutsches Wort und englische Übersetzung. Trainiert Artikel, P
 > 4. **Alle Paare finden** — schaffe es in möglichst wenigen Zügen!
 
 <iframe src="/static/flashcards/matching-pairs.html"
-  style="width:100%;height:620px;border:1px solid #c4ab00;border-radius:12px;background:#0d0d0d;">
+  style="width:100%;height:620px;border:1px solid #e0e0d8;border-radius:12px;background:#0d0d0d;">
 </iframe>
 
 ---
 
-## Selbsttest
+## 📇 Flash Cards — Grammatik & Phrasen
 
 Lies die Frage, überlege die Antwort, decke auf und bewerte dich selbst. Perfekt für Grammatik-Regeln, Verben mit Präpositionen, Eselsbrücken und Phrasen.
 
@@ -50,13 +50,31 @@ Lies die Frage, überlege die Antwort, decke auf und bewerte dich selbst. Perfek
 > **Tastatur**: Leertaste = aufdecken · ← = wiederholen · → = gewusst
 
 <iframe src="/static/flashcards/flash-cards.html"
-  style="width:100%;height:680px;border:1px solid #c4ab00;border-radius:12px;background:#0d0d0d;">
+  style="width:100%;height:680px;border:1px solid #e0e0d8;border-radius:12px;background:#0d0d0d;">
 </iframe>
 
 ---
 
+## Technische Umsetzung
+
+Die Spiele werden als standalone HTML-Widgets in Quartz eingebettet (`<iframe>`). Die Vokabeldaten werden automatisch aus meinen Anki-Notizen im YellowVault extrahiert:
+
+```
+01_DATABASE/*.md  →  extract_flashcards.py  →  vhs-decks.json  →  matching-pairs.html / flash-cards.html
+```
+
+- **Extraction:** Python-Script parst `:::` (Vokabeln) und `::` (Grammatik) aus den Markdown-Notizen
+- **Game engines:** Vanilla JS + CSS 3D transforms — keine externen Abhängigkeiten
+- **Speicherung:** `localStorage` für Session-Persistenz
+- **Deployment:** Automatisch via `quartz sync` → GitHub Actions → GitHub Pages
+
 > [!note] Über die Karten
 > Die Vokabeln und Grammatik-Karten stammen aus meinem Deutschkurs an der VHS (B1.1 und B1.2). Sie werden automatisch aus meinen Anki-Notizen extrahiert — jede Karte enthält den Artikel, die Pluralform und einen Beispielsatz im Originalkontext. Mehr dazu: [[Kolumnen/Deutsch lernen als Ingenieur]].
+
+## Verwandte Notizen
+
+- [[Kolumnen/Deutsch lernen als Ingenieur]] — Hintergrund zu meinem Lernsystem
+- [[Kolumnen/Die Werkzeuge, die ich mir selbst gebaut habe]] — Übersicht meiner Automatisierungen
 
 ---
 

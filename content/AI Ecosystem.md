@@ -6,11 +6,11 @@ tags:
   - catalog
   - ra-blog
   - automation
-description: "130+ prompts, 18 autonomous agents, 6 cron jobs, and 8 file watchers — the AI ecosystem I built over Obsidian for German, job apps, and knowledge management."
-reading_time: "12 min"
+description: "A living catalog of 130+ AI components — prompts, agents, hooks, workflows, rules, tools, and research. Built over months of daily use in an Obsidian vault."
+reading_time: "10 min"
 related:
   - "[[Projekte]]"
-  - "[[Projekte/Prompt Shop]]"
+  - "[[Projekte/Prompt Shop|Prompt Shop]]"
   - "[[Einführung]]"
 date: 2026-07-06
 type: about
@@ -18,7 +18,7 @@ lang: en
 publish: true
 ---
 
-###### Related: [[Projekte]] | [[Prompt Shop]] | [[Einführung]]
+###### Related: [[Projekte]] | [[Projekte/Prompt Shop|Prompt Shop]] | [[Einführung]]
 
 ---
 
