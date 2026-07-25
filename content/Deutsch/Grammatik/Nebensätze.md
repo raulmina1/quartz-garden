@@ -7,7 +7,7 @@ tags:
   - nebensätze
   - satzbau
   - b1
-description: "Nebensätze im Deutschen — die goldene Regel (Verb am Ende), 9 häufigste Konnektoren (weil, dass, wenn, obwohl), Satzstellung und Übungen für B1-Niveau."
+description: "Nebensätze im Deutschen — die goldene Regel (Verb am Ende), 9 häufigste Konnektoren (weil, dass, wenn, obwohl), Satzstellung und Übungen."
 reading_time: "4 min"
 lang: de
 publish: true
