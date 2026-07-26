@@ -347,4 +347,4 @@ Custom-built utilities designed and documented in the vault.
 > [!note] RA
 > Every system I've built is a mirror of a gap I found — not in the tools, but in how I was using them.
 
-*What gap would you automate? I'm always curious what other engineers build for themselves. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Built something similar? I'd love to hear how you structure your AI ecosystem. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
