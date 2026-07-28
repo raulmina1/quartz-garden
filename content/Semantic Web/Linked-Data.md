@@ -5,7 +5,7 @@ tags:
   - semantic-web
   - rdf
   - open-data
-description: "Linked data principles for publishing structured data so it can be interlinked and queried. Learn the 4 rules, 5-star deployment, and how to connect to the global graph."
+description: "Publish structured data so it can be interlinked and queried across the web. Learn the 4 rules, 5-star deployment, and connecting to the global graph."
 reading_time: "4 min"
 lang: en
 publish: true
