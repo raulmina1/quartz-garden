@@ -7,7 +7,7 @@ tags:
   - germany
   - electricity
   - merit-order
-description: "The merit order system determines German electricity prices in real time. How marginal cost pricing, the spot market mechanism, and natural gas drive your power bill."
+description: "The merit order system determines German electricity prices in real time. How marginal cost pricing and the spot market mechanism drive your power bill."
 reading_time: "4 min"
 lang: en
 publish: true
