@@ -13,7 +13,7 @@ type: kolumne
 lang: de
 publish: true
 description: "Wie ein Ingenieur anfing, sich selbst zu automatisieren — und warum der größte Gewinn nicht Zeitersparnis, sondern kognitive Stille ist."
-reading_time: "5 min"
+reading_time: "3 min"
 ---
 
 # Die Werkzeuge, die ich mir selbst gebaut habe

@@ -7,7 +7,7 @@ tags:
   - ra-blog
   - automation
 description: "A living catalog of 130+ AI components — prompts, agents, hooks, workflows, rules, tools, and research. Built over months of daily use in an Obsidian vault."
-reading_time: "10 min"
+reading_time: "9 min"
 related:
   - "[[Projekte]]"
   - "[[Projekte/Prompt Shop|Prompt Shop]]"

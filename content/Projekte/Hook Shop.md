@@ -11,7 +11,7 @@ related:
   - "[[Projekte/Agent Shop|Agent Shop]]"
   - "[[Projekte/Cron Shop|Cron Shop]]"
 description: "File watchers and event triggers connecting your vault to AI agents — watches for changes and fires the right agent automatically. No buttons needed."
-reading_time: "5 min"
+reading_time: "4 min"
 publish: true
 date: 2026-07-09
 type: showcase

@@ -7,7 +7,7 @@ tags:
   - ai
   - claude
 description: "AI prompts for Obsidian, German learning, job hunting, and automation — 34 prompts in 5 packs, built for Claude and refined through daily use."
-reading_time: "5 min"
+reading_time: "7 min"
 type: showcase
 lang: en
 date: 2026-07-09

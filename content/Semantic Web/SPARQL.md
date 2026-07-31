@@ -6,7 +6,7 @@ tags:
   - rdf
   - sparql
 description: SPARQL is the W3C-standard query language for RDF. Learn graph pattern matching, federation, and how to query distributed knowledge graphs with examples.
-reading_time: "4 min"
+reading_time: "2 min"
 lang: en
 publish: true
 type: concept-guide

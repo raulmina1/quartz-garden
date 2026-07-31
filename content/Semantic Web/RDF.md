@@ -6,7 +6,7 @@ tags:
   - data-modeling
   - w3c
 description: RDF (Resource Description Framework) is the W3C standard for representing web data as triples. Learn how to model, serialize, and query interconnected data.
-reading_time: "4 min"
+reading_time: "2 min"
 lang: en
 publish: true
 type: concept-guide

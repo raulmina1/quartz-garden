@@ -8,7 +8,7 @@ tags:
   - climate
   - chemical-engineering
 description: "Direct Air Capture removes CO₂ from ambient air using specialized adsorbents. Covers PVSA, Skarstrom cycle, materials, and lab-scale system design."
-reading_time: "5 min"
+reading_time: "3 min"
 lang: en
 publish: true
 type: concept-guide

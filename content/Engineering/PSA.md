@@ -8,7 +8,7 @@ tags:
   - psa
   - gas-treatment
 description: "Cyclic gas separation using pressure changes to adsorb and release gas components. Essential workhorse for hydrogen purification and CO₂ capture industries."
-reading_time: "6 min"
+reading_time: "3 min"
 lang: en
 publish: true
 type: concept-guide

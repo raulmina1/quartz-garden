@@ -8,7 +8,7 @@ tags:
   - satzbau
   - b1
 description: "Nebensätze im Deutschen — die goldene Regel (Verb am Ende), 9 häufigste Konnektoren (weil, dass, wenn, obwohl), Satzstellung und Übungen."
-reading_time: "4 min"
+reading_time: "3 min"
 lang: de
 publish: true
 type: concept-guide

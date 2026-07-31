@@ -8,7 +8,7 @@ tags:
   - co2
   - carbon-pricing
 description: "How CO₂ certificate costs flow through Germany's merit order system and impact electricity prices for households, industry, and the energy transition."
-reading_time: "4 min"
+reading_time: "2 min"
 lang: en
 publish: true
 type: concept-guide

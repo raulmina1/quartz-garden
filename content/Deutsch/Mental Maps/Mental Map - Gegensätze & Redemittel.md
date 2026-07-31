@@ -11,7 +11,7 @@ related:
   - "[[Deutsch/Mental Maps/index]]"
   - "[[Deutsch/index]]"
 description: "Interaktive Mental Map: trotz, obwohl, trotzdem, Konjunktiv II und Redemittel zur Wohnungssuche. Grammatik und Übungen visuell verbunden."
-reading_time: "2 min"
+reading_time: "1 min"
 type: miniguide
 lang: de
 publish: true

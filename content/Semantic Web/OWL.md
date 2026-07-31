@@ -6,7 +6,7 @@ tags:
   - owl
   - w3c
 description: "OWL is the W3C ontology language for formal knowledge representation. Learn classes, properties, reasoning, and building ontologies machines can reason with."
-reading_time: "4 min"
+reading_time: "2 min"
 lang: en
 publish: true
 type: concept-guide

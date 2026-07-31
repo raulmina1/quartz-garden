@@ -8,7 +8,7 @@ tags:
   - verben
   - b1
 description: "Das Vorgangspassiv beschreibt eine Handlung am Subjekt — mit werden + Partizip II. Vollständige Konjugation, Umwandlung Aktiv→Passiv, und Übungen auf B1-Niveau."
-reading_time: "3 min"
+reading_time: "2 min"
 lang: de
 publish: true
 type: concept-guide

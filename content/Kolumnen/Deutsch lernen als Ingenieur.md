@@ -7,7 +7,7 @@ tags:
   - deutsch
   - ra-blog
 description: "B1.1 Deutsch lernen und DTZ-Vorbereitung — was der VHS-Kurs mir beibringt und was ich außerhalb selbst lernen muss, um die Lücken zu schließen."
-reading_time: "4 min"
+reading_time: "3 min"
 type: kolumne
 lang: de
 publish: true

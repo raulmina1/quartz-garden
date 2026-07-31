@@ -6,7 +6,7 @@ tags:
   - rdf
   - open-data
 description: "Publish structured data so it can be interlinked and queried across the web. Learn the 4 rules, 5-star deployment, and connecting to the global graph."
-reading_time: "4 min"
+reading_time: "2 min"
 lang: en
 publish: true
 type: concept-guide

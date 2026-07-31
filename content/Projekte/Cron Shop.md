@@ -10,7 +10,7 @@ related:
   - "[[Projekte/Prompt Shop|Prompt Shop]]"
   - "[[Projekte/Agent Shop|Agent Shop]]"
 description: Pre-configured cron jobs running AI agents on schedule — daily German review, vault maintenance, blog sync, and custom automations with no manual triggers.
-reading_time: "5 min"
+reading_time: "4 min"
 publish: true
 date: 2026-07-09
 type: showcase

@@ -8,7 +8,7 @@ tags:
   - decarbonization
   - chemical-engineering
 description: Grey, blue, and green hydrogen — technologies, costs, and infrastructure. A guide to hydrogen production pathways and the European Hydrogen Backbone.
-reading_time: "5 min"
+reading_time: "2 min"
 lang: en
 publish: true
 type: concept-guide

@@ -5,7 +5,7 @@ tags:
   - semantic-web
   - ontology
 description: "Ontology engineering defines methods for building formal, shared conceptualizations. Covers methodology, components, and a real-world movie ontology example."
-reading_time: "5 min"
+reading_time: "2 min"
 lang: en
 publish: true
 type: concept-guide

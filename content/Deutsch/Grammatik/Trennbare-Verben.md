@@ -8,7 +8,7 @@ tags:
   - trennbar
   - b1
 description: Trennbare Verben sind der Schlüssel zum deutschen Satzbau. Vollständige Liste der Präfixe, Satzstellung in Hauptsatz/Nebensatz/Infinitiv, und 30+ Beispiele.
-reading_time: "4 min"
+reading_time: "5 min"
 lang: de
 publish: true
 type: concept-guide
