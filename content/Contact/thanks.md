@@ -12,6 +12,8 @@ reading_time: "1 min"
 
 Gracias por contactarme. Recibí tu mensaje y te responderé en **máximo 24 horas**.
 
+## 🌐 Explora el sitio
+
 Mientras tanto, puedes explorar el resto del sitio:
 
 | Página | Descripción |

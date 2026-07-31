@@ -18,6 +18,8 @@ publish: true
 
 ---
 
+## Aktuelle Kolumnen
+
 | Kolumne | Beschreibung |
 |---------|-------------|
 | [[Kolumnen/Deutsch lernen als Ingenieur|🇩🇪 Deutsch lernen als Ingenieur]] | Was der VHS-Kurs mir beibringt — und was ich außerhalb davon lernen muss. |

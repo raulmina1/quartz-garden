@@ -19,6 +19,8 @@ publish: true
 
 ---
 
+## Themen
+
 | Thema | Beschreibung |
 |-------|-------------|
 | [[Deutsch/Grammatik/Trennbare-Verben|🔧 Trennbare Verben]] | Präfixe, Satzstellung, Infinitiv und Partizip II — vollständige Liste mit 30+ Präfixen |

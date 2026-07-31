@@ -19,6 +19,8 @@ publish: true
 
 ---
 
+## Guides
+
 | Guide | Description |
 |-------|-------------|
 | [[Wirtschaft/Merit-Order-System|⚡ How Germany's Electricity Market Sets Prices]] | The merit order system, marginal cost pricing, and why natural gas determines your electricity bill. |

@@ -21,6 +21,8 @@ publish: true
 
 Interaktive Mental Maps, die **Grammatik → Redemittel → echte Sätze → Übungen** in einer einzigen Ansicht verbinden. Jede Map folgt der 8-Schichten-Struktur:
 
+## Die 8 Schichten
+
 | Schicht | Farbe | Bedeutung |
 |---------|-------|-----------|
 | 🧩 ABSTRAKT | Blau-grau | Reine Grammatikregeln |
@@ -34,7 +36,7 @@ Interaktive Mental Maps, die **Grammatik → Redemittel → echte Sätze → Üb
 
 ---
 
-### 📂 Verfügbare Maps
+## 📂 Verfügbare Maps
 
 | Datum | Thema | Kapitel |
 |-------|-------|---------|

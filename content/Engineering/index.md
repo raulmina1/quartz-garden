@@ -20,6 +20,8 @@ publish: true
 
 ---
 
+## Guides
+
 | Guide | Description |
 |-------|-------------|
 | [[Engineering/Hydrogen-Pathways|🧪 Hydrogen Production Pathways]] | Grey, blue, and green hydrogen — technologies, costs, and infrastructure. |

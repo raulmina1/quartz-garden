@@ -71,3 +71,6 @@ Déjame tu mensaje y te responderé en máximo 24 horas.
 > 3. Te respondo con una propuesta concreta
 >
 > **Primera consulta: gratuita.** Sin compromiso.
+
+---
+*¿Prefieres escribir directo? Cuéntame qué proceso quieres automatizar → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
