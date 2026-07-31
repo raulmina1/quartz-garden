@@ -4,7 +4,7 @@ tags:
   - contact
   - mensaje
 publish: true
-description: "Mensaje enviado con éxito — Raul te responderá pronto."
+description: "Mensaje enviado con éxito — Raul recibió tu mensaje y te responderá en máximo 24 horas. Gracias por escribir al RA Blog."
 reading_time: "1 min"
 ---
 
