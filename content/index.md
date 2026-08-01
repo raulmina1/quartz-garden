@@ -5,6 +5,7 @@ tags:
   - digital-garden
 description: "Digital garden by Raul Mina — Process Engineer & AI Automation Specialist. Engineering guides, German resources, AI ecosystem, and opinion columns."
 reading_time: "1 min"
+publish: true
 ---
 
 Welcome to the **RA Blog** — a digital garden by Raul Mina. Process engineer in Berlin, building AI systems and learning German.
