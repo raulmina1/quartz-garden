@@ -113,7 +113,7 @@ flowchart TD
 |------|----------|-------------|
 | **Daily Note Processor** | Every evening | Reads the day's daily note, extracts completed tasks, moves them to the task archive, and appends unfinished tasks to tomorrow's note. |
 | **Weekly Vault Audit** | Every Monday | Scans the vault for orphan notes (no wikilinks pointing to them), suggests folders for unclassified notes, and reports vault health metrics. |
-| **Blog Sync** | Every 6 hours | Checks `02_RA BLOG/` for new publishable notes, runs Privacy Firewall, copies approved notes to Quartz `content/`, and runs `quartz sync`. |
+| **Blog Sync** | Every 6 hours | Checks the blog source folder for new publishable notes, runs Privacy Firewall, copies approved notes to Quartz `content/`, and runs `quartz sync`. |
 
 ### Flowchart: Vault Maintenance Pipeline
 
@@ -131,7 +131,7 @@ flowchart TD
     I --> K[Generate audit<br/>report note]
     J --> K
     
-    L["⏰ Every 6h<br/>Blog Sync"] --> M[Check 02_RA BLOG/<br/>for new notes]
+    L["⏰ Every 6h<br/>Blog Sync"] --> M[Check source<br/>folder for notes]
     M --> N{Run Privacy<br/>Firewall}
     N -->|Pass| O[Copy to content/]
     N -->|Fail| P[Report blocked<br/>note]
