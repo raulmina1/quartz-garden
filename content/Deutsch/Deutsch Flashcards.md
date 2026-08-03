@@ -16,7 +16,7 @@ publish: true
 
 # 🃏 Deutsch Flashcards
 
-*Drei Spiele — Vokabeln und Grammatik aus meinem VHS-Kurs B1.1/B1.2*
+_Drei Spiele — Vokabeln und Grammatik aus meinem VHS-Kurs B1.1/B1.2_
 
 ---
 
@@ -25,6 +25,7 @@ publish: true
 Finde die Paare: deutsches Wort ↔ englische Übersetzung. Trainiert Artikel, Plural und Kontext.
 
 > [!tip] So funktioniert's
+>
 > 1. **Deck wählen** — jedes Deck entspricht einer Unterrichtseinheit
 > 2. **Spielfeldgröße wählen** — 4×4 (8 Paare) oder 6×6 (18 Paare)
 > 3. **Karten umdrehen** — klicke auf zwei Karten. Gleiches Paar? Sie bleiben offen. Unterschiedlich? Sie drehen sich zurück.
@@ -41,6 +42,7 @@ Finde die Paare: deutsches Wort ↔ englische Übersetzung. Trainiert Artikel, P
 Lies die Frage, überlege die Antwort, decke auf und bewerte dich selbst. Perfekt für Grammatik-Regeln, Verben mit Präpositionen, Eselsbrücken und Phrasen.
 
 > [!tip] So funktioniert's
+>
 > 1. **Deck wählen** und auf **Start** klicken
 > 2. **Frage lesen** — überlege dir die Antwort
 > 3. **Karte antippen** — die Antwort erscheint
@@ -60,6 +62,7 @@ Lies die Frage, überlege die Antwort, decke auf und bewerte dich selbst. Perfek
 Lies das Wort, wähle die richtige Übersetzung aus vier Optionen. Sofortiges Feedback mit Beispielsatz — perfekt für schnelle Wiederholungsrunden.
 
 > [!tip] So funktioniert's
+>
 > 1. **Deck wählen** und Richtung wählen: Deutsch → Englisch oder Englisch → Deutsch
 > 2. **Frage lesen** — vier Antworten stehen zur Auswahl
 > 3. **Antwort wählen** — sofortiges Feedback: ✓ Richtig oder ✗ Falsch
@@ -94,4 +97,4 @@ Die Spiele werden als standalone HTML-Widgets in Quartz eingebettet (`<iframe>`)
 
 ---
 
-*Hast du ein Deck, das ich hinzufügen soll? Schick mir deine Vokabeln — ich baue ein Spiel daraus. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+_Hast du ein Deck, das ich hinzufügen soll? Schick mir deine Vokabeln — ich baue ein Spiel daraus. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)_
