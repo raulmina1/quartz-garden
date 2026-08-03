@@ -7,8 +7,8 @@ tags:
   - vhs
   - spiel
   - lernen
-description: "Zwei interaktive Lernspiele aus meinem VHS-Deutschkurs: Matching Pairs zum Vokabeln-Paare-Finden und Flash Cards zum Selbsttesten von Grammatik und Phrasen."
-reading_time: "1 min"
+description: "Drei interaktive Lernspiele aus meinem VHS-Deutschkurs: Matching Pairs, Flash Cards und Multiple Choice für Vokabeln, Grammatik und Phrasen."
+reading_time: "2 min"
 type: showcase
 lang: de
 publish: true
@@ -16,7 +16,7 @@ publish: true
 
 # 🃏 Deutsch Flashcards
 
-*Zwei Spiele — Vokabeln und Grammatik aus meinem VHS-Kurs B1.1/B1.2*
+*Drei Spiele — Vokabeln und Grammatik aus meinem VHS-Kurs B1.1/B1.2*
 
 ---
 
@@ -55,12 +55,28 @@ Lies die Frage, überlege die Antwort, decke auf und bewerte dich selbst. Perfek
 
 ---
 
+## 🎯 Multiple Choice — Wortschatz
+
+Lies das Wort, wähle die richtige Übersetzung aus vier Optionen. Sofortiges Feedback mit Beispielsatz — perfekt für schnelle Wiederholungsrunden.
+
+> [!tip] So funktioniert's
+> 1. **Deck wählen** und Richtung wählen: Deutsch → Englisch oder Englisch → Deutsch
+> 2. **Frage lesen** — vier Antworten stehen zur Auswahl
+> 3. **Antwort wählen** — sofortiges Feedback: ✓ Richtig oder ✗ Falsch
+> 4. **Am Ende:** dein Ergebnis in Prozent — wiederhole die Runde, bis du 100 % erreichst
+
+<iframe src="/static/flashcards/multiple-choice.html"
+  style="width:100%;height:680px;border:1px solid #e0e0d8;border-radius:12px;background:#0d0d0d;">
+</iframe>
+
+---
+
 ## Technische Umsetzung
 
 Die Spiele werden als standalone HTML-Widgets in Quartz eingebettet (`<iframe>`). Die Vokabeldaten werden automatisch aus meinen Anki-Notizen im YellowVault extrahiert:
 
 ```
-01_DATABASE/*.md  →  extract_flashcards.py  →  vhs-decks.json  →  matching-pairs.html / flash-cards.html
+01_DATABASE/*.md  →  extract_flashcards.py  →  vhs-decks.json  →  matching-pairs.html / flash-cards.html / multiple-choice.html
 ```
 
 - **Extraction:** Python-Script parst `:::` (Vokabeln) und `::` (Grammatik) aus den Markdown-Notizen
