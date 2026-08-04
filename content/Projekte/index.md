@@ -24,6 +24,7 @@ publish: true
 | [[Projekte/Agent Shop|Agent Shop]] | Autonomous agents — vocabulary, task decomposition, annotation. |
 | [[Projekte/Cron Shop|Cron Shop]] | Scheduled automations — daily reviews, blog sync, vault maintenance. |
 | [[Projekte/Hook Shop|Hook Shop]] | File watchers and event triggers for your vault. |
+| [[Projekte/Strava - Resumen Estadístico|Strava Stats]] | Running, weight training & cycling — 8 activities, 21.6 km. |
 
 ## Contact
 
