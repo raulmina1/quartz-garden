@@ -102,3 +102,5 @@ Publish an Obsidian vault as linked data — assign IRIs to notes, use FOAF for 
 
 ---
 *The semantic web stack is deep but coherent. Pick one layer and master it — the rest will connect naturally.*
+
+*Which layer of the stack are you starting with? I began with RDF — where would you begin?*

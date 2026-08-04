@@ -100,3 +100,5 @@ SELECT ?job ?skill WHERE {
 
 ---
 *Linked data is the bridge between isolated datasets and a global graph. See how everything connects in the Semantic Web Standards overview.*
+
+*What dataset would you link first if you could? I'd start with my own vault — every note becomes a node.*

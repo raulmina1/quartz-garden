@@ -86,3 +86,5 @@ Convert an Obsidian vault to RDF — each note gets an IRI, each `[[wikilink]]` 
 
 ---
 *RDF is the foundation. Once you grasp triples, try querying them with SPARQL — that's where the real power shows up.*
+
+*Have you modeled your own notes as triples yet? Try it on one small domain — the graph mindset clicks fast.*

@@ -107,3 +107,5 @@ If your ontology can't answer your competency questions, it's not complete.
 
 ---
 *Ontology engineering is where theory meets practice. Start with a small domain and build your first competency questions — you'll learn more in one hour than in ten tutorials.*
+
+*What domain would you model first? Pick something small — the first competency question is the hardest part.*

@@ -51,7 +51,7 @@ This is not a portfolio. This is the actual system I use every day: a structured
 
 ## 1. Prompts (`01_PROMPTS`)
 
-44 structured AI prompts organized by domain. Each one follows the RA framework: INTENT, CONTEXT, CONSTRAINTS, OUTPUT, PREFERENCES. Most are available in the [Prompt Shop](/Prompt-Shop).
+44 structured AI prompts organized by domain. Each one follows the RA framework: INTENT, CONTEXT, CONSTRAINTS, OUTPUT, PREFERENCES. Most are available in the [Prompt Shop](/Projekte/Prompt-Shop).
 
 ### 🇩🇪 German Learning (12)
 

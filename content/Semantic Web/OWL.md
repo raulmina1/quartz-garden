@@ -99,3 +99,5 @@ yv:SemanticDataArchitect yv:requiresSkill yv:RDF ,
 
 ---
 *OWL adds the reasoning layer. Pair it with Ontology Engineering to build models that machines can actually infer from.*
+
+*Ever hit the limits of a flat taxonomy? That's exactly when OWL's reasoning layer starts paying off.*

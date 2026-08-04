@@ -105,3 +105,5 @@ This returns RDF, SPARQL, OWL, Knowledge Graphs, Ontology Engineering — the ex
 
 ---
 *SPARQL turns RDF from a storage format into a queryable graph. Next up: formalizing your knowledge model with OWL.*
+
+*What's the first question you'd ask your data? If you can phrase it, SPARQL can answer it.*
