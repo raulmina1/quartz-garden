@@ -30,6 +30,7 @@ date: 2026-07-09
 | [Ontology Engineering](/Semantic-Web/Ontology-Engineering) | 8-step methodology, competency questions |
 | [Linked Data Principles](/Semantic-Web/Linked-Data) | 4 rules, 5-star deployment, LOD cloud |
 | [Semantic Web Standards](/Semantic-Web/Semantic-Web-Standards) | Full W3C stack overview |
+| [GraphDB](/Semantic-Web/GraphDB) | Enterprise RDF triplestore — setup, SPARQL, OWL reasoning, vs Neo4j |
 
 ---
 
