@@ -27,6 +27,11 @@ publish: true
 | [[Deutsch/Grammatik/Modalverben|⚡ Modalverben und unregelmäßige Verben]] | Konjugation, Bedeutung, Satzstellung — mit Übungen |
 | [[Deutsch/Grammatik/Vorgangspassiv|🔁 Vorgangspassiv]] | werden-Passiv — Bildung, Tempora, Aktiv↔Passiv Umwandlung |
 | [[Deutsch/Grammatik/Nebensätze|📎 Nebensätze]] | weil, dass, wenn, obwohl — Verb am Ende, Konnektoren, Stellung |
+| [[Deutsch/Grammatik/Desto-vs-Umso|⚖️ Desto vs Umso]] | Vergleichspartikeln — je...desto/umso, Unterschiede und Verwendung allein |
+| [[Deutsch/Grammatik/Dativ-Praepositionen|📌 Dativ Präpositionen]] | Alle 10 Dativ-Präpositionen — Flowchart, Tabellen und Beispiele |
+| [[Deutsch/Grammatik/Genitiv|📖 Genitiv]] | Besitz und Zugehörigkeit — Artikel, Präpositionen (wegen, trotz, während, statt) |
+| [[Deutsch/Grammatik/N-Deklination|📝 N-Deklination]] | Maskuline Nomen mit -n/-en — Deklinationstabellen und Kategorien |
+| [[Deutsch/Grammatik/Passiv-mit-Modalverben|🔐 Passiv mit Modalverben]] | Modalverb + Partizip II + werden — Präsens und Präteritum |
 
 ---
 

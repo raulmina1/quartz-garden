@@ -28,13 +28,18 @@ publish: true
 | [[Engineering/SMR|🏭 Steam Methane Reforming (SMR)]] | How grey hydrogen is made — chemistry, process, emissions, integration with CCS. |
 | [[Engineering/PSA|💨 Pressure Swing Adsorption (PSA)]] | Cyclic gas separation — the workhorse of hydrogen purification and CO₂ capture. |
 | [[Engineering/Direct-Air-Capture|🌿 Direct Air Capture (DAC)]] | Capturing CO₂ from ambient air — PVSA, Skarstrom cycle, adsorbent materials. |
+| [[Engineering/SCADA and PLC in Manufacturing|🏭 SCADA & PLC in Manufacturing]] | PLC and SCADA fundamentals — the automation pyramid, key differences, and F-35 work cell applications. |
+| [[Engineering/ITAR and EAR|🔒 ITAR & EAR Export Controls]] | How US export controls (ITAR/EAR) impact F-35 component production, data access, and compliance. |
+| [[Engineering/AS9100|📋 AS9100 Aerospace Quality]] | AS9100 quality standard — traceability, risk management, and configuration control for aerospace. |
+| [[Engineering/FAIR (First Article Inspection)|✅ FAIR — First Article Inspection]] | AS9102 First Article Inspection — process flow, dimensional reports, and serial production gating. |
+| [[Engineering/Root Cause Analysis and 8D|🔍 Root Cause Analysis & 8D]] | 8D problem-solving and RCA tools (5 Whys, Fishbone, FMEA) for aerospace non-conformances. |
+| [[Engineering/ERP and MES Integration|🔄 ERP & MES Integration]] | How ERP (SAP) integrates with MES for smart factory production from orders to execution. |
+| [[Engineering/Joint Strike Fighter|✈️ F-35 Joint Strike Fighter]] | The F-35 JSF program — Lockheed Martin's supply chain and NAXCON's Tier-2/3 role. |
+| [[Engineering/MES (Manufacturing Execution Systems)|📊 MES — Manufacturing Execution]] | MES fundamentals — work orders, traceability, OEE data, and ERP integration. |
+| [[Engineering/Automation Commissioning|⚙️ Automation Commissioning]] | Commissioning lifecycle — FAT, SAT, I/O checks, PPAP, and Run-at-Rate for automated work cells. |
+| [[Engineering/KPI and OEE|📈 KPI & OEE Performance Metrics]] | OEE formula (A×P×Q), world-class benchmarks, and KPI-driven continuous improvement. |
+| [[Engineering/Discrete Manufacturing|🏗️ Discrete vs Process Manufacturing]] | Discrete manufacturing — serialized units, BOMs, routing, and work orders vs process flow. |
 
 ---
 
-> Coming next
-> - CO₂ Transport and Storage Infrastructure
-> - Refinery Processes: Hydrocracking, Desulfurization
-> - Energy Management Systems and Redispatch 2.0
-
----
-*Know a process I should cover? Open an issue on GitHub or send a message.*
+*Manufacturing concepts and engineering guides — always learning. Open an issue on GitHub or send a message.*
