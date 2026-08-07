@@ -25,6 +25,7 @@ publish: true
 |-------|-------------|
 | [[Wirtschaft/Merit-Order-System|⚡ How Germany's Electricity Market Sets Prices]] | The merit order system, marginal cost pricing, and why natural gas determines your electricity bill. |
 | [[Wirtschaft/CO2-Kosten|🌍 CO₂ Costs and Their Impact on German Electricity Prices]] | How carbon pricing flows through the electricity market and affects consumers. |
+| [[Wirtschaft/Carbon-Pricing-Germany|💶 Germany's Carbon Pricing Mechanisms]] | EU ETS cap-and-trade, the national carbon tax, and how they set the cost of every tonne of CO₂. |
 
 ---
 

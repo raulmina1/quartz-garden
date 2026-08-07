@@ -25,7 +25,10 @@ publish: true
 | Guide | Description |
 |-------|-------------|
 | [[Engineering/Hydrogen-Pathways|🧪 Hydrogen Production Pathways]] | Grey, blue, and green hydrogen — technologies, costs, and infrastructure. |
+| [[Engineering/Hydrogen-Demand-Germany|📈 Hydrogen Demand in Germany]] | The market behind the hype — 100 Mt global, 55→130 TWh German demand, refineries and industry. |
 | [[Engineering/Stakeholder-Analysis-Hydrogen|🤝 Stakeholder Analysis in Hydrogen Projects]] | Power–Legitimacy–Urgency mapping of grey, blue, and green hydrogen alternatives in Germany. |
+| [[Engineering/CO2-Value-Chain|🗺️ The CO₂ Value Chain]] | Transport, storage, and the CCS bottleneck — Germany's offshore pivot and North Sea corridors. |
+| [[Engineering/Do-Nothing-Alternative|⚖️ The Do-Nothing Alternative]] | Why inaction is always an option — the DN baseline of engineering economy. |
 | [[Engineering/SMR|🏭 Steam Methane Reforming (SMR)]] | How grey hydrogen is made — chemistry, process, emissions, integration with CCS. |
 | [[Engineering/PSA|💨 Pressure Swing Adsorption (PSA)]] | Cyclic gas separation — the workhorse of hydrogen purification and CO₂ capture. |
 | [[Engineering/Direct-Air-Capture|🌿 Direct Air Capture (DAC)]] | Capturing CO₂ from ambient air — PVSA, Skarstrom cycle, adsorbent materials. |
