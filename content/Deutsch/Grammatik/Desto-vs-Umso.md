@@ -7,7 +7,7 @@ tags:
   - komparativ
   - satzbau
   - b1
-description: "Desto und umso im Vergleich: Wann benutzt man welche Partikel? Lerne den Unterschied zwischen je...desto und je...umso — mit Tabellen, Beispielen und Merksätzen für B1."
+description: "Desto und umso im Vergleich: Wann benutzt man welche Partikel? Lerne den Unterschied zwischen je...desto und je...umso — mit Tabellen und Beispielen."
 reading_time: "1 min"
 lang: de
 publish: true
@@ -68,3 +68,5 @@ Der Unterschied: **desto** wird AUSSCHLIEẞLICH mit *je* verwendet, während **
 
 > [!tip] Merke
 > **desto** siempre necesita a su compañero *je* — son un dúo inseparable. **umso** es más independiente: puede ir con *je* o salir solo cuando quieres decir „aún más" o „con más razón". En el día a día con *je*, usa el que te salga natural — los alemanes los intercambian sin pensar.
+
+*Hast du Fragen zu desto/umso? Schreib mir → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

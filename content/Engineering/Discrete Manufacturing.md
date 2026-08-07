@@ -2,7 +2,7 @@
 title: "Discrete vs Process Manufacturing"
 date: 2026-08-05
 publish: true
-description: "Discrete manufacturing fundamentals — serialized units, BOMs, routing, and work orders vs continuous process manufacturing. How F-35 aerospace parts flow through NAXCON's production line."
+description: "Discrete manufacturing fundamentals — serialized units, BOMs, routing, and work orders vs continuous process manufacturing, with real aerospace examples."
 tags:
   - discrete-manufacturing
   - manufacturing
@@ -81,5 +81,7 @@ When you hear "work order for 50 bracket assemblies":
 | Using process-manufacturing vocabulary (flow, rate, throughput) without understanding discrete meaning | Learn the language: cycle time, takt time, changeover, WIP, routing, BOM |
 | Not checking work order status per station | In MES, check how many parts are at each station vs. time schedule |
 | Underestimating changeover time | A new part type costs setup time — plan changeovers as part of the schedule |
+
+¿Trabajas en manufacturing y quieres comparar tu experiencia con la industria aeroespacial? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
 
 

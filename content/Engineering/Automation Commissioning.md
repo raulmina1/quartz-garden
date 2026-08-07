@@ -2,7 +2,7 @@
 title: "Automation Commissioning in Aerospace"
 date: 2026-08-05
 publish: true
-description: "Step-by-step automation commissioning lifecycle — FAT, SAT, I/O checks, dry/wet runs, PPAP, and Run-at-Rate validation for CNC work cells in AS9100 aerospace manufacturing."
+description: "Step-by-step automation commissioning lifecycle — FAT, SAT, I/O checks, dry/wet runs, PPAP, and Run-at-Rate validation for CNC work cells."
 tags:
   - commissioning
   - automation
@@ -94,5 +94,7 @@ The critical difference from your past experience:
 | Skipping operator training before handover | Train operators *during* commissioning (they spot usability issues engineers miss) |
 | Not documenting deviations | Every deviation (tight tolerance, unexpected cycle time) goes into commission report — it's evidence for the customer |
 | Assuming FAT = SAT | Site conditions (power stability, temperature, network latency) can differ; SAT is a separate test |
+
+¿Preguntas sobre commissioning o automatización industrial? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
 
 

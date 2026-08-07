@@ -2,7 +2,7 @@
 title: "ERP & MES Integration in Manufacturing"
 date: 2026-08-05
 publish: true
-description: "How ERP and MES systems integrate in smart factories — from SAP production orders to real-time shop-floor execution with MES for F-35 component manufacturing at NAXCON."
+description: "How ERP and MES systems integrate in smart factories — from SAP production orders to real-time shop-floor execution with MES for component manufacturing."
 tags:
   - ERP
   - MES
@@ -99,5 +99,7 @@ Common issues:
 | Ignoring ERP (focusing only on MES shop floor data) | Production order delays often originate in ERP (material release, planning) |
 | Manually fixing MES data without updating ERP | A fix in MES that doesn't sync to ERP creates inventory/reporting discrepancies |
 | Expecting real-time data from ERP | ERP is usually batch-updated (hourly/daily); MES is real-time |
+
+¿Te interesa la integración ERP/MES en tu planta? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
 
 

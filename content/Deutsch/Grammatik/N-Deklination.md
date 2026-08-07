@@ -7,7 +7,7 @@ tags:
   - deklination
   - nomen
   - b1
-description: "Die N-Deklination erklärt: Welche maskulinen Nomen bekommen -n oder -en? Mit Deklinationstabellen, Kategorien (Personen, Nationalitäten, Berufe, Tiere) und häufigen Nomen für B1."
+description: "Die N-Deklination erklärt: Welche maskulinen Nomen bekommen -n oder -en? Mit Deklinationstabellen, Kategorien und häufigen Nomen für B1."
 reading_time: "2 min"
 lang: de
 publish: true
@@ -104,3 +104,5 @@ Diese Nomen bezeichnen meist **Personen, Tiere oder Nationalitäten**:
 | der Mensch | der Mensch | den Mensch**en** | dem Mensch**en** | des Mensch**en** |
 | der Herr | der Herr | den Herr**n** | dem Herr**n** | des Herr**n** |
 | der Löwe | der Löwe | den Löwe**n** | dem Löwe**n** | des Löwe**n** |
+
+*Hast du Fragen zur N-Deklination? Schreib mir → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

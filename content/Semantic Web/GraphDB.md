@@ -1,4 +1,5 @@
 ---
+title: "GraphDB — RDF Triplestore"
 semantic_class: Concept
 tags:
   - graph-database
@@ -13,7 +14,7 @@ Topics:
   - Semantic Web
   - RDF Stores
 publish: true
-description: "GraphDB by Ontotext is a semantic RDF triplestore with SPARQL, OWL reasoning, and enterprise knowledge graph capabilities. Compare it with Neo4j and learn how to apply it."
+description: "GraphDB by Ontotext is a semantic RDF triplestore with SPARQL, OWL reasoning, and enterprise knowledge graph capabilities. Compare it with Neo4j and apply it."
 reading_time: 2
 type: tool-guide
 lang: en

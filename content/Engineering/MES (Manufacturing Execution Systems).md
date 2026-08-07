@@ -2,7 +2,7 @@
 title: "MES — Manufacturing Execution Systems"
 date: 2026-08-05
 publish: true
-description: "Manufacturing Execution Systems (MES) explained — work order management, traceability, OEE data collection, and the MES-to-ERP integration layer in aerospace discrete manufacturing."
+description: "Manufacturing Execution Systems (MES) explained — work order management, traceability, OEE data collection, and the MES-to-ERP integration layer."
 tags:
   - MES
   - manufacturing
@@ -86,5 +86,7 @@ Your daily work as Junior Process Engineer:
 | Ignoring MES data (sticking to manual logs) | Pull OEE daily — data reveals patterns your eyes miss |
 | Assuming MES replaces ERP | MES complements ERP: ERP = what to make; MES = how to make it |
 | Over-reliance on MES reports without ground-truth walking | Validate MES data with actual shop floor observation (Gemba walk) |
+
+¿Quieres entender cómo MES transforma la producción? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
 
 

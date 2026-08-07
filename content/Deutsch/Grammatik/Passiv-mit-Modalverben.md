@@ -7,7 +7,7 @@ tags:
   - passiv
   - modalverben
   - b1
-description: "Das Passiv mit Modalverben: Modalverb + Partizip II + werden. Lerne Präsens und Präteritum mit Tabellen, Satzbau und Beispielen (kann gemacht werden, muss erledigt werden) für B1."
+description: "Das Passiv mit Modalverben: Modalverb + Partizip II + werden. Lerne Präsens und Präteritum mit Tabellen, Satzbau und Beispielen für B1."
 reading_time: "2 min"
 lang: de
 publish: true
@@ -75,3 +75,5 @@ Wenn die Handlung von einer Person ausgeführt wird, kommt die **von + Person** 
 
 > [!tip] Merke
 > **Passiv + Modalverb** = Modalverb (kann/muss/soll/darf) + **was passiert mit dem Subjekt** (Partizip II) + **werden**. Zwei Verben am Satzende — das Modalverb zuerst, **werden** als letztes. Wie ein Sandwich: **Modalverb** am Anfang, **werden** am Ende, das **Partizip** in der Mitte.
+
+*Hast du Fragen zum Passiv mit Modalverben? Schreib mir → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

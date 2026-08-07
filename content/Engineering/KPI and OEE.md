@@ -2,7 +2,7 @@
 title: "KPI & OEE — Manufacturing Performance Metrics"
 date: 2026-08-05
 publish: true
-description: "Overall Equipment Effectiveness (OEE) and KPIs for discrete manufacturing — Availability × Performance × Quality formula, world-class benchmarks, and OEE-driven process improvement at NAXCON."
+description: "Overall Equipment Effectiveness (OEE) and KPIs for discrete manufacturing — the Availability × Performance × Quality formula, benchmarks, and improvement."
 tags:
   - OEE
   - KPI
@@ -89,5 +89,7 @@ When a station has low OEE:
 | Ignoring small stops (under 2 min) | Micro-stops often add 5-10% performance loss — track with MES |
 | OEE as a blame tool | OEE is a *process* metric, not a *person* metric; share with operators, not against them |
 | Only reporting good numbers | Escalate bad OEE early — the bottleneck is the most important station |
+
+¿Quieres mejorar el OEE de tu línea? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
 
 

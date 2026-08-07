@@ -2,7 +2,7 @@
 title: "SCADA & PLC in Aerospace Manufacturing"
 date: 2026-08-05
 publish: true
-description: "SCADA and PLC fundamentals for aerospace manufacturing — the automation pyramid, PLC vs SCADA differences, and real-world F-35 work cell applications at NAXCON."
+description: "SCADA and PLC fundamentals for aerospace manufacturing — the automation pyramid, PLC vs SCADA differences, and real-world work cell applications."
 tags:
   - SCADA
   - PLC
@@ -100,5 +100,7 @@ This is the critical interface for your role:
 | Ignoring the PLC-MES link during commissioning | If PLC data doesn't reach MES correctly, OEE tracking is broken from day 1 |
 | Assuming all PLCs speak the same protocol | Siemens, Rockwell, Beckhoff use different protocols — verify MES compatibility |
 | Over-relying on SCADA trends without shop-floor validation | A sensor can drift; validate with manual measurement periodically |
+
+¿Preguntas sobre SCADA, PLC o automatización? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
 
 

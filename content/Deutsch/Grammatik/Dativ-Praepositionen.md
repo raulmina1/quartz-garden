@@ -7,7 +7,7 @@ tags:
   - dativ
   - präpositionen
   - b1
-description: "Alle Dativ-Präpositionen auf einen Blick: aus, bei, mit, nach, seit, von, zu, gegenüber, außer, ab. Mit interaktivem Flowchart, Tabellen und Beispielen für B1-Niveau."
+description: "Alle Dativ-Präpositionen auf einen Blick: aus, bei, mit, nach, seit, von, zu, gegenüber, außer, ab. Mit Flowchart, Tabellen und Beispielen für B1."
 reading_time: "3 min"
 lang: de
 publish: true
@@ -177,3 +177,5 @@ flowchart TD
 | *Ich gehe zu meiner Oma.* | I go to my grandma's. |
 | *Wir fahren zu einer Hochzeit.* | We're going to a wedding. |
 | *Zum Glück hat es nicht geregnet!* | Luckily it didn't rain! |
+
+*Hast du Fragen zu den Dativ-Präpositionen? Schreib mir → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*

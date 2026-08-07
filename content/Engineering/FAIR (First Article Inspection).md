@@ -2,7 +2,7 @@
 title: "FAIR — First Article Inspection (AS9102)"
 date: 2026-08-05
 publish: true
-description: "First Article Inspection (FAIR) per AS9102 — process flow, dimensional reports, material certification, and how FAIR gates serial production for F-35 components at NAXCON."
+description: "First Article Inspection (FAIR) per AS9102 — process flow, dimensional reports, material certification, and how FAIR gates serial production in aerospace."
 tags:
   - FAIR
   - AS9102
@@ -106,5 +106,7 @@ Your role:
 | Not involving inspection team early | FAIR planning should include metrology (how to measure each feature) |
 | Assuming FAIR passes automatically | 30-40% of first articles fail initially — plan for re-inspection |
 | FAIR only for new parts | FAIR also required for: tooling transfer, supplier change, process change |
+
+¿Preguntas sobre First Article Inspection o control de calidad? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
 
 

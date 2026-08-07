@@ -25,6 +25,7 @@ publish: true
 | Guide | Description |
 |-------|-------------|
 | [[Engineering/Hydrogen-Pathways|🧪 Hydrogen Production Pathways]] | Grey, blue, and green hydrogen — technologies, costs, and infrastructure. |
+| [[Engineering/Stakeholder-Analysis-Hydrogen|🤝 Stakeholder Analysis in Hydrogen Projects]] | Power–Legitimacy–Urgency mapping of grey, blue, and green hydrogen alternatives in Germany. |
 | [[Engineering/SMR|🏭 Steam Methane Reforming (SMR)]] | How grey hydrogen is made — chemistry, process, emissions, integration with CCS. |
 | [[Engineering/PSA|💨 Pressure Swing Adsorption (PSA)]] | Cyclic gas separation — the workhorse of hydrogen purification and CO₂ capture. |
 | [[Engineering/Direct-Air-Capture|🌿 Direct Air Capture (DAC)]] | Capturing CO₂ from ambient air — PVSA, Skarstrom cycle, adsorbent materials. |
