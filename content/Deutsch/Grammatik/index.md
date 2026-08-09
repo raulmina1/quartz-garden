@@ -32,6 +32,8 @@ publish: true
 | [[Deutsch/Grammatik/Genitiv|📖 Genitiv]] | Besitz und Zugehörigkeit — Artikel, Präpositionen (wegen, trotz, während, statt) |
 | [[Deutsch/Grammatik/N-Deklination|📝 N-Deklination]] | Maskuline Nomen mit -n/-en — Deklinationstabellen und Kategorien |
 | [[Deutsch/Grammatik/Passiv-mit-Modalverben|🔐 Passiv mit Modalverben]] | Modalverb + Partizip II + werden — Präsens und Präteritum |
+| [[Deutsch/Grammatik/Lokale-Praepositionen|📌 Lokale Präpositionen]] | Wo? → Dativ, Wohin? → Akkusativ — die komplette Wechselpräpositionen-Tabelle |
+| [[Deutsch/Grammatik/Vorsatz|🗓️ Wort der Woche — der Vorsatz]] | Deklination, Kollokationen und Beispiele — ein maskulines Nomen für Absicht und Plan |
 
 ---
 

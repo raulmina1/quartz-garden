@@ -7,7 +7,7 @@ tags:
   - decision-making
   - project-management
   - investment
-description: "Engineering economy's most overlooked alternative: the do-nothing (DN) option. How status quo analysis keeps project decisions honest and prevents value-destroying investments."
+description: "Engineering economy's most overlooked option: the do-nothing (DN) alternative. How status quo analysis keeps project decisions honest and prevents waste."
 reading_time: "3 min"
 lang: en
 publish: true

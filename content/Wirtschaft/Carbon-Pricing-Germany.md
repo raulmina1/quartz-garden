@@ -1,5 +1,5 @@
 ---
-title: "💶 Germany's Carbon Pricing Mechanisms — ETS, Tax, and Cap-and-Trade"
+title: "💶 Germany's Carbon Pricing — ETS, Tax, Cap-and-Trade"
 date: 2026-08-07
 tags:
   - economics
@@ -7,7 +7,7 @@ tags:
   - eu-ets
   - germany
   - climate-policy
-description: "How Germany prices carbon — the EU ETS cap-and-trade market, the national carbon tax, and how these mechanisms set the cost of emitting CO₂ for industry and power."
+description: "How Germany prices carbon — the EU ETS cap-and-trade market, the national carbon tax, and the real cost of emitting CO₂ for industry and power."
 reading_time: "4 min"
 lang: en
 publish: true

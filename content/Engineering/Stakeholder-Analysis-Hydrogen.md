@@ -7,7 +7,7 @@ tags:
   - stakeholder-management
   - project-management
   - energy
-description: "How stakeholder theory maps power, legitimacy, and urgency in hydrogen projects — a full Power/Legitimacy/Urgency analysis of grey, blue, and green hydrogen alternatives in Germany."
+description: "How stakeholder theory maps Power/Legitimacy/Urgency in hydrogen projects — full analysis of grey, blue, and green hydrogen alternatives in Germany."
 reading_time: "5 min"
 lang: en
 publish: true

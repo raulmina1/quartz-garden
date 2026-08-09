@@ -27,6 +27,7 @@ Welcome to the **RA Blog** — a digital garden by Raul Mina. Process engineer i
 | [[Engineering]] | Hydrogen, carbon capture, PSA, SMR — chemical engineering. |
 | [[Wirtschaft|Wirtschaft und Energie]] | Energy economics, merit order, CO2 costs in Germany. |
 | [[Semantic Web]] | RDF, SPARQL, OWL, Knowledge Graphs. |
+| [[Leben in Deutschland|🇩🇪 Leben in Deutschland]] | Practical guides for living in Germany — health insurance extras and more. |
 | [[AI Ecosystem|AI Ecosystem]] | 130+ prompts, 18 agents, hook system, file watchers. |
 
 ## Shop

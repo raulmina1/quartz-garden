@@ -7,7 +7,7 @@ tags:
   - energy
   - germany
   - market-analysis
-description: "Global and German hydrogen demand — 100 Mt worldwide, 55 TWh in Germany today and up to 130 TWh by 2030. Refineries, ammonia, methanol, and DRI steel drive the market."
+description: "Global and German hydrogen demand — 100 Mt worldwide, 55→130 TWh in Germany by 2030. Refineries, ammonia, methanol, and DRI steel drive the market."
 reading_time: "4 min"
 lang: en
 publish: true

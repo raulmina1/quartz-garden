@@ -1,5 +1,5 @@
 ---
-title: "🗺️ The CO₂ Value Chain — Transport, Storage, and the CCS Bottleneck"
+title: "🗺️ The CO₂ Value Chain: Transport, Storage, CCS"
 date: 2026-08-07
 tags:
   - engineering
@@ -7,7 +7,7 @@ tags:
   - ccs
   - infrastructure
   - germany
-description: "The CO₂ value chain — capture, transport, and permanent storage. Germany's offshore storage pivot, North Sea pipeline corridors, and the real cost of CO₂ logistics for blue hydrogen."
+description: "The CO₂ value chain — capture, transport, permanent storage. Germany's offshore pivot, North Sea corridors, and CO₂ logistics for blue hydrogen."
 reading_time: "4 min"
 lang: en
 publish: true
