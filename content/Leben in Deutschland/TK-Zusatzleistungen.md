@@ -1,5 +1,5 @@
 ---
-title: "🇩🇪 TK Zusatzleistungen — Free Extras from Your German Health Insurance"
+title: "🇩🇪 TK Zusatzleistungen — Free Health Insurance Extras"
 date: 2026-08-09
 tags:
   - leben-in-deutschland
@@ -14,7 +14,7 @@ publish: true
 type: guide
 ---
 
-# 🇩🇪 TK Zusatzleistungen — Free Extras from Your German Health Insurance
+# 🇩🇪 TK Zusatzleistungen — Free Health Insurance Extras
 
 > German public health insurance covers the basics — but the **Zusatzleistungen** (extra benefits) are where TK quietly saves you real money: glasses, dental cleaning, health courses, osteopathy. Most internationals never claim them. Here's how.
 
@@ -67,6 +67,8 @@ TK offers these benefits if you're in the **TK-Gesundheitskonto** (optional tari
 
 > [!tip] Pro tip
 > The **TK-Gesundheitskonto** is usually more profitable if you use several services a year (glasses + dental + osteopathy). Switch tariffs directly in the app.
+
+**Check your TK app today** — open the Zusatzleistungen menu and see what you're already entitled to. Those glasses you've been postponing? They might be covered.
 
 ---
 

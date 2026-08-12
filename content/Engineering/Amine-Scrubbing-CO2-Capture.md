@@ -7,7 +7,7 @@ tags:
   - hydrogen
   - chemical-engineering
   - smr
-description: "Amine absorption (MEA) and regeneration — the workhorse of SMR+CCS blue hydrogen. Reboiler duties, thermal integration, and 50–80% capture without external utilities."
+description: "Amine absorption (MEA) and regeneration — the workhorse of SMR+CCS blue hydrogen. Reboiler duties and 50–80% CO₂ capture without external utilities."
 reading_time: "5 min"
 lang: en
 publish: true

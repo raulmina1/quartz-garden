@@ -77,6 +77,8 @@ It is the direct techno-economic link to amine scrubbing: the **3.2–4.2 GJ/tCO
 - Klemeš, J. J. et al. (2018). *Process Integration and Intensification*. De Gruyter.
 - Towler, G. & Sinnott, R. (2022). *Chemical Engineering Design* (7th ed.). Elsevier.
 
+**Try it on your own plant.** Take your biggest heat exchanger and run a quick pinch calculation — the minimum approach temperature might be hiding more savings than you think.
+
 ---
 
 > [!note] RA

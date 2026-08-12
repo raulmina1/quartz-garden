@@ -7,7 +7,7 @@ tags:
   - well-testing
   - process-engineering
   - showcase
-description: "A Python calculator for horizontal three-phase separator design — gas critical velocity (Souders-Brown), Stokes liquid–liquid separation, and retention times. Built for well-testing service."
+description: "A Python calculator for horizontal three-phase separator design — gas critical velocity, Stokes liquid–liquid separation, and retention times for well-testing."
 reading_time: "5 min"
 lang: en
 publish: true
@@ -77,6 +77,8 @@ This is the pattern behind any useful engineering tool: **take a standard you al
 - Two-phase vertical separators (different K, different geometry)
 - Scrubbers and knockout drums
 - Any equipment check that today lives in a spreadsheet
+
+**Try it on your next job.** Clone the script, enter your vessel dimensions, and compare the output against your last hand calculation — then tell me if the numbers match your field data.
 
 ---
 

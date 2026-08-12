@@ -91,6 +91,8 @@ The classic knock against TSA is energy: heating and cooling large beds costs mo
 
 Together they form the pressure–temperature pair of adsorption-based gas separation — and both are core tools in the [CO₂ value chain](/Engineering/CO2-Value-Chain).
 
+**Next process you design**, ask one question first: is this a pressure problem or a temperature problem? Your answer decides between PSA and TSA.
+
 ---
 
 > [!note] RA

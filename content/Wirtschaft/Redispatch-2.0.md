@@ -7,7 +7,7 @@ tags:
   - germany
   - grid
   - energiewende
-description: "Redispatch 2.0 explained — since October 2021 all generators ≥100 kW (including renewables, storage, CHP) participate in German grid bottleneck management under EnWG §§13a/14."
+description: "Redispatch 2.0 explained — since October 2021 all generators ≥100 kW (including renewables, storage, CHP) participate in German grid bottleneck management."
 reading_time: "4 min"
 lang: en
 publish: true
@@ -63,6 +63,8 @@ This ordering keeps costs down while maximizing the use of available capacity.
 ## Connection to the Electricity Market
 
 Redispatch is the physical reality behind the market design described in [Merit-Order-System](/Wirtschaft/Merit-Order-System): the market sets prices, but when the physics says "no," redispatch reconciles the two. It's a core reason why German electricity prices include grid-cost components beyond the pure energy price.
+
+**Look at your next electricity bill** — the grid-cost line is redispatch at work. Want to understand German energy prices? Start there.
 
 ---
 

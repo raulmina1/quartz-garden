@@ -5,7 +5,6 @@ tags:
   - deutsch
   - grammatik
   - praepositionen
-  - b1
   - dativ
   - akkusativ
 description: "Lokale Präpositionen (Wechselpräpositionen) — die komplette Tabelle mit Dativ und Akkusativ, Regeln und Beispielen. Wo? → Dativ, Wohin? → Akkusativ."
