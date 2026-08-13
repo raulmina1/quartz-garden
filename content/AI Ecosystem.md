@@ -45,6 +45,7 @@ This is not a portfolio. This is the actual system I use every day: a structured
 | [9. Troubleshooting](#9-troubleshooting-06_troubleshooting) | 6 | Bug reports and resolution logs |
 | [10. Reference](#10-reference-05_information) | 9 | Architecture notes and comparisons |
 | [11. Sessions](#11-sessions-10_sessions) | 3 | Claude conversation archives |
+| [12. Model Pricing](#12-model-pricing--comparison-aug-2026) | 1 | LLM API pricing reference, updated monthly |
 | **Total** | **130+** | |
 
 ---
@@ -329,6 +330,73 @@ Custom-built utilities designed and documented in the vault.
 | 16.06.26 | June 16 | Claude session log |
 | 17.06.26 | June 17 | Claude session log |
 | 18.06.26 | June 18 | Claude session log |
+
+---
+
+## 12. Model Pricing & Comparison (Aug 2026)
+
+How I pick models: a budget-first pricing reference for LLM APIs, updated monthly. The rule of thumb — if a flash-tier model can do the job, never pay for a premium one.
+
+### Pricing essentials
+
+| Model | Input | Output | Ctx | Vision | Notes |
+|---|---|---|---|---|---|
+| **Qwen 3.7 Flash** | $0.03 | $0.13 | 1M | ✅ | Ultra-cheap, vision |
+| **DeepSeek V4 Flash 0731** | $0.09 | $0.18 | 1M | ❌ | Default for text agents |
+| **Gemini 2.5 Flash Lite** | $0.10 | $0.40 | 1M | ✅ | Reliable vision |
+| **GPT-5.6 Luna** | $0.10 | $0.60 | 1M | ✅ | Dropped 80%, competes on budget |
+| Mistral Small 3.2 | $0.08 | $0.20 | 256K | ✅ | Limited context |
+| **DeepSeek V4 Pro** | $0.435 | $0.87 | 1M | ❌ | Best mid-tier value |
+| DeepSeek R1 0528 | $0.50 | $2.15 | 164K | ❌ | Reasoning, expensive output |
+| **GPT-5.6 Terra** | $1.00 | $6.00 | 1M | ✅ | Mid-tier OpenAI |
+| Claude Sonnet 5 | $2.00 | $10.00 | 1M | ✅ | ⚠️ Intro price until Aug 31 |
+| **Claude Opus 5** | $5.00 | $25.00 | 1M | ✅ | New generation |
+| GPT-5.6 Sol | $5.00 | $30.00 | 1M | ✅ | Doubled in Aug |
+| Claude Fable 5 | $10.00 | $50.00 | 1M | ✅ | Extreme cases only |
+
+> ⚠️ **Sonnet 5 intro pricing ($2/$10) expires Aug 31.** After that it goes to regular (~$3/$15 — verify on OpenRouter). Re-evaluate anything depending on Sonnet 5 before Sep 1.
+
+### OpenRouter leaderboard (Aug 2026)
+
+| # | Model | Tokens |
+|---|---|---|
+| 🥇 | DeepSeek V4 Flash | 6.10T |
+| 🥈 | Owl Alpha | 3.92T |
+| 🥉 | Hy3 (Tencent) | 3.80T |
+| 4 | MiniMax M3 | 3.20T |
+| 5 | Step 3.7 Flash | 2.91T |
+| 6 | DeepSeek V4 Pro | 2.45T |
+| 7 | GLM 5.2 | 2.10T |
+| 8 | Qwen 3.7 Flash | 1.85T |
+| 9 | Nemotron 3 Ultra | 1.72T |
+| 10 | Claude Opus 5 | 0.92T |
+
+DeepSeek alone accounts for 8.55T tokens — more than triple any other single provider.
+
+### Cost optimization strategies
+
+1. **Cache hits** — DeepSeek cache hits cost **$0.003/1M tokens** (97% off list price). Repetitive agent prompts benefit massively.
+2. **Prompt caching setup** — identical system-prompt prefixes across calls; keep the same prefix per request; cache TTL ~5–10 min on DeepSeek.
+3. **Tier discipline** — flash for 80% of tasks, mid-tier only for multi-step reasoning, premium only for writing quality that visibly matters.
+4. **Never** use Sonnet/Opus for tasks a flash model can do. **Always** try V4 Pro before upgrading to Sonnet 5.
+
+### Quick reference card
+
+```
+╔══════════════════════════════════════════════╗
+║  USE THIS           FOR THIS                 ║
+╠══════════════════════════════════════════════╣
+║  V4 Flash 0731      80% of everything        ║
+║  V4 Pro             Multi-step reasoning     ║
+║  Gemini Flash Lite  Photos, OCR, Telegram    ║
+║  Qwen 3.7 Flash     Ultra-cheap vision       ║
+║  Sonnet 5           Letters, fine prose      ║
+║  R1 0528            Pure reasoning           ║
+║  GPT-5.6 Luna       Budget-alt vision        ║
+╚══════════════════════════════════════════════╝
+```
+
+> 💡 **Golden rule:** if V4 Flash can do it, don't use anything more expensive. Scale to V4 Pro only for multi-step reasoning. Scale to Sonnet 5 only when writing quality is critical.
 
 ---
 

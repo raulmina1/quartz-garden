@@ -44,6 +44,13 @@ publish: true
 | Ressource | Beschreibung |
 |-----------|-------------|
 | [[Deutsch/DTZ - B1 Prüfung|DTZ B1 Prüfung]] | Struktur, Teile, Dauer und Bestehensgrenzen der DTZ B1 Prüfung |
+| [[Deutsch/DTZ B1 - Missverständnisse und Prüfungsformate|DTZ B1 Missverständnisse]] | Die 14 häufigsten Mythen und die echten Prüfungsformate — Hören, Lesen, Schreiben, Sprechen |
+
+## Wortschatz
+
+| Ressource | Beschreibung |
+|-----------|-------------|
+| [[Deutsch/Wissenschaft - Bedeutung im deutschen Kontext|Wissenschaft]] | Wortbedeutung, Morphologie (-schaft), Wortfamilie und der Unterschied zu „science“ im Englischen |
 
 ---
 

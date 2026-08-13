@@ -47,6 +47,7 @@ publish: true
 | [[Engineering/Automation Commissioning|⚙️ Automation Commissioning]] | Commissioning lifecycle — FAT, SAT, I/O checks, PPAP, and Run-at-Rate for automated work cells. |
 | [[Engineering/KPI and OEE|📈 KPI & OEE Performance Metrics]] | OEE formula (A×P×Q), world-class benchmarks, and KPI-driven continuous improvement. |
 | [[Engineering/Discrete Manufacturing|🏗️ Discrete vs Process Manufacturing]] | Discrete manufacturing — serialized units, BOMs, routing, and work orders vs process flow. |
+| [[Engineering/HANNOVER-MESSE-2026|🏭 HANNOVER MESSE 2026]] | The world's leading industrial trade fair — dates, thematic hubs, hall map (Hydrogen Hall 11, Industrial AI Hall 27), networking formats. |
 
 ---
 
