@@ -25,6 +25,8 @@ publish: true
 | [[Projekte/Cron Shop|Cron Shop]] | Scheduled automations — daily reviews, blog sync, vault maintenance. |
 | [[Projekte/Hook Shop|Hook Shop]] | File watchers and event triggers for your vault. |
 | [[Projekte/Strava - Resumen Estadístico|Strava Stats]] | Running, weight training & cycling — 8 activities, 21.6 km. |
+| [[Projekte/AI Ecosystem One-Pager Autonomie|AI Ecosystem One-Pager (Autonomie)]] | Mein KI-Ökosystem auf einer Seite — ein System, das sich selbst überwacht. |
+| [[Projekte/AI Ecosystem One-Pager Innenansicht|AI Ecosystem One-Pager (Innenansicht)]] | Sechs Schichten, 16 Knoten — ein Blick ins Innere meines KI-Ökosystems. |
 
 ## Contact
 
