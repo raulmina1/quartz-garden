@@ -7,7 +7,7 @@ tags:
   - trade-fair
   - hydrogen
   - industrial-ai
-description: "HANNOVER MESSE 2026 guide — dates, 4,000+ exhibitors, thematic hubs (Automation, Energy, Research), hall map (Hydrogen Hall 11, Industrial AI Hall 27) and networking formats."
+description: "HANNOVER MESSE 2026 guide — dates, 4,000+ exhibitors, thematic hubs, hall map (Hydrogen Hall 11, Industrial AI) and networking formats."
 reading_time: "3 min"
 lang: en
 publish: true

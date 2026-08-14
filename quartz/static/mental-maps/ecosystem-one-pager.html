@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-Ökosystem — One-Pager (Mermaid-Diagramm)</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#000;display:flex;justify-content:center;padding:1rem;min-height:100vh}
+  .mermaid-container{width:100%;max-width:1200px}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true,theme:'dark',securityLevel:'loose',flowchart:{useMaxWidth:true,htmlLabels:true,curve:'basis'},themeVariables:{darkMode:true,background:'#000',primaryColor:'#1e1e1e',primaryTextColor:'#f5f5f5',primaryBorderColor:'#3a3a3a',lineColor:'#c8c8c8',secondaryColor:'#1e1e1e',tertiaryColor:'#1e1e1e'}})</script>
+</head>
+<body>
+<div class="mermaid-container"><pre class="mermaid">
+flowchart TB
+    subgraph L1["📁 Quelle — 4.063 Notizen"]
+        V["📝 Obsidian Markdown<br/>run_prompt: true aktiviert Pipeline"] --> WATCH["👀 Dualer Watchdog v5.2<br/>1s-Polling · gemeinsames Registry<br/>104+ Runs"]
+    end
+
+    subgraph L2["⚙️ Automatisierung — alle 30 Minuten"]
+        ORCH["vault_structure_sync.py<br/>NER → enrich → parse → KG → RAG"]
+        NER["ner_extract.py<br/>6.210 Mentions · 74 Entitäten"]
+        P["parse_vault_to_rdf.py<br/>inkrementell · 5 Uhr --replace"]
+        RAGIDX["vault_rag.py<br/>e5-small embeddings"]
+    end
+
+    subgraph L3["🗄️ Zwei parallele Gehirne"]
+        TTL[("yellowvault_export.ttl<br/>51.811 Triples")]
+        G[("GraphDB :7200<br/>4.063 Notizen · 226K 2-Hop")]
+        C[("ChromaDB<br/>14.180 Chunks · 5.810 Dateien")]
+    end
+
+    subgraph L4["🔌 Zugriff — Agenten → PR"]
+        AG["sparql_bridge · hybrid_context · qa_kg"]
+        PR["Prompt Runner v3.17<br/>kg_context / hybrid_context"]
+    end
+
+    subgraph L5["👁️ Visualisierung & Monitoring"]
+        VIZ["WebVOWL :3000 · Grafana :4000<br/>RA Log Viewer :8485"]
+    end
+
+    subgraph L6["🛡️ Betrieb"]
+        OPS["Backup So 4 Uhr · Health 35K<br/>Keep-alive 8–22 Uhr · Auto-Start 30–90s"]
+    end
+
+    V --> WATCH
+    WATCH -.->|dispatch| PR
+    V --> ORCH
+    ORCH --> NER
+    ORCH --> RAGIDX
+    NER --> P
+    P --> TTL
+    TTL --> G
+    RAGIDX -.-> C
+    G --> AG
+    C --> AG
+    AG --> PR
+    G --> VIZ
+    OPS -.-> G
+    style L1 fill:#141414,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style L2 fill:#181818,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style L3 fill:#1c1c1c,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style L4 fill:#202020,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style L5 fill:#242424,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style L6 fill:#282828,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style V fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style WATCH fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style ORCH fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style NER fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style P fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style RAGIDX fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style TTL fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style G fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style AG fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style PR fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style VIZ fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style OPS fill:#1a1a1a,stroke:#f0c040,color:#fff
+</pre></div>
+</body>
+</html>

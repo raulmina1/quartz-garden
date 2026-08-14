@@ -400,6 +400,28 @@ DeepSeek alone accounts for 8.55T tokens — more than triple any other single p
 
 ---
 
+## 13. Ecosystem One-Pager (Aug. 2026)
+
+> Das ganze Ökosystem in einer Ansicht: 4.063 Notizen → dualer Watchdog + 30-Minuten-Orchestrator → zwei parallele Gehirne (GraphDB 51.811 Triples + ChromaDB 14.180 Chunks) → drei Agenten → Prompt Runner → Visualisierung und Betrieb. 16 Knoten, ohne toten Raum, alles lokal oder Docker on-demand.
+
+<iframe src="/static/mental-maps/ecosystem-one-pager.html" style="width:100%;height:720px;border:1px solid #3a3a3a;border-radius:8px;background:#000" title="AI-Ökosystem One-Pager"></iframe>
+
+Die wichtigsten Zahlen hinter dem Diagramm:
+
+| Ebene | Komponenten | Live-Kennzahlen |
+|-------|-------------|-----------------|
+| 📁 Quelle | Obsidian-Vault, `run_prompt: true` | 4.063 Notizen |
+| ⚙️ Automatisierung | `vault_structure_sync.py` alle 30 Min., NER, RDF-Parse, Embeddings | 6.210 Mentions · 74 Entitäten |
+| 🗄️ Zwei Gehirne | GraphDB (Triples) + ChromaDB (Chunks) | 51.811 Triples · 14.180 Chunks · 5.810 Dateien |
+| 🔌 Zugriff | `sparql_bridge`, `hybrid_context`, `qa_kg` | Prompt Runner v3.17 |
+| 👁️ Visualisierung & Monitoring | WebVOWL · Grafana · RA Log Viewer | 5 SPARQL-Panels · 30s Refresh |
+| 🛡️ Betrieb | Backup · Health · Keep-alive · Auto-Start | Backup So 4 Uhr · 35K-Schwelle |
+
+> [!note] RA
+> Jedes System, das ich gebaut habe, ist ein Spiegel einer Lücke, die ich gefunden habe — nicht in den Tools, sondern darin, wie ich sie benutzt habe.
+
+---
+
 ### Other Folders
 
 | Folder | Content |
