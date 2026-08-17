@@ -1,0 +1,44 @@
+@use "../../styles/variables.scss" as *;
+
+// Smooth show/hide for the top bar elements
+.sidebar.left {
+  & > .page-title-wrapper,
+  & > .flex-component {
+    max-height: 200px;
+    opacity: 1;
+    visibility: visible;
+    transition:
+      max-height 0.3s ease,
+      opacity 0.3s ease,
+      visibility 0.3s ease,
+      margin 0.3s ease,
+      padding 0.3s ease;
+  }
+
+  @media all and ($mobile) {
+    transition: transform 0.3s ease;
+  }
+}
+
+html.topbar-hidden {
+  // Mobile: hide the whole sticky top bar (logo, search, buttons, hamburger)
+  @media all and ($mobile) {
+    .sidebar.left {
+      transform: translateY(-100%);
+    }
+  }
+
+  // Desktop/tablet: hide logo + search row, keep the Explorer visible
+  @media all and not ($mobile) {
+    .sidebar.left > .page-title-wrapper,
+    .sidebar.left > .flex-component {
+      max-height: 0;
+      margin: 0;
+      padding: 0;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      overflow: hidden;
+    }
+  }
+}
