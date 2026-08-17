@@ -168,8 +168,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
     .force("charge", forceManyBody().strength(-100 * repelForce))
     .force("center", forceCenter().strength(centerForce))
-    .force("link", forceLink(graphData.links).distance(linkDistance))
-    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
+    .force("link", forceLink(graphData.links).distance(linkDistance).iterations(2))
+    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(1))
+  // settle faster so the graph appears stable sooner
+  simulation.alphaDecay(0.06)
 
   const radius = (Math.min(width, height) / 2) * 0.8
   if (enableRadial) simulation.force("radial", forceRadial(radius).strength(0.2))
@@ -209,7 +211,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const numLinks = graphData.links.filter(
       (l) => l.source.id === d.id || l.target.id === d.id,
     ).length
-    return 2 + Math.sqrt(numLinks)
+    return 1.5 + Math.sqrt(numLinks) * 0.7
   }
 
   let hoveredNodeId: string | null = null
@@ -358,7 +360,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     autoDensity: true,
     backgroundAlpha: 0,
     preference: "webgpu",
-    resolution: window.devicePixelRatio,
+    resolution: Math.min(window.devicePixelRatio, 2),
     eventMode: "static",
   })
   graph.appendChild(app.canvas)
@@ -385,7 +387,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         fill: computedStyleMap["--dark"],
         fontFamily: computedStyleMap["--bodyFont"],
       },
-      resolution: window.devicePixelRatio * 4,
+      resolution: Math.min(window.devicePixelRatio, 2) * 2,
     })
     label.scale.set(1 / scale)
 
@@ -416,7 +418,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       })
 
     if (isTagNode) {
-      gfx.stroke({ width: 2, color: computedStyleMap["--tertiary"] })
+      gfx.stroke({ width: 1, color: computedStyleMap["--tertiary"] })
     }
 
     nodesContainer.addChild(gfx)
@@ -526,6 +528,11 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   let stopAnimation = false
   function animate(time: number) {
     if (stopAnimation) return
+    // skip the heavy per-frame work when the tab is hidden
+    if (document.hidden) {
+      requestAnimationFrame(animate)
+      return
+    }
     for (const n of nodeRenderData) {
       const { x, y } = n.simulationData
       if (!x || !y) continue
@@ -541,7 +548,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       l.gfx.moveTo(linkData.source.x! + width / 2, linkData.source.y! + height / 2)
       l.gfx
         .lineTo(linkData.target.x! + width / 2, linkData.target.y! + height / 2)
-        .stroke({ alpha: l.alpha, width: 1, color: l.color })
+        .stroke({ alpha: l.alpha, width: 0.7, color: l.color })
     }
 
     tweens.forEach((t) => t.update(time))
