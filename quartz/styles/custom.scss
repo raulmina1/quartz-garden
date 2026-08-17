@@ -164,37 +164,34 @@ pre {
   font-display: swap;
 }
 
-// Tables: Obsidian default theme style (clean, hover highlight, no heavy borders)
+// Tables: ultra-minimal Obsidian style (header underline only, no row borders)
 .table-container > table {
-  margin: 1rem 0;
+  margin: 1.25rem 0;
   padding: 0;
   border-collapse: collapse;
   width: 100%;
   font-size: 0.92em;
 
-  th {
+  th,
+  td {
+    border: none;
+    padding: 8px 12px;
     text-align: left;
-    padding: 6px 12px;
+  }
+
+  thead th {
     border-bottom: 2px solid var(--gray);
     font-weight: 600;
     letter-spacing: 0.02em;
   }
 
-  td {
-    padding: 6px 12px;
-    border-bottom: 1px solid var(--lightgray);
-  }
-
   tbody tr {
+    border-bottom: none;
     transition: background-color 0.15s ease;
 
     &:hover {
       background-color: rgba(128, 128, 128, 0.08);
       background-color: color-mix(in srgb, var(--lightgray) 45%, transparent);
-    }
-
-    &:last-child td {
-      border-bottom: none;
     }
   }
 }
@@ -204,8 +201,32 @@ article iframe[src*="mental-maps"] {
   border: none !important;
 }
 
-.graph-outer {
+.graph > .graph-outer {
   border: none;
+}
+
+// Scrollbar: thin and dark, no white bars
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--gray) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--tertiary);
 }
 
 // ── Minimalist 3D feel (2026-08-17) ──────────────────────────────────
