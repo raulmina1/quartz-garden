@@ -265,7 +265,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         alpha = l.active ? 1 : 0.15
       }
 
-      l.color = l.active ? computedStyleMap["--gray"] : computedStyleMap["--lightgray"]
+      l.color = l.active ? "#8a8a8a" : "#666"
       tweenGroup.add(new Tweened<LinkRenderData>(l).to({ alpha }, 200))
     }
 
@@ -444,7 +444,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const linkRenderDatum: LinkRenderData = {
       simulationData: l,
       gfx,
-      color: computedStyleMap["--lightgray"],
+      color: "#666",
       alpha: 0.6,
       active: false,
     }

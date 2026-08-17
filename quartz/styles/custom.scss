@@ -205,6 +205,21 @@ article iframe[src*="mental-maps"] {
   border: none;
 }
 
+// Highlight (==text==) and text selection: yellow block like the title gold,
+// square corners (no radius), a bit more transparent than the solid titles
+.text-highlight {
+  background-color: rgba(128, 117, 0, 0.28);
+  background-color: color-mix(in srgb, var(--secondary) 28%, transparent);
+  border-radius: 0;
+  padding: 0.08em 0.15em;
+}
+
+::selection {
+  background: rgba(128, 117, 0, 0.3);
+  background: color-mix(in srgb, var(--secondary) 30%, transparent);
+  color: var(--darkgray);
+}
+
 // Scrollbar: thin and dark, no white bars
 * {
   scrollbar-width: thin;
