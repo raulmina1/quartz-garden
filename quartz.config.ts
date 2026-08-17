@@ -18,11 +18,11 @@ const config: QuartzConfig = {
     ignorePatterns: ["private/**", "templates/**", ".obsidian/**"],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "googleFonts",
+      fontOrigin: "local",
       cdnCaching: true,
       typography: {
-        header: { name: "Outfit", weights: [300, 400, 500, 600, 700] },
-        body: { name: "Outfit", weights: [300, 400, 600], includeItalic: true },
+        header: { name: "MADE Tommy", weights: [300, 400, 500, 700] },
+        body: { name: "MADE Tommy", weights: [300, 400, 500, 700] },
         code: "JetBrains Mono",
       },
       colors: {
@@ -86,8 +86,9 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // CustomOgImages removed (2026-08-17): it fetches fonts from Google Fonts
+      // and fails with self-hosted fonts (MADE Tommy). Default static
+      // og-image.png is used for social previews instead. Also speeds up build.
     ],
   },
 }

@@ -6,11 +6,11 @@
 <title>Gegensätze & Redemittel — Mermaid Diagramm</title>
 <style>
   *{margin:0;padding:0;box-sizing:border-box}
-  body{background:#000;display:flex;justify-content:center;padding:0.25rem;min-height:0}
+  @font-face{font-family:"MADE Tommy";src:url("../fonts/MADE-Tommy-Regular.otf") format("opentype");font-weight:400;font-display:swap}@font-face{font-family:"MADE Tommy";src:url("../fonts/MADE-Tommy-Bold.otf") format("opentype");font-weight:700;font-display:swap}body{background:#000;font-family:"MADE Tommy",system-ui,sans-serif;display:flex;justify-content:center;padding:0.25rem;min-height:0}
   .mermaid-container{width:100%;max-width:1200px}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true,theme:'dark',securityLevel:'loose',flowchart:{useMaxWidth:true,htmlLabels:true,curve:'basis'},themeVariables:{darkMode:true,background:'#000',primaryColor:'#1e1e1e',primaryTextColor:'#ebebeb',primaryBorderColor:'#3a3a3a',lineColor:'#c8c8c8',secondaryColor:'#1e1e1e',tertiaryColor:'#1e1e1e'}})</script>
+<script>mermaid.initialize({startOnLoad:true,theme:'dark',securityLevel:'loose',flowchart:{useMaxWidth:true,htmlLabels:true,curve:'basis'},themeVariables:{darkMode:true,background:'#000',primaryColor:'#000',primaryTextColor:'#f5f5f5',primaryBorderColor:'#000',lineColor:'#a0a0a0',secondaryColor:'#000',tertiaryColor:'#000',clusterBkg:'#000',clusterBorder:'#000',fontFamily:'"MADE Tommy",system-ui,sans-serif'}})</script>
 </head>
 <body>
 <div class="mermaid-container"><pre class="mermaid">
@@ -150,7 +150,7 @@ flowchart LR
   function hint() {
     var d = document.createElement("div");
     d.textContent = "Ziehen zum Verschieben \u00b7 Mausrad zum Zoomen \u00b7 Doppelklick zum Zur\u00fccksetzen";
-    d.style.cssText = "position:fixed;right:8px;bottom:6px;font:11px/1.4 system-ui,sans-serif;color:rgba(255,255,255,.55);background:rgba(0,0,0,.35);padding:3px 8px;border-radius:4px;pointer-events:none;z-index:9";
+    d.style.cssText = "position:fixed;right:8px;bottom:6px;font:11px/1.4 "MADE Tommy",system-ui,sans-serif;color:rgba(255,255,255,.55);background:rgba(0,0,0,.35);padding:3px 8px;border-radius:4px;pointer-events:none;z-index:9";
     document.body.appendChild(d);
   }
   function clamp(v, lo, hi) { return v < lo ? lo : v > hi ? hi : v; }

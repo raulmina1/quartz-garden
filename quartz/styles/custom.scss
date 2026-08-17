@@ -113,18 +113,99 @@ pre {
   font-size: 1.1em;
 }
 
-// Table styling: match Obsidian's clean table look
-table {
+// ── MADE Tommy font (self-hosted, personal-use license) ─────────────────
+@font-face {
+  font-family: "MADE Tommy";
+  src: url("static/fonts/MADE-Tommy-Thin.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MADE Tommy";
+  src: url("static/fonts/MADE-Tommy-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MADE Tommy";
+  src: url("static/fonts/MADE-Tommy-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MADE Tommy";
+  src: url("static/fonts/MADE-Tommy-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MADE Tommy";
+  src: url("static/fonts/MADE-Tommy-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MADE Tommy";
+  src: url("static/fonts/MADE-Tommy-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MADE Tommy";
+  src: url("static/fonts/MADE-Tommy-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Tables: Obsidian default theme style (clean, hover highlight, no heavy borders)
+.table-container > table {
+  margin: 1rem 0;
+  padding: 0;
   border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92em;
 
   th {
+    text-align: left;
+    padding: 6px 12px;
+    border-bottom: 2px solid var(--gray);
     font-weight: 600;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
   }
 
-  td, th {
-    padding: 6px 14px;
+  td {
+    padding: 6px 12px;
+    border-bottom: 1px solid var(--lightgray);
   }
+
+  tbody tr {
+    transition: background-color 0.15s ease;
+
+    &:hover {
+      background-color: rgba(128, 128, 128, 0.08);
+      background-color: color-mix(in srgb, var(--lightgray) 45%, transparent);
+    }
+
+    &:last-child td {
+      border-bottom: none;
+    }
+  }
+}
+
+// All-black diagram area: no contour lines around the mental-map iframes or the graph panel
+article iframe[src*="mental-maps"] {
+  border: none !important;
+}
+
+.graph-outer {
+  border: none;
 }
 
 // ── Minimalist 3D feel (2026-08-17) ──────────────────────────────────
