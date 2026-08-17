@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-Ökosystem — Daten-Pipeline (Mermaid-Diagramm)</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#000;display:flex;justify-content:center;padding:1rem;min-height:100vh}
+  .mermaid-container{width:100%;max-width:1200px}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true,theme:'dark',securityLevel:'loose',flowchart:{useMaxWidth:true,htmlLabels:true,curve:'basis'},themeVariables:{darkMode:true,background:'#000',primaryColor:'#1e1e1e',primaryTextColor:'#f5f5f5',primaryBorderColor:'#3a3a3a',lineColor:'#c8c8c8',secondaryColor:'#1e1e1e',tertiaryColor:'#1e1e1e'}})</script>
+</head>
+<body>
+<div class="mermaid-container"><pre class="mermaid">
+flowchart TB
+    subgraph S0["📁 Quelle — YellowVault"]
+        V["📝 4.063 Notizen<br/>frontmatter + wikilinks"]
+    end
+
+    subgraph S1["⚙️ Ingesta & Anreicherung — alle 30 Minuten"]
+        ORCH["vault_structure_sync.py<br/>NER → parse → enrich → KG → RAG"]
+        NER["ner_extract.py<br/>6.210 Mentions · 74 Entitäten"]
+        NERC[("ner_cache.ndjson<br/>+ mentions.ttl")]
+        FE["frontmatter_enricher.py<br/>tags · created · aliases"]
+    end
+
+    subgraph S2["🕸️ Knowledge Graph"]
+        P["parse_vault_to_rdf.py<br/>inkrementell --since · 5 Uhr --replace"]
+        TTL[("yellowvault_export.ttl<br/>51.811 Triples")]
+        L["load_ttl_to_graphdb.py<br/>--replace · 11 Chunks"]
+        G[("GraphDB :7200<br/>repo yellowvault")]
+        INC["kg_incremental_sync.py<br/>stündlich · WebVOWL-Refresh"]
+        VIZ["WebVOWL :3000 · Grafana :4000<br/>RA Log Viewer :8485"]
+    end
+
+    subgraph S3["🧠 Vektor-RAG"]
+        RAG[("ChromaDB<br/>e5-small · 14.180 Chunks<br/>5.810 Dateien")]
+        RERANK["rerank cross-encoder<br/>optional"]
+    end
+
+    subgraph S4["🔌 Konsumenten"]
+        SB["sparql_bridge<br/>--kg-context · --suggest-tags"]
+        HY["hybrid_context<br/>KG + RAG · Cache 0,5s"]
+        QA["qa_kg<br/>NL → SPARQL"]
+        PR["Prompt Runner<br/>kg_context / hybrid_context"]
+    end
+
+    subgraph S5["🛡️ Betrieb"]
+        BK["backup_graphdb<br/>So 4 Uhr → OneDrive · Retention 7"]
+        HC["sync_health_check<br/>Schwelle 35K Triples"]
+        KA["keep-alive 8–22 Uhr<br/>Auto-Start 30–90s"]
+        ES["ecosystem_status<br/>→ Grafana + Telegram"]
+    end
+
+    V --> ORCH
+    ORCH --> NER
+    NER --> NERC
+    NERC --> P
+    ORCH --> FE
+    FE --> P
+    V --> P
+    P --> TTL
+    TTL --> L
+    L --> G
+    INC -.-> G
+    G --> VIZ
+    G --> SB
+    G --> QA
+    G --> HY
+    V -.-> RAG
+    RAG --> RERANK
+    RERANK --> HY
+    SB --> PR
+    HY --> PR
+    QA --> PR
+    KA -.-> G
+    BK -.-> G
+    HC -.-> G
+    ES -.-> G
+    style S0 fill:#141414,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style S1 fill:#181818,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style S2 fill:#1c1c1c,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style S3 fill:#202020,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style S4 fill:#242424,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style S5 fill:#282828,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style V fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style ORCH fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style NER fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style NERC fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style FE fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style P fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style TTL fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style L fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style G fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style INC fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style VIZ fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style RAG fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style RERANK fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style SB fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style HY fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style QA fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style PR fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style BK fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style HC fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style KA fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style ES fill:#1a1a1a,stroke:#f0c040,color:#fff
+</pre></div>
+</body>
+</html>

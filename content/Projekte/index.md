@@ -27,6 +27,7 @@ publish: true
 | [[Projekte/Strava - Resumen Estadístico|Strava Stats]] | Running, weight training & cycling — 8 activities, 21.6 km. |
 | [[Projekte/AI Ecosystem One-Pager Autonomie|AI Ecosystem One-Pager (Autonomie)]] | Mein KI-Ökosystem auf einer Seite — ein System, das sich selbst überwacht. |
 | [[Projekte/AI Ecosystem One-Pager Innenansicht|AI Ecosystem One-Pager (Innenansicht)]] | Sechs Schichten, 16 Knoten — ein Blick ins Innere meines KI-Ökosystems. |
+| [[Projekte/AI Ecosystem Data Pipeline|AI Ecosystem Data Pipeline]] | Der Weg einer Notiz: NER → Knowledge Graph (51.811 Triples) → RAG (14.180 Chunks), alle 30 Minuten. |
 
 ## Contact
 
