@@ -30,16 +30,20 @@ export function pageResources(
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
   const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
 
+  // Bump this number on every frontend edit (CSS/JS assets are served with
+  // long-lived caching on GitHub Pages, so the query param forces refresh).
+  const CACHE_BUST = "?v=3"
+
   const resources: StaticResources = {
     css: [
       {
-        content: joinSegments(baseDir, "index.css"),
+        content: joinSegments(baseDir, "index.css") + CACHE_BUST,
       },
       ...staticResources.css,
     ],
     js: [
       {
-        src: joinSegments(baseDir, "prescript.js"),
+        src: joinSegments(baseDir, "prescript.js") + CACHE_BUST,
         loadTime: "beforeDOMReady",
         contentType: "external",
       },
@@ -55,7 +59,7 @@ export function pageResources(
   }
 
   resources.js.push({
-    src: joinSegments(baseDir, "postscript.js"),
+    src: joinSegments(baseDir, "postscript.js") + CACHE_BUST,
     loadTime: "afterDOMReady",
     moduleType: "module",
     contentType: "external",
