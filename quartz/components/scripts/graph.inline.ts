@@ -211,7 +211,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const numLinks = graphData.links.filter(
       (l) => l.source.id === d.id || l.target.id === d.id,
     ).length
-    return 1.5 + Math.sqrt(numLinks) * 0.7
+    // Obsidian-style: tiny dots, size scales gently with connectivity
+    return 1 + Math.sqrt(numLinks) * 0.5
   }
 
   let hoveredNodeId: string | null = null
@@ -256,12 +257,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const tweenGroup = new TweenGroup()
 
     for (const l of linkRenderData) {
-      let alpha = 1
+      let alpha = 0.6
 
       // if we are hovering over a node, we want to highlight the immediate neighbours
       // with full alpha and the rest with default alpha
       if (hoveredNodeId) {
-        alpha = l.active ? 1 : 0.2
+        alpha = l.active ? 1 : 0.15
       }
 
       l.color = l.active ? computedStyleMap["--gray"] : computedStyleMap["--lightgray"]
@@ -397,7 +398,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       interactive: true,
       label: nodeId,
       eventMode: "static",
-      hitArea: new Circle(0, 0, nodeRadius(n)),
+      hitArea: new Circle(0, 0, Math.max(nodeRadius(n), 6)),
       cursor: "pointer",
     })
       .circle(0, 0, nodeRadius(n))
@@ -444,7 +445,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       simulationData: l,
       gfx,
       color: computedStyleMap["--lightgray"],
-      alpha: 1,
+      alpha: 0.6,
       active: false,
     }
 
@@ -548,7 +549,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       l.gfx.moveTo(linkData.source.x! + width / 2, linkData.source.y! + height / 2)
       l.gfx
         .lineTo(linkData.target.x! + width / 2, linkData.target.y! + height / 2)
-        .stroke({ alpha: l.alpha, width: 0.7, color: l.color })
+        .stroke({ alpha: l.alpha, width: 0.5, color: l.color })
     }
 
     tweens.forEach((t) => t.update(time))

@@ -115,6 +115,35 @@ button.desktop-explorer {
   }
 }
 
+button.desktop-explorer {
+  width: 100%;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.45rem 0.7rem;
+  border-radius: 6px;
+  background-color: var(--lightgray);
+  border: 1px solid var(--lightgray);
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+
+  &:hover {
+    background-color: var(--gray);
+    border-color: var(--gray);
+  }
+
+  & h2 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.9;
+  }
+
+  & .fold {
+    margin-left: auto;
+  }
+}
+
 .explorer-content {
   list-style: none;
   overflow: hidden;

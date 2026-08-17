@@ -28,6 +28,9 @@ jobs:
         run: npm ci
       - name: Build Quartz
         run: npx quartz build
+      - name: Force browser revalidation (no stale cache)
+        run: |
+          printf '/*\n  Cache-Control: max-age=0, must-revalidate\n' > public/_headers
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
