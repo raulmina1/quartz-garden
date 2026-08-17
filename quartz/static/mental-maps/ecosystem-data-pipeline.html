@@ -107,5 +107,96 @@ flowchart TB
     style KA fill:#1a1a1a,stroke:#f0c040,color:#fff
     style ES fill:#1a1a1a,stroke:#f0c040,color:#fff
 </pre></div>
+<script>
+/* Pan & Zoom for Mermaid SVG: wheel = zoom, drag = pan, dblclick = reset, touch pan + double-tap zoom */
+(function () {
+  function hint() {
+    var d = document.createElement("div");
+    d.textContent = "Arrastra para mover \u00b7 Rueda para zoom \u00b7 Doble clic para reiniciar";
+    d.style.cssText = "position:fixed;right:8px;bottom:6px;font:11px/1.4 system-ui,sans-serif;color:rgba(255,255,255,.55);background:rgba(0,0,0,.35);padding:3px 8px;border-radius:4px;pointer-events:none;z-index:9";
+    document.body.appendChild(d);
+  }
+  function clamp(v, lo, hi) { return v < lo ? lo : v > hi ? hi : v; }
+  function init() {
+    var svg = document.querySelector(".mermaid svg");
+    if (!svg || svg.getAttribute("data-pz")) return;
+    svg.setAttribute("data-pz", "1");
+    var vb = svg.viewBox.baseVal;
+    var baseW = vb.width || 100, baseH = vb.height || 100;
+    var st = { x: vb.x, y: vb.y, w: baseW, h: baseH };
+    function apply() { svg.setAttribute("viewBox", st.x + " " + st.y + " " + st.w + " " + st.h); }
+    function reset() { st = { x: 0, y: 0, w: baseW, h: baseH }; apply(); }
+    function units(cx, cy) {
+      var r = svg.getBoundingClientRect();
+      return { ux: (cx - r.left) / r.width * st.w + st.x, uy: (cy - r.top) / r.height * st.h + st.y };
+    }
+    function zoomAt(cx, cy, f) {
+      var p = units(cx, cy);
+      var nw = clamp(st.w * f, baseW / 25, baseW * 8);
+      var nh = nw * (st.h / st.w);
+      f = nw / st.w;
+      st.x = p.ux - (p.ux - st.x) * f;
+      st.y = p.uy - (p.uy - st.y) * f;
+      st.w = nw; st.h = nh;
+      apply();
+    }
+    svg.addEventListener("wheel", function (e) {
+      e.preventDefault();
+      zoomAt(e.clientX, e.clientY, Math.pow(1.18, e.deltaY / 100));
+    }, { passive: false });
+    var drag = null;
+    svg.addEventListener("mousedown", function (e) {
+      if (e.button !== 0) return;
+      drag = { sx: e.clientX, sy: e.clientY, ox: st.x, oy: st.y, moved: false };
+      svg.style.cursor = "grabbing";
+      e.preventDefault();
+    });
+    window.addEventListener("mousemove", function (e) {
+      if (!drag) return;
+      var r = svg.getBoundingClientRect();
+      st.x = drag.ox - (e.clientX - drag.sx) / r.width * st.w;
+      st.y = drag.oy - (e.clientY - drag.sy) / r.height * st.h;
+      if (Math.abs(e.clientX - drag.sx) + Math.abs(e.clientY - drag.sy) > 6) drag.moved = true;
+      apply();
+    });
+    window.addEventListener("mouseup", function () {
+      if (drag) { drag = null; svg.style.cursor = "grab"; }
+    });
+    svg.addEventListener("dblclick", reset);
+    svg.style.cursor = "grab";
+    var tch = null;
+    svg.addEventListener("touchstart", function (e) {
+      if (e.touches.length === 1) {
+        tch = { x: e.touches[0].clientX, y: e.touches[0].clientY, ox: st.x, oy: st.y, t: Date.now() };
+      }
+    }, { passive: true });
+    svg.addEventListener("touchmove", function (e) {
+      if (tch && e.touches.length === 1) {
+        var r = svg.getBoundingClientRect();
+        st.x = tch.ox - (e.touches[0].clientX - tch.x) / r.width * st.w;
+        st.y = tch.oy - (e.touches[0].clientY - tch.y) / r.height * st.h;
+        apply();
+        e.preventDefault();
+      }
+    }, { passive: false });
+    svg.addEventListener("touchend", function () {
+      if (tch && Date.now() - tch.t < 250) {
+        var r = svg.getBoundingClientRect();
+        zoomAt(r.left + r.width / 2, r.top + r.height / 2, st.w === baseW ? 1.6 : 1 / 1.6);
+      }
+      tch = null;
+    });
+  }
+  hint();
+  var tries = 0;
+  var timer = setInterval(function () {
+    tries++;
+    if (document.querySelector(".mermaid svg") || tries > 150) {
+      clearInterval(timer);
+      init();
+    }
+  }, 100);
+})();
+</script>
 </body>
 </html>
