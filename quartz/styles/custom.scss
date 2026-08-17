@@ -334,7 +334,7 @@ pre {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
-.home-card {
+.article a.home-card {
   display: block;
   padding: 1.15rem 1.25rem;
   border: 1px solid var(--gray);
@@ -344,6 +344,7 @@ pre {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   color: var(--dark);
   text-decoration: none;
+  line-height: 1.4;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease,
@@ -369,6 +370,8 @@ pre {
       0 10px 26px rgba(0, 0, 0, 0.28),
       0 3px 8px rgba(0, 0, 0, 0.16);
     color: var(--dark);
+    background-color: var(--lightgray);
+    background-color: color-mix(in srgb, var(--lightgray) 40%, transparent);
     text-decoration: none;
   }
 }
