@@ -322,45 +322,62 @@ pre {
 // ============================================================
 .home-grid {
   display: grid;
-  gap: 1rem;
+  gap: 1.2rem;
   margin: 1.25rem 0 1.5rem;
 }
 
 .home-grid-3 {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 .home-grid-2 {
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 
-.article a.home-card {
+article a.home-card {
   display: block;
-  padding: 1.15rem 1.25rem;
+  padding: 1.5rem 1.6rem;
   border: 1px solid var(--gray);
-  border-radius: 10px;
+  border-radius: 12px;
   background-color: var(--lightgray);
   background-color: color-mix(in srgb, var(--lightgray) 40%, transparent);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   color: var(--dark);
   text-decoration: none;
-  line-height: 1.4;
+  line-height: 1.45;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease,
     border-color 0.2s ease;
 
+  .home-card-icon {
+    display: inline-block;
+    font-size: 1.9rem;
+    line-height: 1;
+    margin-bottom: 0.55rem;
+  }
+
   .home-card-title {
     display: block;
-    margin-bottom: 0.3rem;
-    font-size: 1.05rem;
+    margin-bottom: 0.35rem;
+    font-size: 1.22rem;
     font-weight: 600;
   }
 
   .home-card-desc {
     display: block;
-    font-size: 0.9em;
+    font-size: 0.95em;
     color: var(--darkgray);
+  }
+
+  .home-card-meta {
+    display: block;
+    margin-top: 0.65rem;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--secondary);
   }
 
   &:hover {
@@ -374,23 +391,6 @@ pre {
     background-color: color-mix(in srgb, var(--lightgray) 40%, transparent);
     text-decoration: none;
   }
-}
-
-.home-card-icon {
-  display: inline-block;
-  font-size: 1.5rem;
-  line-height: 1;
-  margin-bottom: 0.45rem;
-}
-
-.home-card-meta {
-  display: block;
-  margin-top: 0.55rem;
-  font-size: 0.75em;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: var(--secondary);
 }
 
 @media (max-width: 480px) {
