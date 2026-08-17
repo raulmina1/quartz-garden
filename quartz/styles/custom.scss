@@ -126,3 +126,76 @@ table {
     padding: 6px 14px;
   }
 }
+
+// ── Minimalist 3D feel (2026-08-17) ──────────────────────────────────
+// Subtle depth layers, soft elevation and hover lifts — no layout changes
+
+// Faint radial glow behind the top of the page for depth
+body {
+  background-image: radial-gradient(ellipse 90% 45% at 50% -8%, rgba(168, 148, 0, 0.05), transparent 70%);
+}
+
+:root[saved-theme="dark"] body {
+  background-image: radial-gradient(ellipse 90% 45% at 50% -8%, rgba(196, 171, 0, 0.07), transparent 70%);
+}
+
+// Graph panel: floating card with soft depth
+.graph-outer {
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.22),
+    0 2px 6px rgba(0, 0, 0, 0.14);
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+
+  &:hover {
+    box-shadow:
+      0 14px 34px rgba(0, 0, 0, 0.3),
+      0 4px 10px rgba(0, 0, 0, 0.18);
+  }
+}
+
+// Explorer toggle bar: slight elevation, lifts on hover
+button.desktop-explorer {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+  transition:
+    box-shadow 0.25s ease,
+    transform 0.25s ease,
+    background-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+  }
+}
+
+// Sidebar buttons (search, darkmode, readermode, mobile hamburger): lift on hover
+.sidebar button {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+}
+
+// Callouts and code blocks: faint grounding shadow
+.callout,
+pre {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+// TOC and Backlinks panels: subtle floating cards on desktop
+.sidebar.right {
+  & > .toc,
+  & > .backlinks {
+    border-radius: 8px;
+    padding: 0.6rem 0.9rem;
+    background-color: var(--lightgray);
+    background-color: color-mix(in srgb, var(--lightgray) 45%, transparent);
+    box-shadow:
+      0 4px 12px rgba(0, 0, 0, 0.1),
+      0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+}

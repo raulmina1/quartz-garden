@@ -6,7 +6,7 @@
 <title>AI-Ökosystem — One-Pager (Mermaid-Diagramm)</title>
 <style>
   *{margin:0;padding:0;box-sizing:border-box}
-  body{background:#000;display:flex;justify-content:center;padding:1rem;min-height:100vh}
+  body{background:#000;display:flex;justify-content:center;padding:0.25rem;min-height:0}
   .mermaid-container{width:100%;max-width:1200px}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
@@ -82,9 +82,23 @@ flowchart TB
 <script>
 /* Pan & Zoom for Mermaid SVG: wheel = zoom, drag = pan, dblclick = reset, touch pan + double-tap zoom */
 (function () {
+  function resizeIframe() {
+    try {
+      if (window.parent && window.parent !== window && window.parent.document) {
+        var slug = (location.pathname.split("/").pop() || "").replace(/\.html$/, "");
+        var frames = window.parent.document.querySelectorAll("iframe");
+        for (var i = 0; i < frames.length; i++) {
+          var src = frames[i].getAttribute("src") || "";
+          if (src.indexOf(slug) > -1) {
+            frames[i].style.height = Math.max(220, Math.ceil(document.body.scrollHeight)) + "px";
+          }
+        }
+      }
+    } catch (e) {}
+  }
   function hint() {
     var d = document.createElement("div");
-    d.textContent = "Arrastra para mover \u00b7 Rueda para zoom \u00b7 Doble clic para reiniciar";
+    d.textContent = "Ziehen zum Verschieben \u00b7 Mausrad zum Zoomen \u00b7 Doppelklick zum Zur\u00fccksetzen";
     d.style.cssText = "position:fixed;right:8px;bottom:6px;font:11px/1.4 system-ui,sans-serif;color:rgba(255,255,255,.55);background:rgba(0,0,0,.35);padding:3px 8px;border-radius:4px;pointer-events:none;z-index:9";
     document.body.appendChild(d);
   }
@@ -93,6 +107,14 @@ flowchart TB
     var svg = document.querySelector(".mermaid svg");
     if (!svg || svg.getAttribute("data-pz")) return;
     svg.setAttribute("data-pz", "1");
+    // Crop dead space: fit viewBox tightly around the rendered content
+    try {
+      var bb = svg.getBBox();
+      if (bb.width > 0 && bb.height > 0) {
+        var M = 10;
+        svg.setAttribute("viewBox", (bb.x - M) + " " + (bb.y - M) + " " + (bb.width + 2 * M) + " " + (bb.height + 2 * M));
+      }
+    } catch (e) {}
     var vb = svg.viewBox.baseVal;
     var baseW = vb.width || 100, baseH = vb.height || 100;
     var st = { x: vb.x, y: vb.y, w: baseW, h: baseH };
@@ -160,12 +182,17 @@ flowchart TB
     });
   }
   hint();
+  resizeIframe();
+  window.addEventListener("load", resizeIframe);
+  window.addEventListener("resize", resizeIframe);
   var tries = 0;
   var timer = setInterval(function () {
     tries++;
-    if (document.querySelector(".mermaid svg") || tries > 150) {
+    if (document.querySelector(".mermaid svg")) {
       clearInterval(timer);
-      init();
+      setTimeout(init, 150);
+    } else if (tries > 150) {
+      clearInterval(timer);
     }
   }, 100);
 })();
