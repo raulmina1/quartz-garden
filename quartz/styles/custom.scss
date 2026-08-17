@@ -342,18 +342,22 @@ pre {
   background-color: var(--lightgray);
   background-color: color-mix(in srgb, var(--lightgray) 40%, transparent);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  color: var(--dark);
+  text-decoration: none;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease,
     border-color 0.2s ease;
 
-  h3 {
-    margin: 0 0 0.3rem;
+  .home-card-title {
+    display: block;
+    margin-bottom: 0.3rem;
     font-size: 1.05rem;
+    font-weight: 600;
   }
 
-  p {
-    margin: 0;
+  .home-card-desc {
+    display: block;
     font-size: 0.9em;
     color: var(--darkgray);
   }
@@ -364,6 +368,7 @@ pre {
     box-shadow:
       0 10px 26px rgba(0, 0, 0, 0.28),
       0 3px 8px rgba(0, 0, 0, 0.16);
+    color: var(--dark);
     text-decoration: none;
   }
 }
