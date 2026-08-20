@@ -180,13 +180,13 @@ pre {
   }
 
   thead th {
-    border-bottom: 2px solid var(--gray);
+    border-bottom: none;
     font-weight: 600;
     letter-spacing: 0.02em;
   }
 
   tbody tr {
-    border-bottom: none;
+    border-bottom: 1px solid var(--lightgray);
     transition: background-color 0.15s ease;
 
     &:hover {
