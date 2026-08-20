@@ -32,7 +32,7 @@ date: 2026-07-09
 | [Semantic Web Standards](/Semantic-Web/Semantic-Web-Standards) | Full W3C stack overview |
 | [GraphDB](/Semantic-Web/GraphDB) | Enterprise RDF triplestore — setup, SPARQL, OWL reasoning, vs Neo4j |
 | [Neo4j — Property Graphs vs RDF](/Semantic-Web/Neo4j-Property-Graphs-vs-RDF) | The other side of the graph world — LPG data model, Cypher, and when to choose each |
-| [Meine AI & Semantic Web Werkzeuge im Alltag](/Semantic-Web/Meine-AI-Semantic-Web-Werkzeuge-im-Alltag) | The tools I use daily — AI ecosystem + knowledge graph, all local |
+| [Meine AI & Semantic Web Werkzeuge im Alltag](/Semantic-Web/Meine-AI-Semantic-Web-Werkzeuge) | The tools I use daily — AI ecosystem + knowledge graph, all local |
 
 ---
 
