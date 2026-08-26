@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KGE — Link Prediction Pipeline (Mermaid-Diagramm)</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#000;display:flex;justify-content:center;padding:1rem;min-height:100vh}
+  .mermaid-container{width:100%;max-width:1200px}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true,theme:'dark',securityLevel:'loose',flowchart:{useMaxWidth:true,htmlLabels:true,curve:'basis'},themeVariables:{darkMode:true,background:'#000',primaryColor:'#1e1e1e',primaryTextColor:'#f5f5f5',primaryBorderColor:'#3a3a3a',lineColor:'#c8c8c8',secondaryColor:'#1e1e1e',tertiaryColor:'#1e1e1e'}})</script>
+</head>
+<body>
+<div class="mermaid-container"><pre class="mermaid">
+flowchart TB
+    subgraph S0["📦 Datenquelle"]
+        TTL[("yellowvault_export.ttl<br/>27.726 Triples · TTL-Master")]
+        GDB[("GraphDB :7200<br/>Ontologie ~2.733 Triples")]
+    end
+
+    subgraph S1["⚙️ Export & Mapping"]
+        EXP["kge_export.py<br/>rdflib → triples.csv<br/>Dedupe · --min-rel-count 5"]
+        SPLIT["Split 90/5/5<br/>ohne Entity-Leak"]
+    end
+
+    subgraph S2["🧠 Training"]
+        TR["kge_train.py · TransE<br/>dim 100 · margin 1.0<br/>early stopping"]
+        BL["kge_baseline.py<br/>Co-occ. B2 Baseline"]
+        EMB[("Embeddings _transe.pt<br/>7.055 Entitäten · 3 Relationen")]
+    end
+
+    subgraph S3["📈 Evaluation (TEST, filtered)"]
+        RES["MRR 0.1985 · Hits@1 0.1162<br/>1.49x über Baseline"]
+    end
+
+    subgraph S4["🔮 Link Prediction & Densifikation"]
+        PRED["kge_predict.py --orphans<br/>--topk 5 --diversity 20"]
+        HYB["kge_hybrid_filter.py<br/>e5-small · sim ≥ 0.85<br/>4 → 320 Targets"]
+        VAL["kge_validate.py<br/>5 SPARQL-Regeln<br/>9.625 → 9.622 gültig"]
+        APPLY["kge_apply_frontmatter.py v2<br/>ruamel + Backup + Revert<br/>266 Links · 0 korrupt"]
+    end
+
+    subgraph S5["🛡️ Integration"]
+        CLI["sparql_bridge.py<br/>--predict-links"]
+        CRON["kge_retrain_weekly.py<br/>Cron So 06:00"]
+    end
+
+    TTL --> EXP
+    GDB -. Audit .-> EXP
+    EXP --> SPLIT
+    SPLIT --> TR
+    TR --> EMB
+    TR --> RES
+    BL --> RES
+    EMB --> PRED
+    PRED --> HYB
+    HYB --> VAL
+    VAL --> APPLY
+    APPLY --> CLI
+    CRON -. re-train .-> TR
+
+    style S0 fill:#141414,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style S1 fill:#181818,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style S2 fill:#1c1c1c,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style S3 fill:#202020,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style S4 fill:#242424,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style S5 fill:#282828,stroke:#f0c040,stroke-width:2px,color:#f5f5f5
+    style TTL fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style GDB fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style EXP fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style SPLIT fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style TR fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style BL fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style EMB fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style RES fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style PRED fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style HYB fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style VAL fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style APPLY fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style CLI fill:#1a1a1a,stroke:#f0c040,color:#fff
+    style CRON fill:#1a1a1a,stroke:#f0c040,color:#fff
+</pre></div>
+</body>
+</html>
