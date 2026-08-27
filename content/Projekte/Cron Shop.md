@@ -57,7 +57,7 @@ flowchart LR
 | 🔧 Custom Cron (your spec) | 1 bespoke schedule | €20 |
 | 📦 Complete Cron Bundle — All 6 | 6 crons | **€55** |
 
-To order: **raulmina13@gmail.com** — include which pack(s) you want.
+To order: **raul.mina1@outlook.com** — include which pack(s) you want.
 
 ---
 
@@ -192,7 +192,7 @@ Everything in both packs at a discount. Save €15 vs. buying separately.
 2. I'll send you a payment link via Ko-fi
 3. After payment, you'll receive the cron manifests + setup within 24 hours
 
-**[Request Form →](mailto:raulmina13@gmail.com?subject=Cron%20Pack%20Order&body=Email:%0A%0ACrons%20wanted:%0A%0AMessage:)** *Click to send me an email. Include your email, which crons you want, and the schedule for Custom orders.*
+**[Request Form →](mailto:raul.mina1@outlook.com?subject=Cron%20Pack%20Order&body=Email:%0A%0ACrons%20wanted:%0A%0AMessage:)** *Click to send me an email. Include your email, which crons you want, and the schedule for Custom orders.*
 
 > [!warning] Requirements
 > You need **Hermes Agent** (or compatible cron system) to run these schedules. No coding required — just import the JSON definitions.
@@ -202,4 +202,4 @@ Everything in both packs at a discount. Save €15 vs. buying separately.
 > [!note] RA
 > The best automation is the one you forget exists because it always just works.
 
-*What schedule would make your life easier if it just ran by itself? → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*What schedule would make your life easier if it just ran by itself? → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

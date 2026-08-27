@@ -107,6 +107,6 @@ Your role:
 | Assuming FAIR passes automatically | 30-40% of first articles fail initially — plan for re-inspection |
 | FAIR only for new parts | FAIR also required for: tooling transfer, supplier change, process change |
 
-¿Preguntas sobre First Article Inspection o control de calidad? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
+¿Preguntas sobre First Article Inspection o control de calidad? Escríbeme → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)
 
 

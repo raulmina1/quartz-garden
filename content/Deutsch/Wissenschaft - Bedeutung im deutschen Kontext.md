@@ -129,4 +129,4 @@ Diese Abgrenzung ist im Deutschen schärfer als z.B. im Englischen, wo „scienc
 
 ---
 
-*Lernst du Deutsch? Weitere Konzepte und Grammatik findest du in der [Deutsch-Sektion](/Deutsch) — oder schreib mir: [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Lernst du Deutsch? Weitere Konzepte und Grammatik findest du in der [Deutsch-Sektion](/Deutsch) — oder schreib mir: [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

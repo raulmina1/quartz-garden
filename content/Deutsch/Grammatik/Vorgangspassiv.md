@@ -116,4 +116,4 @@ Passiv: *Das Essen **wird** gekocht.* → Das Essen erfährt die Handlung.
 ---
 *Versuche, einen ganzen Satz im Passiv zu formulieren — und drehe ihn dann ins Aktiv zurück. Das ist die beste Übung.*
 
-*Welche Form fällt dir im Alltag schwerer — Aktiv oder Passiv? Schreib mir, wie du übst: [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Welche Form fällt dir im Alltag schwerer — Aktiv oder Passiv? Schreib mir, wie du übst: [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

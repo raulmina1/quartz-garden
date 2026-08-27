@@ -101,6 +101,6 @@ This is the critical interface for your role:
 | Assuming all PLCs speak the same protocol | Siemens, Rockwell, Beckhoff use different protocols — verify MES compatibility |
 | Over-relying on SCADA trends without shop-floor validation | A sensor can drift; validate with manual measurement periodically |
 
-¿Preguntas sobre SCADA, PLC o automatización? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
+¿Preguntas sobre SCADA, PLC o automatización? Escríbeme → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)
 
 

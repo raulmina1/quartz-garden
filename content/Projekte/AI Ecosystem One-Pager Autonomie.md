@@ -55,4 +55,4 @@ Wenn ein Watcher stirbt, repariert sich das System selbst — ich schaue nicht m
 
 ---
 
-*Was würde dein eigenes System aussehen, wenn du aufhören würdest, Tools zu kaufen? Schreib mir → raulmina13@gmail.com*
+*Was würde dein eigenes System aussehen, wenn du aufhören würdest, Tools zu kaufen? Schreib mir → raul.mina1@outlook.com*

@@ -100,6 +100,6 @@ Common issues:
 | Manually fixing MES data without updating ERP | A fix in MES that doesn't sync to ERP creates inventory/reporting discrepancies |
 | Expecting real-time data from ERP | ERP is usually batch-updated (hourly/daily); MES is real-time |
 
-¿Te interesa la integración ERP/MES en tu planta? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
+¿Te interesa la integración ERP/MES en tu planta? Escríbeme → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)
 
 

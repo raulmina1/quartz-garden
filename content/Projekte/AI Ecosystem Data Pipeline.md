@@ -79,4 +79,4 @@ Drei Abfrage-Pfade speisen den **Prompt Runner**:
 
 ---
 
-*Was passiert mit deinen Notizen, wenn du nicht hinsiehst? Schreib mir → raulmina13@gmail.com*
+*Was passiert mit deinen Notizen, wenn du nicht hinsiehst? Schreib mir → raul.mina1@outlook.com*

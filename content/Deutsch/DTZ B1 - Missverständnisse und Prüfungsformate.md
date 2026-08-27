@@ -87,4 +87,4 @@ type: resource
 
 ---
 
-*Bereitest du dich auf die DTZ vor? Die komplette [Prüfungsstruktur mit Zeiten und Punkten](/Deutsch/DTZ-B1-Prüfung) findest du hier — oder schreib mir: [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Bereitest du dich auf die DTZ vor? Die komplette [Prüfungsstruktur mit Zeiten und Punkten](/Deutsch/DTZ-B1-Prüfung) findest du hier — oder schreib mir: [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

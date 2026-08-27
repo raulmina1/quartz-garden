@@ -178,4 +178,4 @@ flowchart TD
 | *Wir fahren zu einer Hochzeit.* | We're going to a wedding. |
 | *Zum Glück hat es nicht geregnet!* | Luckily it didn't rain! |
 
-*Hast du Fragen zu den Dativ-Präpositionen? Schreib mir → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Hast du Fragen zu den Dativ-Präpositionen? Schreib mir → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

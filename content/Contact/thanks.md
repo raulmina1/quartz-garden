@@ -25,4 +25,4 @@ Mientras tanto, puedes explorar el resto del sitio:
 ---
 
 > [!tip] ¿Urgente?
-> Escríbeme directo a [raulmina13@gmail.com](mailto:raulmina13@gmail.com) con el asunto **"URGENTE"** y te responderé el mismo día.
+> Escríbeme directo a [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com) con el asunto **"URGENTE"** y te responderé el mismo día.

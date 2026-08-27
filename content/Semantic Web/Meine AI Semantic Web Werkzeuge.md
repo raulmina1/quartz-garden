@@ -88,4 +88,4 @@ Mein Tag läuft über ein **AI-Ökosystem**, das auf meinem Obsidian-Vault aufba
 
 ---
 
-*Was baust du dir selbst? Schreib mir → raulmina13@gmail.com*
+*Was baust du dir selbst? Schreib mir → raul.mina1@outlook.com*

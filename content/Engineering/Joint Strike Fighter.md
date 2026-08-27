@@ -40,4 +40,4 @@ NAXCON GmbH en Weeze es un proveedor Tier-2/3 que fabrica componentes estructura
 
 El F-35 es un programa controversial — ver análisis de [[Maria - Career Moral Framework]] (Run 16, NAXCON score: 5.75/10).
 
-¿Te interesa la industria aeroespacial o de defensa? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
+¿Te interesa la industria aeroespacial o de defensa? Escríbeme → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)

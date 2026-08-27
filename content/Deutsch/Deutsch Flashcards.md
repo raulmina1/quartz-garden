@@ -97,4 +97,4 @@ Die Spiele werden als standalone HTML-Widgets in Quartz eingebettet (`<iframe>`)
 
 ---
 
-_Hast du ein Deck, das ich hinzufügen soll? Schick mir deine Vokabeln — ich baue ein Spiel daraus. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)_
+_Hast du ein Deck, das ich hinzufügen soll? Schick mir deine Vokabeln — ich baue ein Spiel daraus. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)_

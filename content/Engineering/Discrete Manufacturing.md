@@ -82,6 +82,6 @@ When you hear "work order for 50 bracket assemblies":
 | Not checking work order status per station | In MES, check how many parts are at each station vs. time schedule |
 | Underestimating changeover time | A new part type costs setup time — plan changeovers as part of the schedule |
 
-¿Trabajas en manufacturing y quieres comparar tu experiencia con la industria aeroespacial? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
+¿Trabajas en manufacturing y quieres comparar tu experiencia con la industria aeroespacial? Escríbeme → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)
 
 

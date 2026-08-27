@@ -94,4 +94,4 @@ RotatE **memorisiert** den kleinen Graphen (nur 3 Relationen) und liefert perfek
 
 ---
 
-*Was passiert mit deinen Notizen, wenn der Graph sie von selbst verbindet? Schreib mir → raulmina13@gmail.com*
+*Was passiert mit deinen Notizen, wenn der Graph sie von selbst verbindet? Schreib mir → raul.mina1@outlook.com*

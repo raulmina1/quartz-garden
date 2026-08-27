@@ -38,7 +38,7 @@ Every prompt runs on **Claude** (claude-sonnet-4-6 recommended) or any LLM compa
 | 🧠 Personal Life & Reflection Pack | 5 prompts | €15 |
 | 📦 Complete Bundle — All 34 Prompts | 34 prompts | **€55** |
 
-To order: **raulmina13@gmail.com** or use the Ko-fi form below — include which pack(s) you want.
+To order: **raul.mina1@outlook.com** or use the Ko-fi form below — include which pack(s) you want.
 
 ---
 
@@ -129,11 +129,11 @@ To order: **raulmina13@gmail.com** or use the Ko-fi form below — include which
 2. I'll send you a payment link via Ko-fi (card, PayPal, or bank transfer)
 3. After payment, you'll receive the `.md` files within 24 hours
 
-**[Request Form →](mailto:raulmina13@gmail.com?subject=Prompt%20Pack%20Order&body=Email:%0A%0APacks%20wanted:%0A%0AMessage:)** *Click to open email with pre-filled subject. Include your email address and which packs you want.*
+**[Request Form →](mailto:raul.mina1@outlook.com?subject=Prompt%20Pack%20Order&body=Email:%0A%0APacks%20wanted:%0A%0AMessage:)** *Click to open email with pre-filled subject. Include your email address and which packs you want.*
 
 ---
 
 > [!note] RA
 > This is a curated collection of production prompts. Each one has been used daily, refined over months, and wired into a real vault. No refunds — you get exactly what I use.
 
-*Not sure which pack fits your workflow? Tell me what you're working on — I'll recommend the right ones. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Not sure which pack fits your workflow? Tell me what you're working on — I'll recommend the right ones. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

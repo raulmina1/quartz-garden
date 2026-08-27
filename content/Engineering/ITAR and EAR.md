@@ -46,4 +46,4 @@ NAXCO fabrica componentes F-35 bajo ITAR porque el programa JSF es un sistema de
 - [[AS9100]] — el estándar de calidad incluye controles de configuración que soportan compliance ITAR
 - La burocracia ITAR/EAR es lo que Maria llama el riesgo de "burócrata de procesos" (Run 16)
 
-¿Te interesa el compliance en defensa o aeroespacial? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
+¿Te interesa el compliance en defensa o aeroespacial? Escríbeme → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)

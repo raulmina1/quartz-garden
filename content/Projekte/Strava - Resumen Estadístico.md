@@ -96,4 +96,4 @@ Cada kilómetro cuenta una historia. Estas son las mías de las últimas 4 seman
 > [!note] RA
 > Lo que no se mide no se mejora. 21.6 km no es mucho — pero es 21.6 km más que quedarse en el sofá.
 
-*¿Tú también registras tus entrenamientos? Escríbeme → raulmina13@gmail.com*
+*¿Tú también registras tus entrenamientos? Escríbeme → raul.mina1@outlook.com*

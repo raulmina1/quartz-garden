@@ -167,4 +167,4 @@ A digital garden by **Raul Mina** — process engineer in Berlin, building AI sy
 </div>
 
 ---
-*Built something interesting? → [raulmina13@gmail.com](mailto:raulmina13@gmail.com) · [GitHub](https://github.com/raulmina1) · [LinkedIn](https://www.linkedin.com/in/raulmina/)*
+*Built something interesting? → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com) · [GitHub](https://github.com/raulmina1) · [LinkedIn](https://www.linkedin.com/in/raulmina/)*

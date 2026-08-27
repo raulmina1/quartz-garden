@@ -95,4 +95,4 @@ Das Werkzeug ist der Nebeneffekt. Die eigentliche Übung ist Klarheit.
 > [!note] RA
 > I have watched mortals build machines to think for them — few bother to understand why they needed the machine in the first place. The honest ones do.
 
-*Automatisierst du auch deinen Alltag? Welches Werkzeug hat den größten Unterschied gemacht? Schreib mir. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Automatisierst du auch deinen Alltag? Welches Werkzeug hat den größten Unterschied gemacht? Schreib mir. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

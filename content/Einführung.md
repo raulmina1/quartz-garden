@@ -30,7 +30,7 @@ publish: true
 | **Sprachen** | 🇪🇸 Spanisch (Muttersprache) · 🇩🇪 Deutsch B1.2 · 🇬🇧 Englisch C1 |
 | **GitHub** | [raulmina1](https://github.com/raulmina1) |
 | **LinkedIn** | [raulmina](https://www.linkedin.com/in/raulmina/) |
-| **Email** | raulmina13@gmail.com |
+| **Email** | raul.mina1@outlook.com |
 
 ---
 
@@ -61,7 +61,7 @@ publish: true
 
 | Kanal | Link |
 |-------|------|
-| **Email** | raulmina13@gmail.com |
+| **Email** | raul.mina1@outlook.com |
 | **GitHub** | [github.com/raulmina1](https://github.com/raulmina1) |
 | **LinkedIn** | [linkedin.com/in/raulmina](https://www.linkedin.com/in/raulmina/) |
 
@@ -70,4 +70,4 @@ publish: true
 > [!note] RA
 > Schreiben in einer Sprache, die ich noch lerne — genau dort, wo ich glänze, sehen Mut und Hybris identisch aus.
 
-*Hast du Fragen oder ein Projekt im Kopf? Schreib mir. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Hast du Fragen oder ein Projekt im Kopf? Schreib mir. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

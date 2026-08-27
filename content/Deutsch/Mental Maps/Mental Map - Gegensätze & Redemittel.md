@@ -59,4 +59,4 @@ aliases:
 >
 > ---
 >
-*Fehlt eine Verbindung in dieser Map? Schreib mir — ich ergänze sie. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Fehlt eine Verbindung in dieser Map? Schreib mir — ich ergänze sie. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

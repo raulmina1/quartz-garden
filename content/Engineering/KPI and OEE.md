@@ -90,6 +90,6 @@ When a station has low OEE:
 | OEE as a blame tool | OEE is a *process* metric, not a *person* metric; share with operators, not against them |
 | Only reporting good numbers | Escalate bad OEE early — the bottleneck is the most important station |
 
-¿Quieres mejorar el OEE de tu línea? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
+¿Quieres mejorar el OEE de tu línea? Escríbeme → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)
 
 

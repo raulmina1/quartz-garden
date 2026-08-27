@@ -54,4 +54,4 @@ publish: true
 
 ---
 
-*Hast du Fragen zu einem Deutsch-Thema? Schreib mir — ich helfe gern. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Hast du Fragen zu einem Deutsch-Thema? Schreib mir — ich helfe gern. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

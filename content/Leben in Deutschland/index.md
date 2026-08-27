@@ -27,4 +27,4 @@ publish: true
 
 ---
 
-*More guides coming — health insurance, contracts, and the bureaucracy worth understanding. → [Suggest a topic](mailto:raulmina13@gmail.com)*
+*More guides coming — health insurance, contracts, and the bureaucracy worth understanding. → [Suggest a topic](mailto:raul.mina1@outlook.com)*

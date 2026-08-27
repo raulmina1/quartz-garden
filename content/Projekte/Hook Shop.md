@@ -63,7 +63,7 @@ flowchart LR
 | 🔧 Custom Hook (your spec) | 1 bespoke trigger | €30 |
 | 📦 Complete Hook Bundle — All 6 | 6 hooks | **€75** |
 
-To order: **raulmina13@gmail.com** — include which pack(s) you want.
+To order: **raul.mina1@outlook.com** — include which pack(s) you want.
 
 ---
 
@@ -199,7 +199,7 @@ Everything in both packs at a discount. Save €15 vs. buying separately.
 2. I'll send you a payment link via Ko-fi
 3. After payment, you'll receive the hook definitions + scripts within 48 hours
 
-**[Request Form →](mailto:raulmina13@gmail.com?subject=Hook%20Pack%20Order&body=Email:%0A%0AHooks%20wanted:%0A%0AMessage:)** *Click to send me an email. Include your email, which hooks you want, and the trigger+action for Custom orders.*
+**[Request Form →](mailto:raul.mina1@outlook.com?subject=Hook%20Pack%20Order&body=Email:%0A%0AHooks%20wanted:%0A%0AMessage:)** *Click to send me an email. Include your email, which hooks you want, and the trigger+action for Custom orders.*
 
 > [!warning] Requirements
 > You need **Hermes Agent** (or compatible watcher system) to run these hooks. No coding required.
@@ -209,4 +209,4 @@ Everything in both packs at a discount. Save €15 vs. buying separately.
 > [!note] RA
 > A hook is not automation. It just tells the vault it's time to wake up.
 
-*What event in your workflow would you like to automate? I can build the trigger. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*What event in your workflow would you like to automate? I can build the trigger. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

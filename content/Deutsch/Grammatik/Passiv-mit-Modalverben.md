@@ -76,4 +76,4 @@ Wenn die Handlung von einer Person ausgeführt wird, kommt die **von + Person** 
 > [!tip] Merke
 > **Passiv + Modalverb** = Modalverb (kann/muss/soll/darf) + **was passiert mit dem Subjekt** (Partizip II) + **werden**. Zwei Verben am Satzende — das Modalverb zuerst, **werden** als letztes. Wie ein Sandwich: **Modalverb** am Anfang, **werden** am Ende, das **Partizip** in der Mitte.
 
-*Hast du Fragen zum Passiv mit Modalverben? Schreib mir → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Hast du Fragen zum Passiv mit Modalverben? Schreib mir → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

@@ -34,4 +34,4 @@ publish: true
 > Germany's energy transition (Energiewende) is one of the most ambitious industrial transformations in history. Understanding its market mechanisms is essential for anyone working in energy, engineering, or climate policy in Germany.
 
 ---
-*Want to understand how a specific policy affects energy prices? Let me know — raulmina13@gmail.com*
+*Want to understand how a specific policy affects energy prices? Let me know — raul.mina1@outlook.com*

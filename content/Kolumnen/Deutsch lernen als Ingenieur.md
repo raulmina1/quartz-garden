@@ -96,4 +96,4 @@ Der Kurs gibt mir die Struktur. Den Rest muss ich mir holen.
 
 ---
 
-*Lernst du auch Deutsch? Welche Lücke hat dein Kurs nicht gefüllt? Ich bin gespannt auf deine Geschichte. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Lernst du auch Deutsch? Welche Lücke hat dein Kurs nicht gefüllt? Ich bin gespannt auf deine Geschichte. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

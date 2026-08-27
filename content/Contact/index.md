@@ -18,7 +18,7 @@ Déjame tu mensaje y te responderé en máximo 24 horas.
 
 ## 📋 Formulario de Contacto
 
-<form id="contactForm" action="https://formsubmit.io/send/raulmina13@gmail.com" method="POST">
+<form id="contactForm" action="https://formsubmit.io/send/raul.mina1@outlook.com" method="POST">
   <input type="hidden" name="_subject" value="Nuevo contacto desde RA Blog">
   <input type="hidden" name="_next" value="https://raulmina1.github.io/ra-blog/Contact/thanks">
   <input type="text" name="_honey" style="display:none">
@@ -59,7 +59,8 @@ Déjame tu mensaje y te responderé en máximo 24 horas.
 
 | Canal | Info |
 |-------|------|
-| **Email** | [raulmina13@gmail.com](mailto:raulmina13@gmail.com) |
+| **Email** | [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com) |
+| **WhatsApp** | [+49 176 81056196](https://wa.me/4917681056196) |
 | **GitHub** | [raulmina1](https://github.com/raulmina1) |
 | **Telegram** | Próximamente 🤖 |
 
@@ -73,4 +74,4 @@ Déjame tu mensaje y te responderé en máximo 24 horas.
 > **Primera consulta: gratuita.** Sin compromiso.
 
 ---
-*¿Prefieres escribir directo? Cuéntame qué proceso quieres automatizar → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*¿Prefieres escribir directo? Cuéntame qué proceso quieres automatizar → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

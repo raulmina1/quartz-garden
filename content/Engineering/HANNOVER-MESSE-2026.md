@@ -86,4 +86,4 @@ type: resource
 
 ---
 
-*Going to HANNOVER MESSE? More engineering guides on [hydrogen, DAC, and carbon capture](/Engineering) — or send me a message: [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Going to HANNOVER MESSE? More engineering guides on [hydrogen, DAC, and carbon capture](/Engineering) — or send me a message: [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

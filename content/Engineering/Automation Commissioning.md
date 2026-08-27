@@ -95,6 +95,6 @@ The critical difference from your past experience:
 | Not documenting deviations | Every deviation (tight tolerance, unexpected cycle time) goes into commission report — it's evidence for the customer |
 | Assuming FAT = SAT | Site conditions (power stability, temperature, network latency) can differ; SAT is a separate test |
 
-¿Preguntas sobre commissioning o automatización industrial? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
+¿Preguntas sobre commissioning o automatización industrial? Escríbeme → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)
 
 

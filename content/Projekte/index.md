@@ -34,7 +34,7 @@ publish: true
 
 | Kanal | Link |
 |-------|------|
-| **Email** | raulmina13@gmail.com |
+| **Email** | raul.mina1@outlook.com |
 | **GitHub** | [raulmina1](https://github.com/raulmina1) |
 | **LinkedIn** | [raulmina](https://www.linkedin.com/in/raulmina/) |
 
@@ -42,4 +42,4 @@ publish: true
 > Projects are promises made to the future. The ones you finish are the only ones the future remembers.
 
 ---
-*What are you building? Let's talk → raulmina13@gmail.com*
+*What are you building? Let's talk → raul.mina1@outlook.com*

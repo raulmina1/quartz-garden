@@ -437,4 +437,4 @@ Die wichtigsten Zahlen hinter dem Diagramm:
 > [!note] RA
 > Every system I've built is a mirror of a gap I found — not in the tools, but in how I was using them.
 
-*Built something similar? I'd love to hear how you structure your AI ecosystem. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Built something similar? I'd love to hear how you structure your AI ecosystem. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

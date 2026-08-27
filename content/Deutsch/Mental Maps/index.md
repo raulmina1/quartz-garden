@@ -51,4 +51,4 @@ Interaktive Mental Maps, die **Grammatik → Redemittel → echte Sätze → Üb
 
 ---
 
-*Fehlt ein Thema in den Maps? Schreib mir, welche Grammatik du vermisst. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Fehlt ein Thema in den Maps? Schreib mir, welche Grammatik du vermisst. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

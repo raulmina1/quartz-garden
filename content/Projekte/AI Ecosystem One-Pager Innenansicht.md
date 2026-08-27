@@ -63,4 +63,4 @@ Backup sonntags 4 Uhr, Health-Check mit 35K-Schwelle, Keep-alive 8–22 Uhr, Aut
 
 ---
 
-*Wenn ein System so komplex ist, dass es nicht mehr auf eine Seite passt — verstehst du es dann wirklich? Schreib mir → raulmina13@gmail.com*
+*Wenn ein System so komplex ist, dass es nicht mehr auf eine Seite passt — verstehst du es dann wirklich? Schreib mir → raul.mina1@outlook.com*

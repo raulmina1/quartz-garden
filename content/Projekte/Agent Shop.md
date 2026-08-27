@@ -59,7 +59,7 @@ flowchart LR
 | 🔧 Custom Agent (your spec) | 1 bespoke agent | €40 |
 | 📦 Complete Agent Bundle — All 6 | 6 agents | **€100** |
 
-To order: **raulmina13@gmail.com** — include which pack(s) you want.
+To order: **raul.mina1@outlook.com** — include which pack(s) you want.
 
 ---
 
@@ -173,7 +173,7 @@ Everything in both packs at a discount. Save €20 vs. buying separately.
 2. I'll send you a payment link via Ko-fi
 3. After payment, you'll receive the agent skill files + setup within 48 hours
 
-**[Request Form →](mailto:raulmina13@gmail.com?subject=Agent%20Pack%20Order&body=Email:%0A%0AAgents%20wanted:%0A%0AMessage:)** *Click to send me an email. Include your email, which agents you want, and a description if ordering Custom.*
+**[Request Form →](mailto:raul.mina1@outlook.com?subject=Agent%20Pack%20Order&body=Email:%0A%0AAgents%20wanted:%0A%0AMessage:)** *Click to send me an email. Include your email, which agents you want, and a description if ordering Custom.*
 
 > [!warning] Requirements
 > You need **Hermes Agent** (or compatible MCP client) to run these agents. No coding required — just drop the skills into your Hermes folder.
@@ -183,4 +183,4 @@ Everything in both packs at a discount. Save €20 vs. buying separately.
 > [!note] RA
 > Every agent is a task you no longer have to think about. That silence is the actual product.
 
-*Which task would you most like to automate? I'm curious what you're building. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Which task would you most like to automate? I'm curious what you're building. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

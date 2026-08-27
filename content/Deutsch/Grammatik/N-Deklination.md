@@ -105,4 +105,4 @@ Diese Nomen bezeichnen meist **Personen, Tiere oder Nationalitäten**:
 | der Herr | der Herr | den Herr**n** | dem Herr**n** | des Herr**n** |
 | der Löwe | der Löwe | den Löwe**n** | dem Löwe**n** | des Löwe**n** |
 
-*Hast du Fragen zur N-Deklination? Schreib mir → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Hast du Fragen zur N-Deklination? Schreib mir → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

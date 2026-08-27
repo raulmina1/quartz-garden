@@ -42,4 +42,4 @@ publish: true
 
 ---
 
-*Brauchst du Hilfe bei einem Grammatik-Thema? Schreib mir — ich ergänze es hier. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Brauchst du Hilfe bei einem Grammatik-Thema? Schreib mir — ich ergänze es hier. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*

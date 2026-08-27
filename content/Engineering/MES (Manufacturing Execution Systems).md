@@ -87,6 +87,6 @@ Your daily work as Junior Process Engineer:
 | Assuming MES replaces ERP | MES complements ERP: ERP = what to make; MES = how to make it |
 | Over-reliance on MES reports without ground-truth walking | Validate MES data with actual shop floor observation (Gemba walk) |
 
-¿Quieres entender cómo MES transforma la producción? Escríbeme → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)
+¿Quieres entender cómo MES transforma la producción? Escríbeme → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)
 
 

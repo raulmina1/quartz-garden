@@ -96,4 +96,4 @@ Paarprüfung mit zwei Kandidaten und einem/einer Prüfer*in.
 
 ---
 
-*Bereitest du dich auch auf den DTZ vor? Schreib mir — vielleicht können wir gemeinsam üben. → [raulmina13@gmail.com](mailto:raulmina13@gmail.com)*
+*Bereitest du dich auch auf den DTZ vor? Schreib mir — vielleicht können wir gemeinsam üben. → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*
