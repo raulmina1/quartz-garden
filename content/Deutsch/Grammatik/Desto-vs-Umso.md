@@ -12,6 +12,7 @@ reading_time: "1 min"
 lang: de
 publish: true
 type: grammatik
+semantic_class: grammar-guide
 ---
 
 # Desto vs Umso — Vergleichspartikeln im Deutschen

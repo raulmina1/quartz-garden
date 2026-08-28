@@ -11,6 +11,14 @@ lang: en
 publish: true
 type: concept-guide
 date: 2026-07-09
+semantic_class: concept-guide
+see_also:
+  - "[[RDF]]"
+  - "[[SPARQL]]"
+  - "[[OWL]]"
+  - "[[Knowledge-Graphs]]"
+  - "[[Semantic-Web-Standards]]"
+  - "[[Ontology-Engineering]]"
 ---
 
 # Linked Data Principles
@@ -91,12 +99,12 @@ SELECT ?job ?skill WHERE {
 
 ## Related
 
-- [RDF — Resource Description Framework](/Semantic-Web/RDF)
-- [SPARQL — Query Language for RDF](/Semantic-Web/SPARQL)
-- [OWL — Web Ontology Language](/Semantic-Web/OWL)
-- [Knowledge Graphs — Architecture Guide](/Semantic-Web/Knowledge-Graphs)
-- [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
-- [Ontology Engineering Guide](/Semantic-Web/Ontology-Engineering)
+- [[RDF|RDF — Resource Description Framework]]
+- [[SPARQL|SPARQL — Query Language for RDF]]
+- [[OWL|OWL — Web Ontology Language]]
+- [[Knowledge-Graphs|Knowledge Graphs — Architecture Guide]]
+- [[Semantic-Web-Standards|Semantic Web Standards Overview]]
+- [[Ontology-Engineering|Ontology Engineering Guide]]
 
 ---
 *Linked data is the bridge between isolated datasets and a global graph. See how everything connects in the Semantic Web Standards overview.*

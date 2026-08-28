@@ -14,6 +14,14 @@ lang: en
 publish: true
 type: concept-guide
 date: 2026-07-09
+semantic_class: concept-guide
+see_also:
+  - "[[RDF]]"
+  - "[[SPARQL]]"
+  - "[[OWL]]"
+  - "[[Ontology-Engineering]]"
+  - "[[Linked-Data]]"
+  - "[[Semantic-Web-Standards]]"
 ---
 
 # Knowledge Graphs — Architecture & Practical Guide
@@ -74,12 +82,12 @@ A personal knowledge vault (Obsidian) is a lightweight knowledge graph — each 
 
 ## Related
 
-- [RDF — Resource Description Framework](/Semantic-Web/RDF)
-- [SPARQL — Query Language for RDF](/Semantic-Web/SPARQL)
-- [OWL — Web Ontology Language](/Semantic-Web/OWL)
-- [Ontology Engineering — A Practical Guide](/Semantic-Web/Ontology-Engineering)
-- [Linked Data Principles](/Semantic-Web/Linked-Data)
-- [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
+- [[RDF|RDF — Resource Description Framework]]
+- [[SPARQL|SPARQL — Query Language for RDF]]
+- [[OWL|OWL — Web Ontology Language]]
+- [[Ontology-Engineering|Ontology Engineering — A Practical Guide]]
+- [[Linked-Data|Linked Data Principles]]
+- [[Semantic-Web-Standards|Semantic Web Standards Overview]]
 
 ---
 *Which technology in the semantic web stack interests you most? I started with RDF triples and the whole graph opened up from there.*

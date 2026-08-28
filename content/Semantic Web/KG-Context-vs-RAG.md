@@ -12,6 +12,13 @@ lang: de
 publish: true
 created: 2026-08-20
 status: draft
+semantic_class: showcase
+see_also:
+  - "[[Semantic Web/Knowledge-Graphs]]"
+  - "[[Semantic Web/RDF]]"
+  - "[[Semantic Web/SPARQL]]"
+  - "[[Projekte/AI Ecosystem Data Pipeline]]"
+  - "[[AI Ecosystem]]"
 ---
 
 # KG Context vs RAG — zwei Quellen, ein Gedächtnis

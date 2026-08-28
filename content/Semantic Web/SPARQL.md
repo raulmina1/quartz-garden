@@ -11,6 +11,13 @@ lang: en
 publish: true
 type: concept-guide
 date: 2026-07-09
+semantic_class: concept-guide
+see_also:
+  - "[[RDF]]"
+  - "[[Knowledge-Graphs]]"
+  - "[[OWL]]"
+  - "[[Linked-Data]]"
+  - "[[Semantic-Web-Standards]]"
 ---
 
 # SPARQL — Query Language for RDF
@@ -97,11 +104,11 @@ This returns RDF, SPARQL, OWL, Knowledge Graphs, Ontology Engineering — the ex
 
 ## Related
 
-- [RDF — Resource Description Framework](/Semantic-Web/RDF)
-- [Knowledge Graphs — Architecture Guide](/Semantic-Web/Knowledge-Graphs)
-- [OWL — Web Ontology Language](/Semantic-Web/OWL)
-- [Linked Data Principles](/Semantic-Web/Linked-Data)
-- [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
+- [[RDF|RDF — Resource Description Framework]]
+- [[Knowledge-Graphs|Knowledge Graphs — Architecture Guide]]
+- [[OWL|OWL — Web Ontology Language]]
+- [[Linked-Data|Linked Data Principles]]
+- [[Semantic-Web-Standards|Semantic Web Standards Overview]]
 
 ---
 *SPARQL turns RDF from a storage format into a queryable graph. Next up: formalizing your knowledge model with OWL.*

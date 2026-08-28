@@ -12,6 +12,11 @@ lang: de
 publish: true
 created: 2026-08-17
 status: published
+semantic_class: showcase
+see_also:
+  - "[[AI Ecosystem]]"
+  - "[[Projekte/KGE Link Prediction YellowVault]]"
+  - "[[Semantic Web/KG-Context-vs-RAG]]"
 ---
 
 # Der Weg einer Notiz: meine Daten-Pipeline

@@ -11,6 +11,7 @@ reading_time: "1 min"
 type: section-index
 lang: en
 publish: true
+semantic_class: section-index
 ---
 
 # 🇩🇪 Leben in Deutschland

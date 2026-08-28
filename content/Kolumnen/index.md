@@ -10,6 +10,7 @@ reading_time: "1 min"
 type: section-index
 lang: de
 publish: true
+semantic_class: section-index
 ---
 
 # Kolumnen

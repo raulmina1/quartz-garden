@@ -11,6 +11,14 @@ lang: en
 publish: true
 type: concept-guide
 date: 2026-07-09
+semantic_class: concept-guide
+see_also:
+  - "[[RDF]]"
+  - "[[SPARQL]]"
+  - "[[OWL]]"
+  - "[[Knowledge-Graphs]]"
+  - "[[Linked-Data]]"
+  - "[[Ontology-Engineering]]"
 ---
 
 # Semantic Web Standards — W3C Stack Overview
@@ -93,12 +101,12 @@ Publish an Obsidian vault as linked data — assign IRIs to notes, use FOAF for 
 
 ## Related
 
-- [RDF — Resource Description Framework](/Semantic-Web/RDF)
-- [SPARQL — Query Language for RDF](/Semantic-Web/SPARQL)
-- [OWL — Web Ontology Language](/Semantic-Web/OWL)
-- [Knowledge Graphs — Architecture Guide](/Semantic-Web/Knowledge-Graphs)
-- [Linked Data Principles](/Semantic-Web/Linked-Data)
-- [Ontology Engineering Guide](/Semantic-Web/Ontology-Engineering)
+- [[RDF|RDF — Resource Description Framework]]
+- [[SPARQL|SPARQL — Query Language for RDF]]
+- [[OWL|OWL — Web Ontology Language]]
+- [[Knowledge-Graphs|Knowledge Graphs — Architecture Guide]]
+- [[Linked-Data|Linked Data Principles]]
+- [[Ontology-Engineering|Ontology Engineering Guide]]
 
 ---
 *The semantic web stack is deep but coherent. Pick one layer and master it — the rest will connect naturally.*

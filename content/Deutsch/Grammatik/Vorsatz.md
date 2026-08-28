@@ -12,6 +12,7 @@ reading_time: "2 min"
 lang: de
 publish: true
 type: vocabulary
+semantic_class: vocabulary
 ---
 
 # 🗓️ Wort der Woche — der Vorsatz

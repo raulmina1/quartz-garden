@@ -12,6 +12,7 @@ reading_time: "3 min"
 lang: en
 publish: true
 type: resource
+semantic_class: resource
 ---
 
 # HANNOVER MESSE 2026

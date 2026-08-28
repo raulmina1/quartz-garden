@@ -12,6 +12,11 @@ reading_time: "2 min"
 lang: de
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Deutsch/Grammatik/Modalverben]]"
+  - "[[Deutsch/Grammatik/Nebensätze]]"
+  - "[[Deutsch/Grammatik/Trennbare-Verben]]"
 ---
 
 # 🔁 Vorgangspassiv — Das werden-Passiv

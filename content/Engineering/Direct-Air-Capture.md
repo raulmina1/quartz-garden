@@ -12,6 +12,11 @@ reading_time: "3 min"
 lang: en
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Engineering/Hydrogen-Pathways]]"
+  - "[[Wirtschaft/CO2-Kosten]]"
+  - "[[Wirtschaft/Merit-Order-System]]"
 ---
 
 # 🌿 Direct Air Capture (DAC)

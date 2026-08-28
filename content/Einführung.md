@@ -10,6 +10,7 @@ reading_time: "2 min"
 type: about
 lang: de
 publish: true
+semantic_class: about
 ---
 
 # Wer ist RA?

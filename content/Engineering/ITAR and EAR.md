@@ -4,6 +4,7 @@ date: 2026-08-05
 publish: true
 description: "ITAR and EAR explained for aerospace manufacturing — how US export controls impact F-35 component production, data access, and supply chain compliance."
 tags:
+  - engineering
   - ITAR
   - EAR
   - compliance
@@ -12,6 +13,7 @@ tags:
 reading_time: "2 min"
 type: concept-guide
 lang: en
+semantic_class: concept-guide
 ---
 
 
@@ -29,7 +31,7 @@ NAXCO fabrica componentes F-35 bajo ITAR porque el programa JSF es un sistema de
 - **Acceso a datos** — solo personal autorizado puede ver drawings técnicos del F-35
 - **Viajes a USA** — requiere ITAR training y compliance briefing
 - **Comunicación** — emails con datos técnicos F-35 deben cifrarse
-- **Subcontratación** — proveedores deben ser [[ITAR-compliant]]
+- **Subcontratación** — proveedores deben ser ITAR-compliant
 - **Citizenship** — algunas posiciones senior requieren US Person status; para Junior no aplica
 
 ## Implicaciones prácticas

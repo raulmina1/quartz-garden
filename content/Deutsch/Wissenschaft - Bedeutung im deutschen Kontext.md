@@ -11,6 +11,7 @@ reading_time: "3 min"
 lang: de
 publish: true
 type: resource
+semantic_class: resource
 ---
 
 # Wissenschaft — Bedeutung im deutschen Kontext

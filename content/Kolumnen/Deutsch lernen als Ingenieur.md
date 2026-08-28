@@ -11,6 +11,7 @@ reading_time: "3 min"
 type: kolumne
 lang: de
 publish: true
+semantic_class: opinion-column
 ---
 
 # Deutsch lernen als Ingenieur

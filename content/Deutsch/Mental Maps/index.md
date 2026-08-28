@@ -15,6 +15,7 @@ reading_time: "1 min"
 type: miniguide
 lang: de
 publish: true
+semantic_class: mini-guide
 ---
 
 # 🧠 Mental Maps — VHS B1.2

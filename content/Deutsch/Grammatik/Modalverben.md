@@ -12,6 +12,11 @@ reading_time: "3 min"
 lang: de
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Deutsch/Grammatik/Trennbare-Verben]]"
+  - "[[Deutsch/Mental Maps/index]]"
+  - "[[Deutsch Flashcards]]"
 ---
 
 # ⚡ Modalverben und unregelmäßige Verben

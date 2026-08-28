@@ -4,6 +4,7 @@ date: 2026-08-05
 publish: true
 description: "Discrete manufacturing fundamentals — serialized units, BOMs, routing, and work orders vs continuous process manufacturing, with real aerospace examples."
 tags:
+  - engineering
   - discrete-manufacturing
   - manufacturing
   - aerospace
@@ -12,6 +13,7 @@ tags:
 reading_time: "4 min"
 type: concept-guide
 lang: en
+semantic_class: concept-guide
 ---
 
 

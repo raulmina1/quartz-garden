@@ -16,6 +16,7 @@ date: 2026-07-06
 type: about
 lang: en
 publish: true
+semantic_class: about
 ---
 
 ###### Related: [[Projekte]] | [[Projekte/Prompt Shop|Prompt Shop]] | [[Einführung]]

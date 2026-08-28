@@ -11,6 +11,9 @@ reading_time: "2 min"
 type: showcase
 lang: es
 publish: true
+semantic_class: showcase
+see_also:
+  - "[[AI Ecosystem]]"
 ---
 
 # Strava — Resumen Estadístico

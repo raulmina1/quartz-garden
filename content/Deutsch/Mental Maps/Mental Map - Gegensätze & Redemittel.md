@@ -17,6 +17,7 @@ lang: de
 publish: true
 aliases:
   - "gegensaetze-redemittel"
+semantic_class: mini-guide
 ---
 
 ## 🧠 Gegensätze & Redemittel — B1.2

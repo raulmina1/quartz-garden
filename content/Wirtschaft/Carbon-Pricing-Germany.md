@@ -12,6 +12,12 @@ reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Wirtschaft/CO2-Kosten]]"
+  - "[[Wirtschaft/Merit-Order-System]]"
+  - "[[Engineering/CO2-Value-Chain]]"
+  - "[[Engineering/Hydrogen-Demand-Germany]]"
 ---
 
 # 💶 Germany's Carbon Pricing Mechanisms

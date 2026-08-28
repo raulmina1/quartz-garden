@@ -12,6 +12,12 @@ reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Engineering/Direct-Air-Capture]]"
+  - "[[Engineering/SMR]]"
+  - "[[Engineering/Hydrogen-Pathways]]"
+  - "[[Engineering/Stakeholder-Analysis-Hydrogen]]"
 ---
 
 # 🗺️ The CO₂ Value Chain

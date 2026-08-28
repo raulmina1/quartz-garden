@@ -12,6 +12,11 @@ reading_time: "2 min"
 lang: en
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Wirtschaft/Merit-Order-System]]"
+  - "[[Wirtschaft/CO2-Kosten]]"
+  - "[[Engineering/Direct-Air-Capture]]"
 ---
 
 # 🧪 Hydrogen Production Pathways

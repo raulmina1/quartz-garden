@@ -4,6 +4,7 @@ date: 2026-08-05
 publish: true
 description: "Overall Equipment Effectiveness (OEE) and KPIs for discrete manufacturing — the Availability × Performance × Quality formula, benchmarks, and improvement."
 tags:
+  - engineering
   - OEE
   - KPI
   - manufacturing
@@ -12,6 +13,7 @@ tags:
 reading_time: "3 min"
 type: concept-guide
 lang: en
+semantic_class: concept-guide
 ---
 
 

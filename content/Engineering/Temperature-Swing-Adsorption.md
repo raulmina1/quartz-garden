@@ -12,6 +12,7 @@ reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide
+semantic_class: concept-guide
 ---
 
 # 🌡️ Temperature Swing Adsorption (TSA)

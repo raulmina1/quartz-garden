@@ -13,6 +13,12 @@ lang: de
 publish: true
 created: 2026-08-20
 status: draft
+semantic_class: showcase
+see_also:
+  - "[[AI Ecosystem]]"
+  - "[[Semantic Web/KG-Context-vs-RAG]]"
+  - "[[Semantic Web/Knowledge-Graphs]]"
+  - "[[Projekte/AI Ecosystem Data Pipeline]]"
 ---
 
 # Meine AI & Semantic Web Werkzeuge im Alltag

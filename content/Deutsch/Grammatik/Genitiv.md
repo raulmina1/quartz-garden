@@ -12,6 +12,7 @@ reading_time: "2 min"
 lang: de
 publish: true
 type: grammatik
+semantic_class: grammar-guide
 ---
 
 # Genitiv — Besitz und Zugehörigkeit

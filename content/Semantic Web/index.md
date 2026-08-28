@@ -11,6 +11,10 @@ lang: en
 publish: true
 type: section-index
 date: 2026-07-09
+semantic_class: section-index
+see_also:
+  - "[[AI Ecosystem]]"
+  - "[[Kolumnen/Die Werkzeuge, die ich mir selbst gebaut habe]]"
 ---
 
 # Semantic Web & Knowledge Graphs
@@ -77,8 +81,8 @@ The vault's frontmatter already contains semantic metadata (`Topics`, `semantic_
 
 ## Related
 
-- [AI Ecosystem — What I've Built](/AI-Ecosystem)
-- [Die Werkzeuge, die ich mir selbst gebaut habe](/Kolumnen/Die-Werkzeuge,-die-ich-mir-selbst-gebaut-habe)
+- [[AI Ecosystem|AI Ecosystem — What I've Built]]
+- [[Kolumnen/Die Werkzeuge, die ich mir selbst gebaut habe|Die Werkzeuge, die ich mir selbst gebaut habe]]
 
 ---
 

@@ -10,6 +10,13 @@ lang: en
 publish: true
 type: concept-guide
 date: 2026-07-09
+semantic_class: concept-guide
+see_also:
+  - "[[OWL]]"
+  - "[[RDF]]"
+  - "[[SPARQL]]"
+  - "[[Knowledge-Graphs]]"
+  - "[[Semantic-Web-Standards]]"
 ---
 
 # Ontology Engineering — A Practical Guide
@@ -99,11 +106,11 @@ If your ontology can't answer your competency questions, it's not complete.
 
 ## Related
 
-- [OWL — Web Ontology Language](/Semantic-Web/OWL)
-- [RDF — Resource Description Framework](/Semantic-Web/RDF)
-- [SPARQL — Query Language](/Semantic-Web/SPARQL)
-- [Knowledge Graphs — Architecture Guide](/Semantic-Web/Knowledge-Graphs)
-- [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
+- [[OWL|OWL — Web Ontology Language]]
+- [[RDF|RDF — Resource Description Framework]]
+- [[SPARQL|SPARQL — Query Language]]
+- [[Knowledge-Graphs|Knowledge Graphs — Architecture Guide]]
+- [[Semantic-Web-Standards|Semantic Web Standards Overview]]
 
 ---
 *Ontology engineering is where theory meets practice. Start with a small domain and build your first competency questions — you'll learn more in one hour than in ten tutorials.*

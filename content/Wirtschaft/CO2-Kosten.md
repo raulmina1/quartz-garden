@@ -12,6 +12,10 @@ reading_time: "2 min"
 lang: en
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Wirtschaft/Merit-Order-System]]"
+  - "[[Engineering/Hydrogen-Pathways]]"
 ---
 
 # 🌍 CO₂ Costs and Their Impact on German Electricity Prices

@@ -4,6 +4,7 @@ date: 2026-08-05
 publish: true
 description: "How ERP and MES systems integrate in smart factories — from SAP production orders to real-time shop-floor execution with MES for component manufacturing."
 tags:
+  - engineering
   - ERP
   - MES
   - manufacturing
@@ -12,6 +13,7 @@ tags:
 reading_time: "3 min"
 type: concept-guide
 lang: en
+semantic_class: concept-guide
 ---
 
 

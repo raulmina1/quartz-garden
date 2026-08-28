@@ -13,6 +13,12 @@ lang: de
 publish: true
 created: 2026-08-26
 status: draft
+semantic_class: showcase
+see_also:
+  - "[[AI Ecosystem]]"
+  - "[[Projekte/AI Ecosystem Data Pipeline]]"
+  - "[[Semantic Web/KG-Context-vs-RAG]]"
+  - "[[Semantic Web/Knowledge-Graphs]]"
 ---
 
 # KGE Link Prediction — YellowVault Knowledge Graph

@@ -12,6 +12,11 @@ reading_time: "5 min"
 lang: de
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Deutsch/Grammatik/Modalverben]]"
+  - "[[Deutsch/Mental Maps/index]]"
+  - "[[Deutsch Flashcards]]"
 ---
 
 # 🔧 Trennbare Verben — Separable Prefixes

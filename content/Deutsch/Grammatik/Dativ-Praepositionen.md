@@ -12,6 +12,7 @@ reading_time: "3 min"
 lang: de
 publish: true
 type: grammatik
+semantic_class: grammar-guide
 ---
 
 # Dativ Präpositionen — Der vollständige Guide

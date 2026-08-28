@@ -11,6 +11,14 @@ lang: en
 publish: true
 type: concept-guide
 date: 2026-07-09
+semantic_class: concept-guide
+see_also:
+  - "[[Knowledge-Graphs]]"
+  - "[[SPARQL]]"
+  - "[[OWL]]"
+  - "[[Linked-Data]]"
+  - "[[Semantic-Web-Standards]]"
+  - "[[Ontology-Engineering]]"
 ---
 
 # RDF — Resource Description Framework
@@ -77,12 +85,12 @@ Convert an Obsidian vault to RDF — each note gets an IRI, each `[[wikilink]]` 
 
 ## Related
 
-- [Knowledge Graphs — Architecture Guide](/Semantic-Web/Knowledge-Graphs)
-- [SPARQL — Query Language for RDF](/Semantic-Web/SPARQL)
-- [OWL — Web Ontology Language](/Semantic-Web/OWL)
-- [Linked Data Principles](/Semantic-Web/Linked-Data)
-- [Semantic Web Standards Overview](/Semantic-Web/Semantic-Web-Standards)
-- [Ontology Engineering Guide](/Semantic-Web/Ontology-Engineering)
+- [[Knowledge-Graphs|Knowledge Graphs — Architecture Guide]]
+- [[SPARQL|SPARQL — Query Language for RDF]]
+- [[OWL|OWL — Web Ontology Language]]
+- [[Linked-Data|Linked Data Principles]]
+- [[Semantic-Web-Standards|Semantic Web Standards Overview]]
+- [[Ontology-Engineering|Ontology Engineering Guide]]
 
 ---
 *RDF is the foundation. Once you grasp triples, try querying them with SPARQL — that's where the real power shows up.*

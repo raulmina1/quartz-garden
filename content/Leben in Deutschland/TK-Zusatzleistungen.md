@@ -12,6 +12,7 @@ reading_time: "4 min"
 lang: en
 publish: true
 type: guide
+semantic_class: guide
 ---
 
 # 🇩🇪 TK Zusatzleistungen — Free Health Insurance Extras

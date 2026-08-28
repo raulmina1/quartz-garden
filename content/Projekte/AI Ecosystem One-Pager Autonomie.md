@@ -12,6 +12,11 @@ lang: de
 publish: true
 created: 2026-08-14
 status: published
+semantic_class: showcase
+see_also:
+  - "[[AI Ecosystem]]"
+  - "[[Projekte/AI Ecosystem One-Pager Innenansicht]]"
+  - "[[Projekte/AI Ecosystem Data Pipeline]]"
 ---
 
 # Ein KI-System, das sich selbst überwacht

@@ -4,6 +4,7 @@ date: 2026-08-05
 publish: true
 description: "Step-by-step automation commissioning lifecycle — FAT, SAT, I/O checks, dry/wet runs, PPAP, and Run-at-Rate validation for CNC work cells."
 tags:
+  - engineering
   - commissioning
   - automation
   - manufacturing
@@ -12,6 +13,7 @@ tags:
 reading_time: "4 min"
 type: concept-guide
 lang: en
+semantic_class: concept-guide
 ---
 
 

@@ -12,6 +12,7 @@ reading_time: "5 min"
 lang: en
 publish: true
 type: showcase
+semantic_class: showcase
 ---
 
 # ⚙️ Gas Retention Calculator — A Python Tool for Separator Design

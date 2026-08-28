@@ -4,6 +4,7 @@ date: 2026-08-05
 publish: true
 description: "Manufacturing Execution Systems (MES) explained — work order management, traceability, OEE data collection, and the MES-to-ERP integration layer."
 tags:
+  - engineering
   - MES
   - manufacturing
   - OEE
@@ -12,6 +13,7 @@ tags:
 reading_time: "3 min"
 type: concept-guide
 lang: en
+semantic_class: concept-guide
 ---
 
 
@@ -58,7 +60,7 @@ You won't configure MES directly, but you'll use its outputs. At NAXCON, you'll 
 **Step 2 — Map your SCADA experience to MES vocabulary**
 At Weatherford you monitored Red Eye water-cut data via SCADA. In MES terms:
 - Data collection → you already did this
-- Performance tracking → same logic, different time scale ([[OEE]] is the manufacturing KPI)
+- Performance tracking → same logic, different time scale ([[KPI and OEE|OEE]] is the manufacturing KPI)
 - Exception handling → alarms you already responded to
 
 **Step 3 — Learn the MES platform at NAXCON**

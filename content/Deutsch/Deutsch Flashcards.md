@@ -12,6 +12,7 @@ reading_time: "2 min"
 type: showcase
 lang: de
 publish: true
+semantic_class: showcase
 ---
 
 # 🃏 Deutsch Flashcards

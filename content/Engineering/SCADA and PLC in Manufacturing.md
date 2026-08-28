@@ -4,6 +4,7 @@ date: 2026-08-05
 publish: true
 description: "SCADA and PLC fundamentals for aerospace manufacturing — the automation pyramid, PLC vs SCADA differences, and real-world work cell applications."
 tags:
+  - engineering
   - SCADA
   - PLC
   - manufacturing
@@ -12,6 +13,7 @@ tags:
 reading_time: "3 min"
 type: concept-guide
 lang: en
+semantic_class: concept-guide
 ---
 
 
@@ -74,7 +76,7 @@ At Weatherford you worked with:
 
 **Step 2 — Learn the specific PLC platform at NAXCON**
 Common in German aerospace manufacturing:
-- **[[Siemens S7]] / [[TIA Portal]]** — most common in German industry
+- **Siemens S7 / TIA Portal** — most common in German industry
 - **Rockwell / Allen-Bradley** — US equipment (common with F-35/US supply chain)
 - **Beckhoff** — PC-based control for specialized work cells
 

@@ -12,6 +12,12 @@ reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Engineering/Hydrogen-Pathways]]"
+  - "[[Engineering/Stakeholder-Analysis-Hydrogen]]"
+  - "[[Engineering/SMR]]"
+  - "[[Wirtschaft/CO2-Kosten]]"
 ---
 
 # 📈 Hydrogen Demand in Germany

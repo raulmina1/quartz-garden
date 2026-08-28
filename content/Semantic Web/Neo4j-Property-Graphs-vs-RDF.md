@@ -12,6 +12,12 @@ reading_time: "4 min"
 lang: en
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Semantic Web/Knowledge-Graphs]]"
+  - "[[Semantic Web/RDF]]"
+  - "[[Semantic Web/GraphDB]]"
+  - "[[Semantic Web/SPARQL]]"
 ---
 
 # 🔗 Neo4j — Property Graphs vs RDF Stores

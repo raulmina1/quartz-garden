@@ -12,6 +12,7 @@ reading_time: "4 min"
 lang: de
 publish: true
 type: resource
+semantic_class: resource
 ---
 
 # DTZ B1 — Missverständnisse und Prüfungsformate

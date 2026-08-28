@@ -12,6 +12,7 @@ reading_time: "3 min"
 lang: de
 publish: true
 type: grammar-guide
+semantic_class: grammar-guide
 ---
 
 # 📌 Lokale Präpositionen — Wo? Wohin? Woher?

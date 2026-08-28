@@ -12,6 +12,10 @@ reading_time: "3 min"
 lang: en
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Wirtschaft/CO2-Kosten]]"
+  - "[[Engineering/Hydrogen-Pathways]]"
 ---
 
 # ⚡ How Germany's Electricity Market Sets Prices

@@ -4,6 +4,7 @@ date: 2026-08-05
 publish: true
 description: "8D problem-solving methodology and Root Cause Analysis tools (5 Whys, Fishbone, FMEA) for aerospace manufacturing — AS9100 non-conformance resolution at NAXCON."
 tags:
+  - engineering
   - RCA
   - 8D
   - quality
@@ -12,6 +13,7 @@ tags:
 reading_time: "4 min"
 type: concept-guide
 lang: en
+semantic_class: concept-guide
 ---
 
 

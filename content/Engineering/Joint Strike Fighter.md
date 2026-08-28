@@ -4,6 +4,7 @@ date: 2026-08-05
 publish: true
 description: "Overview of the F-35 Joint Strike Fighter program — Lockheed Martin's global supply chain, Tier-2/3 supplier roles, and aerospace career implications."
 tags:
+  - engineering
   - F-35
   - JSF
   - aerospace
@@ -12,6 +13,7 @@ tags:
 reading_time: "1 min"
 type: concept-guide
 lang: en
+semantic_class: concept-guide
 ---
 
 
@@ -38,6 +40,6 @@ NAXCON GmbH en Weeze es un proveedor Tier-2/3 que fabrica componentes estructura
 
 ## Controversia
 
-El F-35 es un programa controversial — ver análisis de [[Maria - Career Moral Framework]] (Run 16, NAXCON score: 5.75/10).
+El F-35 es un programa controversial — ver análisis de Maria - Career Moral Framework (Run 16, NAXCON score: 5.75/10).
 
 ¿Te interesa la industria aeroespacial o de defensa? Escríbeme → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)

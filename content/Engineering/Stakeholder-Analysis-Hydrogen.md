@@ -12,6 +12,11 @@ reading_time: "5 min"
 lang: en
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Engineering/Hydrogen-Pathways]]"
+  - "[[Engineering/SMR]]"
+  - "[[Wirtschaft/CO2-Kosten]]"
 ---
 
 # 🤝 Stakeholder Analysis in Hydrogen Projects

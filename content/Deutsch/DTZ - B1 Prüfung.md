@@ -11,6 +11,7 @@ reading_time: "2 min"
 lang: de
 publish: true
 type: resource
+semantic_class: resource
 ---
 
 # DTZ B1 Prüfung

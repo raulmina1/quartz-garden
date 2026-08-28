@@ -11,6 +11,13 @@ lang: en
 publish: true
 type: concept-guide
 date: 2026-07-09
+semantic_class: concept-guide
+see_also:
+  - "[[RDF]]"
+  - "[[SPARQL]]"
+  - "[[Knowledge-Graphs]]"
+  - "[[Ontology-Engineering]]"
+  - "[[Linked-Data]]"
 ---
 
 # OWL — Web Ontology Language
@@ -91,11 +98,11 @@ yv:SemanticDataArchitect yv:requiresSkill yv:RDF ,
 
 ## Related
 
-- [RDF — Resource Description Framework](/Semantic-Web/RDF)
-- [SPARQL — Query Language for RDF](/Semantic-Web/SPARQL)
-- [Knowledge Graphs — Architecture Guide](/Semantic-Web/Knowledge-Graphs)
-- [Ontology Engineering — A Practical Guide](/Semantic-Web/Ontology-Engineering)
-- [Linked Data Principles](/Semantic-Web/Linked-Data)
+- [[RDF|RDF — Resource Description Framework]]
+- [[SPARQL|SPARQL — Query Language for RDF]]
+- [[Knowledge-Graphs|Knowledge Graphs — Architecture Guide]]
+- [[Ontology-Engineering|Ontology Engineering — A Practical Guide]]
+- [[Linked-Data|Linked Data Principles]]
 
 ---
 *OWL adds the reasoning layer. Pair it with Ontology Engineering to build models that machines can actually infer from.*

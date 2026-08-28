@@ -12,6 +12,7 @@ reading_time: "5 min"
 lang: en
 publish: true
 type: concept-guide
+semantic_class: concept-guide
 ---
 
 # 🔀 Pinch Analysis & Heat Exchanger Networks

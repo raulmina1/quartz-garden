@@ -15,6 +15,12 @@ related:
   - "[[Einführung]]"
   - "[[AI Ecosystem]]"
 publish: true
+semantic_class: showcase
+see_also:
+  - "[[Projekte/Agent Shop]]"
+  - "[[Projekte/Cron Shop]]"
+  - "[[Projekte/Hook Shop]]"
+  - "[[AI Ecosystem]]"
 ---
 
 ## RA Prompt Shop

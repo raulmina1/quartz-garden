@@ -12,6 +12,11 @@ reading_time: "3 min"
 lang: en
 publish: true
 type: concept-guide
+semantic_class: concept-guide
+see_also:
+  - "[[Engineering/Hydrogen-Pathways]]"
+  - "[[Engineering/PSA]]"
+  - "[[Engineering/Direct-Air-Capture]]"
 ---
 
 # 🏭 Steam Methane Reforming (SMR)

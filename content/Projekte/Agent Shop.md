@@ -14,6 +14,12 @@ publish: true
 date: 2026-07-09
 type: showcase
 lang: en
+semantic_class: showcase
+see_also:
+  - "[[Projekte/Prompt Shop]]"
+  - "[[Projekte/Cron Shop]]"
+  - "[[Projekte/Hook Shop]]"
+  - "[[AI Ecosystem]]"
 ---
 
 ###### Related: [[Projekte/Prompt Shop|Prompt Shop]] | [[Projekte/Cron Shop|Cron Shop]] | [[Projekte/Hook Shop|Hook Shop]]

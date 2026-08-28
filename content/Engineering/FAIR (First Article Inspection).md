@@ -4,6 +4,7 @@ date: 2026-08-05
 publish: true
 description: "First Article Inspection (FAIR) per AS9102 — process flow, dimensional reports, material certification, and how FAIR gates serial production in aerospace."
 tags:
+  - engineering
   - FAIR
   - AS9102
   - quality
@@ -12,6 +13,7 @@ tags:
 reading_time: "3 min"
 type: concept-guide
 lang: en
+semantic_class: concept-guide
 ---
 
 
