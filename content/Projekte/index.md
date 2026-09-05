@@ -33,6 +33,7 @@ see_also:
 | [[Projekte/AI Ecosystem One-Pager Innenansicht|AI Ecosystem One-Pager (Innenansicht)]] | Sechs Schichten, 16 Knoten — ein Blick ins Innere meines KI-Ökosystems. |
 | [[Projekte/AI Ecosystem Data Pipeline|AI Ecosystem Data Pipeline]] | Der Weg einer Notiz: NER → Knowledge Graph (51.811 Triples) → RAG (14.180 Chunks), alle 30 Minuten. |
 | [[Projekte/KGE Link Prediction YellowVault|KGE Link Prediction]] | Der Graph lernt: Knowledge Graph Embeddings (TransE) sagen fehlende Verbindungen voraus — MRR 1.49×, 266 Wikilinks densifiziert, 0 korrupt. |
+| [[Projekte/KG Context Service|KG Context Service]] | Dein Vault als Wissensgraph: Jede Notiz weiß, wo sie lebt. Setup, KG+RAG-Fusion, KG+Agenten — exakt, null Halluzination. |
 
 ## Contact
 
