@@ -18,12 +18,12 @@ type: showcase
 lang: de
 semantic_class: showcase
 see_also:
-  - "[[Semantic Web/KG-Context-Graph]]"
   - "[[Projekte/KGE Link Prediction YellowVault]]"
   - "[[Projekte/Agent Shop]]"
+  - "[[Projekte/Prompt Shop]]"
 ---
 
-###### Related: [[Projekte/Agent Shop|Agent Shop]] | [[Projekte/Prompt Shop|Prompt Shop]] | [[Semantic Web/KG-Context-Graph|KG Context]]
+###### Related: [[Projekte/Agent Shop|Agent Shop]] | [[Projekte/Prompt Shop|Prompt Shop]] | [[Projekte/KGE Link Prediction YellowVault|KGE]]
 
 ---
 
@@ -35,16 +35,27 @@ Dein Vault ist voller Wissen, aber es ist **verstreut**. Notizen existieren, abe
 
 ---
 
-## Was ich gebaut habe
+## 🗺️ Der komplette Fluss
+
+<iframe src="/static/mental-maps/kg-context-service.html" style="width:100%;height:720px;border:1px solid #3a3a3a;border-radius:8px;background:#000" title="KG Context Service — Flussdiagramm"></iframe>
+
+---
+
+## ⚙️ Was ich gebaut habe
 
 Ein kompletter Knowledge-Graph-Stack, der aus einem Obsidian-Vault ein abfragbares semantisches Netz macht:
 
-| Komponente | Was sie tut |
-|------------|-------------|
-| **Vault → RDF** | Jede Notiz wird zu einer Entität, jeder Wikilink zu einer Kante, jeder Tag zu einer Verbindung |
-| **GraphDB (SPARQL)** | Triplestore mit OWL-Reasoning — fragt die Struktur ab: Wer verlinkt wen? Welche Tags? Welche Nachbarn? |
-| **KG Context** | Injiziert die Struktur als Kontext in den Prompt — das Modell sieht, wo die Notiz im Netz lebt |
-| **KGE Link Prediction** | Machine Learning (TransE) sagt fehlende Verbindungen voraus — der Graph lernt |
+> [!note] 📁 Vault → RDF
+> Jede Notiz wird zu einer **Entität**, jeder Wikilink zu einer **Kante**, jeder Tag zu einer **Verbindung**. Dein Wissen wird zu einem Graphen.
+
+> [!info] 🗄️ GraphDB (SPARQL)
+> Triplestore mit **OWL-Reasoning** — fragt die Struktur ab: Wer verlinkt wen? Welche Tags? Welche Nachbarn?
+
+> [!success] 🧠 KG Context
+> Injiziert die Struktur als **Kontext in den Prompt** — das Modell sieht, wo die Notiz im Netz lebt.
+
+> [!tip] 🤖 KGE Link Prediction
+> Machine Learning (TransE) sagt **fehlende Verbindungen** voraus — der Graph lernt.
 
 **Die Zahlen (live 05.09.26):**
 
@@ -57,42 +68,35 @@ Ein kompletter Knowledge-Graph-Stack, der aus einem Obsidian-Vault ein abfragbar
 
 ---
 
-## Wie es funktioniert
+## 💡 Warum Struktur zählt
 
-```mermaid
-flowchart LR
-    A[Obsidian-Vault<br/>Notizen + Wikilinks] --> B[parse_vault_to_rdf.py<br/>Vault → RDF-Triples]
-    B --> C[GraphDB<br/>SPARQL + OWL-Reasoning]
-    C --> D[KG Context<br/>Struktur in den Prompt]
-    D --> E[Modell sieht<br/>wo die Notiz lebt]
-    
-    style A fill:#1a1a1a,stroke:#f0c040,color:#fff
-    style B fill:#1a1a1a,stroke:#f0c040,color:#fff
-    style C fill:#1a1a1a,stroke:#f0c040,color:#fff
-    style D fill:#1a1a1a,stroke:#f0c040,color:#fff
-    style E fill:#1a1a1a,stroke:#f0c040,color:#fff
-```
+> [!example] Eine Notiz ist nie allein
+> Der Graph kennt ihre Verwandten — von wem sie verlinkt wird, welche Tags sie teilt, welche Nachbarn sie hat. Das ist Kontext, den man **nicht getippt hat**. Er entsteht automatisch aus der Struktur des Wissens.
 
-**Warum Struktur zählt:** Eine Notiz ist nie allein. Der Graph kennt ihre Verwandten — von wem sie verlinkt wird, welche Tags sie teilt, welche Nachbarn sie hat. Das ist Kontext, den man nicht getippt hat. Er entsteht automatisch aus der Struktur des Wissens.
-
-**Null Halluzination:** Der KG liefert nur Verbindungen, die physisch existieren. Keine erfundenen Kanten, keine Interpretation — exakt und deterministisch.
+> [!success] Null Halluzination
+> Der KG liefert nur Verbindungen, die **physisch existieren**. Keine erfundenen Kanten, keine Interpretation — exakt und deterministisch.
 
 ---
 
-## Wie du es für deine Services nutzen kannst
+## 🚀 Wie du es für deine Services nutzen kannst
 
 Der KG Context ist kein Selbstzweck — er ist die **Basis für bessere AI-Agenten**. Wenn deine Agenten wissen, wo jede Notiz im Netz lebt, arbeiten sie mit dem vollen Kontext:
 
-| Anwendung | Nutzen |
-|-----------|--------|
-| **Bessere Antworten** | Der Agent sieht die Struktur + die Bedeutung — nicht nur ein Stück Text |
-| **Weniger Halluzination** | Kontext basiert auf echten Verbindungen, nicht auf Vermutungen |
-| **Automatische Vernetzung** | Neue Notizen werden automatisch in den Graphen eingeordnet |
-| **Semantische Suche** | Frag den Graphen: "Was hängt mit diesem Thema zusammen?" |
+> [!note] 🎯 Bessere Antworten
+> Der Agent sieht die **Struktur + die Bedeutung** — nicht nur ein Stück Text.
+
+> [!success] 🛡️ Weniger Halluzination
+> Kontext basiert auf **echten Verbindungen**, nicht auf Vermutungen.
+
+> [!info] 🔄 Automatische Vernetzung
+> Neue Notizen werden **automatisch** in den Graphen eingeordnet.
+
+> [!tip] 🔍 Semantische Suche
+> Frag den Graphen: *"Was hängt mit diesem Thema zusammen?"*
 
 ---
 
-## Packs & Pricing
+## 💰 Packs & Pricing
 
 | Pack | Was du bekommst | Preis |
 |------|----------------|-------|
@@ -105,7 +109,7 @@ To order: **raul.mina1@outlook.com** — include which pack(s) you want.
 
 ---
 
-## Order
+## 🛒 Order
 
 [![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/TODO_RA_KO_FI)
 
