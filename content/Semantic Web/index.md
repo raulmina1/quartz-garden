@@ -38,6 +38,7 @@ see_also:
 | [Neo4j — Property Graphs vs RDF](/Semantic-Web/Neo4j-Property-Graphs-vs-RDF) | The other side of the graph world — LPG data model, Cypher, and when to choose each |
 | [Meine AI & Semantic Web Werkzeuge im Alltag](/Semantic-Web/Meine-AI-Semantic-Web-Werkzeuge) | The tools I use daily — AI ecosystem + knowledge graph, all local |
 | [KG Context vs RAG](/Semantic-Web/KG-Context-vs-RAG) | Why structure (knowledge graph) and meaning (vector RAG) together form the complete memory |
+| [KG Context — Semantic Context Injection](/Semantic-Web/KG-Context-Graph) | Inject live knowledge-graph context into LLM prompts — sparql_bridge, hybrid KG+RAG, anti-hallucination |
 
 ---
 
