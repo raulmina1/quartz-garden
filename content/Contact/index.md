@@ -66,8 +66,13 @@ Leave me a message and I'll get back to you within 24 hours.
 |---------|------|
 | **Email** | [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com) |
 | **WhatsApp** | [+49 176 81056196](https://wa.me/4917681056196) |
+| **Telegram bot** | [@RAFullYellowbot](https://t.me/RAFullYellowbot) — instant answers about services |
 | **GitHub** | [raulmina1](https://github.com/raulmina1) |
-| **Telegram** | Coming soon 🤖 |
+
+---
+
+> [!tip] 🤖 Quick answer on Telegram?
+> Message **[@RAFullYellowbot](https://t.me/RAFullYellowbot)** directly. You'll get an instant reply about services, pricing, and whether your project fits — no forms needed.
 
 ---
 
