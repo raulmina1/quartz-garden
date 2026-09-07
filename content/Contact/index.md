@@ -19,33 +19,37 @@ Déjame tu mensaje y te responderé en máximo 24 horas.
 
 ## 📋 Formulario de Contacto
 
-<form id="contactForm" action="https://formsubmit.io/send/raul.mina1@outlook.com" method="POST">
-  <input type="hidden" name="_subject" value="Nuevo contacto desde RA Blog">
+<form id="contactForm" action="https://formsubmit.co/raul.mina1@outlook.com" method="POST">
+  <input type="hidden" name="_subject" value="Nuevo contacto desde RA Blog — Fullyellow">
   <input type="hidden" name="_next" value="https://raulmina1.github.io/ra-blog/Contact/thanks">
+  <input type="hidden" name="_template" value="box">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_replyto" value="email">
+  <input type="hidden" name="_autoresponse" value="Thank you for your message. I have received your inquiry and will get back to you within 24 hours. — Vielen Dank für Ihre Nachricht. Ich habe Ihre Anfrage erhalten und werde mich innerhalb von 24 Stunden bei Ihnen melden. — Best regards / Mit freundlichen Grüßen — Raul Mina — Fullyellow — Process Engineer & AI Automation Specialist — Berlin, Germany — raul.mina1@outlook.com">
   <input type="text" name="_honey" style="display:none">
 
   <div style="margin-bottom: 16px;">
-    <label for="name" style="display:block; margin-bottom: 4px; font-weight: 600;">Nombre *</label>
+    <label for="name" style="display:block; margin-bottom: 4px; font-weight: 600; color:#1a1a10;">Nombre *</label>
     <input type="text" id="name" name="name" required
-      style="width:100%; max-width:400px; padding:10px; border:1px solid #b0b0a0; border-radius:6px; background:#f5f5f0; font-family:inherit;">
+      style="width:100%; max-width:400px; padding:10px; border:1px solid #b0b0a0; border-radius:6px; background:#f5f5f0; color:#1a1a10; font-family:inherit;">
   </div>
 
   <div style="margin-bottom: 16px;">
-    <label for="email" style="display:block; margin-bottom: 4px; font-weight: 600;">Email *</label>
+    <label for="email" style="display:block; margin-bottom: 4px; font-weight: 600; color:#1a1a10;">Email *</label>
     <input type="email" id="email" name="email" required
-      style="width:100%; max-width:400px; padding:10px; border:1px solid #b0b0a0; border-radius:6px; background:#f5f5f0; font-family:inherit;">
+      style="width:100%; max-width:400px; padding:10px; border:1px solid #b0b0a0; border-radius:6px; background:#f5f5f0; color:#1a1a10; font-family:inherit;">
   </div>
 
   <div style="margin-bottom: 16px;">
-    <label for="telegram" style="display:block; margin-bottom: 4px; font-weight: 600;">Telegram (opcional)</label>
+    <label for="telegram" style="display:block; margin-bottom: 4px; font-weight: 600; color:#1a1a10;">Telegram (opcional)</label>
     <input type="text" id="telegram" name="telegram" placeholder="@username"
-      style="width:100%; max-width:400px; padding:10px; border:1px solid #b0b0a0; border-radius:6px; background:#f5f5f0; font-family:inherit;">
+      style="width:100%; max-width:400px; padding:10px; border:1px solid #b0b0a0; border-radius:6px; background:#f5f5f0; color:#1a1a10; font-family:inherit;">
   </div>
 
   <div style="margin-bottom: 16px;">
-    <label for="message" style="display:block; margin-bottom: 4px; font-weight: 600;">Mensaje *</label>
+    <label for="message" style="display:block; margin-bottom: 4px; font-weight: 600; color:#1a1a10;">Mensaje *</label>
     <textarea id="message" name="message" rows="6" required placeholder="¿Qué proceso quieres automatizar? ¿Cuál es tu situación?"
-      style="width:100%; max-width:500px; padding:10px; border:1px solid #b0b0a0; border-radius:6px; background:#f5f5f0; font-family:inherit;"></textarea>
+      style="width:100%; max-width:500px; padding:10px; border:1px solid #b0b0a0; border-radius:6px; background:#f5f5f0; color:#1a1a10; font-family:inherit;"></textarea>
   </div>
 
   <button type="submit"
