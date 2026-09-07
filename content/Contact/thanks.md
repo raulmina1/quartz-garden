@@ -1,29 +1,29 @@
 ---
-title: Gracias por tu mensaje
+title: Thank you for your message
 tags:
   - contact
-  - mensaje
+  - message
 publish: true
-description: "Mensaje enviado con éxito — Raul recibió tu mensaje y te responderá en máximo 24 horas. Gracias por escribir al RA Blog."
+description: "Message sent successfully — Raul received your message and will get back to you within 24 hours. Thank you for writing to the RA Blog."
 reading_time: "1 min"
 semantic_class: note
 ---
 
-# ✅ ¡Mensaje enviado!
+# ✅ Message sent!
 
-Gracias por contactarme. Recibí tu mensaje y te responderé en **máximo 24 horas**.
+Thank you for contacting me. I received your message and will get back to you within **24 hours**.
 
-## 🌐 Explora el sitio
+## 🌐 Explore the site
 
-Mientras tanto, puedes explorar el resto del sitio:
+In the meantime, feel free to explore the rest of the site:
 
-| Página | Descripción |
-|--------|-------------|
-| [[index|🏠 Inicio]] | Volver al inicio |
-| [[Projekte|🔧 Proyectos]] | Lo que estoy construyendo |
-| [[Einführung|👤 Sobre mí]] | Quién soy y qué hago |
+| Page | Description |
+|------|-------------|
+| [[index|🏠 Home]] | Back to the start |
+| [[Projekte|🔧 Projects]] | What I'm building |
+| [[Einführung|👤 About me]] | Who I am and what I do |
 
 ---
 
-> [!tip] ¿Urgente?
-> Escríbeme directo a [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com) con el asunto **"URGENTE"** y te responderé el mismo día.
+> [!tip] Urgent?
+> Write me directly at [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com) with the subject **"URGENT"** and I'll get back to you the same day.

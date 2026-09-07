@@ -1,26 +1,26 @@
 ---
-title: Contacto
+title: Contact
 tags:
   - contact
-  - formulario
-description: "Contact Raul Mina — KI-Agenten mit Human-in-the-Loop. Schedule a free discovery call or send a message about AI automation, German, or engineering projects."
+  - form
+description: "Contact Raul Mina — AI Agents with Human-in-the-Loop. Schedule a free discovery call or send a message about AI automation, German, or engineering projects."
 reading_time: "1 min"
 publish: true
 semantic_class: note
 ---
 
-# 📬 Contáctame
+# 📬 Contact Me
 
-¿Interesado en automatización con **KI-Agenten mit Human-in-the-Loop**? ¿Tienes un proceso repetitivo que quieres automatizar pero no sabes cómo?
+Interested in automation with **AI Agents with Human-in-the-Loop**? Have a repetitive process you want to automate but don't know how?
 
-Déjame tu mensaje y te responderé en máximo 24 horas.
+Leave me a message and I'll get back to you within 24 hours.
 
 ---
 
-## 📋 Formulario de Contacto
+## 📋 Contact Form
 
 <form id="contactForm" action="https://formsubmit.co/raul.mina1@outlook.com" method="POST">
-  <input type="hidden" name="_subject" value="Nuevo contacto desde RA Blog — Fullyellow">
+  <input type="hidden" name="_subject" value="New contact from RA Blog — Fullyellow">
   <input type="hidden" name="_next" value="https://raulmina1.github.io/ra-blog/Contact/thanks">
   <input type="hidden" name="_template" value="box">
   <input type="hidden" name="_captcha" value="false">
@@ -29,7 +29,7 @@ Déjame tu mensaje y te responderé en máximo 24 horas.
   <input type="text" name="_honey" style="display:none">
 
   <div style="margin-bottom: 16px;">
-    <label for="name" style="display:block; margin-bottom: 4px; font-weight: 600; color:#1a1a10;">Nombre *</label>
+    <label for="name" style="display:block; margin-bottom: 4px; font-weight: 600; color:#1a1a10;">Name *</label>
     <input type="text" id="name" name="name" required
       style="width:100%; max-width:400px; padding:10px; border:1px solid #b0b0a0; border-radius:6px; background:#f5f5f0; color:#1a1a10; font-family:inherit;">
   </div>
@@ -41,42 +41,42 @@ Déjame tu mensaje y te responderé en máximo 24 horas.
   </div>
 
   <div style="margin-bottom: 16px;">
-    <label for="telegram" style="display:block; margin-bottom: 4px; font-weight: 600; color:#1a1a10;">Telegram (opcional)</label>
+    <label for="telegram" style="display:block; margin-bottom: 4px; font-weight: 600; color:#1a1a10;">Telegram (optional)</label>
     <input type="text" id="telegram" name="telegram" placeholder="@username"
       style="width:100%; max-width:400px; padding:10px; border:1px solid #b0b0a0; border-radius:6px; background:#f5f5f0; color:#1a1a10; font-family:inherit;">
   </div>
 
   <div style="margin-bottom: 16px;">
-    <label for="message" style="display:block; margin-bottom: 4px; font-weight: 600; color:#1a1a10;">Mensaje *</label>
-    <textarea id="message" name="message" rows="6" required placeholder="¿Qué proceso quieres automatizar? ¿Cuál es tu situación?"
+    <label for="message" style="display:block; margin-bottom: 4px; font-weight: 600; color:#1a1a10;">Message *</label>
+    <textarea id="message" name="message" rows="6" required placeholder="What process do you want to automate? What's your situation?"
       style="width:100%; max-width:500px; padding:10px; border:1px solid #b0b0a0; border-radius:6px; background:#f5f5f0; color:#1a1a10; font-family:inherit;"></textarea>
   </div>
 
   <button type="submit"
     style="padding:12px 32px; background:#807500; color:#fff; border:none; border-radius:6px; font-size:16px; font-weight:600; cursor:pointer;">
-    🚀 Enviar mensaje
+    🚀 Send message
   </button>
 </form>
 
 ---
 
-## 📱 O escríbeme directo
+## 📱 Or write me directly
 
-| Canal | Info |
-|-------|------|
+| Channel | Info |
+|---------|------|
 | **Email** | [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com) |
 | **WhatsApp** | [+49 176 81056196](https://wa.me/4917681056196) |
 | **GitHub** | [raulmina1](https://github.com/raulmina1) |
-| **Telegram** | Próximamente 🤖 |
+| **Telegram** | Coming soon 🤖 |
 
 ---
 
-> [!info] ¿Qué pasa después de enviar el formulario?
-> 1. Recibo tu mensaje al instante
-> 2. Reviso tu consulta (máximo 24h)
-> 3. Te respondo con una propuesta concreta
+> [!info] What happens after you submit the form?
+> 1. I receive your message instantly
+> 2. I review your inquiry (within 24h)
+> 3. I reply with a concrete proposal
 >
-> **Primera consulta: gratuita.** Sin compromiso.
+> **First consultation: free.** No commitment.
 
 ---
-*¿Prefieres escribir directo? Cuéntame qué proceso quieres automatizar → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*
+*Prefer to write directly? Tell me what process you want to automate → [raul.mina1@outlook.com](mailto:raul.mina1@outlook.com)*
