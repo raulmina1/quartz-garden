@@ -88,8 +88,8 @@ export default (() => {
 
         <script
           defer
-          data-domain="raulmina1.github.io"
-          src="https://plausible.io/js/script.js"
+          src="https://cloud.umami.is/script.js"
+          data-website-id="PON_AQUI_TU_WEBSITE_ID"
         ></script>
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
